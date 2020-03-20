@@ -34,7 +34,7 @@
 
 ## 源码解读
 
->  源码路径：src/core/components/keep-alive.js
+>  源码路径：/src/core/components/keep-alive.js
 
 ```js
 /* @flow */
