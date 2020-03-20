@@ -1,6 +1,6 @@
 ### 组件源码
 
-[keep-alive源码分析](https://github.com/Jokul518/vue-/blob/master/doc/keepalive.md)
+[keep-alive源码分析](./doc/keepalive.md)
 
 ### 双向数据绑定
 
