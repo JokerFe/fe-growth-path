@@ -300,6 +300,7 @@ function initWatch (vm: Component, watch: Object) {
   }
 }
 
+// 创建观察者
 function createWatcher (
   vm: Component,
   expOrFn: string | Function,
@@ -313,13 +314,14 @@ function createWatcher (
   if (typeof handler === 'string') {
     handler = vm[handler]
   }
+  // 调用vm原型方法返回一个观察者对象
   return vm.$watch(expOrFn, handler, options)
 }
 
+// 状态混入 主要往vue.prototype上挂载一些属性方法
 export function stateMixin (Vue: Class<Component>) {
-  // flow somehow has problems with directly declared definition object
-  // when using Object.defineProperty, so we have to procedurally build up
-  // the object here.
+  // flow somehow has problems with directly declared definition object when using Object.defineProperty, so we have to procedurally build up the object here.
+  // 在使用object.defineproperty时，流在某种程度上有直接声明的定义对象的问题，所以我们必须在这里程序化地建立对象。
   const dataDef = {}
   dataDef.get = function () { return this._data }
   const propsDef = {}
@@ -342,18 +344,22 @@ export function stateMixin (Vue: Class<Component>) {
   Vue.prototype.$set = set
   Vue.prototype.$delete = del
 
+  // 往vue原型上挂载，可接受三个参数，键路径、回调函数、配置参数；返回一个销毁函数
   Vue.prototype.$watch = function (
     expOrFn: string | Function,
     cb: any,
     options?: Object
   ): Function {
     const vm: Component = this
+    // 如果是对象 通过递归的方式创建观察者
     if (isPlainObject(cb)) {
       return createWatcher(vm, expOrFn, cb, options)
     }
     options = options || {}
     options.user = true
+    // 创建watcher对象
     const watcher = new Watcher(vm, expOrFn, cb, options)
+    // 如果immediate 为true 立即执行回调函数
     if (options.immediate) {
       try {
         cb.call(vm, watcher.value)
@@ -361,6 +367,7 @@ export function stateMixin (Vue: Class<Component>) {
         handleError(error, vm, `callback for immediate watcher "${watcher.expression}"`)
       }
     }
+    // 返回一个函数，调用watcher的删除方法
     return function unwatchFn () {
       watcher.teardown()
     }
