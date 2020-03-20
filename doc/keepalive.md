@@ -1,5 +1,41 @@
 # keepalive
 
+> keepalive是vue内置的一个组件，可以使被包含的组件**保留状态**，或者**避免重新渲染**。简单的说就是**组件缓存**。
+
+## 基本用法
+
+```html
+<!-- 被keep-alive包裹的组件会被缓存 -->
+<keep-alive include="" exclude="" max="">
+  <component></component>
+</keep-alive>
+```
+
+被`keepalive`包裹的组件不会被再次初始化，也就意味着不会重新走组件初始化的生命周期函数，也就是`mounted`之前的生命周期函数。keepalive是一个抽象的组件，缓存的组件不会调用`mounted`，为此提供了`activated`和`deactivated`钩子函数。
+
+缓存的组件就会多处两个生命周期钩子函数：
+
+* `activated`当缓存组件再次显示的时候触发
+* `deactivated`当缓存组件消失的时候触发
+
+`keepalive`组件提供了三个属性作为组件缓存的匹配规则：
+
+* `include` 包含的组件(name或者tag)，可为字符串、数组和正则表达式
+* `exclude` 不包含的组件，可为字符串、数组和正则表达式，优先级大于`include`
+* `max`缓存组件的最大数量，可为字符串和数字
+
+## 更多用法
+
+#### 结合路由使用
+
+#### 前进刷新后退不刷新
+
+超级链接： `SunnySky `的  [《vue实现前进刷新，后退不刷新》](https://juejin.im/post/5a69894a518825733b0f12f2)
+
+## 源码解读
+
+>  源码路径：src/core/components/keep-alive.js
+
 ```js
 /* @flow */
 /**
@@ -137,3 +173,20 @@ export default {
 }
 
 ```
+
+##### 方法解读
+
+* `getComponentName`: 获取组件`name`或`tag`，首先获取`name`，用于缓存组件匹配。
+* `matches`：检测`name`是否符合匹配规则，用于判断组件`name`是否符合`include`或者`exclude`规则。
+* `pruneCache`：修正`cache`数组内容，遍历`cache`对象内的所有缓存组件，根据匹配规则，销毁不符合组件。
+* `pruneCacheEntry`：销毁`vnode`对应的组件实例，调用的是组价实例的`$destroy()`方法进行销毁。
+
+##### 主要逻辑
+
+1. 判断组件`name` 不在`include`或者在`exclude`中，直接返回`vnode`，说明该组件不被缓存。
+2. 获取组件实例`key`，如果有获取实例的`key`，否则重新生成。
+3. key生成规则：`cid + "::"+ tag`，仅靠cid是不够的的，因为相同的构造函数可以注册为不同的本地组件。
+4. 如果缓存对象内存在，则直接从缓存对象中获取组件实例给`vnode`，不存在则添加到缓存对象中。
+5. 最大缓存数量：当缓存组件数量超过`max`值时，清除`keys`数组内第一个组件。
+6. 清除规则：当`cache`内原有组件被使用时会将该组件`key`从`keys`数组中删除，然后`push`到`keys`数组最后，以便清除最不常用组件。
+
