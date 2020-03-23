@@ -1,12 +1,30 @@
-### 源码
+## JS篇
 
-[keep-alive源码分析](./doc/keepalive.md)
+[this指向](./doc/JS/this指向.md)
 
-[nextTick源码分析](./doc/nextTick.md)
+[事件循环](./doc/JS/事件循环.md)
 
-[$watch源码分析](./doc/$watch.md)
+[JavaScript执行堆栈](./doc/JS/JavaScript执行堆栈.md)
 
-### 双向数据绑定
+## Vue篇
 
-### 编译
+#### 基础学习
+
+[directives](./doc/Vue/directives.md)
+
+[Mixin](./doc/Vue/Mixin.md)
+
+#### 源码
+
+[keep-alive源码分析](./doc/Vue/keepalive.md)
+
+[nextTick源码分析](./doc/Vue/nextTick.md)
+
+[$watch源码分析](./doc/Vue/$watch.md)
+
+####  Virtual Dom
+
+[Virtual Dom](./doc/Vue/Virtual-Dom.md)
+
+[DomDiff](./doc/Vue/DomDoff.md)
 
