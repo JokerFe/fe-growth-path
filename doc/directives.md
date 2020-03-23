@@ -48,6 +48,50 @@ Vue.directive('focus', {
 
 #### 实现防抖节流
 
+```js
+// 节流 
+export const throttle = {
+    bind: function (el, binding) {
+        const fn = typeof binding.value === "function" ? binding.value : binding.value.callback
+        const wait = binding.value.wait || 1000
+        const type = el.tagName === "INPUT" ? 'input' : 'click'
+        el.addEventListener(type, () => {
+            event.stopImmediatePropagation()
+            const nowTime = new Date().getTime()
+            if (!el.preTime || nowTime - el.preTime > wait) {
+                el.preTime = nowTime
+                fn.apply(this, arguments)
+            }
+        }, true)
+
+    }
+}
+
+// 防抖 
+export const debounce = {
+    bind: function (el, binding) {
+        const fn = typeof binding.value === "function" ? binding.value : binding.value.callback
+        const wait = binding.value.wait || 1000
+        const type = el.tagName === "INPUT" ? 'input' : 'click'
+        let timer;
+        el.addEventListener(type, function (event) {
+            event.stopImmediatePropagation()
+            console.warn(timer)
+            if (timer) {
+                clearTimeout(timer)
+            } else {
+                fn.apply(this, arguments)
+            }
+            timer = setTimeout(() => {
+                clearTimeout(timer)
+                timer = null
+            }, wait)
+        })
+    }
+}
+
+```
+
 #### 实现图片懒加载
 
 ## 源码解读

@@ -16,7 +16,7 @@ import VNode, { createEmptyVNode } from '../vdom/vnode'
 
 import { isUpdatingChildComponent } from './lifecycle'
 
-export function initRender (vm: Component) {
+export function initRender(vm: Component) {
   vm._vnode = null // the root of the child tree
   vm._staticTrees = null // v-once cached trees
   const options = vm.$options
@@ -54,18 +54,18 @@ export function initRender (vm: Component) {
 export let currentRenderingInstance: Component | null = null
 
 // for testing only
-export function setCurrentRenderingInstance (vm: Component) {
+export function setCurrentRenderingInstance(vm: Component) {
   currentRenderingInstance = vm
 }
 
-export function renderMixin (Vue: Class<Component>) {
+export function renderMixin(Vue: Class<Component>) {
   // install runtime convenience helpers
   installRenderHelpers(Vue.prototype)
-
+  // 此处将nextTick挂载到Vue原型上	
   Vue.prototype.$nextTick = function (fn: Function) {
     return nextTick(fn, this)
   }
-
+  // Vue原型上私有的渲染函数
   Vue.prototype._render = function (): VNode {
     const vm: Component = this
     const { render, _parentVnode } = vm.$options
@@ -78,16 +78,19 @@ export function renderMixin (Vue: Class<Component>) {
       )
     }
 
-    // set parent vnode. this allows render functions to have access
-    // to the data on the placeholder node.
+    // set parent vnode. this allows render functions to have access to the data on the placeholder node.
+    // 设置父节点，它允许渲染函数有权限去访问data上的占位节点
     vm.$vnode = _parentVnode
     // render self
     let vnode
     try {
-      // There's no need to maintain a stack because all render fns are called
-      // separately from one another. Nested component's render fns are called
-      // when parent component is patched.
+      /** There's no need to maintain a stack because all render fns are called separately from one another. 
+       * 因为渲染函数是独自调用的，所以不需要维护一个堆栈
+       * Nested component's render fns are called when parent component is patched.
+       * 当父组件进行patch时，嵌套组件的渲染函数才会被调用
+       */
       currentRenderingInstance = vm
+      // 调用 createElement 方法来返回 vnode
       vnode = render.call(vm._renderProxy, vm.$createElement)
     } catch (e) {
       handleError(e, vm, `render`)
@@ -112,6 +115,7 @@ export function renderMixin (Vue: Class<Component>) {
       vnode = vnode[0]
     }
     // return empty vnode in case the render function errored out
+    // 当渲染函数出错时没返回一个空的vnode
     if (!(vnode instanceof VNode)) {
       if (process.env.NODE_ENV !== 'production' && Array.isArray(vnode)) {
         warn(

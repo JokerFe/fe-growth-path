@@ -80,6 +80,7 @@ export function _createElement (
     }
   }
   // support single function children as default scoped slot
+  // 支持单功能组件作为默认作用域插槽
   if (Array.isArray(children) &&
     typeof children[0] === 'function'
   ) {
@@ -87,9 +88,12 @@ export function _createElement (
     data.scopedSlots = { default: children[0] }
     children.length = 0
   }
+  // 判断render 函数的生成方式
   if (normalizationType === ALWAYS_NORMALIZE) {
+    // 不是编译生成
     children = normalizeChildren(children)
   } else if (normalizationType === SIMPLE_NORMALIZE) {
+    // 编译生成
     children = simpleNormalizeChildren(children)
   }
   let vnode, ns
@@ -104,6 +108,7 @@ export function _createElement (
           context
         )
       }
+      // 创建vnode
       vnode = new VNode(
         config.parsePlatformTagName(tag), data, children,
         undefined, undefined, context

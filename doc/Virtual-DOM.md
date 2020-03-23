@@ -185,34 +185,325 @@ Vue.prototype.$mount = function (
 }
 ```
 
+`$mount`方法是挂载在Vue原型上的方法
 
+> 源码路径：src/platforms/web/runtime/index.js
 
+```js
+Vue.prototype.$mount = function (
+  el?: string | Element,
+  hydrating?: boolean
+): Component {
+  el = el && inBrowser ? query(el) : undefined
+  return mountComponent(this, el, hydrating)
+}
+```
 
+> 源码路径：src/core/instance/lifecycle.js
 
-[你不知道的Virtual DOM（一）](https://segmentfault.com/a/1190000016129036)
+```js
+export function mountComponent (
+  vm: Component,
+  el: ?Element,
+  hydrating?: boolean
+): Component {
+  vm.$el = el
 
+  //  如果不存在render 则创建一个空的虚拟dom
+  if (!vm.$options.render) {
+    vm.$options.render = createEmptyVNode
+    if (process.env.NODE_ENV !== 'production') {
+      /* istanbul ignore if */
+      if ((vm.$options.template && vm.$options.template.charAt(0) !== '#') ||
+        vm.$options.el || el) {
+        warn(
+          'You are using the runtime-only build of Vue where the template ' +
+          'compiler is not available. Either pre-compile the templates into ' +
+          'render functions, or use the compiler-included build.',
+          vm
+        )
+      } else {
+        warn(
+          'Failed to mount component: template or render function not defined.',
+          vm
+        )
+      }
+    }
+  }
+  // 调用beforeMount 钩子函数
+  callHook(vm, 'beforeMount')
 
+  let updateComponent
+  /* istanbul ignore if */
+  if (process.env.NODE_ENV !== 'production' && config.performance && mark) {
+    updateComponent = () => {
+      const name = vm._name
+      const id = vm._uid
+      const startTag = `vue-perf-start:${id}`
+      const endTag = `vue-perf-end:${id}`
 
+      mark(startTag)
+      // 生成虚拟 vnode   
+      const vnode = vm._render()
+      mark(endTag)
+      measure(`vue ${name} render`, startTag, endTag)
 
+      mark(startTag)
+      // 更新Dom
+      vm._update(vnode, hydrating)
+      mark(endTag)
+      measure(`vue ${name} patch`, startTag, endTag)
+    }
+  } else {
+    updateComponent = () => {
+      vm._update(vm._render(), hydrating)
+    }
+  }
 
+  // we set this to vm._watcher inside the watcher's constructor since the watcher's initial patch may call $forceUpdate 
+  //  (e.g. inside child component's mounted hook), which relies on vm._watcher being already defined
+  //  实例化一个渲染Watcher，在它的回调函数中会调用 updateComponent 方法  
+  new Watcher(vm, updateComponent, noop, {
+    before () {
+      if (vm._isMounted && !vm._isDestroyed) {
+        callHook(vm, 'beforeUpdate')
+      }
+    }
+  }, true /* isRenderWatcher */)
+  hydrating = false
 
+  // manually mounted instance, call mounted on self mounted is called for render-created child components in its inserted hook
+  if (vm.$vnode == null) {
+    vm._isMounted = true
+    callHook(vm, 'mounted')
+  }
+  return vm
+}
+```
 
+由代码可以看出，核心就是创建一个Watcher实例，通过它的回调函数调用`updateComponent`，也就是上面创建的方法，内部调用`vm._render()`生成虚拟DOM，调用`vm._update(vnode, hydrating)`更新DOM。
 
+#### 3. 创建虚拟 Node
 
-https://segmentfault.com/a/1190000012861862
+上面代码中`mountComponent`函数内部通过`Watcher`的回调函数`updateComponent`来调用vm实例的私有方法`_render()`生成虚拟DOM。
 
-https://juejin.im/post/5a3933756fb9a045167d52b1
+> 源码路径：src/core/instance/render.js
 
-https://juejin.im/post/5d790255f265da03c34c284e
+```js
+export function renderMixin (Vue: Class<Component>) {
+  // install runtime convenience helpers
+  installRenderHelpers(Vue.prototype)
+  // 此处将nextTick挂载到Vue原型上	
+  Vue.prototype.$nextTick = function (fn: Function) {
+    return nextTick(fn, this)
+  }
+  // Vue原型上私有的渲染函数
+  Vue.prototype._render = function (): VNode {
+    const vm: Component = this
+    const { render, _parentVnode } = vm.$options
 
-[https://github.com/answershuto/Blog/blob/master/blogs/%E8%81%8A%E8%81%8AVue%E7%9A%84template%E7%BC%96%E8%AF%91.MarkDown](https://github.com/answershuto/Blog/blob/master/blogs/聊聊Vue的template编译.MarkDown)
+    if (_parentVnode) {
+      vm.$scopedSlots = normalizeScopedSlots(
+        _parentVnode.data.scopedSlots,
+        vm.$slots,
+        vm.$scopedSlots
+      )
+    }
 
-https://juejin.im/post/5d36cc575188257aea108a74#heading-9
+    // set parent vnode. this allows render functions to have access to the data on the placeholder node.
+    // 设置父节点，它允许渲染函数有权限去访问data上的占位节点
+    vm.$vnode = _parentVnode
+    // render self
+    let vnode
+    try {
+      /** There's no need to maintain a stack because all render fns are called separately from one another. 
+       * 因为渲染函数是独自调用的，所以不需要维护一个堆栈
+       * Nested component's render fns are called when parent component is patched.
+       * 当父组件进行patch时，嵌套组件的渲染函数才会被调用
+       */ 
+      currentRenderingInstance = vm
+       // 调用 createElement 方法来返回 vnode
+      vnode = render.call(vm._renderProxy, vm.$createElement)
+    } catch (e) {
+      handleError(e, vm, `render`)
+      // return error render result,
+      // or previous vnode to prevent render error causing blank component
+      /* istanbul ignore else */
+      if (process.env.NODE_ENV !== 'production' && vm.$options.renderError) {
+        try {
+          vnode = vm.$options.renderError.call(vm._renderProxy, vm.$createElement, e)
+        } catch (e) {
+          handleError(e, vm, `renderError`)
+          vnode = vm._vnode
+        }
+      } else {
+        vnode = vm._vnode
+      }
+    } finally {
+      currentRenderingInstance = null
+    }
+    // if the returned array contains only a single node, allow it
+    if (Array.isArray(vnode) && vnode.length === 1) {
+      vnode = vnode[0]
+    }
+    // return empty vnode in case the render function errored out
+    // 当渲染函数出错时没返回一个空的vnode
+    if (!(vnode instanceof VNode)) {
+      if (process.env.NODE_ENV !== 'production' && Array.isArray(vnode)) {
+        warn(
+          'Multiple root nodes returned from render function. Render function ' +
+          'should return a single root node.',
+          vm
+        )
+      }
+      vnode = createEmptyVNode()
+    }
+    // set parent
+    vnode.parent = _parentVnode
+    return vnode
+  }
+}
+```
 
-https://www.geek-share.com/detail/2743486521.html
+上述代码主要过程为：`vnode = render.call(vm._renderProxy, vm.$createElement)`。调用实例上`createElement`函数进行虚拟Dom的创建。
 
-https://juejin.im/post/5d677e7be51d4561ce5a1c87
+> 源码路径：src/core/vdom/create-element.js
 
-https://juejin.im/post/5d4faef0e51d45621479acba
+```js
+export function createElement (
+  context: Component,
+  tag: any,
+  data: any,
+  children: any,
+  normalizationType: any,
+  alwaysNormalize: boolean
+): VNode | Array<VNode> {
+  if (Array.isArray(data) || isPrimitive(data)) {
+    normalizationType = children
+    children = data
+    data = undefined
+  }
+  if (isTrue(alwaysNormalize)) {
+    normalizationType = ALWAYS_NORMALIZE
+  }
+  return _createElement(context, tag, data, children, normalizationType)
+}
+// 私有的创建函数
+export function _createElement (
+  context: Component,
+  tag?: string | Class<Component> | Function | Object,
+  data?: VNodeData,
+  children?: any,
+  normalizationType?: number
+): VNode | Array<VNode> {
+  if (isDef(data) && isDef((data: any).__ob__)) {
+    process.env.NODE_ENV !== 'production' && warn(
+      "Avoid using observed data object as vnode data: ${JSON.stringify(data)}\n" +
+      'Always create fresh vnode data objects in each render!',
+      context
+    )
+    return createEmptyVNode()
+  }
+  // object syntax in v-bind
+  if (isDef(data) && isDef(data.is)) {
+    tag = data.is
+  }
+  if (!tag) {
+    // in case of component :is set to falsy value
+    return createEmptyVNode()
+  }
+  // warn against non-primitive key
+  if (process.env.NODE_ENV !== 'production' &&
+    isDef(data) && isDef(data.key) && !isPrimitive(data.key)
+  ) {
+    if (!__WEEX__ || !('@binding' in data.key)) {
+      warn(
+        'Avoid using non-primitive value as key, ' +
+        'use string/number value instead.',
+        context
+      )
+    }
+  }
+  // support single function children as default scoped slot
+  // 支持单功能组件作为默认作用域插槽
+  if (Array.isArray(children) &&
+    typeof children[0] === 'function'
+  ) {
+    data = data || {}
+    data.scopedSlots = { default: children[0] }
+    children.length = 0
+  }
+  // 判断render 函数的生成方式
+  if (normalizationType === ALWAYS_NORMALIZE) {
+    // 不是编译生成
+    children = normalizeChildren(children)
+  } else if (normalizationType === SIMPLE_NORMALIZE) {
+    // 编译生成
+    children = simpleNormalizeChildren(children)
+  }
+  let vnode, ns
+  if (typeof tag === 'string') {
+    let Ctor
+    ns = (context.$vnode && context.$vnode.ns) || config.getTagNamespace(tag)
+    if (config.isReservedTag(tag)) {
+      // platform built-in elements
+      if (process.env.NODE_ENV !== 'production' && isDef(data) && isDef(data.nativeOn)) {
+        warn(
+          `The .native modifier for v-on is only valid on components but it was used on <${tag}>.`,
+          context
+        )
+      }
+      // 创建vnode
+      vnode = new VNode(
+        config.parsePlatformTagName(tag), data, children,
+        undefined, undefined, context
+      )
+    } else if ((!data || !data.pre) && isDef(Ctor = resolveAsset(context.$options, 'components', tag))) {
+      // component
+      vnode = createComponent(Ctor, data, context, children, tag)
+    } else {
+      // unknown or unlisted namespaced elements
+      // check at runtime because it may get assigned a namespace when its
+      // parent normalizes children
+      vnode = new VNode(
+        tag, data, children,
+        undefined, undefined, context
+      )
+    }
+  } else {
+    // direct component options / constructor
+    vnode = createComponent(tag, data, context, children)
+  }
+  if (Array.isArray(vnode)) {
+    return vnode
+  } else if (isDef(vnode)) {
+    if (isDef(ns)) applyNS(vnode, ns)
+    if (isDef(data)) registerDeepBindings(data)
+    return vnode
+  } else {
+    return createEmptyVNode()
+  }
+}
 
-http://blueskyawen.com/2019/07/16/vue-learn-in-minix/
+```
+
+共接收5个参数：
+
+* `context` 表示 VNode 的上下文环境，它是 `Component` 类型
+* `tag`表示标签，它可以是一个字符串，也可以是一个 `Component`；
+* `data` 表示 VNode 的数据，它是一个 `VNodeData` 类型，可以在 `flow/vnode.js` 中找到它的定义；
+* `children` 表示当前 VNode 的子节点，它是任意类型的，需要被规范为标准的 `VNode` 数组；
+* `normalizationType`：表示调用环境
+
+####  总结
+
+Vue创建Vnode的流程为：
+
+1. 在Vue构造函数中调用内部的`_init`方法
+2. `_init`内部根据参数的el元素调用 `$mount` 实例方法去挂载 `dom` 
+3.  `$mount` 实例方法实际上继续调用`mountComponent`方法
+4. `mountComponent`方法内部实例化一个渲染Watcher，在它的回调函数中会调用 `updateComponent` 方法 
+5. `updateComponent`内调用 `vm._render` 方法先生成虚拟 Node，最终调用 `vm._update` 更新 `DOM`
+6.  `vm._render` 调用 `createElement` 方法来生成 vnode
+7. `createElement`通过上下文环境、标签名、数据、子组件等参数来创建Vnode
+
