@@ -12,7 +12,7 @@ import { extend, mergeOptions, formatComponentName } from '../util/index'
 
 let uid = 0
 
-export function initMixin (Vue: Class<Component>) {
+export function initMixin(Vue: Class<Component>) {
   Vue.prototype._init = function (options?: Object) {
     const vm: Component = this
     // a uid
@@ -28,11 +28,10 @@ export function initMixin (Vue: Class<Component>) {
 
     // a flag to avoid this being observed
     vm._isVue = true
-    // merge options
+    // 合并配置
     if (options && options._isComponent) {
-      // optimize internal component instantiation
-      // since dynamic options merging is pretty slow, and none of the
-      // internal component options needs special treatment.
+      // optimize internal component instantiation since dynamic options merging is pretty slow, and none of the internal component options needs special treatment.
+      // 优化内部组件实例化，因为动态选项合并非常慢，并且没有任何内部组件选项需要特殊处理。
       initInternalComponent(vm, options)
     } else {
       vm.$options = mergeOptions(
@@ -49,14 +48,14 @@ export function initMixin (Vue: Class<Component>) {
     }
     // expose real self
     vm._self = vm
-    initLifecycle(vm)
+    initLifecycle(vm)            // 初始化生命周期钩子
     initEvents(vm)
     initRender(vm)
-    callHook(vm, 'beforeCreate')
-    initInjections(vm) // resolve injections before data/props
-    initState(vm)
-    initProvide(vm) // resolve provide after data/props
-    callHook(vm, 'created')
+    callHook(vm, 'beforeCreate') // 调用beforeCreate钩子  
+    initInjections(vm)           // 初始化inject数据
+    initState(vm)                // 初始化 vm实例上data/props/method/watch等属性
+    initProvide(vm)              // 初始化provide
+    callHook(vm, 'created')      // 调用created钩子  
 
     /* istanbul ignore if */
     if (process.env.NODE_ENV !== 'production' && config.performance && mark) {
@@ -71,7 +70,7 @@ export function initMixin (Vue: Class<Component>) {
   }
 }
 
-export function initInternalComponent (vm: Component, options: InternalComponentOptions) {
+export function initInternalComponent(vm: Component, options: InternalComponentOptions) {
   const opts = vm.$options = Object.create(vm.constructor.options)
   // doing this because it's faster than dynamic enumeration.
   const parentVnode = options._parentVnode
@@ -90,7 +89,7 @@ export function initInternalComponent (vm: Component, options: InternalComponent
   }
 }
 
-export function resolveConstructorOptions (Ctor: Class<Component>) {
+export function resolveConstructorOptions(Ctor: Class<Component>) {
   let options = Ctor.options
   if (Ctor.super) {
     const superOptions = resolveConstructorOptions(Ctor.super)
@@ -114,7 +113,7 @@ export function resolveConstructorOptions (Ctor: Class<Component>) {
   return options
 }
 
-function resolveModifiedOptions (Ctor: Class<Component>): ?Object {
+function resolveModifiedOptions(Ctor: Class<Component>): ?Object {
   let modified
   const latest = Ctor.options
   const sealed = Ctor.sealedOptions
