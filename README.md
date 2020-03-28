@@ -40,3 +40,6 @@
 
 [DomDiff](./doc/Vue/DomDoff.md)
 
+#### Vue3 Composition API
+
+[Composition API](./doc/Vue/Vue3.x新特性.md)
