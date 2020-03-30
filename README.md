@@ -38,7 +38,7 @@
 
 #### 源码
 
-[双向数据绑定](./doc/Vue/双向数据绑定.md)
+[Vue双向数据绑定](./doc/Vue/Vue双向数据绑定.md)
 
 [keep-alive源码分析](./doc/Vue/keepalive.md)
 
@@ -48,7 +48,7 @@
 
 ####  Virtual Dom
 
-[Virtual Dom](./doc/Vue/Virtual-Dom.md)
+[Virtual Dom](./doc/Vue/Virtual Dom.md)
 
 [DomDiff](./doc/Vue/DomDoff.md) 🍊
 
