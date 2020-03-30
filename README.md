@@ -18,6 +18,16 @@
 
 [前端数据存储](./doc/JS/前端数据存储.md)
 
+[设计模式](./doc/JS/设计模式.md)
+
+## ES6 
+
+[Promise](./doc/ES6/Promise.md) 🍊
+
+[类](./doc/ES6/类.md) 🍊
+
+[Async函数](./doc/ES6/Async函数.md) 🍊
+
 ## Vue篇
 
 #### 基础学习
@@ -27,6 +37,8 @@
 [Mixin](./doc/Vue/Mixin.md)
 
 #### 源码
+
+[双向数据绑定](./doc/Vue/双向数据绑定.md)
 
 [keep-alive源码分析](./doc/Vue/keepalive.md)
 
@@ -38,7 +50,7 @@
 
 [Virtual Dom](./doc/Vue/Virtual-Dom.md)
 
-[DomDiff](./doc/Vue/DomDoff.md)
+[DomDiff](./doc/Vue/DomDoff.md) 🍊
 
 #### Vue3 Composition API
 
