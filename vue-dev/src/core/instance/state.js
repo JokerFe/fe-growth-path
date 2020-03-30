@@ -60,7 +60,7 @@ export function initState (vm: Component) {
     initWatch(vm, opts.watch)
   }
 }
-
+// 初始化props
 function initProps (vm: Component, propsOptions: Object) {
   const propsData = vm.$options.propsData || {}
   const props = vm._props = {}
@@ -108,8 +108,9 @@ function initProps (vm: Component, propsOptions: Object) {
   }
   toggleObserving(true)
 }
-
+// 初始化data
 function initData (vm: Component) {
+  // 根据data类型获取数据源
   let data = vm.$options.data
   data = vm._data = typeof data === 'function'
     ? getData(data, vm)
@@ -122,7 +123,7 @@ function initData (vm: Component) {
       vm
     )
   }
-  // proxy data on instance
+  // 代理data到vm实例上
   const keys = Object.keys(data)
   const props = vm.$options.props
   const methods = vm.$options.methods
@@ -147,7 +148,7 @@ function initData (vm: Component) {
       proxy(vm, `_data`, key)
     }
   }
-  // observe data
+  // Vue双向数据绑定的入口  ☞ src/core/observer/index.js
   observe(data, true /* asRootData */)
 }
 

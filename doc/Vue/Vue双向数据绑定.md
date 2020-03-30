@@ -78,4 +78,429 @@ Vue是采用数据劫持结合发布者-订阅者模式的方法，通过`Object
 
 ## 源码分析
 
-在[Virtual-DOM]()
+### 入口
+
+在[Virtual DOM](https://github.com/Jokul518/fe-growth-path/blob/master/doc/Vue/Virtual-DOM.md)篇中创建vNode流程中，在`src/core/instance/init.js`的`initMixin()`方法中调用`initState(vm)`方法，即`src/core/instance/state.js`中的`initState`方法，进行初始化vm实例上`data`、`props`、`method`、`watch`等属性。其中对`data`的初始化时，调用`initData`方法，最重要的一步为： `observe(data, true /* asRootData */)`来进行数据的监听。此为进入Vue双向数据绑定的入口。
+
+## Observer
+
+> 源码路径： src/core/observer/index.js
+
+**内部调用顺序**：`function observe` ☞  为value创建观察者，如果该值已有观察者则返回原有的，否则创建一个新的 ☞ `class Observer` ☞ 如果是数组，进行数组的操作，否则调用 `walk` 方法 ☞ 遍历数据对象，对每个属性进行劫持。
+
+```js
+/**
+ * Walk through all properties and convert them into
+ * getter/setters. This method should only be called when
+ * value type is Object.
+ * 遍历所有属性并将它们转换为 getter /setters。此方法只应在值类型为对象的时候
+ */
+walk (obj: Object) {
+  const keys = Object.keys(obj)
+  for (let i = 0; i < keys.length; i++) {
+    defineReactive(obj, keys[i])
+  }
+}
+```
+
+```js
+/**
+ * Define a reactive property on an Object.
+ * 在对象上定义响应属性
+ * @param {obj} 监测属性的对象
+ * @param {key} 监测的属性key
+ * @param {val} 给key对应的值设置默认值
+ * @param {customSetter} 自定义的setter方法
+ * @param {shallow} 是否不进行深度监测
+ */
+export function defineReactive (
+  obj: Object,
+  key: string,
+  val: any,
+  customSetter?: ?Function,
+  shallow?: boolean 
+) {
+  // 创建依赖对象 源码 ./dep.js
+  const dep = new Dep()
+
+  // 获取对象上该属性的自有属性对应的属性描述符，如果不存在或者被设置为不可修改时，则直接return
+  const property = Object.getOwnPropertyDescriptor(obj, key)
+  if (property && property.configurable === false) {
+    return
+  }
+
+  // cater for pre-defined getter/setters
+  // 为预定义getter/setter提供所需
+  const getter = property && property.get
+  const setter = property && property.set
+  if ((!getter || setter) && arguments.length === 2) {
+    val = obj[key]
+  }
+
+  let childOb = !shallow && observe(val)
+  // 通过Object.defineProperty 来重写set 和get 方法，
+  Object.defineProperty(obj, key, {
+    enumerable: true,
+    configurable: true,
+    get: function reactiveGetter () {
+      // 首先获取当前属性的值
+      const value = getter ? getter.call(obj) : val
+      // 这里的Dep.target===watcher就是当前属性的wather实例 -- 如果不理解可以继续看它到底是什么？ 
+      if (Dep.target) {
+        // 往dep数组中添加自己  
+        dep.depend()
+        if (childOb) {
+          childOb.dep.depend()
+          if (Array.isArray(value)) {
+            dependArray(value)
+          }
+        }
+      }
+      return value
+    },
+    set: function reactiveSetter (newVal) {
+      // 获取该属性原有的值
+      const value = getter ? getter.call(obj) : val
+  
+      // 如果新值等于旧值，则直接return
+      if (newVal === value || (newVal !== newVal && value !== value)) {
+        return
+      }
+      // 如果不是生产环境且自定义setter方法存在，则执行该方法
+      if (process.env.NODE_ENV !== 'production' && customSetter) {
+        customSetter()
+      }
+      // 如果没有setter，则直接return
+      if (getter && !setter) return
+      // 有setter则调用
+      if (setter) {
+        setter.call(obj, newVal)
+      } else {
+        // 设置新值
+        val = newVal
+      }
+      childOb = !shallow && observe(newVal)
+      // dep发送通知
+      dep.notify()
+    }
+  })
+}
+```
+
+`defineReactive()`方法为重写对象属性的函数，重写`set`和`get`方法。`get`方法中将该属性的`watcher`实例添加到`dep`的依赖数组中；`set`方法中通过`dep`发送通知。
+
+## Dep
+
+> 源码路径：src/core/observer/dep.js
+
+```js
+/**
+ * A dep is an observable that can have multiple directives subscribing to it.
+ * dep是一个观察者，可以被多个指令订阅它
+ * @property {target} watcher实例
+ * @property {id} id
+ * @property {subs} 依赖数组 存放订阅者
+ */
+export default class Dep {
+  static target: ?Watcher;
+  id: number;
+  subs: Array<Watcher>;
+
+  // 初始化
+  constructor () {
+    this.id = uid++
+    this.subs = []
+  }
+  // 添加订阅者
+  addSub (sub: Watcher) {
+    this.subs.push(sub)
+  }
+  // 删除订阅者
+  removeSub (sub: Watcher) {
+    remove(this.subs, sub)
+  }
+  // 依赖 
+  depend () {
+    // Dep.target === watcher
+    if (Dep.target) {
+      // 链接 ./wather.js ☞ addDep
+      Dep.target.addDep(this)
+    }
+  }
+  // 通知
+  notify () {
+    // stabilize the subscriber list first
+    // 首先获取sub数组
+    const subs = this.subs.slice()
+    if (process.env.NODE_ENV !== 'production' && !config.async) {
+      // subs aren't sorted in scheduler if not running async we need to sort them now to make sure they fire in correct order
+      // 如果不运行异步我们需要对它们进行排序，以确保它们按正确的执行顺序，那么子系统在调度程序中是不排序的。
+      subs.sort((a, b) => a.id - b.id)
+    }
+    // 遍历sub数组，逐个调用数组元素watcher实例的update方法
+    for (let i = 0, l = subs.length; i < l; i++) {
+      subs[i].update()
+    }
+  }
+}
+```
+
+`Dep`的主要作用就是`Watcher`的依赖，用于缓存和操作`watcher`实例。
+
+## Watcher
+
+> 源码路径：src/core/observer/watcher.js
+
+```js
+
+/**
+ * A watcher parses an expression, collects dependencies,
+ * and fires callback when the expression value changes.
+ * This is used for both the $watch() api and directives.
+ * 观察解析表达式，收集依赖项和在表达式值发生变化时执行回调函数。它同时被应用于$wather() api 和指令中。
+ */
+export default class Watcher {
+	// ...省略内部属性声明
+
+  constructor (
+    vm: Component, // vm实例
+    expOrFn: string | Function,  // 键路径
+    cb: Function,   // 回调函数
+    options?: ?Object,  // 配置项
+    isRenderWatcher?: boolean // 是否为渲染观察者
+  ) {
+ 		// 省略内部属性初始化
+  }
+
+  /**
+   * Evaluate the getter, and re-collect dependencies.
+   */
+  get () {
+    // 调用dep中的方法，链接 ./dep.js ☞ pushTarget
+    // 设置Dep.target == watcher,并往target栈中添加watcher
+    pushTarget(this)
+    let value
+    const vm = this.vm
+    try {
+      value = this.getter.call(vm, vm)
+    } catch (e) {
+      if (this.user) {
+        handleError(e, vm, `getter for watcher "${this.expression}"`)
+      } else {
+        throw e
+      }
+    } finally {
+      // "touch" every property so they are all tracked as
+      // dependencies for deep watching
+      // 触摸每个属性，以便将它们作为依赖项进行跟踪，以便进行深度监视
+      if (this.deep) {
+        traverse(value)
+      }
+      popTarget()
+      this.cleanupDeps()
+    }
+    return value
+  }
+
+  /**
+   * Add a dependency to this directive.
+   * 添加该指令的依赖项
+   */
+  addDep (dep: Dep) {
+    const id = dep.id
+    if (!this.newDepIds.has(id)) {
+      this.newDepIds.add(id)
+      this.newDeps.push(dep)
+      if (!this.depIds.has(id)) {
+        // 添加到dep依赖数组中
+        dep.addSub(this)
+      }
+    }
+  }
+
+  /**
+   * Clean up for dependency collection.
+   * 清理依赖项集合
+   */
+  cleanupDeps () {
+    let i = this.deps.length
+    while (i--) {
+      const dep = this.deps[i]
+      if (!this.newDepIds.has(dep.id)) {
+        dep.removeSub(this)
+      }
+    }
+    let tmp = this.depIds
+    this.depIds = this.newDepIds
+    this.newDepIds = tmp
+    this.newDepIds.clear()
+    tmp = this.deps
+    this.deps = this.newDeps
+    this.newDeps = tmp
+    this.newDeps.length = 0
+  }
+
+  /**
+   * Subscriber interface. 订阅者接口
+   * Will be called when a dependency changes.
+   * 将在依赖项被更改时调用
+   */
+  update () {
+    /* istanbul ignore else */
+    if (this.lazy) {
+      // 如果设置延迟，则将dirty设为true
+      this.dirty = true
+    } else if (this.sync) {
+      // 如果是同步的，立即执行
+      this.run()
+    } else {
+      // 否则，通过批处理处理观察者
+      queueWatcher(this)
+    }
+  }
+
+  /**
+   * Scheduler job interface. // 调度器工作接口
+   * Will be called by the scheduler.
+   * 将被调度器调用
+   */
+  run () {
+    if (this.active) {
+      // 获取观察的属性的值
+      const value = this.get()
+      if (
+        value !== this.value ||
+        // Deep watchers and watchers on Object/Arrays should fire even
+        // when the value is the same, because the value may
+        // have mutated.
+        // 在对象/数组上的深层观察者和观察者即使在值相同的情况下也会执行，因为该值可能已经发生了突变。
+        isObject(value) ||
+        this.deep
+      ) {
+        // set new value
+        const oldValue = this.value
+        this.value = value
+        if (this.user) {
+          try {
+            // 尝试执行观察者的回调函数
+            this.cb.call(this.vm, value, oldValue)
+          } catch (e) {
+            handleError(e, this.vm, `callback for watcher "${this.expression}"`)
+          }
+        } else {
+          this.cb.call(this.vm, value, oldValue)
+        }
+      }
+    }
+  }
+
+  /**
+   * Evaluate the value of the watcher.
+   * This only gets called for lazy watchers.
+   */
+  evaluate () {
+    this.value = this.get()
+    this.dirty = false
+  }
+
+  /**
+   * Depend on all deps collected by this watcher.
+   */
+  depend () {
+    let i = this.deps.length
+    while (i--) {
+      this.deps[i].depend()
+    }
+  }
+
+  /**
+   * Remove self from all dependencies' subscriber list.
+   * 清除所有的观察者
+   */
+  teardown () {
+    if (this.active) {
+      // remove self from vm's watcher list
+      // this is a somewhat expensive operation so we skip it
+      // if the vm is being destroyed.
+      // 从vm实例的Watcher列表中删除自己，这是一个有点昂贵的操作，所以如果VM正在被销毁的时候我们跳过它，。
+      if (!this.vm._isBeingDestroyed) {
+        remove(this.vm._watchers, this)
+      }
+      let i = this.deps.length
+      while (i--) {
+        this.deps[i].removeSub(this)
+      }
+      this.active = false
+    }
+  }
+}
+
+```
+
+**Wather**是发布者订阅者模式中的订阅者，是`Observe`和`compile`之间的栋梁。
+
+## Compiler
+
+> 源码路径： src/compiler/*.js
+
+Vue的模板编译是一个很复杂的过程，主要功能是**解析模板指令**，将模板中的变量替换数据，然后初始化渲染页面视图，并将每个执行对象的节点绑定更新函数，添加监听数据的订阅者，一旦数据变化没收到通知就更新视图。具体的实现方式将在[Vue的Compiler编译](src/compiler)篇详细说明。这里只实现一个简易的编译方式。
+
+```js
+function Compile(node, vm) {
+      if(node) {
+        this.$frag = this.nodeToFragment(node, vm);
+        return this.$frag;
+      }
+    }
+    Compile.prototype = {
+      nodeToFragment: function(node, vm) {
+        var self = this;
+        var frag = document.createDocumentFragment();
+        var child;
+
+        while(child = node.firstChild) {
+          self.compileElement(child, vm);
+          frag.append(child); // 将所有子节点添加到fragment中 将node削减firstchild
+        }
+        return frag;
+      },
+      compileElement: function(node, vm) {
+        var reg = /\{\{(.*)\}\}/;
+
+        //节点类型为元素
+        if(node.nodeType === 1) {
+          var attr = node.attributes;
+          // 解析属性
+          for(var i = 0; i < attr.length; i++ ) {
+            if(attr[i].nodeName == 'v-model') {
+              var name = attr[i].nodeValue; // 获取v-model绑定的属性名
+              node.addEventListener('input', function(e) {
+                // 给相应的data属性赋值，进而触发该属性的set方法
+                 vm[name] = e.target.value;
+              });
+              // node.value = vm[name]; // 将data的值赋给该node
+              new Watcher(vm, node, name, 'value'); // 通过创建Watcher实例 将数据更新到dom
+            }
+          };
+        }
+        //节点类型为text
+        if(node.nodeType === 3) {
+          if(reg.test(node.nodeValue)) {
+            var name = RegExp.$1; // 获取匹配到的字符串
+            name = name.trim();
+            // node.nodeValue = vm[name]; // 将data的值赋给该node
+            new Watcher(vm, node, name, 'nodeValue');
+          }
+        }
+      },
+    }
+```
+
+## 发布者订阅者模式
+
+具体代码查看[简易版双向数据绑定]()
+
+## 总结
+
+Vue双向数据绑定通过`defineReactive`方法，使用`Object.defineProperty()`劫持对象的取值赋值，添加订阅者`watcher`到主题对象`Dep`，确保只有同一个变量只有一个`watcher`添加到`dep`数组中。☞ `dep`中往`dep`数组中添加`watcher`和监听`dep`中的每一个`watcher`。☞ `Watcher`是将模板和`Observer`对象结合在一起的纽带。`Watcher`是订阅者模式中的订阅者。`update`是将更新操作添加到批处理中进行操作，用来提高性能。`cb`是批处理的回调。☞`Compile`用来接受Watcher的通知，将修改的数据的通过生成虚拟`dom`，然后转成真实`dom`，表现到页面上。
+
