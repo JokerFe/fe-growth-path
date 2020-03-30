@@ -496,11 +496,14 @@ function Compile(node, vm) {
     }
 ```
 
-## 发布者订阅者模式
+##  总结
 
-具体代码查看[简易版双向数据绑定]()
+具体代码查看[简易版双向数据绑定](https://github.com/Jokul518/fe-growth-path/tree/master/简易版MVVM)
 
 ## 总结
 
 Vue双向数据绑定通过`defineReactive`方法，使用`Object.defineProperty()`劫持对象的取值赋值，添加订阅者`watcher`到主题对象`Dep`，确保只有同一个变量只有一个`watcher`添加到`dep`数组中。☞ `dep`中往`dep`数组中添加`watcher`和监听`dep`中的每一个`watcher`。☞ `Watcher`是将模板和`Observer`对象结合在一起的纽带。`Watcher`是订阅者模式中的订阅者。`update`是将更新操作添加到批处理中进行操作，用来提高性能。`cb`是批处理的回调。☞`Compile`用来接受Watcher的通知，将修改的数据的通过生成虚拟`dom`，然后转成真实`dom`，表现到页面上。
 
+## 代码
+
+[简易版MVVM](https://github.com/Jokul518/fe-growth-path/tree/master/%E7%AE%80%E6%98%93%E7%89%88MVVM)
