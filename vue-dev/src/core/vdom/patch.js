@@ -501,6 +501,7 @@ export function createPatchFunction(backend) {
     }
   }
 
+  // 判断节点进行了哪种变化
   function patchVnode(
     oldVnode,
     vnode,
@@ -576,9 +577,11 @@ export function createPatchFunction(backend) {
     }
   }
 
+  // 调用插入钩子
   function invokeInsertHook(vnode, queue, initial) {
     // delay insert hooks for component root nodes, invoke them after the
     // element is really inserted
+    // 在元素确实插入之后 调用组件根节点的延迟插入的钩子 
     if (isTrue(initial) && isDef(vnode.parent)) {
       vnode.parent.data.pendingInsert = queue
     } else {
@@ -741,6 +744,7 @@ export function createPatchFunction(backend) {
             hydrating = true
           }
           if (isTrue(hydrating)) {
+            // 合并到真实dom上
             if (hydrate(oldVnode, vnode, insertedVnodeQueue)) {
               invokeInsertHook(vnode, insertedVnodeQueue, true)
               return oldVnode
@@ -754,27 +758,31 @@ export function createPatchFunction(backend) {
               )
             }
           }
-          // either not server-rendered, or hydration failed.
-          // create an empty node and replace it
+          // either not server-rendered, or hydration failed. create an empty node and replace it
+          // 如果不是服务端渲染或者合并到真实dom失败，则创建一个空的VNode替换他
           oldVnode = emptyNodeAt(oldVnode)
         }
 
         // replacing existing element
+        // 取代现有元素
         const oldElm = oldVnode.elm
         const parentElm = nodeOps.parentNode(oldElm)
 
         // create new node
+        // 创建新节点
         createElm(
           vnode,
           insertedVnodeQueue,
           // extremely rare edge case: do not insert if old element is in a
           // leaving transition. Only happens when combining transition +
           // keep-alive + HOCs. (#4590)
+          // 极罕见的边缘情况：如果旧元素处于/离开过渡状态，请不要插入。只有在组合转换+保持活动+HOCs时才会发生。
           oldElm._leaveCb ? null : parentElm,
           nodeOps.nextSibling(oldElm)
         )
 
         // update parent placeholder node element, recursively
+        // 递归更新父占位节点元素
         if (isDef(vnode.parent)) {
           let ancestor = vnode.parent
           const patchable = isPatchable(vnode)
@@ -805,6 +813,7 @@ export function createPatchFunction(backend) {
         }
 
         // destroy old node
+        // 销毁旧节点
         if (isDef(parentElm)) {
           removeVnodes([oldVnode], 0, 0)
         } else if (isDef(oldVnode.tag)) {
