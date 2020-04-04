@@ -47,5 +47,61 @@ filter: initial;
 filter: unset;
 ```
 
-![](../imgs/CSS/wang5.jpeg)
+ 
 
+ <div style="display: flex;flex-direction: row;flex-wrap: wrap;justify-content: flex-start;">
+        <div
+            style="width:200px;display: flex;flex-direction: column;text-align: center;margin-bottom: 10px;margin-right:10px;">
+            <img style="width: 200px; filter:none;"
+                src="https://raw.githubusercontent.com/Jokul518/fe-growth-path/master/imgs/CSS/wang5.jpeg">none</div>
+        <div
+            style="width:200px;display: flex;flex-direction: column;text-align: center;margin-bottom: 10px;margin-right:10px;">
+            <img style="width: 200px; filter: grayscale(100%);"
+                src="https://raw.githubusercontent.com/Jokul518/fe-growth-path/master/imgs/CSS/wang5.jpeg">grayscale
+        </div>
+        <div
+            style="width:200px;display: flex;flex-direction: column;text-align: center;margin-bottom: 10px;margin-right:10px;">
+            <img style="width: 200px; filter:brightness(50%);"
+                src="https://raw.githubusercontent.com/Jokul518/fe-growth-path/master/imgs/CSS/wang5.jpeg">brightness
+        </div>
+        <div
+            style="width:200px;display: flex;flex-direction: column;text-align: center;margin-bottom: 10px;margin-right:10px;">
+            <img style="width: 200px; filter: blur(5px);"
+                src="https://raw.githubusercontent.com/Jokul518/fe-growth-path/master/imgs/CSS/wang5.jpeg">blur</div>
+        <div
+            style="width:200px;display: flex;flex-direction: column;text-align: center;margin-bottom: 10px;margin-right:10px;">
+            <img style="width: 200px; filter: contrast(200%);"
+                src="https://raw.githubusercontent.com/Jokul518/fe-growth-path/master/imgs/CSS/wang5.jpeg">contrast
+        </div>
+        <div
+            style="width:200px;display: flex;flex-direction: column;text-align: center;margin-bottom: 10px;margin-right:10px;">
+            <img style="width: 200px; filter: drop-shadow(8px 8px 10px blue);"
+                src="https://raw.githubusercontent.com/Jokul518/fe-growth-path/master/imgs/CSS/wang5.jpeg">drop-shadow
+        </div>
+        <div
+            style="width:200px;display: flex;flex-direction: column;text-align: center;margin-bottom: 10px;margin-right:10px;">
+            <img style="width: 200px; filter: hue-rotate(90deg) "
+                src="https://raw.githubusercontent.com/Jokul518/fe-growth-path/master/imgs/CSS/wang5.jpeg">hue-rotate
+        </div>
+        <div
+            style="width:200px;display: flex;flex-direction: column;text-align: center;margin-bottom: 10px;margin-right:10px;">
+            <img style="width: 200px; filter: invert(75%);"
+                src="https://raw.githubusercontent.com/Jokul518/fe-growth-path/master/imgs/CSS/wang5.jpeg">invert</div>
+        <div
+            style="width:200px;display: flex;flex-direction: column;text-align: center;margin-bottom: 10px;margin-right:10px;">
+            <img style="width: 200px; filter: opacity(25%);"
+                src="https://raw.githubusercontent.com/Jokul518/fe-growth-path/master/imgs/CSS/wang5.jpeg">opacity</div>
+        <div
+            style="width:200px;display: flex;flex-direction: column;text-align: center;margin-bottom: 10px;margin-right:10px;">
+            <img style="width: 200px; filter: saturate(30%);"
+                src="https://raw.githubusercontent.com/Jokul518/fe-growth-path/master/imgs/CSS/wang5.jpeg">saturate
+        </div>
+        <div
+            style="width:200px;display: flex;flex-direction: column;text-align: center;margin-bottom: 10px;margin-right:10px;">
+            <img style="width: 200px; filter: sepia(60%);"
+                src="https://raw.githubusercontent.com/Jokul518/fe-growth-path/master/imgs/CSS/wang5.jpeg">sepia</div>
+    </div>
+
+### blur()
+
+给图像设置高斯模糊。`radius`值设定高斯函数的标准差，或者是屏幕上以多少像素融在一起，所以值越大越模糊；如果没有设定值，则默认是0；这个参数可设置css长度值，但不接受百分比值。
