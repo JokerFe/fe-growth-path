@@ -28,7 +28,7 @@ export function setActiveInstance(vm: Component) {
     activeInstance = prevActiveInstance
   }
 }
-
+// 初始化生命周期
 export function initLifecycle (vm: Component) {
   const options = vm.$options
 
