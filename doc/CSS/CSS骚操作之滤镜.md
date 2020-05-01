@@ -88,3 +88,26 @@ filter: unset;
 将图像转换为深褐色。值定义转换的比例。值为100%则完全是深褐色的，值为0%图像无变化。值在0%到100%之间，则是效果的线性乘子。若未设置，值默认是0。
 
 ![滤镜](https://raw.githubusercontent.com/Jokul518/fe-growth-path/master/imgs/CSS/滤镜.png)
+
+## 复合函数
+
+你可以组合任意数量的函数来控制渲染。
+
+### 图片增亮
+
+```css
+filter: contrast(175%) brightness(3%)
+```
+
+
+
+
+
+
+
+##### 参考文章：
+
+[filter -- MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/filter)
+
+[你所不知道的 CSS 滤镜技巧与细节](https://www.cnblogs.com/coco1s/p/7519460.html)
+
