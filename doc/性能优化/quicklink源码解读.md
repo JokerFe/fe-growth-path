@@ -21,7 +21,7 @@
 
 ### **1. Detects links within the viewport**
 
-通过`Intersection Observer`检测视口内的链接.`Intersection Observer API`提供了一种异步观察目标元素与顶级文档viewport的交集中的变化的方法。
+通过`Intersection Observer`检测视口内的链接。`Intersection Observer API`提供了一种异步观察目标元素与顶级文档viewport的交集中的变化的方法。
 
 使用方法：
 
