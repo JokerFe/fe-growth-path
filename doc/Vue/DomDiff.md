@@ -375,7 +375,7 @@ function sameVnode(a, b) {
 
 通过源码知道它进行了五种情况的判断，下面通过GIF图来看一下它比对的过程。
 
-![DomDiff-1](/Users/GHH/Documents/Git/vue-源码分析/imgs/vue/domdiff/DomDiff-5.gif)
+![DomDiff](https://raw.githubusercontent.com/Jokul518/fe-growth-path/master/imgs/vue/domdiff/DomDiff-5.gif)
 
 **第一步：**创建四个指针，分别为旧`VNode`的开始指针和结束指针、新`VNode`的开始和结束指针
 
@@ -399,9 +399,11 @@ function sameVnode(a, b) {
 
 ## 总结
 
+通过下图可以总结一下源码中`DomDiff`的过程
 
+![DomDiff过程](https://raw.githubusercontent.com/Jokul518/fe-growth-path/master/imgs/vue/domdiff/Diff过程.png)
 
-
+当然通过源码可以更高效的去编写Vue代码：
 
 - 尽量不要跨层级的修改dom
 
