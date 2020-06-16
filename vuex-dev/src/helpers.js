@@ -1,8 +1,9 @@
 import { isObject } from './util'
-
+// 这里的方法为 vuex导出的语法糖
 /**
  * Reduce the code which written in Vue.js for getting the state.
- * @param {String} [namespace] - Module's namespace
+ * 减少写在vue.js中获得状态的代码
+ * @param {String} [namespace] - Module's namespace 模块的命名空间
  * @param {Object|Array} states # Object's item can be a function which accept state and getters for param, you can do something for state and getters in it.
  * @param {Object}
  */
@@ -11,6 +12,7 @@ export const mapState = normalizeNamespace((namespace, states) => {
   if (__DEV__ && !isValidMap(states)) {
     console.error('[vuex] mapState: mapper parameter must be either an Array or an Object')
   }
+  // 此处遍历的数组为将states转换成key.value的数组
   normalizeMap(states).forEach(({ key, val }) => {
     res[key] = function mappedState () {
       let state = this.$store.state
@@ -125,6 +127,7 @@ export const mapActions = normalizeNamespace((namespace, actions) => {
 
 /**
  * Rebinding namespace param for mapXXX function in special scoped, and return them by simple object
+ * 为mapXXX函数在特殊的作用域中重新绑定namespace参数，并通过简单对象返回它们
  * @param {String} namespace
  * @return {Object}
  */
@@ -137,6 +140,7 @@ export const createNamespacedHelpers = (namespace) => ({
 
 /**
  * Normalize the map
+ * 将对象或者数组转成key.value的对象数组
  * normalizeMap([1, 2, 3]) => [ { key: 1, val: 1 }, { key: 2, val: 2 }, { key: 3, val: 3 } ]
  * normalizeMap({a: 1, b: 2, c: 3}) => [ { key: 'a', val: 1 }, { key: 'b', val: 2 }, { key: 'c', val: 3 } ]
  * @param {Array|Object} map
@@ -153,6 +157,7 @@ function normalizeMap (map) {
 
 /**
  * Validate whether given map is valid or not
+ * 判断map 是否是数组或者对象
  * @param {*} map
  * @return {Boolean}
  */
@@ -162,7 +167,7 @@ function isValidMap (map) {
 
 /**
  * Return a function expect two param contains namespace and map. it will normalize the namespace and then the param's function will handle the new namespace and the map.
- * 返回一个函数，预期两个参数包含命名空间和映射。它将规范化名称空间，然后param的函数将处理新的名称空间和映射。
+ * 返回一个 包含namespace 和 map两个参数的函数。 它将规范化名称空间，然后param的函数将处理新的名称空间和映射。 作用是为了生成命名空间
  * @param {Function} fn
  * @return {Function}
  */
@@ -180,6 +185,7 @@ function normalizeNamespace (fn) {
 
 /**
  * Search a special module from store by namespace. if module not exist, print error message.
+ * 按namespace从store中搜索特定模块。如果模块不存在，则打印错误消息。
  * @param {Object} store
  * @param {String} helper
  * @param {String} namespace

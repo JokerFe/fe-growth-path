@@ -5,11 +5,13 @@ import { forEachValue, isObject, isPromise, assert, partial } from './util'
 
 let Vue // bind on install
 
+// 导出创建的store类
 export class Store {
-  constructor (options = {}) {
+  constructor(options = {}) {
     // Auto install if it is not done yet and `window` has `Vue`.
     // To allow users to avoid auto-installation in some cases,
     // this code should be placed here. See #731
+    // 如果尚未完成且“window”具有“Vue”，则自动安装。为了让用户在某些情况下避免自动安装，这个代码应该在这里
     if (!Vue && typeof window !== 'undefined' && window.Vue) {
       install(window.Vue)
     }
@@ -19,35 +21,41 @@ export class Store {
       assert(typeof Promise !== 'undefined', `vuex requires a Promise polyfill in this browser.`)
       assert(this instanceof Store, `store must be called with the new operator.`)
     }
-
+    // 获取参数属性
     const {
       plugins = [],
       strict = false
     } = options
 
     // store internal state
+    // store内部状态
     this._committing = false
     this._actions = Object.create(null)
     this._actionSubscribers = []
     this._mutations = Object.create(null)
     this._wrappedGetters = Object.create(null)
+    // vuex的模块分类
     this._modules = new ModuleCollection(options)
+
     this._modulesNamespaceMap = Object.create(null)
     this._subscribers = []
     this._watcherVM = new Vue()
     this._makeLocalGettersCache = Object.create(null)
 
     // bind commit and dispatch to self
+    // 绑定commit和dispatch到self上
+    // class中的this指向它的实例
     const store = this
     const { dispatch, commit } = this
-    this.dispatch = function boundDispatch (type, payload) {
+    this.dispatch = function boundDispatch(type, payload) {
       return dispatch.call(store, type, payload)
     }
-    this.commit = function boundCommit (type, payload, options) {
+    this.commit = function boundCommit(type, payload, options) {
       return commit.call(store, type, payload, options)
     }
 
     // strict mode
+    // 严格模式
     this.strict = strict
 
     const state = this._modules.root.state
@@ -55,13 +63,16 @@ export class Store {
     // init root module.
     // this also recursively registers all sub-modules
     // and collects all module getters inside this._wrappedGetters
+    // 递归地注册所有的子模块，并搜集所有的模块的getters在this._wrappedGetters里面
     installModule(this, state, [], this._modules.root)
 
     // initialize the store vm, which is responsible for the reactivity
     // (also registers _wrappedGetters as computed properties)
+    // 初始化store vm 它负责活性（总是注册_wrappedGetters  作为计算属性）
     resetStoreVM(this, state)
 
     // apply plugins
+    // 使用插件
     plugins.forEach(plugin => plugin(this))
 
     const useDevtools = options.devtools !== undefined ? options.devtools : Vue.config.devtools
@@ -70,25 +81,29 @@ export class Store {
     }
   }
 
-  get state () {
+  get state() {
     return this._vm._data.$$state
   }
 
-  set state (v) {
+  set state(v) {
     if (__DEV__) {
       assert(false, `use store.replaceState() to explicit replace store state.`)
     }
   }
 
-  commit (_type, _payload, _options) {
+  // commit方法
+  // eg commit('user/setToken', data)
+  //  订阅函数？
+  commit(_type, _payload, _options) {
     // check object-style commit
+    // 统一Object风格
     const {
       type,
       payload,
       options
     } = unifyObjectStyle(_type, _payload, _options)
-
     const mutation = { type, payload }
+    // 找到对应的 mutation 函数
     const entry = this._mutations[type]
     if (!entry) {
       if (__DEV__) {
@@ -97,13 +112,18 @@ export class Store {
       return
     }
     this._withCommit(() => {
-      entry.forEach(function commitIterator (handler) {
+      // entry遍历 执行commit迭代器函数
+      entry.forEach(function commitIterator(handler) {
+        // handle 就是 wrappedMutationHandler 函数
+        // wrappedMutationHandler 内部就是调用
         handler(payload)
       })
     })
 
+    // 执行订阅函数
     this._subscribers
-      .slice() // shallow copy to prevent iterator invalidation if subscriber synchronously calls unsubscribe
+      .slice() // shallow copy to prevent iterator invalidation if subscriber synchronously calls unsubscribe 
+      // 浅拷贝，以防止用户同步调用取消订阅时迭代器失效
       .forEach(sub => sub(mutation, this.state))
 
     if (
@@ -116,8 +136,10 @@ export class Store {
       )
     }
   }
-
-  dispatch (_type, _payload) {
+  // dispatch函数
+  // eg dispatch(commitFn,data)
+  //  订阅函数？
+  dispatch(_type, _payload) {
     // check object-style dispatch
     const {
       type,
@@ -132,7 +154,7 @@ export class Store {
       }
       return
     }
-
+    // 触发订阅函数
     try {
       this._actionSubscribers
         .slice() // shallow copy to prevent iterator invalidation if subscriber synchronously calls unsubscribe
@@ -178,29 +200,29 @@ export class Store {
     })
   }
 
-  subscribe (fn, options) {
+  subscribe(fn, options) {
     return genericSubscribe(fn, this._subscribers, options)
   }
 
-  subscribeAction (fn, options) {
+  subscribeAction(fn, options) {
     const subs = typeof fn === 'function' ? { before: fn } : fn
     return genericSubscribe(subs, this._actionSubscribers, options)
   }
 
-  watch (getter, cb, options) {
+  watch(getter, cb, options) {
     if (__DEV__) {
       assert(typeof getter === 'function', `store.watch only accepts a function.`)
     }
     return this._watcherVM.$watch(() => getter(this.state, this.getters), cb, options)
   }
 
-  replaceState (state) {
+  replaceState(state) {
     this._withCommit(() => {
       this._vm._data.$$state = state
     })
   }
 
-  registerModule (path, rawModule, options = {}) {
+  registerModule(path, rawModule, options = {}) {
     if (typeof path === 'string') path = [path]
 
     if (__DEV__) {
@@ -214,7 +236,7 @@ export class Store {
     resetStoreVM(this, this.state)
   }
 
-  unregisterModule (path) {
+  unregisterModule(path) {
     if (typeof path === 'string') path = [path]
 
     if (__DEV__) {
@@ -229,7 +251,7 @@ export class Store {
     resetStore(this)
   }
 
-  hasModule (path) {
+  hasModule(path) {
     if (typeof path === 'string') path = [path]
 
     if (__DEV__) {
@@ -239,12 +261,12 @@ export class Store {
     return this._modules.isRegistered(path)
   }
 
-  hotUpdate (newOptions) {
+  hotUpdate(newOptions) {
     this._modules.update(newOptions)
     resetStore(this, true)
   }
 
-  _withCommit (fn) {
+  _withCommit(fn) {
     const committing = this._committing
     this._committing = true
     fn()
@@ -252,7 +274,7 @@ export class Store {
   }
 }
 
-function genericSubscribe (fn, subs, options) {
+function genericSubscribe(fn, subs, options) {
   if (subs.indexOf(fn) < 0) {
     options && options.prepend
       ? subs.unshift(fn)
@@ -266,7 +288,7 @@ function genericSubscribe (fn, subs, options) {
   }
 }
 
-function resetStore (store, hot) {
+function resetStore(store, hot) {
   store._actions = Object.create(null)
   store._mutations = Object.create(null)
   store._wrappedGetters = Object.create(null)
@@ -278,7 +300,7 @@ function resetStore (store, hot) {
   resetStoreVM(store, state, hot)
 }
 
-function resetStoreVM (store, state, hot) {
+function resetStoreVM(store, state, hot) {
   const oldVm = store._vm
 
   // bind store public getters
@@ -328,7 +350,7 @@ function resetStoreVM (store, state, hot) {
   }
 }
 
-function installModule (store, rootState, path, module, hot) {
+function installModule(store, rootState, path, module, hot) {
   const isRoot = !path.length
   const namespace = store._modules.getNamespace(path)
 
@@ -383,7 +405,7 @@ function installModule (store, rootState, path, module, hot) {
  * make localized dispatch, commit, getters and state
  * if there is no namespace, just use root ones
  */
-function makeLocalContext (store, namespace, path) {
+function makeLocalContext(store, namespace, path) {
   const noNamespace = namespace === ''
 
   const local = {
@@ -436,7 +458,7 @@ function makeLocalContext (store, namespace, path) {
   return local
 }
 
-function makeLocalGetters (store, namespace) {
+function makeLocalGetters(store, namespace) {
   if (!store._makeLocalGettersCache[namespace]) {
     const gettersProxy = {}
     const splitPos = namespace.length
@@ -461,16 +483,16 @@ function makeLocalGetters (store, namespace) {
   return store._makeLocalGettersCache[namespace]
 }
 
-function registerMutation (store, type, handler, local) {
+function registerMutation(store, type, handler, local) {
   const entry = store._mutations[type] || (store._mutations[type] = [])
-  entry.push(function wrappedMutationHandler (payload) {
+  entry.push(function wrappedMutationHandler(payload) {
     handler.call(store, local.state, payload)
   })
 }
 
-function registerAction (store, type, handler, local) {
+function registerAction(store, type, handler, local) {
   const entry = store._actions[type] || (store._actions[type] = [])
-  entry.push(function wrappedActionHandler (payload) {
+  entry.push(function wrappedActionHandler(payload) {
     let res = handler.call(store, {
       dispatch: local.dispatch,
       commit: local.commit,
@@ -493,14 +515,14 @@ function registerAction (store, type, handler, local) {
   })
 }
 
-function registerGetter (store, type, rawGetter, local) {
+function registerGetter(store, type, rawGetter, local) {
   if (store._wrappedGetters[type]) {
     if (__DEV__) {
       console.error(`[vuex] duplicate getter key: ${type}`)
     }
     return
   }
-  store._wrappedGetters[type] = function wrappedGetter (store) {
+  store._wrappedGetters[type] = function wrappedGetter(store) {
     return rawGetter(
       local.state, // local state
       local.getters, // local getters
@@ -510,7 +532,7 @@ function registerGetter (store, type, rawGetter, local) {
   }
 }
 
-function enableStrictMode (store) {
+function enableStrictMode(store) {
   store._vm.$watch(function () { return this._data.$$state }, () => {
     if (__DEV__) {
       assert(store._committing, `do not mutate vuex store state outside mutation handlers.`)
@@ -518,11 +540,12 @@ function enableStrictMode (store) {
   }, { deep: true, sync: true })
 }
 
-function getNestedState (state, path) {
+function getNestedState(state, path) {
   return path.reduce((state, key) => state[key], state)
 }
 
-function unifyObjectStyle (type, payload, options) {
+// 统一对象风格
+function unifyObjectStyle(type, payload, options) {
   if (isObject(type) && type.type) {
     options = payload
     payload = type
@@ -536,7 +559,8 @@ function unifyObjectStyle (type, payload, options) {
   return { type, payload, options }
 }
 
-export function install (_Vue) {
+// vuex注册的入口
+export function install(_Vue) {
   if (Vue && _Vue === Vue) {
     if (__DEV__) {
       console.error(
