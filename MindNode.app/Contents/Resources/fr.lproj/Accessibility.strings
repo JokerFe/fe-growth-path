@@ -1,0 +1,24 @@
+/* Accessibility hint for a cross connection with title of begin and end node */
+"Connecting node '%@' and node '%@'" = "Connexion des nœuds « %1$@ » et « %2$@ »";
+
+/* Title of the cross connection knobs */
+"Connection Handle" = "Poignée de connexion";
+
+/* Accessibility label for cross connections */
+"Cross Connection" = "Lien en croix";
+
+/* Hint on how to interact with resize knobs */
+"Double tap and hold, then drag to move." = "Touchez deux fois, maintenez la pression puis faites glisser votre doigt pour déplacer l'élément.";
+
+/* Button on outliner view for folding subitems */
+"Fold node" = "Plier le nœud";
+
+/* Title of the resize knobs */
+"Resize Handle" = "Poignée de redimensionnement";
+
+/* Accessibility suffix for cross connection title */
+"Title = '%@'" = "Titre = « %@ »";
+
+/* Button on outliner view for unfolding subitems */
+"Unfold node" = "Déplier le nœud";
+

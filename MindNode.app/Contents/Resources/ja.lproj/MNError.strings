@@ -1,0 +1,181 @@
+/*
+ MNError.strings
+ MindNode
+
+ Created by Markus Müller on 07.05.08.
+ Copyright 2008 IdeasOnCanvas GmbH. All rights reserved.
+
+ Warning regarding the en.lproj version of this file:
+ 1. This file is manually managed!
+ 2. This file is not part of a target. A script copies it manually into the product!
+ */
+
+
+/* MNUnknownError */
+"description0" = "不明なエラーが起きました。";
+"failureReason0" = "不明なエラーが起きたため、MindNodeは操作を完了できませんでした。";
+
+/* MNUnknownFileReadError */
+"description1" = "MindNode書類データが読み込めませんでした。";
+"failureReason1" = "指定されたファイルは壊れています。";
+
+/* MNUnknownPasteboardReadError */
+"description2" = "不明な理由により MindNode ペーストボードのデータを読み込めませんでした。";
+"failureReason2" = "不明なエラーが起きました。";
+
+/* MNWriteCouldntMakeTIFFError */
+"description3" = "空になると考えられるので、TIFFイメージを作成できませんでした。";
+"failureReason3" = "空のTIFFイメージになります。";
+
+/* MNUnknownFileWriteError */
+"description4" = "MindNode は書類を保存できませんでした。";
+"failureReason4" = "現在の書類を保存することはできません。";
+
+/* MNUnknownPrintError */
+"description5" = "MindNodeは書類をプリントできませんでした。";
+"failureReason5" = "書類のプリントに失敗しました。問題が続くようでしたらサポートに連絡して下さい。";
+
+/* MNNoNodesPrintError */
+"description6" = "MindNodeは空の書類をプリントできません。";
+"failureReason6" = "ノードを追加しないと書類をプリントできません。";
+
+/* MNUnsuportedDocumentVersionError */
+"description7" = "MindNode は指定された書類を読み込めませんでした。";
+"failureReason7" = "書類は新しいバージョンのアプリケーションから保存されています。内蔵のソフトウェアアップデータを使って最新版をインストールして下さい。";
+
+/* MNUnsupportedMindNodeMacVersionError */
+"description8" = "MindNodeは指定された書類を読み込めませんでした。";
+"failureReason8" = "書類は古いバージョンの MindNode for Mac で保存されています。MindNode for Mac を新しいバージョンにアップデートしてから、書類を保存し直してください。";
+
+/* MNFileImportError */
+"description9" = "書類を読み込めません";
+"failureReason9" = "MindNodeは書類を読み込めませんでした。この問題が継続する場合は、書類を添付してサポートまでお問い合わせください。";
+
+/* MNUnableToMoveToiCloudError */
+"description10" = "書類を iCloud に移動できません";
+"failureReason10" = "iCloud に十分な空き容量があるか確認してください。空き容量が問題でない場合は、サポートまでお問い合わせください。書類は保存されますが、iCloud 書類のみは書類ピッカーに表示されます。";
+
+/* MNErrorCameraAccess */
+"description11" = "アクセスが拒否されました";
+"failureReason11" = "写真を撮るにはカメラへのアクセスが必要です。MindNodeにカメラへのアクセスを許可するには、設定App から“プライバシー”>“カメラ”と進んでください。";
+
+/* MNErrorFileNameUnknownError */
+"description100" = "書類の名前を変更できません";
+"failureReason100" = "";
+
+/* MNErrorFileNameTooLong */
+"description101" = "書類の名前を変更できません";
+"failureReason101" = "書類名が長すぎます。";
+
+/* MNErrorFileNameNotAllowedCharacters */
+"description102" = "書類の名前を変更できません";
+"failureReason102" = "句読点記号のないファイル名を使用してください。";
+
+/* MNErrorFileNameAlreadyUsedError */
+"description103" = "書類の名前を変更できません";
+"failureReason103" = "この名前はすでに使用されています。別の名前を使用してください。";
+
+/* MNErrorFolderNameUnknownError */
+"description110" = "無効なフォルダ名";
+"failureReason110" = "";
+
+/* MNErrorFolderNameTooLong */
+"description111" = "";
+"failureReason111" = "フォルダ名が長すぎます。";
+
+/* MNErrorFolderNameNotAllowedCharacters */
+"description112" = "書類の名前を変更できません";
+"failureReason112" = "句読点記号のないフォルダ名を使用してください。";
+
+/* MNErrorFolderNameAlreadyUsedError */
+"description113" = "フォルダの名前を変更できません";
+"failureReason113" = "この名前はすでに使用されています。別の名前を使用してください。";
+
+/* MNErrorFolderUnableToCreateFolder */
+"description114" = "フォルダを作成できません";
+"failureReason114" = "別のフォルダ名を使用してください。";
+
+/* MNErrorFolderContainsSameFileName */
+"description115" = "書類を移動できません";
+"failureReason115" = "フォルダにはすでに同名の書類が含まれています。";
+
+/* MNErrorDocumentOpenError */
+"description201" = "書類を開けません";
+"failureReason201" = "";
+
+/* MNErrorDocumentCloudDeletionError */
+"description202" = "削除された書類を閉じることができません";
+"failureReason202" = "書類は別のデバイスでiCloud Driveから削除されましたが、このデバイスで閉じることができませんでした。";
+
+
+/* MNErrorExportUnknownError */
+"description400" = "書類を書き出せません";
+"failureReason400" = "";
+
+/* MNErrorExportToCameraRoll */
+"description401" = "カメラロールに保存できません";
+"failureReason401" = "";
+
+/* MNErrorExportSendToApp */
+"description402" = "書類を他のAppに送信できません";
+"failureReason402" = "このファイルタイプの書類を受け入れられるアプリケーションがインストールされていません。";
+
+/* MNErrorExportZippedOverwrite */
+"description403" = "現在の書類を上書きできません";
+"failureReason403" = "現在の書類をZIPされたバージョンに置き換えることはできません。";
+
+/* MNErrorExportToRemindersPermission */
+"description404" = "書類をリマインダーに書き出せません：許可されていません。";
+"failureReason404" = "";
+
+/* MNErrorExportToRemindersUnknownError */
+"description405" = "書類をリマインダーに書き出せません。";
+"failureReason405" = "不明なエラーが起きました。";
+
+/* MNErrorCloudUnknownError */
+"description500" = "不明な iCloud エラーが起きました";
+"failureReason500" = "";
+
+/* MNErrorCloudUnableToMoveAllDocumentsToCloud */
+"description501" = "転送を保留中";
+"failureReason501" = "書類の一部が転送を保留されています。iCloudを無効にする前に、すべての書類がダウンんロードされ、アップロードされていることを確認してください。";
+
+/* MNErrorCloudContainerUnavailable */
+"description502" = "iCloudを利用できません";
+"failureReason502" = "現在デバイスに iCloud が設定されていません。";
+
+/* MNErrorMyMindNodeNotReachable */
+"description600" = "MyMindNodeに接続できません";
+"failureReason600" = "後でやり直してください。";
+
+/* MNErrorMyMindNodeEmailSavingError */
+"description601" = "新規メールアドレスを保存できませんでした";
+"failureReason601" = "後でやり直してください。";
+
+/* MNErrorMyMindNodeRegistrationError */
+"description602" = "登録に失敗しました";
+"failureReason602" = "";
+
+/* MNErrorMyMindNodeInvalidEmailAddress */
+"description603" = "無効なメールアドレス";
+"failureReason603" = "";
+
+/* MNErrorMyMindNodeDuplicateEmailAddress */
+"description604" = "メールアドレスは既に使用されています";
+"failureReason604" = "";
+
+/* MNErrorMyMindNodeDocumentUploadFailed */
+"description605" = "アップロードに失敗しました";
+"failureReason605" = "書類をアップロードできませんでした。後でやり直してください。";
+
+/* MNErrorMyMindNodeDocumentDeletionFailed */
+"description606" = "書類を削除できませんでした";
+"failureReason606" = "";
+
+/* MNErrorMyMindNodeNotRegistered */
+"description607" = "未登録";
+"failureReason607" = "MyMindNodeの共有メニューから書類をアップロードして、MyMindNodeを登録してください。";
+
+/* MNErrorMyMindNodeiCloudRequired */
+"description608" = "iCloudを利用できません";
+"failureReason608" = "MyMindNode は iCloud が必要です。デバイスで iCloud を有効にしてください。";

@@ -1,0 +1,48 @@
+
+/* Class = "NSTextFieldCell"; title = "name@example.com"; ObjectID = "27l-Va-XfV"; */
+"27l-Va-XfV.title" = "example@icloud.com";
+
+/* Class = "NSTextFieldCell"; title = "myMindNode Account:"; ObjectID = "HPK-jt-iss"; */
+"HPK-jt-iss.title" = "MyMindNode 帐户：";
+
+/* Class = "NSTableColumn"; headerCell.title = "Date Created"; ObjectID = "NLv-aX-tSs"; */
+"NLv-aX-tSs.headerCell.title" = "创建日期";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "QCb-z8-chG"; */
+"QCb-z8-chG.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "Ull-bB-RXt"; */
+"Ull-bB-RXt.title" = "Table View Cell";
+
+/* Class = "NSButtonCell"; title = "Open in Browser"; ObjectID = "Ve3-t3-fUn"; */
+"Ve3-t3-fUn.title" = "在浏览器中打开";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "Zg7-Wp-SgR"; */
+"Zg7-Wp-SgR.title" = "窗口";
+
+/* Class = "NSMenuItem"; title = "Copy URL To Clipboard"; ObjectID = "bid-oS-aHJ"; */
+"bid-oS-aHJ.title" = "将 URL 拷贝到剪贴板";
+
+/* Class = "NSTextFieldCell"; title = "Loading ..."; ObjectID = "hPP-13-0pO"; */
+"hPP-13-0pO.title" = "正在载入…";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "hW0-8o-3M6"; */
+"hW0-8o-3M6.title" = "文本单元格";
+
+/* Class = "NSMenuItem"; title = "Open In Browser"; ObjectID = "iWX-Rv-TjP"; */
+"iWX-Rv-TjP.title" = "在浏览器中打开";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "jhT-27-Jic"; */
+"jhT-27-Jic.title" = "删除";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "oyD-ca-GdA"; */
+"oyD-ca-GdA.headerCell.title" = "名称";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "ttz-rl-TVA"; */
+"ttz-rl-TVA.title" = "文本单元格";
+
+/* Class = "NSButtonCell"; title = "Delete"; ObjectID = "wmR-he-c0D"; */
+"wmR-he-c0D.title" = "删除";
+
+/* Class = "NSButtonCell"; title = "View Account Details ..."; ObjectID = "xWJ-T3-ezV"; */
+"xWJ-T3-ezV.title" = "查看帐户详情...";

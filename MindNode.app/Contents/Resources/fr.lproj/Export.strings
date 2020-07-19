@@ -1,0 +1,48 @@
+/* Cancel button for Tasks export privacy setup. */
+"Cancel" = "Annuler";
+
+/* Error dialog title when the document has no tasks */
+"Document has no tasks" = "Le document ne contient aucune tâche";
+
+/* Shown as label on the OmniFocus sharing service menu item. */
+"Export to OmniFocus" = "Exporter vers OmniFocus";
+
+/* Error dialog title when unable to export to Things */
+"Export to Things failed" = "Échec de l'exportation vers Things";
+
+/* The Name of the inserted main node if there is more than one root nodes during FreeMind exporting */
+"Mind Map" = "Carte heuristique";
+
+/* Error dialog during Things export when the document has no tasks */
+"MindNode can export your tasks to Things. Add a task to a node to get started." = "MindNode peut exporter vos tâches vers Things. Pour commencer, ajoutez une tâche à un nœud.";
+
+/* Error dialog message when the document has no tasks */
+"MindNode can share your tasks to Reminders. Add a task to a node to get started." = "MindNode peut partager vos tâches avec Rappels. Pour commencer, ajoutez une tâche à un nœud.";
+
+/* Shown as message when a user tries to export tasks to Reminders without access permissions. */
+"MindNode is not authorized to access Reminders." = "MindNode n'est pas autorisé à accéder à Rappels.";
+
+/* OS X Error message when the user didn't grant permission to Reminders.app */
+"MindNode needs access to Reminders in \"System Preferences\" under Security & Privacy > Privacy > Reminders." = "Vous devez autoriser MindNode à accéder à Rappels dans Préférences Système, sous Sécurité et confidentialité > Confidentialité > Rappels.";
+
+/* Text for button to open Privacy System Preferences (Tasks export) */
+"Open Privacy Settings…" = "Ouvrir les réglages de confidentialité…";
+
+/* Error dialog title when unable to export to Things */
+"Please ensure you have the latest version of 'Things' installed on your Mac." = "Vérifiez que la version la plus récente de Things est installée sur votre Mac.";
+
+/* Shown as label on the Reminders sharing service menu item. */
+"Reminders" = "Rappels";
+
+/* Shown in Notification Center when exporting to reminders finishes */
+"Successfully exported to Reminders" = "Exportation vers Rappels terminée";
+
+/* Shown as message when a user tries to export tasks to Reminders without access permissions. */
+"To allow MindNode to export to Reminders, change the Privacy settings in System Preferences." = "Pour autoriser MindNode à exporter des tâches vers Rappels, modifiez les réglages de confidentialité dans Préférences Système.";
+
+/* iOS Error message when the user didn't grant permission to Reminders.app */
+"You can allow MindNode access to Reminders in Settings app under Privacy > Reminders." = "Vous pouvez autoriser MindNode à accéder à Rappels en accédant à l'app Réglages, sous Confidentialité > Rappels.";
+
+/* Shown in Notification Center when exporting to reminders finishes */
+"Your tasks were added to the list \"%@\"." = "Vos tâches ont été ajoutées à la liste « %@ ».";
+

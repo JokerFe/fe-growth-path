@@ -1,0 +1,12 @@
+
+/* Class = "NSTextFieldCell"; title = "Create a PDF document that can be viewed and edited with a PDF application or viewed in a web browser."; ObjectID = "4"; */
+"4.title" = "创建一个可以通过 PDF 应用程序查看和编辑或在网页浏览器中查看的 PDF 文稿。";
+
+/* Class = "NSTextFieldCell"; title = "Export as:"; ObjectID = "fNQ-LB-SN9"; */
+"fNQ-LB-SN9.title" = "导出为：";
+
+/* Class = "NSMenuItem"; title = "Outline"; ObjectID = "uGv-tS-H0G"; */
+"uGv-tS-H0G.title" = "大纲";
+
+/* Class = "NSMenuItem"; title = "Mind Map"; ObjectID = "ulX-mT-uni"; */
+"ulX-mT-uni.title" = "思维导图";

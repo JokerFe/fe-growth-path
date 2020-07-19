@@ -1,0 +1,45 @@
+/* The Mac command key label */
+"Command" = "Comando";
+
+/* Toolbar item name for the General preference pane */
+"General" = "General";
+
+/* Toolbar item name for the MyMindNode preference pane */
+"myMindNode" = "myMindNode";
+
+/* Menu Item Title in the Shortcut Preferences */
+"None" = "Ninguna";
+
+/* The Mac option key label */
+"Option" = "Opción";
+
+/* Common title for Preferences window */
+"Preferences" = "Preferencias";
+
+/* The Mac return key label */
+"Return Key" = "Intro";
+
+/* The Mac shift key label */
+"Shift" = "Mayúsculas";
+
+/* Toolbar item name for the Shortcuts preference pane */
+"Shortcuts" = "Atajos";
+
+/* The Mac tab key label */
+"Tab Key" = "Tabulador";
+
+/* The Mac tab key symbol */
+"⇥" = "⇥";
+
+/* The Mac shift key symbol */
+"⇧" = "⇧";
+
+/* The Mac command key symbol */
+"⌘" = "⌘";
+
+/* The Mac option key symbol */
+"⌥" = "⌥";
+
+/* The Mac return key symbol */
+"⏎" = "⏎";
+

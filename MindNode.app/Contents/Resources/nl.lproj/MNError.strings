@@ -1,0 +1,181 @@
+/*
+ MNError.strings
+ MindNode
+
+ Created by Markus Müller on 07.05.08.
+ Copyright 2008 IdeasOnCanvas GmbH. All rights reserved.
+
+ Warning regarding the en.lproj version of this file:
+ 1. This file is manually managed!
+ 2. This file is not part of a target. A script copies it manually into the product!
+ */
+
+
+/* MNUnknownError */
+"description0" = "Er heeft zich een onbekende fout voorgedaan.";
+"failureReason0" = "MindNode kan de bewerking niet voltooien vanwege een onbekende fout.";
+
+/* MNUnknownFileReadError */
+"description1" = "MindNode-document kan niet worden gelezen.";
+"failureReason1" = "Het geleverde bestand lijkt beschadigd.";
+
+/* MNUnknownPasteboardReadError */
+"description2" = "MindNode-gegevens op klembord kunnen om onbekende reden niet worden gelezen.";
+"failureReason2" = "Er heeft zich een onbekende fout voorgedaan.";
+
+/* MNWriteCouldntMakeTIFFError */
+"description3" = "TIFF-afbeelding kan niet worden aangemaakt omdat deze leeg zou zijn.";
+"failureReason3" = "De TIFF-afbeelding zal leeg zijn.";
+
+/* MNUnknownFileWriteError */
+"description4" = "MindNode kan document niet bewaren.";
+"failureReason4" = "Het huidige document bewaren is niet toegestaan.";
+
+/* MNUnknownPrintError */
+"description5" = "MindNode kan document niet afdrukken.";
+"failureReason5" = "Afdrukken van document mislukt. Neem contact op voor ondersteuning.";
+
+/* MNNoNodesPrintError */
+"description6" = "MindNode kan leeg document niet afdrukken.";
+"failureReason6" = "Voeg knopen aan document toe alvorens af te drukken.";
+
+/* MNUnsuportedDocumentVersionError */
+"description7" = "MindNode kan document niet laden.";
+"failureReason7" = "Dit document is bewaard met een nieuwere versie van het programma. Gebruik de ingebouwde software-updater om de huidige versie te installeren.";
+
+/* MNUnsupportedMindNodeMacVersionError */
+"description8" = "MindNode kan het opgegeven document niet importeren.";
+"failureReason8" = "Het document is bewaard met een oudere versie van MindNode voor Mac. Werk je versie van MindNode voor Mac bij naar een nieuwere versie en bewaar het document opnieuw.";
+
+/* MNFileImportError */
+"description9" = "Document kan niet worden geïmporteerd";
+"failureReason9" = "MindNode kan het document niet importeren. Als dit probleem aanhoudt, neem je contact op met Support en voeg je het document toe.";
+
+/* MNUnableToMoveToiCloudError */
+"description10" = "Document kan niet naar iCloud worden verplaatst";
+"failureReason10" = "Controleer of je voldoende vrije ruimte in iCloud hebt. Als dat niet helpt, neem je contact op met Support. Je document wordt bewaard maar alleen iCloud-documenten verschijnen in de documentenkiezer.";
+
+/* MNErrorCameraAccess */
+"description11" = "Toegang geweigerd";
+"failureReason11" = "Voor het maken van foto’s is er toegang tot Camera nodig. Je kunt MindNode toegang tot je camera geven via Instellingen > Privacy > Camera.";
+
+/* MNErrorFileNameUnknownError */
+"description100" = "Documentnaam kan niet worden gewijzigd";
+"failureReason100" = "";
+
+/* MNErrorFileNameTooLong */
+"description101" = "Documentnaam kan niet worden gewijzigd";
+"failureReason101" = "De documentnaam is te lang.";
+
+/* MNErrorFileNameNotAllowedCharacters */
+"description102" = "Documentnaam kan niet worden gewijzigd";
+"failureReason102" = "Gebruik een bestandsnaam zonder leestekens.";
+
+/* MNErrorFileNameAlreadyUsedError */
+"description103" = "Documentnaam kan niet worden gewijzigd";
+"failureReason103" = "Deze naam wordt al gebruikt. Kies een andere naam.";
+
+/* MNErrorFolderNameUnknownError */
+"description110" = "Ongeldige mapnaam";
+"failureReason110" = "";
+
+/* MNErrorFolderNameTooLong */
+"description111" = "";
+"failureReason111" = "De mapnaam is te lang.";
+
+/* MNErrorFolderNameNotAllowedCharacters */
+"description112" = "Documentnaam kan niet worden gewijzigd";
+"failureReason112" = "Gebruik een mapnaam zonder leestekens.";
+
+/* MNErrorFolderNameAlreadyUsedError */
+"description113" = "Mapnaam kan niet worden gewijzigd";
+"failureReason113" = "Deze naam wordt al gebruikt. Kies een andere naam.";
+
+/* MNErrorFolderUnableToCreateFolder */
+"description114" = "Map kan niet worden aangemaakt";
+"failureReason114" = "Kies een andere mapnaam.";
+
+/* MNErrorFolderContainsSameFileName */
+"description115" = "Document kan niet worden verplaatst";
+"failureReason115" = "De map bevat al een document met dezelfde naam.";
+
+/* MNErrorDocumentOpenError */
+"description201" = "Document kan niet worden geopend";
+"failureReason201" = "";
+
+/* MNErrorDocumentCloudDeletionError */
+"description202" = "Verwijderd document kan niet worden gesloten";
+"failureReason202" = "Het document is uit iCloud Drive verwijderd op een ander apparaat maar kan niet worden gesloten op dit apparaat.";
+
+
+/* MNErrorExportUnknownError */
+"description400" = "Document kan niet worden geëxporteerd.";
+"failureReason400" = "";
+
+/* MNErrorExportToCameraRoll */
+"description401" = "Bewaren in Filmrol is niet mogelijk.";
+"failureReason401" = "";
+
+/* MNErrorExportSendToApp */
+"description402" = "Document kan niet naar andere app worden verstuurd.";
+"failureReason402" = "Je hebt geen geïnstalleerde programma’s die dit type bestanden openen.";
+
+/* MNErrorExportZippedOverwrite */
+"description403" = "Huidige document kan niet worden overschreven.";
+"failureReason403" = "Het huidige document kan niet worden vervangen door een gecomprimeerde versie.";
+
+/* MNErrorExportToRemindersPermission */
+"description404" = "Document kan niet worden geëxporteerd naar Herinneringen: niet toegestaan.";
+"failureReason404" = "";
+
+/* MNErrorExportToRemindersUnknownError */
+"description405" = "Document kan niet worden geëxporteerd naar Herinneringen.";
+"failureReason405" = "Er heeft zich een onbekende fout voorgedaan.";
+
+/* MNErrorCloudUnknownError */
+"description500" = "Er deed zich een onbekende iCloud-fout voor";
+"failureReason500" = "";
+
+/* MNErrorCloudUnableToMoveAllDocumentsToCloud */
+"description501" = "Onvoltooide overdrachten";
+"failureReason501" = "Bepaalde documenten zijn nog niet overgezet. Zorg ervoor dat alle documenten zijn gedownload en geüpload alvorens iCloud te deactiveren.";
+
+/* MNErrorCloudContainerUnavailable */
+"description502" = "iCloud niet beschikbaar";
+"failureReason502" = "iCloud is momenteel niet geconfigureerd op je apparaat.";
+
+/* MNErrorMyMindNodeNotReachable */
+"description600" = "Verbinding met MyMindNode niet mogelijk";
+"failureReason600" = "Probeer later opnieuw.";
+
+/* MNErrorMyMindNodeEmailSavingError */
+"description601" = "Nieuw e-mailadres kan niet worden bewaard";
+"failureReason601" = "Probeer later opnieuw.";
+
+/* MNErrorMyMindNodeRegistrationError */
+"description602" = "Registratie mislukt";
+"failureReason602" = "";
+
+/* MNErrorMyMindNodeInvalidEmailAddress */
+"description603" = "Ongeldig e-mailadres";
+"failureReason603" = "";
+
+/* MNErrorMyMindNodeDuplicateEmailAddress */
+"description604" = "E-mailadres al in gebruik";
+"failureReason604" = "";
+
+/* MNErrorMyMindNodeDocumentUploadFailed */
+"description605" = "Upload mislukt";
+"failureReason605" = "Document kan niet worden geüpload. Probeer later opnieuw.";
+
+/* MNErrorMyMindNodeDocumentDeletionFailed */
+"description606" = "Document kan niet worden verwijderd";
+"failureReason606" = "";
+
+/* MNErrorMyMindNodeNotRegistered */
+"description607" = "Niet geregistreerd";
+"failureReason607" = "Registreer MyMindNode door een document te uploaden vanuit het menu Deel van MyMindNode";
+
+/* MNErrorMyMindNodeiCloudRequired */
+"description608" = "iCloud niet beschikbaar";
+"failureReason608" = "MyMindNode vereist iCloud. Schakel iCloud in op het apparaat.";

@@ -1,0 +1,33 @@
+/* Cancel button for MyMindNode setup. */
+"Cancel" = "Отменить";
+
+/* Copy Link custom sharing service */
+"Copy Link" = "Скопировать ссылку";
+
+/* Shown as message when a user tries to share a MyMindNode document without enabled iCloud */
+"iCloud not configured" = "iCloud не настроен";
+
+/* Shown as label on the MyMindNode sharing service menu item. */
+"myMindNode" = "myMindNode";
+
+/* Shown in the MyMindNode pref pane when iCloud is not available. */
+"myMindNode requires iCloud" = "myMindNode требуется iCloud";
+
+/* Shown in the MyMindNode pref pane when network is not available. */
+"myMindNode requires network connection" = "myMindNode требуется подключение к сети";
+
+/* Shown in Notification Center when the current MyMindNode upload finishes */
+"myMindNode Upload Completed" = "Выгрузка в myMindNode завершена";
+
+/* Shown in the MyMindNode pref pane as the user account */
+"N/A" = "НЕТ";
+
+/* Text for button to open iCloud System Preferences (MyMindNode setup) */
+"Open iCloud System Preferences" = "Открыть системные настройки iCloud";
+
+/* Shown in Notification Center when the current MyMindNode upload finishes */
+"Successfully uploaded \"%@\" to myMindNode." = "Выгрузка «%@» в myMindNode успешно завершена.";
+
+/* Shown as informative text when a user tries to share a document via MyMindNode without configured iCloud */
+"You need to be signed into your iCloud account to use myMindNode." = "Для использования myMindNode вам нужно войти в iCloud.";
+

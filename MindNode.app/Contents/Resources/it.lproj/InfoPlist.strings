@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+"NSPhotoLibraryUsageDescription" = "Seleziona foto dalla tua libreria e aggiungile alle tue idee.";
+
+"NSRemindersUsageDescription" = "Esporta le tue attività in Promemoria e sincronizza lo stato di completamento.";

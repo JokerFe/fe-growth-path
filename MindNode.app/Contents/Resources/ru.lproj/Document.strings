@@ -1,0 +1,20 @@
+/* Button Title */
+"Always Upgrade" = "Обновлять всегда";
+
+/* Button Title */
+"Don't Upgrade" = "Не обновлять";
+
+/* Default name of new documents.
+   Placeholder string for a new node
+   Title of the first main node created for new documents */
+"Mind Map" = "Интеллект-карта";
+
+/* Informative Text */
+"This document was saved with an older version of MindNode. Would you like to upgrade this document to the new file format? Upgrading the document ensures that all new features are saved to the file." = "Этот документ был сохранен в более старой версии MindNode. Хотите обновить формат файла до текущей версии? Обновление поможет использовать все новые особенности в этом документе.";
+
+/* Button Title */
+"Upgrade Document" = "Обновить документ";
+
+/* Title Text */
+"Upgrade Document?" = "Обновить документ?";
+

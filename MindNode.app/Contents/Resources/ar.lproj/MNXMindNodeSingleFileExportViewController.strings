@@ -1,0 +1,9 @@
+
+/* Class = "NSButtonCell"; title = "Ensure compatibility with MindNode 2"; ObjectID = "18t-kD-Hoi"; */
+"18t-kD-Hoi.title" = "ضمان التوافق مع MindNode 2";
+
+/* Class = "NSTextFieldCell"; title = "Create a single file MindNode document that is optimized for online storage providers."; ObjectID = "OFm-HL-ouJ"; */
+"OFm-HL-ouJ.title" = "أنشئ مستند MindNode من ملف واحد متناسب تمامًا مع موفري خدمة الحفظ على الإنترنت.";
+
+/* Class = "NSTextFieldCell"; title = "MindNode 2 does not support all features of the current file format. Unsupported attributes are lost during export."; ObjectID = "g5K-wB-asv"; */
+"g5K-wB-asv.title" = "لا يدعم MindNode 2 جميع خصائص تنسيق الملف الحالي. سوف تضيع الخصائص غير المدعمة أثناء التصدير.";

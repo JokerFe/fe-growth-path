@@ -1,0 +1,6 @@
+
+/* Class = "NSTextFieldCell"; title = "Uploading a document that has been uploaded before will overwrite it and make the new version available under the same URL."; ObjectID = "d6W-cJ-SlK"; */
+"d6W-cJ-SlK.title" = "이미 업로드 된 도큐멘트를 다시 업로드 하면 기존의 도큐멘트가 삭제되며, 이미 발행한 URL에 새로운 도큐멘트가 연결됩니다.";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "lli-kP-wmc"; */
+"lli-kP-wmc.title" = "꼬리표";

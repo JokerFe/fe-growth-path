@@ -1,0 +1,24 @@
+/* Menu item to fold node */
+"Fold Nodes" = "Comprimi nodi";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Bottom Side" = "Sposta tutti i nodi in basso";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Left Side" = "Sposta tutti i nodi sul lato sinistro";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Left/Top Side" = "Sposta tutti i nodi sul lato sinistro/in alto";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Right Side" = "Sposta tutti i nodi sul lato destro";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Right/Bottom Side" = "Sposta tutti i nodi sul lato destro/in basso";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Top Side" = "Sposta tutti i nodi in alto";
+
+/* Menu item to fold node */
+"Unfold Nodes" = "Espandi nodi";
+

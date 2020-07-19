@@ -1,0 +1,12 @@
+
+/* Class = "NSButtonCell"; title = "Export…"; ObjectID = "C9u-Pd-gW9"; */
+"C9u-Pd-gW9.title" = "Exporteer…";
+
+/* Class = "NSTextFieldCell"; title = "When you export your document to Things, a new project with the name of your document will be created. All tasks will be added as a flat list to this project."; ObjectID = "Jsc-Kz-VcC"; */
+"Jsc-Kz-VcC.title" = "Bij de export van een document naar Things wordt een nieuw project met de naam van je document aangemaakt. Alle taken worden als een lijst aan dit project toegevoegd.";
+
+/* Class = "NSTextFieldCell"; title = "Export to Things"; ObjectID = "jHB-aS-swL"; */
+"jHB-aS-swL.title" = "Exporteer naar Things";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "vLI-Yr-YsH"; */
+"vLI-Yr-YsH.title" = "Annuleer";

@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+"NSPhotoLibraryUsageDescription" = "Выбирайте фотографии из медиатеки и прикрепляйте их к интеллект-картам.";
+
+"NSRemindersUsageDescription" = "Экспортируйте задачи в Напоминания и синхронизируйте ход их выполнения.";

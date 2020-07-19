@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+"NSPhotoLibraryUsageDescription" = "Ta bilder från bildbiblioteket och bifoga dem till dina idéer.";
+
+"NSRemindersUsageDescription" = "Exportera dina uppgifter till Påminnelser och synka deras färdigstatus.";

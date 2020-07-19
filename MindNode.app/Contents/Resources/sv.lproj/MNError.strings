@@ -1,0 +1,181 @@
+/*
+ MNError.strings
+ MindNode
+
+ Created by Markus Müller on 07.05.08.
+ Copyright 2008 IdeasOnCanvas GmbH. All rights reserved.
+
+ Warning regarding the en.lproj version of this file:
+ 1. This file is manually managed!
+ 2. This file is not part of a target. A script copies it manually into the product!
+ */
+
+
+/* MNUnknownError */
+"description0" = "Ett okänt fel inträffade.";
+"failureReason0" = "MindNode kunde inte slutföra åtgärden eftersom ett okänt fel inträffade.";
+
+/* MNUnknownFileReadError */
+"description1" = "Kunde inte läsa MindNode-dokumentdata.";
+"failureReason1" = "Den valda filen verkar vara skadad.";
+
+/* MNUnknownPasteboardReadError */
+"description2" = "Kunde inte läsa MindNode-urklipp av en okänd anledning.";
+"failureReason2" = "Ett okänt fel inträffade.";
+
+/* MNWriteCouldntMakeTIFFError */
+"description3" = "Det gick inte att skapa en TIFF-bild, eftersom den skulle bli tom.";
+"failureReason3" = "TIFF-bilden skulle bli tom.";
+
+/* MNUnknownFileWriteError */
+"description4" = "MindNode kunde inte spara dokumentet.";
+"failureReason4" = "Det är inte tillåtet att spara det aktuella dokumentet.";
+
+/* MNUnknownPrintError */
+"description5" = "MindNode kunde inte skriva ut dokumentet.";
+"failureReason5" = "Det gick inte att skriva ut dokumentet. Kontakta support om problemet kvarstår.";
+
+/* MNNoNodesPrintError */
+"description6" = "MindNode kan inte skriva ut ett tomt dokument.";
+"failureReason6" = "Lägg till noder till dokumentet innan utskrift.";
+
+/* MNUnsuportedDocumentVersionError */
+"description7" = "MindNode kunde inte läsa in det valda dokumentet.";
+"failureReason7" = "Dokumentet sparades med en nyare version av programmet. Installera den aktuella versionen med den inbyggda programuppdateringen.";
+
+/* MNUnsupportedMindNodeMacVersionError */
+"description8" = "MindNode kunde inte importera det valda dokumentet.";
+"failureReason8" = "Dokumentet sparades med en äldre version av MindNode till Mac. Uppdatera Mindnode till Mac till en nyare version och spara dokumentet igen.";
+
+/* MNFileImportError */
+"description9" = "Kunde inte importera dokumentet";
+"failureReason9" = "MindNode kunde inte importera dokumentet. Kontakta support om problemet kvarstår, och skicka med dokumentet.";
+
+/* MNUnableToMoveToiCloudError */
+"description10" = "Kunde inte flytta dokumentet till iCloud";
+"failureReason10" = "Kontrollera att det finns tillräckligt med ledigt utrymme på iCloud. Kontakta support om detta inte hjälper. Dokumentet kommer att sparas, men endast iCloud-dokument kommer att visas i dokumentväljaren.";
+
+/* MNErrorCameraAccess */
+"description11" = "Åtkomst nekad";
+"failureReason11" = "Åtkomst till kameran krävs för att kunna ta bilder. Ge MindNode åtkomst till kameran under Inställningar > Integritetsskydd > Kamera.";
+
+/* MNErrorFileNameUnknownError */
+"description100" = "Kunde inte byta namn på dokumentet";
+"failureReason100" = "";
+
+/* MNErrorFileNameTooLong */
+"description101" = "Kunde inte byta namn på dokumentet";
+"failureReason101" = "Dokumentnamnet är för långt.";
+
+/* MNErrorFileNameNotAllowedCharacters */
+"description102" = "Kunde inte byta namn på dokumentet";
+"failureReason102" = "Försök med ett filnamn utan skiljetecken.";
+
+/* MNErrorFileNameAlreadyUsedError */
+"description103" = "Kunde inte byta namn på dokumentet";
+"failureReason103" = "Namnet används redan. Välj ett annat namn.";
+
+/* MNErrorFolderNameUnknownError */
+"description110" = "Ogiltigt mappnamn";
+"failureReason110" = "";
+
+/* MNErrorFolderNameTooLong */
+"description111" = "";
+"failureReason111" = "Mappnamnet är för långt.";
+
+/* MNErrorFolderNameNotAllowedCharacters */
+"description112" = "Kunde inte byta namn på dokumentet";
+"failureReason112" = "Försök med ett mappnamn utan skiljetecken.";
+
+/* MNErrorFolderNameAlreadyUsedError */
+"description113" = "Kunde inte byta namn på mappen";
+"failureReason113" = "Namnet används redan. Välj ett annat namn.";
+
+/* MNErrorFolderUnableToCreateFolder */
+"description114" = "Kunde inte skapa mapp";
+"failureReason114" = "Välj ett annat mappnamn.";
+
+/* MNErrorFolderContainsSameFileName */
+"description115" = "Kunde inte flytta dokumentet";
+"failureReason115" = "Mappen innehåller redan ett dokument med samma namn.";
+
+/* MNErrorDocumentOpenError */
+"description201" = "Kunde inte öppna dokumentet";
+"failureReason201" = "";
+
+/* MNErrorDocumentCloudDeletionError */
+"description202" = "Kunde inte stänga raderat dokument";
+"failureReason202" = "Dokumentet togs bort från iCloud Drive från en annan enhet, men det gick inte att stänga det på denna enhet.";
+
+
+/* MNErrorExportUnknownError */
+"description400" = "Kunde inte exportera dokumentet.";
+"failureReason400" = "";
+
+/* MNErrorExportToCameraRoll */
+"description401" = "Kunde inte spara till kamerarullen.";
+"failureReason401" = "";
+
+/* MNErrorExportSendToApp */
+"description402" = "Kunde inte skicka dokumentet till den andra appen.";
+"failureReason402" = "Ingen installerad app tar emot dokument av denna typ.";
+
+/* MNErrorExportZippedOverwrite */
+"description403" = "Kunde inte skriva över det aktuella dokumentet.";
+"failureReason403" = "Det aktuella dokumentet kan inte ersättas av en komprimerad version.";
+
+/* MNErrorExportToRemindersPermission */
+"description404" = "Kunde inte exportera dokumentet till Påminnelser: ej tillåtet.";
+"failureReason404" = "";
+
+/* MNErrorExportToRemindersUnknownError */
+"description405" = "Kunde inte exportera dokument till Påminnelser.";
+"failureReason405" = "Ett okänt fel inträffade.";
+
+/* MNErrorCloudUnknownError */
+"description500" = "Ett okänt iCloud-fel inträffade.";
+"failureReason500" = "";
+
+/* MNErrorCloudUnableToMoveAllDocumentsToCloud */
+"description501" = "Väntande överföringar";
+"failureReason501" = "Vissa dokument väntar på att överföras. Kontrollera att alla dokument har överförts innan du avaktiverar iCloud.";
+
+/* MNErrorCloudContainerUnavailable */
+"description502" = "iCloud ej tillgängligt";
+"failureReason502" = "iCloud är för närvarande inte inställt i enheten.";
+
+/* MNErrorMyMindNodeNotReachable */
+"description600" = "Kunde inte ansluta till MyMindNode";
+"failureReason600" = "Försök igen senare.";
+
+/* MNErrorMyMindNodeEmailSavingError */
+"description601" = "Kunde inte spara ny e-postadress";
+"failureReason601" = "Försök igen senare.";
+
+/* MNErrorMyMindNodeRegistrationError */
+"description602" = "Kunde inte registrera";
+"failureReason602" = "";
+
+/* MNErrorMyMindNodeInvalidEmailAddress */
+"description603" = "Ogiltig e-postadress";
+"failureReason603" = "";
+
+/* MNErrorMyMindNodeDuplicateEmailAddress */
+"description604" = "E-postadressen används redan";
+"failureReason604" = "";
+
+/* MNErrorMyMindNodeDocumentUploadFailed */
+"description605" = "Kunde inte skicka";
+"failureReason605" = "Kunde inte skicka dokument. Försök igen senare.";
+
+/* MNErrorMyMindNodeDocumentDeletionFailed */
+"description606" = "Kunde inte radera dokument";
+"failureReason606" = "";
+
+/* MNErrorMyMindNodeNotRegistered */
+"description607" = "Inte registrerad";
+"failureReason607" = "Registrera MyMindNode genom att att skicka ett dokument från delningsmenyn";
+
+/* MNErrorMyMindNodeiCloudRequired */
+"description608" = "iCloud ej tillgängligt";
+"failureReason608" = "MyMindNode kräver iCloud. Aktivera iCloud på enheten.";

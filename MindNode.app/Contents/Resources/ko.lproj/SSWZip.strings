@@ -1,0 +1,12 @@
+/* NSError detail string for failed CRC32 checks during unzip. */
+"CRC32 check failed during unzip." = "압축해제 중 CRC32 오류가 발생했습니다.";
+
+/* NSError detail string for failed CRC32 checks during unzip to file. */
+"CRC32 check failed while unzipping to file." = "파일을 압축해제하는 도중 CRC32 오류가 발생했습니다.";
+
+/* NSError detail string for failed unzip operations due to already existing destination files. */
+"Unzip failed because a file with the same name already exists at the destination URL. The file at the destination URL must be non-existent." = "대상 URL에 이미 같은 이름을 가진 파일이 존재하므로 파일을 압축해제 할 수 없습니다. 대상 URL에 아무런 파일이 없어야 합니다.";
+
+/* NSError detail string for unzip operations that lack a filename. */
+"Unzip failed because the destination URL points to a directory. The destination URL must specify a filename." = "대상 URL이 폴더를 가르키고 있어 압축해제를 진행할 수 없습니다. 대상 URL이 파일명이어야 합니다.";
+

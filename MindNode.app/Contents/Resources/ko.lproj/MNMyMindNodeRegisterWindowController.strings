@@ -1,0 +1,15 @@
+
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "BaZ-d9-aGb"; */
+"BaZ-d9-aGb.title" = "닫기";
+
+/* Class = "NSWindow"; title = "Welcome to myMindNode"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "MyMindNode가 여러분을 환영합니다";
+
+/* Class = "NSButtonCell"; title = "Next..."; ObjectID = "Fi1-Lg-HUF"; */
+"Fi1-Lg-HUF.title" = "다음...";
+
+/* Class = "NSTextFieldCell"; title = "Email Address:"; ObjectID = "crL-u5-tu7"; */
+"crL-u5-tu7.title" = "이메일 주소:";
+
+/* Class = "NSTextFieldCell"; title = "Error Message appears here"; ObjectID = "yTO-Kg-Pnd"; */
+"yTO-Kg-Pnd.title" = "이곳에 오류 메시지가 표시됩니다";

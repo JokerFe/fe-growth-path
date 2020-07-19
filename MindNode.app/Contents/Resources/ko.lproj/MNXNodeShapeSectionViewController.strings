@@ -1,0 +1,33 @@
+
+/* Class = "NSMenuItem"; title = "Rectangle"; ObjectID = "CDT-Wu-6rr"; */
+"CDT-Wu-6rr.title" = "직사각형";
+
+/* Class = "NSMenuItem"; title = "Cloud"; ObjectID = "FPG-4d-yZ2"; */
+"FPG-4d-yZ2.title" = "클라우드";
+
+/* Class = "NSMenuItem"; title = "Line"; ObjectID = "KrC-kG-tQH"; */
+"KrC-kG-tQH.title" = "선";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "LCu-YI-0W0"; */
+"LCu-YI-0W0.title" = "상자";
+
+/* Class = "NSButtonCell"; title = "Manual Width"; ObjectID = "MxR-Hb-oXs"; */
+"MxR-Hb-oXs.title" = "사용자 정의 너비";
+
+/* Class = "NSTextFieldCell"; title = "SHAPE"; ObjectID = "OmX-7Q-04E"; */
+"OmX-7Q-04E.title" = "모양";
+
+/* Class = "NSMenuItem"; title = "Rounded"; ObjectID = "d7A-Y5-uq9"; */
+"d7A-Y5-uq9.title" = "둥근";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "nGv-sp-oz7"; */
+"nGv-sp-oz7.title" = "상자";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "r3K-BJ-0jR"; */
+"r3K-BJ-0jR.title" = "상자";
+
+/* Class = "NSMenuItem"; title = "Pill"; ObjectID = "vxv-F7-83Y"; */
+"vxv-F7-83Y.title" = "알약";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedMultipleValuesPlaceholder = "..."; ObjectID = "zEZ-GO-X4t"; */
+"zEZ-GO-X4t.ibShadowedMultipleValuesPlaceholder" = "...";

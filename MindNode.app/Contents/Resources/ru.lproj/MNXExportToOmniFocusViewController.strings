@@ -1,0 +1,12 @@
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "MYo-KN-8mt"; */
+"MYo-KN-8mt.title" = "Отменить";
+
+/* Class = "NSTextFieldCell"; title = "Export to OmniFocus"; ObjectID = "NEN-cA-he8"; */
+"NEN-cA-he8.title" = "Экспортировать в OmniFocus";
+
+/* Class = "NSButtonCell"; title = "Export…"; ObjectID = "OmK-Qr-gjc"; */
+"OmK-Qr-gjc.title" = "Экспорт…";
+
+/* Class = "NSTextFieldCell"; title = "When you export your document to OmniFocus, all nodes containing tasks will be added to your inbox. Task hierarchy and completion state will be exported.\n\n"; ObjectID = "hl8-pe-2wt"; */
+"hl8-pe-2wt.title" = "При экспорте документа в OmniFocus все узлы, содержащие задачи, будут добавлены в папку «Входящие». Данные об иерархии задач и ходе их выполнения сохранятся.\n\n";

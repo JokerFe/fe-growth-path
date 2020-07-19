@@ -1,0 +1,12 @@
+/* NSError detail string for failed CRC32 checks during unzip. */
+"CRC32 check failed during unzip." = "Сбой проверки CRC32 во время распаковки архива.";
+
+/* NSError detail string for failed CRC32 checks during unzip to file. */
+"CRC32 check failed while unzipping to file." = "Сбой проверки CRC32 во время распаковки в файл.";
+
+/* NSError detail string for failed unzip operations due to already existing destination files. */
+"Unzip failed because a file with the same name already exists at the destination URL. The file at the destination URL must be non-existent." = "Не удалось распаковать архив, так как файл с тем же именем уже существует по данному URL. Файла в месте назначения быть не должно.";
+
+/* NSError detail string for unzip operations that lack a filename. */
+"Unzip failed because the destination URL points to a directory. The destination URL must specify a filename." = "Не удалось распаковать архив, так как URL указывает на папку. URL должен указывать имя файла.";
+

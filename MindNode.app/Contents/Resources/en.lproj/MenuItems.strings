@@ -1,0 +1,24 @@
+﻿/* Menu item to fold node */
+"Fold Nodes" = "Fold Nodes";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Bottom Side" = "Move All Nodes to Bottom Side";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Left Side" = "Move All Nodes to Left Side";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Left/Top Side" = "Move All Nodes to Left/Top Side";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Right Side" = "Move All Nodes to Right Side";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Right/Bottom Side" = "Move All Nodes to Right/Bottom Side";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Top Side" = "Move All Nodes to Top Side";
+
+/* Menu item to fold node */
+"Unfold Nodes" = "Unfold Nodes";
+

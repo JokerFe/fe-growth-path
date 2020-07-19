@@ -1,0 +1,24 @@
+/* Accessibility hint for a cross connection with title of begin and end node */
+"Connecting node '%@' and node '%@'" = "Knoop '%1$@' met knoop '%2$@' verbinden";
+
+/* Title of the cross connection knobs */
+"Connection Handle" = "Verbindingsgreep";
+
+/* Accessibility label for cross connections */
+"Cross Connection" = "Kruisverbinding";
+
+/* Hint on how to interact with resize knobs */
+"Double tap and hold, then drag to move." = "Klik dubbel en houd vast, en sleep vervolgens om te verplaatsen.";
+
+/* Button on outliner view for folding subitems */
+"Fold node" = "Klap knoop in";
+
+/* Title of the resize knobs */
+"Resize Handle" = "Pas grootte van greep aan";
+
+/* Accessibility suffix for cross connection title */
+"Title = '%@'" = "Titel = '%@'";
+
+/* Button on outliner view for unfolding subitems */
+"Unfold node" = "Klap knoop uit";
+

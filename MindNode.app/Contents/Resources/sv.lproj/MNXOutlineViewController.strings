@@ -1,0 +1,9 @@
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "STf-Qc-H7s"; */
+"STf-Qc-H7s.title" = "Ruta";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "kUg-df-xKX"; */
+"kUg-df-xKX.title" = "Textcell";
+
+/* Class = "NSSearchFieldCell"; placeholderString = " Search Titles"; ObjectID = "pCi-XZ-tPG"; */
+"pCi-XZ-tPG.placeholderString" = " Sök titlar";

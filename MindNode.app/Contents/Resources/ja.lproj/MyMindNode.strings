@@ -1,0 +1,33 @@
+/* Cancel button for MyMindNode setup. */
+"Cancel" = "キャンセル";
+
+/* Copy Link custom sharing service */
+"Copy Link" = "リンクをコピー";
+
+/* Shown as message when a user tries to share a MyMindNode document without enabled iCloud */
+"iCloud not configured" = "iCloud が設定されていません";
+
+/* Shown as label on the MyMindNode sharing service menu item. */
+"myMindNode" = "myMindNode";
+
+/* Shown in the MyMindNode pref pane when iCloud is not available. */
+"myMindNode requires iCloud" = "myMindNode はiCloudが必要です";
+
+/* Shown in the MyMindNode pref pane when network is not available. */
+"myMindNode requires network connection" = "myMindNodeはネットワーク接続が必要です";
+
+/* Shown in Notification Center when the current MyMindNode upload finishes */
+"myMindNode Upload Completed" = "myMindNodeのアップロードを完了しました";
+
+/* Shown in the MyMindNode pref pane as the user account */
+"N/A" = "N/A";
+
+/* Text for button to open iCloud System Preferences (MyMindNode setup) */
+"Open iCloud System Preferences" = "iCloud システム環境設定を開く";
+
+/* Shown in Notification Center when the current MyMindNode upload finishes */
+"Successfully uploaded \"%@\" to myMindNode." = "“%@”をmyMindNodeにアップロードしました。";
+
+/* Shown as informative text when a user tries to share a document via MyMindNode without configured iCloud */
+"You need to be signed into your iCloud account to use myMindNode." = "myMindNodeを使用するには、iCloudアカウントにサインインする必要があります。";
+

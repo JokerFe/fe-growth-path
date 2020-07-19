@@ -1,0 +1,731 @@
+/* Header in accessibility canvas description */
+"%d mind maps." = "%d mapas mentais.";
+
+/* Title Accessory View, trial X Days Remaining */
+"%ld days remaining" = "%ld dias restantes";
+
+/* Call to action for user to begin text editing in the tutorial */
+"*Double Click* to add yours" = "*Clique duas vezes* para adicionar a sua";
+
+/* Call to action for user to begin text editing in the tutorial */
+"*Double Tap* to add yours" = "*Toque duas vezes* para adicionar a sua";
+
+/* Error message when installing a theme fails */
+"A theme with the same ID is already installed" = "Já existe um tema com o mesmo ID instalado";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Add Boundaries" = "Adicionar Limites";
+
+/* Adding a boundary to a set of nodes
+   Label that is shown to describe a keyCommand to the user */
+"Add Boundary" = "Adicionar Limite";
+
+/* Alert View title when adding a link to a node
+   Label that is shown to describe a keyCommand to the user */
+"Add Link" = "Adicionar Link";
+
+/* Accessibility Label for button to indent left */
+"Add Notes" = "Adicionar Notas";
+
+/* Accessibility Label for button to toggle task state
+   Attaching/Adding a task to a node
+   Label that is shown to describe a keyCommand to the user */
+"Add Task" = "Adicionar Tarefa";
+
+/* Alert message details when a payment needs to be confirmed by family member */
+"App features will be unlocked as soon as your transaction is approved." = "Os recursos do app serão desbloqueados assim que a transação for aprovada.";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Balance Mind Map" = "Equilibrar Mapa Mental";
+
+/* Accessiblity label for discounted purchase price */
+"Buy now for %@ instead of %@" = "Compre agora por %1$@ em vez de %2$@";
+
+/* FullVersion Purchase Screen, price as parameter */
+"Buy Now\t%@" = "Comprar Agora\t%@";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Cancel" = "Cancelar";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Canvas Color" = "Cor da Tela";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Center Main Node" = "Centralizar Nó Principal";
+
+/* FullVersion Purchase Screen, check for discount button */
+"Check for Discount" = "Verificar Desconto";
+
+/* Call to action for the user to add a node with the node well in the tutorial */
+"Click *＋* to add another thought" = "Clique em *＋* para adicionar outra ideia";
+
+/* Placeholder of the note text view when the note is still empty */
+"Click here to add notes" = "Clique aqui para adicionar notas";
+
+/* Explanation how to finish an action in the tutorial */
+"Click the *Canvas* to finish" = "Clique na *Tela* para terminar";
+
+/* (Accessibilty Label) Button on document view to get back to document manager
+   Label that is shown to describe a keyCommand to the user */
+"Close Document" = "Fechar Documento";
+
+/* (Accessibilty Hint) Button on document view to get back to document manager */
+"Closes document and goes back to document manager." = "Fecha o documento e volta para o gerenciador de documentos.";
+
+/* Completing all child tasks
+   Label that is shown to describe a keyCommand to the user */
+"Complete All Child Tasks" = "Concluir Todas as Tarefas Secundárias";
+
+/* Completing a task
+   Label that is shown to describe a keyCommand to the user */
+"Complete Task" = "Concluir Tarefa";
+
+/* Completing and Reopening all child tasks */
+"Complete/Reopen All Child Tasks" = "Concluir/Reabrir Todas as Tarefas Secundárias";
+
+/* Complete and reopen tasks of nodes */
+"Complete/Reopen Task" = "Concluir/Reabrir Tarefa";
+
+/* Label that is shown to describe a keyCommand to the user
+   shorted label that is shown to describe a keyCommand to the user */
+"Connect" = "Conectar";
+
+/* Error when catalog of products could not be fetched when attempting a purchase, failure reason
+   Error when transaction fails with unknown reason
+   Restore Purchase, unknown error when attempting to refresh receipt (restore purchase) */
+"Connecting to App Store failed" = "Falha ao conectar-se à App Store";
+
+/* Continue button on first launch welcome screen
+   Title of Button for finishing tutorial */
+"Continue" = "Continuar";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Copy" = "Copiar";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Copy Single Node" = "Copiar Um Único Nó";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Copy Style" = "Copiar Estilo";
+
+/* Accessibility hint for the button used to create a new mindmap */
+"Create a new child node." = "Crie um novo nó secundário.";
+
+/* Accessibility hint for the button used to create a new mindmap */
+"Create a new main node." = "Crie um novo nó principal.";
+
+/* Accessibility hint for the button used to create a new mindmap */
+"Create a new parent node." = "Crie um novo nó superior.";
+
+/* Accessibility hint for the button used to create a new mindmap */
+"Create a new sibling node above." = "Crie um novo nó relacionado acima.";
+
+/* Accessibility hint for the button used to create a new mindmap */
+"Create a new sibling node below." = "Crie um novo nó relacionado abaixo.";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Create Connection" = "Criar Conexão";
+
+/* Button to create document from quick entry */
+"Create Mind Map" = "Criar Mapa Mental";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Create New Child" = "Criar Novo Secundário";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Create New Main Node" = "Criar Novo Nó Principal";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Create New Parent" = "Criar Novo Superior";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Create New Sibling" = "Criar Novo Relacionado";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Create New Sibling Above" = "Criar Novo Relacionado Acima";
+
+/* Accessibility Hint for button to create document from draft */
+"Creates a document from the entered outline." = "Cria um documento a partir do plano digitado.";
+
+/* Purchasing Check For Discount Failed Alert - message  */
+"Customers of MindNode 2 for Mac are eligible for a discount. Please make sure you have MindNode 2.5.7 (or later) installed on your Mac." = "Clientes do MindNode 2 para Mac podem obter um desconto. Certifique-se de que o MindNode 2.5.7 (ou posterior) esteja instalado no Mac.";
+
+/* Purchasing Check For Discount Failed Alert - message  */
+"Customers of MindNode for iOS are eligible for a discount. Please make sure you have MindNode 4.5.7 (or later) installed on your device." = "Clientes do MindNode 2 para iOS podem obter um desconto. Certifique-se de que o MindNode 4.5.7 (ou posterior) esteja instalado no dispositivo.";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Cut" = "Cortar";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Cycle Main Node Backward" = "Percorrer Nó Principal em Sentido Anti-horário";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Cycle Main Node Forward" = "Percorrer Nó Principal em Sentido Horário";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Decrease Font Size" = "Diminuir Tamanho da Fonte";
+
+/* Accessibility Label for button to indent left */
+"Decrease indentation" = "Diminuir recuo";
+
+/* Accessibility Hint for button to indent left */
+"Decreases the indentation level of the current line." = "Diminui o nível de recuo da linha atual.";
+
+/* Theme Picker Header Label */
+"Default" = "Padrão";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Delete" = "Apagar";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Delete Attachment" = "Apagar Anexo";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Delete Connection" = "Apagar Conexão";
+
+/* After cancelling, a sheet is shown with options to delete/save a draft */
+"Delete Draft" = "Apagar Rascunho";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Delete Node" = "Apagar Nó";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Delete Single Node" = "Apagar Um Único Nó";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Detach" = "Separar";
+
+/* AppModeScreen, infotext */
+"Do you want to start the free 2-week trial of MindNode’s full feature set?" = "Deseja iniciar a avaliação gratuita de duas semanas de todos os recursos do MindNode?";
+
+/* Info about purchase options on the Mac Purchase Screen */
+"Do you want to start the free 2-week trial of MindNode’s full feature set? Or, buy the full app. If you just want to access your documents, use Viewer Mode." = "Deseja iniciar a avaliação gratuita de duas semanas de todos os recursos do MindNode? Você também pode comprar o app completo. Caso deseje apenas acessar os seus documentos, use o Modo Visualizador.";
+
+/* FullVersion Purchase Screen, infotext */
+"Do you want to unlock MindNode’s full feature set?" = "Deseja desbloquear todos os recursos do MindNode?";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Duplicate" = "Duplicar";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Duplicate Single Node" = "Duplicar Um Único Nó";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Edit Note" = "Editar Nota";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Edit Title" = "Editar Título";
+
+/* shorted label that is shown to describe a keyCommand to the user */
+"Edit…" = "Editar…";
+
+/* Accessibility Label for text view to enter quickEntry outline */
+"Enter a text outline and turn it into a MindNode document." = "Digite um plano de texto e transforme-o em um documento do MindNode.";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Enter Full Screen" = "Entrar em Tela Cheia";
+
+/* Shown as message text when the Beta expires */
+"Expired Beta Release" = "Versão Beta Expirada";
+
+/* Button on the document view to open the export sheet
+   Label that is shown to describe a keyCommand to the user */
+"Export" = "Exportar";
+
+/* Shown as label on the Things sharing service menu item. */
+"Export to Things" = "Exportar para o Things";
+
+/* Shown as label on the Things sharing service menu item. */
+"Export to Things 3" = "Exportar para o Things 3";
+
+/* Shown as label on the Things sharing service menu item. */
+"Export to Things Beta" = "Exportar para o Things Beta";
+
+/* Alert message when beta activation failed */
+"Failed to Activate Beta" = "Falha ao Ativar o Beta";
+
+/* Shown when importing custom themes fails */
+"Failed to import the following \(failureThemeString):\n\(failureDescriptions)" = "Falha ao importar \\(failureThemeString):\n\\(failureDescriptions)";
+
+/* (Accessibility Hint) Finish tutorial button */
+"Finishes the Tutorial." = "Termina o Tutorial.";
+
+/* shorted label that is shown to describe a keyCommand to the user */
+"Fold" = "Contrair";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Fold Node" = "Contrair Nó";
+
+/* AppModeScreen, trial button */
+"Free Trial (2 weeks)" = "Avaliação Gratuita (duas semanas)";
+
+/* Restore Purchases, full app restored success title */
+"Full app restored" = "App completo restaurado";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Hide Inspector" = "Ocultar Inspetor";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Hide Notes Inspector" = "Ocultar Inspetor de Notas";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Hide Outline" = "Ocultar Plano";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Hide Style Inspector" = "Ocultar Inspetor de Estilo";
+
+/* Shown after sucessfully importing custom themes */
+"Imported the following \(successThemeString):\n\(successDescriptions)" = "Importados \\(successThemeString):\n\\(successDescriptions)";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Increase Font Size" = "Aumentar Tamanho da Fonte";
+
+/* Accessibility Label for button to indent right */
+"Increase indentation" = "Aumentar recuo";
+
+/* Accessibility Hint for button to indent right */
+"Increases the indentation level of the current line." = "Aumenta o nível de recuo da linha atual.";
+
+/* (Accessibility Label) Button on the document view to show/hide the inspector */
+"Inspector" = "Inspetor";
+
+/* Error message when there's an invalid quickEntry input */
+"Invalid text input" = "Entrada de texto inválida";
+
+/* Explanation of a node in the tutorial */
+"It holds a *Thought*" = "Ele contém uma *Ideia*";
+
+/* Remote purchase detected alert: Description of remote trial started detected alert */
+"It seems like a trial was started previously." = "Parece que uma avaliação foi iniciada anteriormente.";
+
+/* Remote purchase detected alert: Description of remote purchase detected alert */
+"It seems like the full app was activated previously." = "Parece que o app completo foi ativado anteriormente.";
+
+/* Placeholder for quickEntry feature */
+"It starts with a thought" = "Tudo começa com uma ideia";
+
+/* Shown when removing MindNode as login item fails. */
+"Launch on login can't be disabled" = "Não é possível desativar a abertura ao iniciar a sessão";
+
+/* Shown when adding MindNode as login item fails. */
+"Launch on login can't be enabled" = "Não é possível ativar a abertura ao iniciar a sessão";
+
+/* AppModeScreen, learn more button */
+"Learn More" = "Saber Mais";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Leave Full Screen" = "Sair de Tela Cheia";
+
+/* Shown when adding MindNode as login item fails. */
+"MindNode cannot be added to the list of login items." = "O MindNode não pode ser adicionado à lista de itens de início.";
+
+/* Shown when removing MindNode as login item fails. */
+"MindNode cannot be removed from the list of login items." = "O MindNode não pode ser removido da lista de itens de início.";
+
+/* Title for the custom Theme installation alert */
+"MindNode Themes" = "Temas do MindNode";
+
+/* Alert informativeText when mindnode beta is expired */
+"MindNode will continue to work in basic mode." = "O MindNode continuará funcionando no modo básico.";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Move Above Sibling Node" = "Mover Acima de Nó Relacionado";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Move Below Sibling Node" = "Mover Abaixo de Nó Relacionado";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Move Node Down" = "Mover Nó para Baixo";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Move Node Left" = "Mover Nó para a Esquerda";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Move Node Right" = "Mover Nó para a Direita";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Move Node Up" = "Mover Nó para Cima";
+
+/* Placeholder for PopUp buttons when multiple objects with mixed content values are selected.
+   Placeholder of the note text view when multiple nodes are selected */
+"Multiple" = "Múltiplos";
+
+/* Accessibility label for the button used to create a new mindmap */
+"New Child" = "Novo Secundário";
+
+/* Accessibility label for the button used to create a new mindmap */
+"New Main Node" = "Novo Nó Principal";
+
+/* Accessibility label for the button used to create a new mindmap */
+"New Parent" = "Novo Superior";
+
+/* Accessibility label for the button used to create a new mindmap */
+"New Sibling" = "Novo Relacionado";
+
+/* Accessibility label for the button used to create a new mindmap */
+"New Sibling Above" = "Novo Relacionado Acima";
+
+/* Quick Entry Onboarding, skip button text */
+"No Thanks" = "Não, Obrigado";
+
+/* Remote purchase detected alert: ignore-button title */
+"Not Now" = "Agora Não";
+
+/* Alert message ok button, when a payment needs to be confirmed by family member */
+"OK" = "OK";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Open Link" = "Abrir Link";
+
+/* Open website button title for the Beta expiration sheet. */
+"Open Website" = "Abrir Site";
+
+/* (Accessibility Label) Button on the document view to open the outline view */
+"Outline" = "Plano";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Pan Canvas Down" = "Mover Tela Abaixo";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Pan Canvas Left" = "Mover Tela à Esquerda";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Pan Canvas Right" = "Mover Tela à Direita";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Pan Canvas Up" = "Mover Tela Acima";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Paste" = "Colar";
+
+/* Button to paste outline from quick entry */
+"Paste Mind Map" = "Colar Mapa Mental";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Paste Style" = "Colar Estilo";
+
+/* Explanation how to finish an action in the tutorial */
+"Perform the *Escape Gesture* to finish" = "Faça o *Gesto de Escape* para terminar";
+
+/* Theme Picker Header Label */
+"Personal" = "Pessoal";
+
+/* Alert informativeText when mindnode beta could not be verified and therefore is expired */
+"Please connect to a working Wifi and relaunch MindNode." = "Conecte-se a uma rede Wi‑Fi ativa e reabra o MindNode.";
+
+/* Alert informativeText when beta activation failed */
+"Please ensure you are connected to WiFi and the activation code is valid." = "Certifique-se de que haja uma conexão Wi‑Fi e o código de ativação seja válido.";
+
+/* Activity Indicator title when preparing purchase on Mac purchase screen by loading catalog
+   Purchasing: preparing products HUD before purchasing */
+"Preparing…" = "Preparando…";
+
+/* Purchasing Check For Discount Failed Alert - title */
+"Previous version not found" = "Versão anterior não encontrada";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Print" = "Imprimir";
+
+/* FullVersion Purchase Screen, title
+   Title Accessory View Purchase Button */
+"Purchase" = "Comprar";
+
+/* Error when catalog of products could not be fetched when attempting a purchase, error description */
+"Purchase could not be initiated" = "A compra não pôde ser iniciada";
+
+/* FullVersion Purchase Screen, Buy full app, price unknown */
+"Purchase Full App" = "Comprar App Completo";
+
+/* Quick Entry Onboarding, title */
+"Quick Entry" = "Entrada Rápida";
+
+/* Quick Entry Onboarding, explanation text */
+"Quick Entry is a great way to collect your thoughts. Do you want to add it to your menu bar?" = "A Entrada Rápida oferece uma forma prática para inserir ideias. Deseja adicioná-la à barra de menus?";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Quick Look" = "Visualização Rápida";
+
+/* Quit button title for the Beta expiration sheet. */
+"Quit MindNode" = "Encerrar MindNode";
+
+/* Button on the document view to redo a change
+   Label that is shown to describe a keyCommand to the user */
+"Redo" = "Refazer";
+
+/* Label that is shown to describe a keyCommand to the user
+   Removing a boundary from a set of nodes */
+"Remove Boundary" = "Remover Limite";
+
+/* Label that is shown to describe a keyCommand to the user
+   Removing an attached task from a node */
+"Remove Task" = "Remover Tarefa";
+
+/* Label that is shown to describe a keyCommand to the user
+   Reopening all child tasks */
+"Reopen All Child Tasks" = "Reabrir Todas as Tarefas Secundárias";
+
+/* Label that is shown to describe a keyCommand to the user
+   Reopening a task */
+"Reopen Task" = "Reabrir Tarefa";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Reorganize Nodes" = "Reorganizar Nós";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Replace Image" = "Substituir Imagem";
+
+/* Shorted label that is shown to describe a keyCommand to the user */
+"Replace…" = "Substituir…";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Reset Waypoint" = "Redefinir Ponto de Passagem";
+
+/* Remote purchase detected alert: restore-button title */
+"Restore" = "Restaurar";
+
+/* Remote purchase detected alert: Title for full app */
+"Restore Full App?" = "Restaurar App Completo?";
+
+/* FullVersion Purchase Screen, restore purchase button
+   Restore purchase button on first launch welcome screen */
+"Restore Purchase" = "Restaurar Compra";
+
+/* Remote purchase detected alert: Title for trial */
+"Restore Trial?" = "Restaurar Avaliação?";
+
+/* Restore Purchase, progress overlay title */
+"Restoring…" = "Restaurando…";
+
+/* After cancelling, a sheet is shown with options to delete/save a draft */
+"Save Draft" = "Salvar Rascunho";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Search" = "Buscar";
+
+/* Placeholder of the note text view when no nodes are selected */
+"Select a node to add notes" = "Selecione um nó para adicionar notas";
+
+/* Shown as title for the theme open panel. */
+"Select a Theme to install" = "Selecione um Tema para instalar";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Show Action Inspector" = "Mostrar Inspetor de Ação";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Show Image Inspector" = "Mostrar Inspetor de Imagem";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Show Inspector" = "Mostrar Inspetor";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Show Notes Inspector" = "Mostrar Inspetor de Notas";
+
+/* (Accessibility Hint) Button on the document view to show/hide the inspector */
+"Show or hide the inspector." = "Mostre ou oculte o inspetor.";
+
+/* (Accessibility Hint) Button on the document view to show/hide the inspector */
+"Show or hide the notes inspector." = "Mostre ou oculte o inspetor de notas.";
+
+/* (Accessibility Hint) Button on the document view to open the outline view */
+"Show or hide the outline." = "Mostre ou oculte o plano.";
+
+/* (Accessibility Hint) Button on the document view to show/hide the inspector */
+"Show or hide the search bar." = "Mostre ou oculte a barra de busca.";
+
+/* (Accessibility Hint) Button on the document view to show/hide the inspector */
+"Show or hide the theme picker." = "Mostre ou oculte o seletor de tema.";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Show Outline" = "Mostrar Plano";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Show Style Inspector" = "Mostrar Inspetor de Estilo";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Show Theme Picker" = "Mostrar Seletor de Tema";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Size To Fit Content" = "Ajustar ao Conteúdo";
+
+/* Title of Button for skipping tutorial */
+"Skip Tutorial" = "Pular Tutorial";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Sort Alphabetically" = "Ordenar Alfabeticamente";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Sort by Task State" = "Ordenar por Estado da Tarefa";
+
+/* Title Accessory View Trial Button */
+"Start Trial" = "Iniciar Avaliação";
+
+/* Alert message when mindnode beta is activated */
+"Successfully Activated Beta" = "Ativação do Beta Bem-sucedida";
+
+/* Call to action for the user to add a node with the node well in the tutorial */
+"Tap *＋* to add another thought" = "Toque em *＋* para adicionar outra ideia";
+
+/* Explanation how to finish an action in the tutorial */
+"Tap the *Canvas* to finish" = "Toque na *Tela* para terminar";
+
+/* Accessibility Label for text view to enter quickEntry outline */
+"Text Outline" = "Plano de Texto";
+
+/* Alert informativeText when mindnode beta is activated */
+"Thank you for helping us improve MindNode." = "Obrigado por ajudar a melhorar o MindNode.";
+
+/* Error message when installing a theme fails */
+"The personal theme folder is missing or unreadable" = "A pasta de temas pessoais não foi encontrada ou não pode ser lida";
+
+/* Error message when the quickEntry input can't be parsed */
+"The text input has an invalid format" = "A entrada de texto tem um formato inválido";
+
+/* Error message when installing a theme fails */
+"The theme file is damaged" = "O arquivo de tema está danificado";
+
+/* Theme singular */
+"theme" = "tema";
+
+/* Shown as message text when custom theme removal fails */
+"Theme removal failed" = "Falha ao remover tema";
+
+/* Theme plural */
+"themes" = "temas";
+
+/* Shown as info text when the Beta expires. */
+"This beta version has expired, please download a new beta release from 'https://mindnode.com/next/beta'!" = "Esta versão beta expirou. Transfira uma nova versão beta de https://mindnode.com/next/beta.";
+
+/* Explanation of a node in the tutorial */
+"This is a *Node*" = "Este é um *Nó*";
+
+/* Trial expiry alert message */
+"To continue using MindNode, unlock the full app or use Viewer Mode." = "Para continuar usando o MindNode, desbloqueie o app completo ou use o Modo Visualizador.";
+
+/* Placeholder of the note text view when the note is still empty */
+"To edit notes, start the trial or purchase the full app" = "Para editar notas, inicie a avaliação ou compre a versão completa do app";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Toggle Bold" = "Alternar Negrito";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Toggle Italic" = "Alternar Itálico";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Toggle size of Inspector" = "Alternar tamanho do Inspetor";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Toggle Strikethrough" = "Alternar Tachado";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Toggle Underline" = "Alternar Sublinhado";
+
+/* Accessibility Hint for button to add notes */
+"Toggles the task state of the current line." = "Alterna o estado da tarefa da linha atual.";
+
+/* Error when catalog of products could not be fetched when attempting a purchase, error description */
+"Trial could not be started" = "A avaliação não pôde ser iniciada";
+
+/* Title Accessory View, trial expired */
+"Trial expired" = "Avaliação expirada";
+
+/* Restore Purchase, trial restored success title */
+"Trial restored" = "Avaliação restaurada";
+
+/* Accessibility Hint for button add notes */
+"Turns the rest of the line into the notes of the current line." = "Transforma o resto da linha em notas da linha atual.";
+
+/* Error title for quickEntry error */
+"Unable to create Document" = "Não pôde criar o Documento";
+
+/* Shown as error text when deleting a custom theme fails */
+"Unable to delete custom theme." = "Não pôde apagar o tema personalizado.";
+
+/* Button on the document view to undo a change
+   Label that is shown to describe a keyCommand to the user */
+"Undo" = "Desfazer";
+
+/* shorted label that is shown to describe a keyCommand to the user */
+"Unfold" = "Expandir";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Unfold Node" = "Expandir Nó";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Unfold One Level" = "Expandir Um Nível";
+
+/* Error message when installing a theme fails */
+"Unknown error" = "Erro desconhecido";
+
+/* AppModeScreen, full app button */
+"Unlock Full App" = "Desbloquear App Completo";
+
+/* Title of the Purchase screen on Mac */
+"Unlock MindNode" = "Desbloquear o MindNode";
+
+/* Trial expiry purchase options button */
+"Unlock Now" = "Desbloquear Agora";
+
+/* Quick Entry Onboarding, use quick entry button title */
+"Use Quick Entry" = "Usar Entrada Rápida";
+
+/* Sample main node text in the tutorial */
+"Vacation 🏖" = "Férias 🏖";
+
+/* AppModeScreen, document-viewer-only button
+   Title Accessory View, document viewer only
+   Trial expiry alert viewer only mode button */
+"Viewer Mode" = "Modo Visualizador";
+
+/* Error when catalog of products could not be fetched when attempting a purchase, error description */
+"Viewer Mode could not be started" = "O Modo Visualizador não pôde ser iniciado";
+
+/* Alert message title when a payment needs to be confirmed by family member
+   Title Accessory View, Waiting for approval of deferred payment, footer */
+"Waiting for approval" = "Aguardando aprovação";
+
+/* AppModeScreen, title */
+"Welcome" = "Bem-vindo";
+
+/* Header in accessibility canvas description of node */
+"with %d child nodes" = "com %d nós secundários";
+
+/* Success text when finishing the tutorial - line 2 */
+"You're all set" = "Tudo pronto";
+
+/* Error when purchases are disallowed by the system */
+"Your account is currently unable to make purchases." = "Não é possível fazer compras com a sua conta no momento.";
+
+/* Alert message when mindnode beta could not be verified and therefore is expired
+   Alert message when mindnode beta is expired */
+"Your beta activation expired!" = "A ativação beta expirou!";
+
+/* AppModeScreen, infotext if trial is expired */
+"Your trial has ended. Do you want to unlock MindNode’s full feature set?" = "A avaliação terminou. Deseja desbloquear todos os recursos do MindNode?";
+
+/* Info about purchase options on the Mac Purchase Screen if trial has expired */
+"Your trial has ended. Do you want to unlock MindNode’s full feature set? If you just want to access your documents, use Viewer Mode." = "A avaliação terminou. Deseja iniciar a avaliação gratuita de duas semanas de todos os recursos do MindNode? Caso deseje apenas acessar os seus documentos, use o Modo Visualizador.";
+
+/* Trial expiry alert title */
+"Your trial has expired" = "A avaliação expirou";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Zoom In" = "Ampliar";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Zoom Out" = "Reduzir";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Zoom To Actual Size" = "Ajustar para Tamanho Real";
+
+/* Window Zoom Popup Button */
+"Zoom to Fit" = "Ajustar à Janela";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Zoom To Fit" = "Ajustar à Janela";
+
+/* Window Zoom Popup Button */
+"Zoom to Selection" = "Ajustar à Seleção";
+
+/* Success text when finishing the tutorial - line 1 */
+"🎉" = "🎉";
+

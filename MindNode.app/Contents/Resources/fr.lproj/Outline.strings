@@ -1,0 +1,24 @@
+/* No comment provided by engineer. */
+"Delete" = "Supprimer";
+
+/* No comment provided by engineer. */
+"Fold" = "Plier";
+
+/* Label in outline view when no nodes are available. */
+"No Nodes" = "Aucun nœud";
+
+/* Label in outline view when no open tasks are available. */
+"No open tasks" = "Aucune tâche ouverte";
+
+/* Label in outline view when no search results are available. */
+"No Search Results" = "Aucun résultat de recherche";
+
+/* Placeholder label in outline when there's no title specified */
+"No Title" = "Aucun titre";
+
+/* Placeholder string for the search bar */
+"Search Titles" = "Rechercher dans les titres";
+
+/* No comment provided by engineer. */
+"Unfold" = "Déplier";
+

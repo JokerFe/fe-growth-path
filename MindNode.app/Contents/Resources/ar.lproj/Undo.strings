@@ -1,0 +1,15 @@
+/* Undo String when deleting a generic object */
+"Add Object" = "إضافة كائن";
+
+/* No comment provided by engineer. */
+"Cut" = "قص";
+
+/* Undo String when deleting a generic object */
+"Delete Object" = "حذف كائن";
+
+/* No comment provided by engineer. */
+"Paste" = "لصق";
+
+/* The undo action name when calling strikethrough. */
+"Strikethrough" = "يتوسطه خط";
+

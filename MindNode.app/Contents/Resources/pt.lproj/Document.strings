@@ -1,0 +1,20 @@
+/* Button Title */
+"Always Upgrade" = "Sempre Atualizar";
+
+/* Button Title */
+"Don't Upgrade" = "Não Atualizar";
+
+/* Default name of new documents.
+   Placeholder string for a new node
+   Title of the first main node created for new documents */
+"Mind Map" = "Mapa Mental";
+
+/* Informative Text */
+"This document was saved with an older version of MindNode. Would you like to upgrade this document to the new file format? Upgrading the document ensures that all new features are saved to the file." = "Este documento foi salvo com uma versão mais antiga do MindNode. A atualização do documento garante que todos os novos recursos sejam salvos no arquivo. Deseja atualizá-lo para o novo formato?";
+
+/* Button Title */
+"Upgrade Document" = "Atualizar Documento";
+
+/* Title Text */
+"Upgrade Document?" = "Atualizar Documento?";
+

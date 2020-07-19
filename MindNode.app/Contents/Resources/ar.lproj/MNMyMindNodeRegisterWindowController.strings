@@ -1,0 +1,15 @@
+
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "BaZ-d9-aGb"; */
+"BaZ-d9-aGb.title" = "إغلاق";
+
+/* Class = "NSWindow"; title = "Welcome to myMindNode"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "مرحباً بك في MyMindNode";
+
+/* Class = "NSButtonCell"; title = "Next..."; ObjectID = "Fi1-Lg-HUF"; */
+"Fi1-Lg-HUF.title" = "التالي...";
+
+/* Class = "NSTextFieldCell"; title = "Email Address:"; ObjectID = "crL-u5-tu7"; */
+"crL-u5-tu7.title" = "عنوان البريد الإلكتروني";
+
+/* Class = "NSTextFieldCell"; title = "Error Message appears here"; ObjectID = "yTO-Kg-Pnd"; */
+"yTO-Kg-Pnd.title" = "رسائل الخطأ تظهر هنا";

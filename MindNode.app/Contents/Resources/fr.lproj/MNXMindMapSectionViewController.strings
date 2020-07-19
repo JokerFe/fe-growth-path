@@ -1,0 +1,30 @@
+
+/* Class = "NSMenuItem"; title = "Horizontal"; ObjectID = "8E6-1b-4XW"; */
+"8E6-1b-4XW.title" = "Horizontal";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "HEV-pa-inx"; */
+"HEV-pa-inx.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "MIND MAP"; ObjectID = "Haa-6S-BF4"; */
+"Haa-6S-BF4.title" = "CARTE HEURISTIQUE";
+
+/* Class = "NSButtonCell"; title = "Manual Layout"; ObjectID = "JWV-2A-fWN"; */
+"JWV-2A-fWN.title" = "Disposition manuelle";
+
+/* Class = "NSTextFieldCell"; title = "Branch Type"; ObjectID = "SFw-31-2Ft"; */
+"SFw-31-2Ft.title" = "Type de branche";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "aAD-qu-8ki"; */
+"aAD-qu-8ki.title" = "Box";
+
+/* Class = "NSMenuItem"; title = "Angular"; ObjectID = "cJv-Qn-U2v"; */
+"cJv-Qn-U2v.title" = "Anguleux";
+
+/* Class = "NSMenuItem"; title = "Vertical"; ObjectID = "gk7-W2-woc"; */
+"gk7-W2-woc.title" = "Vertical";
+
+/* Class = "NSButtonCell"; title = "Auto-Decrease Branch Thickness"; ObjectID = "mDS-7r-YJM"; */
+"mDS-7r-YJM.title" = "Diminuer autom. l’épaisseur";
+
+/* Class = "NSMenuItem"; title = "Rounded"; ObjectID = "mxk-la-LWl"; */
+"mxk-la-LWl.title" = "Arrondi";

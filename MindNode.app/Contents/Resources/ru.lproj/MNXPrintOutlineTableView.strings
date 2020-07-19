@@ -1,0 +1,6 @@
+
+/* Class = "NSTextFieldCell"; title = "Multiline Label"; ObjectID = "40h-L0-kyL"; */
+"40h-L0-kyL.title" = "Подпись на несколько строк";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "M5P-79-K8r"; */
+"M5P-79-K8r.title" = "Текстовая ячейка";

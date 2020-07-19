@@ -1,0 +1,24 @@
+/* Menu item to fold node */
+"Fold Nodes" = "ノードを折りたたむ";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Bottom Side" = "すべてのノードを下側に移動";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Left Side" = "すべてのノードを左側に移動";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Left/Top Side" = "すべてのノードを左/上側に移動";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Right Side" = "すべてのノードを右側に移動";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Right/Bottom Side" = "すべてのノードを右/下側に移動";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Top Side" = "すべてのノードを上側に移動";
+
+/* Menu item to fold node */
+"Unfold Nodes" = "ノードを展開する";
+

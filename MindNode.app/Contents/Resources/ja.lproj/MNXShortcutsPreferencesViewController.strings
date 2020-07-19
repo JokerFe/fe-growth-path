@@ -1,0 +1,24 @@
+
+/* Class = "NSTextFieldCell"; title = "Create new parent node:"; ObjectID = "DVO-Vp-h7u"; */
+"DVO-Vp-h7u.title" = "新規親ノードを作成：";
+
+/* Class = "NSTextFieldCell"; title = "Create new main node:"; ObjectID = "GhB-kZ-jgY"; */
+"GhB-kZ-jgY.title" = "新規メインノードを作成：";
+
+/* Class = "NSButtonCell"; title = "Restore Defaults"; ObjectID = "HcT-pT-Frf"; */
+"HcT-pT-Frf.title" = "デフォルトに戻す";
+
+/* Class = "NSMenuItem"; title = "⇥ Tab Key"; ObjectID = "VdG-Sq-zSC"; */
+"VdG-Sq-zSC.title" = "⇥ Tab キー";
+
+/* Class = "NSTextFieldCell"; title = "Create new child node:"; ObjectID = "Wql-9Z-Osa"; */
+"Wql-9Z-Osa.title" = "新規子ノードを作成：";
+
+/* Class = "NSTextFieldCell"; title = "Create new sibling node:"; ObjectID = "XvP-IM-cBL"; */
+"XvP-IM-cBL.title" = "新規兄弟ノードを作成：";
+
+/* Class = "NSTextFieldCell"; title = "Edit title:"; ObjectID = "evP-tu-h61"; */
+"evP-tu-h61.title" = "タイトルを編集：";
+
+/* Class = "NSTextFieldCell"; title = "Create new sibling node above:"; ObjectID = "uui-y3-Nxl"; */
+"uui-y3-Nxl.title" = "新規兄弟ノードを上に作成：";

@@ -1,0 +1,30 @@
+
+/* Class = "NSMenuItem"; title = "Horizontal"; ObjectID = "8E6-1b-4XW"; */
+"8E6-1b-4XW.title" = "Горизонтально";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "HEV-pa-inx"; */
+"HEV-pa-inx.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "MIND MAP"; ObjectID = "Haa-6S-BF4"; */
+"Haa-6S-BF4.title" = "ИНТЕЛЛЕКТ-КАРТА";
+
+/* Class = "NSButtonCell"; title = "Manual Layout"; ObjectID = "JWV-2A-fWN"; */
+"JWV-2A-fWN.title" = "Макет, выровненный вручную";
+
+/* Class = "NSTextFieldCell"; title = "Branch Type"; ObjectID = "SFw-31-2Ft"; */
+"SFw-31-2Ft.title" = "Тип ветви";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "aAD-qu-8ki"; */
+"aAD-qu-8ki.title" = "Box";
+
+/* Class = "NSMenuItem"; title = "Angular"; ObjectID = "cJv-Qn-U2v"; */
+"cJv-Qn-U2v.title" = "Под углом";
+
+/* Class = "NSMenuItem"; title = "Vertical"; ObjectID = "gk7-W2-woc"; */
+"gk7-W2-woc.title" = "Вертикально";
+
+/* Class = "NSButtonCell"; title = "Auto-Decrease Branch Thickness"; ObjectID = "mDS-7r-YJM"; */
+"mDS-7r-YJM.title" = "Автоуменьшение толщины ветви";
+
+/* Class = "NSMenuItem"; title = "Rounded"; ObjectID = "mxk-la-LWl"; */
+"mxk-la-LWl.title" = "С закруглением";

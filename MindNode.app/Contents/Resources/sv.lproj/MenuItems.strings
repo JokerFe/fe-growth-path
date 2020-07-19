@@ -1,0 +1,24 @@
+/* Menu item to fold node */
+"Fold Nodes" = "Fäll ihop noder";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Bottom Side" = "Flytta alla noder till nedre kanten";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Left Side" = "Flytta alla noder till vänstra kanten";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Left/Top Side" = "Flytta alla noder till vänstra/övre kanten";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Right Side" = "Flytta alla noder till högra kanten";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Right/Bottom Side" = "Flytta alla noder till högra/nedre kanten";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Top Side" = "Flytta alla noder till övre kanten";
+
+/* Menu item to fold node */
+"Unfold Nodes" = "Fäll upp noder";
+

@@ -1,0 +1,24 @@
+/* Accessibility hint for a cross connection with title of begin and end node */
+"Connecting node '%@' and node '%@'" = "Соединение узла '%1$@' с узлом '%2$@'";
+
+/* Title of the cross connection knobs */
+"Connection Handle" = "Метка соединения";
+
+/* Accessibility label for cross connections */
+"Cross Connection" = "Перекрестное соединение";
+
+/* Hint on how to interact with resize knobs */
+"Double tap and hold, then drag to move." = "Дважды нажмите и удерживайте, а затем перетяните в нужное место.";
+
+/* Button on outliner view for folding subitems */
+"Fold node" = "Сложить узел";
+
+/* Title of the resize knobs */
+"Resize Handle" = "Изменить размер метки";
+
+/* Accessibility suffix for cross connection title */
+"Title = '%@'" = "Название = '%@'";
+
+/* Button on outliner view for unfolding subitems */
+"Unfold node" = "Разложить узел";
+

@@ -1,0 +1,24 @@
+/* No comment provided by engineer. */
+"Delete" = "Verwijder";
+
+/* No comment provided by engineer. */
+"Fold" = "Klap in";
+
+/* Label in outline view when no nodes are available. */
+"No Nodes" = "Geen knopen";
+
+/* Label in outline view when no open tasks are available. */
+"No open tasks" = "Geen open taken";
+
+/* Label in outline view when no search results are available. */
+"No Search Results" = "Geen zoekresultaten";
+
+/* Placeholder label in outline when there's no title specified */
+"No Title" = "Naamloos";
+
+/* Placeholder string for the search bar */
+"Search Titles" = "Zoek in namen";
+
+/* No comment provided by engineer. */
+"Unfold" = "Klap uit";
+

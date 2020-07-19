@@ -1,0 +1,33 @@
+﻿
+/* Class = "NSMenuItem"; title = "Rectangle"; ObjectID = "CDT-Wu-6rr"; */
+"CDT-Wu-6rr.title" = "Rectangle";
+
+/* Class = "NSMenuItem"; title = "Cloud"; ObjectID = "FPG-4d-yZ2"; */
+"FPG-4d-yZ2.title" = "Cloud";
+
+/* Class = "NSMenuItem"; title = "Line"; ObjectID = "KrC-kG-tQH"; */
+"KrC-kG-tQH.title" = "Line";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "LCu-YI-0W0"; */
+"LCu-YI-0W0.title" = "Box";
+
+/* Class = "NSButtonCell"; title = "Manual Width"; ObjectID = "MxR-Hb-oXs"; */
+"MxR-Hb-oXs.title" = "Manual Width";
+
+/* Class = "NSTextFieldCell"; title = "SHAPE"; ObjectID = "OmX-7Q-04E"; */
+"OmX-7Q-04E.title" = "SHAPE";
+
+/* Class = "NSMenuItem"; title = "Rounded"; ObjectID = "d7A-Y5-uq9"; */
+"d7A-Y5-uq9.title" = "Rounded";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "nGv-sp-oz7"; */
+"nGv-sp-oz7.title" = "Box";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "r3K-BJ-0jR"; */
+"r3K-BJ-0jR.title" = "Box";
+
+/* Class = "NSMenuItem"; title = "Pill"; ObjectID = "vxv-F7-83Y"; */
+"vxv-F7-83Y.title" = "Pill";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedMultipleValuesPlaceholder = "..."; ObjectID = "zEZ-GO-X4t"; */
+"zEZ-GO-X4t.ibShadowedMultipleValuesPlaceholder" = "...";

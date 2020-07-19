@@ -1,0 +1,6 @@
+
+/* Class = "NSTextFieldCell"; title = "Uploading a document that has been uploaded before will overwrite it and make the new version available under the same URL."; ObjectID = "d6W-cJ-SlK"; */
+"d6W-cJ-SlK.title" = "عند تحميل مستند تم تحميله من قبل، سوف يتم استبدال المستند وتوفير النسخة الجديدة من المستند تحت عنوان الإنترنت نفسه.";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "lli-kP-wmc"; */
+"lli-kP-wmc.title" = "العنوان";

@@ -1,0 +1,731 @@
+/* Header in accessibility canvas description */
+"%d mind maps." = "%d mindmaps.";
+
+/* Title Accessory View, trial X Days Remaining */
+"%ld days remaining" = "%ld dagar återstår";
+
+/* Call to action for user to begin text editing in the tutorial */
+"*Double Click* to add yours" = "*Dubbelklicka* och lägg till din";
+
+/* Call to action for user to begin text editing in the tutorial */
+"*Double Tap* to add yours" = "*Tryck snabbt två gånger* och lägg till din";
+
+/* Error message when installing a theme fails */
+"A theme with the same ID is already installed" = "Det finns redan ett tema med samma ID";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Add Boundaries" = "Lägg till gränser";
+
+/* Adding a boundary to a set of nodes
+   Label that is shown to describe a keyCommand to the user */
+"Add Boundary" = "Lägg till gräns";
+
+/* Alert View title when adding a link to a node
+   Label that is shown to describe a keyCommand to the user */
+"Add Link" = "Lägg till länk";
+
+/* Accessibility Label for button to indent left */
+"Add Notes" = "Lägg till anteckningar";
+
+/* Accessibility Label for button to toggle task state
+   Attaching/Adding a task to a node
+   Label that is shown to describe a keyCommand to the user */
+"Add Task" = "Lägg till uppgift";
+
+/* Alert message details when a payment needs to be confirmed by family member */
+"App features will be unlocked as soon as your transaction is approved." = "Appens funktioner kommer att låsas upp när transaktionen har godkänts.";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Balance Mind Map" = "Balansera mindmap";
+
+/* Accessiblity label for discounted purchase price */
+"Buy now for %@ instead of %@" = "Köp nu för %1$@ istället för %2$@";
+
+/* FullVersion Purchase Screen, price as parameter */
+"Buy Now\t%@" = "Köp nu %@";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Cancel" = "Avbryt";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Canvas Color" = "Arkfärg";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Center Main Node" = "Centrera huvudnod";
+
+/* FullVersion Purchase Screen, check for discount button */
+"Check for Discount" = "Leta efter rabatt";
+
+/* Call to action for the user to add a node with the node well in the tutorial */
+"Click *＋* to add another thought" = "Lägg till en till tanke genom att klicka på *+*";
+
+/* Placeholder of the note text view when the note is still empty */
+"Click here to add notes" = "Klicka och lägg till anteckningar";
+
+/* Explanation how to finish an action in the tutorial */
+"Click the *Canvas* to finish" = "Avsuta genom att klicka på *arbetsytan*";
+
+/* (Accessibilty Label) Button on document view to get back to document manager
+   Label that is shown to describe a keyCommand to the user */
+"Close Document" = "Stäng dokument";
+
+/* (Accessibilty Hint) Button on document view to get back to document manager */
+"Closes document and goes back to document manager." = "Stänger dokumentet och går tillbaka till dokumenthanteraren.";
+
+/* Completing all child tasks
+   Label that is shown to describe a keyCommand to the user */
+"Complete All Child Tasks" = "Avsluta alla barnuppgifter";
+
+/* Completing a task
+   Label that is shown to describe a keyCommand to the user */
+"Complete Task" = "Slutför uppgift";
+
+/* Completing and Reopening all child tasks */
+"Complete/Reopen All Child Tasks" = "Avsluta/öppna alla barnuppgifter igen";
+
+/* Complete and reopen tasks of nodes */
+"Complete/Reopen Task" = "Avsluta/öppna uppgift igen";
+
+/* Label that is shown to describe a keyCommand to the user
+   shorted label that is shown to describe a keyCommand to the user */
+"Connect" = "Anslut";
+
+/* Error when catalog of products could not be fetched when attempting a purchase, failure reason
+   Error when transaction fails with unknown reason
+   Restore Purchase, unknown error when attempting to refresh receipt (restore purchase) */
+"Connecting to App Store failed" = "Kunde inte ansluta till App Store.";
+
+/* Continue button on first launch welcome screen
+   Title of Button for finishing tutorial */
+"Continue" = "Fortsätt";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Copy" = "Kopiera";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Copy Single Node" = "Kopiera enskild nod";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Copy Style" = "Kopiera stil";
+
+/* Accessibility hint for the button used to create a new mindmap */
+"Create a new child node." = "Skapa en ny barnnod.";
+
+/* Accessibility hint for the button used to create a new mindmap */
+"Create a new main node." = "Skapa en ny huvudnod.";
+
+/* Accessibility hint for the button used to create a new mindmap */
+"Create a new parent node." = "Skapa en ny föräldranod.";
+
+/* Accessibility hint for the button used to create a new mindmap */
+"Create a new sibling node above." = "Skapa en ny syskonnod ovanför.";
+
+/* Accessibility hint for the button used to create a new mindmap */
+"Create a new sibling node below." = "Skapa en ny syskonnod nedanför.";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Create Connection" = "Skapa anslutning";
+
+/* Button to create document from quick entry */
+"Create Mind Map" = "Skapa mindmap";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Create New Child" = "Skapa nytt barn";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Create New Main Node" = "Skapa ny huvudnod";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Create New Parent" = "Skapa ny förälder";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Create New Sibling" = "Skapa nytt syskon";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Create New Sibling Above" = "Skapa nytt syskon ovanför";
+
+/* Accessibility Hint for button to create document from draft */
+"Creates a document from the entered outline." = "Skapar ett dokument från angiven outline.";
+
+/* Purchasing Check For Discount Failed Alert - message  */
+"Customers of MindNode 2 for Mac are eligible for a discount. Please make sure you have MindNode 2.5.7 (or later) installed on your Mac." = "Kunder som köpt MindNode 2 för Mac kan få rabatt. Kontrollera att MindNode 2.5.7 (eller senare) är installerat på datorn.";
+
+/* Purchasing Check For Discount Failed Alert - message  */
+"Customers of MindNode for iOS are eligible for a discount. Please make sure you have MindNode 4.5.7 (or later) installed on your device." = "Kunder som köpt MindNode för iOS kan få rabatt. Kontrollera att MindNode 4.5.7 (eller senare) är installerat på enheten.";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Cut" = "Klipp ut";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Cycle Main Node Backward" = "Gå till föregående huvudnod";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Cycle Main Node Forward" = "Gå till nästa huvudnod";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Decrease Font Size" = "Minska typsnittsstorlek";
+
+/* Accessibility Label for button to indent left */
+"Decrease indentation" = "Minska indragning";
+
+/* Accessibility Hint for button to indent left */
+"Decreases the indentation level of the current line." = "Minskar hur mycket aktuell rad är indragen.";
+
+/* Theme Picker Header Label */
+"Default" = "Förval";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Delete" = "Radera";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Delete Attachment" = "Radera bilaga";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Delete Connection" = "Radera anslutning";
+
+/* After cancelling, a sheet is shown with options to delete/save a draft */
+"Delete Draft" = "Radera utkast";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Delete Node" = "Radera nod";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Delete Single Node" = "Radera ensam nod";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Detach" = "Koppla från";
+
+/* AppModeScreen, infotext */
+"Do you want to start the free 2-week trial of MindNode’s full feature set?" = "Vill du påbörja två veckors kostnadsfritt test av MindNodes alla funktioner?";
+
+/* Info about purchase options on the Mac Purchase Screen */
+"Do you want to start the free 2-week trial of MindNode’s full feature set? Or, buy the full app. If you just want to access your documents, use Viewer Mode." = "Vill du påbörja två veckors kostnadsfritt test av MindNodes alla funktioner? Eller köp den fullständiga appen. Använd visningsläge om du bara vill komma åt dina dokument.";
+
+/* FullVersion Purchase Screen, infotext */
+"Do you want to unlock MindNode’s full feature set?" = "Vill du låsa upp alla funktioner i MindNode?";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Duplicate" = "Duplicera";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Duplicate Single Node" = "Duplicera enskild nod";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Edit Note" = "Redigera anteckning";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Edit Title" = "Redigera titel";
+
+/* shorted label that is shown to describe a keyCommand to the user */
+"Edit…" = "Redigera…";
+
+/* Accessibility Label for text view to enter quickEntry outline */
+"Enter a text outline and turn it into a MindNode document." = "För in en textoutline och omvandla den till ett MindNode-dokument.";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Enter Full Screen" = "Helskärmsläge";
+
+/* Shown as message text when the Beta expires */
+"Expired Beta Release" = "Förfallen betaversion";
+
+/* Button on the document view to open the export sheet
+   Label that is shown to describe a keyCommand to the user */
+"Export" = "Exportera";
+
+/* Shown as label on the Things sharing service menu item. */
+"Export to Things" = "Exportera till Things";
+
+/* Shown as label on the Things sharing service menu item. */
+"Export to Things 3" = "Exportera till Things 3";
+
+/* Shown as label on the Things sharing service menu item. */
+"Export to Things Beta" = "Exportera till Things Beta";
+
+/* Alert message when beta activation failed */
+"Failed to Activate Beta" = "Kunde inte aktivera Beta";
+
+/* Shown when importing custom themes fails */
+"Failed to import the following \(failureThemeString):\n\(failureDescriptions)" = "Kunde inte importera följande \\(failureThemeString):\n\\(failureDescriptions)";
+
+/* (Accessibility Hint) Finish tutorial button */
+"Finishes the Tutorial." = "Avslutar övningsexemplen.";
+
+/* shorted label that is shown to describe a keyCommand to the user */
+"Fold" = "Fäll ihop";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Fold Node" = "Fäll ihop nod";
+
+/* AppModeScreen, trial button */
+"Free Trial (2 weeks)" = "Provperiod (två veckor)";
+
+/* Restore Purchases, full app restored success title */
+"Full app restored" = "Återställt fullständig app";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Hide Inspector" = "Göm granskare";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Hide Notes Inspector" = "Göm anteckningsgranskare";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Hide Outline" = "Göm outline";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Hide Style Inspector" = "Göm stilgranskare";
+
+/* Shown after sucessfully importing custom themes */
+"Imported the following \(successThemeString):\n\(successDescriptions)" = "Importerade följande \\(successThemeString):\n\\(successDescriptions)";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Increase Font Size" = "Öka typsnittsstorlek";
+
+/* Accessibility Label for button to indent right */
+"Increase indentation" = "Öka indrag";
+
+/* Accessibility Hint for button to indent right */
+"Increases the indentation level of the current line." = "Ökar hur mycket aktuell rad är indragen.";
+
+/* (Accessibility Label) Button on the document view to show/hide the inspector */
+"Inspector" = "Granskare";
+
+/* Error message when there's an invalid quickEntry input */
+"Invalid text input" = "Ogiltig textinmatning";
+
+/* Explanation of a node in the tutorial */
+"It holds a *Thought*" = "Den håller en *tanke*";
+
+/* Remote purchase detected alert: Description of remote trial started detected alert */
+"It seems like a trial was started previously." = "En provperiod har påbörjats tidigare.";
+
+/* Remote purchase detected alert: Description of remote purchase detected alert */
+"It seems like the full app was activated previously." = "Den fullständiga appen aktiverades tidigare.";
+
+/* Placeholder for quickEntry feature */
+"It starts with a thought" = "Det börjar med en tanke";
+
+/* Shown when removing MindNode as login item fails. */
+"Launch on login can't be disabled" = "Det går inte att avaktivera startobjekt";
+
+/* Shown when adding MindNode as login item fails. */
+"Launch on login can't be enabled" = "Det går inte att aktivera startobjekt";
+
+/* AppModeScreen, learn more button */
+"Learn More" = "Läs mer";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Leave Full Screen" = "Lämna helskärm";
+
+/* Shown when adding MindNode as login item fails. */
+"MindNode cannot be added to the list of login items." = "MindNode kunde inte läggas till bland startobjekten.";
+
+/* Shown when removing MindNode as login item fails. */
+"MindNode cannot be removed from the list of login items." = "MindMinde kunde inte tas bort från startobjekten.";
+
+/* Title for the custom Theme installation alert */
+"MindNode Themes" = "MindNode-teman";
+
+/* Alert informativeText when mindnode beta is expired */
+"MindNode will continue to work in basic mode." = "MindNode kommer att fortsätta att fungera i grundläge.";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Move Above Sibling Node" = "Flytta till ovanför syskonnod";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Move Below Sibling Node" = "Flytta till nedanför syskonnod";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Move Node Down" = "Flytta nod nedåt";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Move Node Left" = "Flytta nod vänster";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Move Node Right" = "Flytta nod höger";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Move Node Up" = "Flytta nod uppåt";
+
+/* Placeholder for PopUp buttons when multiple objects with mixed content values are selected.
+   Placeholder of the note text view when multiple nodes are selected */
+"Multiple" = "Flera";
+
+/* Accessibility label for the button used to create a new mindmap */
+"New Child" = "Nytt barn";
+
+/* Accessibility label for the button used to create a new mindmap */
+"New Main Node" = "Ny huvudnod";
+
+/* Accessibility label for the button used to create a new mindmap */
+"New Parent" = "Ny förälder";
+
+/* Accessibility label for the button used to create a new mindmap */
+"New Sibling" = "Nytt syskon";
+
+/* Accessibility label for the button used to create a new mindmap */
+"New Sibling Above" = "Nytt syskon ovanför";
+
+/* Quick Entry Onboarding, skip button text */
+"No Thanks" = "Nej tack";
+
+/* Remote purchase detected alert: ignore-button title */
+"Not Now" = "Inte nu";
+
+/* Alert message ok button, when a payment needs to be confirmed by family member */
+"OK" = "OK";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Open Link" = "Öppna länk";
+
+/* Open website button title for the Beta expiration sheet. */
+"Open Website" = "Öppna webbplats";
+
+/* (Accessibility Label) Button on the document view to open the outline view */
+"Outline" = "Outline";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Pan Canvas Down" = "För arbetsytan nedåt";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Pan Canvas Left" = "För arbetsytan åt vänster";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Pan Canvas Right" = "För arbetsytan åt höger";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Pan Canvas Up" = "För arbetsytan uppåt";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Paste" = "Klistra in";
+
+/* Button to paste outline from quick entry */
+"Paste Mind Map" = "Klistra in mindmap";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Paste Style" = "Klistra in stil";
+
+/* Explanation how to finish an action in the tutorial */
+"Perform the *Escape Gesture* to finish" = "Avsluta genom att utföra *lämnagesten*";
+
+/* Theme Picker Header Label */
+"Personal" = "Personligt";
+
+/* Alert informativeText when mindnode beta could not be verified and therefore is expired */
+"Please connect to a working Wifi and relaunch MindNode." = "Anslut till ett trådlöst nätverk och öppna MindNode igen.";
+
+/* Alert informativeText when beta activation failed */
+"Please ensure you are connected to WiFi and the activation code is valid." = "Kontrollera att du är ansluten till ett trådlöst nätverk och att aktiveringskoden är giltig.";
+
+/* Activity Indicator title when preparing purchase on Mac purchase screen by loading catalog
+   Purchasing: preparing products HUD before purchasing */
+"Preparing…" = "Förbereder…";
+
+/* Purchasing Check For Discount Failed Alert - title */
+"Previous version not found" = "Hittade inte föregående version";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Print" = "Skriv ut";
+
+/* FullVersion Purchase Screen, title
+   Title Accessory View Purchase Button */
+"Purchase" = "Köp";
+
+/* Error when catalog of products could not be fetched when attempting a purchase, error description */
+"Purchase could not be initiated" = "Kunde inte påbörja köp";
+
+/* FullVersion Purchase Screen, Buy full app, price unknown */
+"Purchase Full App" = "Köp fullständig app";
+
+/* Quick Entry Onboarding, title */
+"Quick Entry" = "Snabbinmatning";
+
+/* Quick Entry Onboarding, explanation text */
+"Quick Entry is a great way to collect your thoughts. Do you want to add it to your menu bar?" = "Med snabbinmatning kan du enkelt samla dina tankar. Vill du lägga till det i menyfältet?";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Quick Look" = "Överblicka";
+
+/* Quit button title for the Beta expiration sheet. */
+"Quit MindNode" = "Avsluta MindNode";
+
+/* Button on the document view to redo a change
+   Label that is shown to describe a keyCommand to the user */
+"Redo" = "Gör om";
+
+/* Label that is shown to describe a keyCommand to the user
+   Removing a boundary from a set of nodes */
+"Remove Boundary" = "Ta bort gräns";
+
+/* Label that is shown to describe a keyCommand to the user
+   Removing an attached task from a node */
+"Remove Task" = "Ta bort uppgift";
+
+/* Label that is shown to describe a keyCommand to the user
+   Reopening all child tasks */
+"Reopen All Child Tasks" = "Öppna alla barnuppgifter igen";
+
+/* Label that is shown to describe a keyCommand to the user
+   Reopening a task */
+"Reopen Task" = "Öppna uppgift igen";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Reorganize Nodes" = "Ordna om noderna";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Replace Image" = "Ersätt bild";
+
+/* Shorted label that is shown to describe a keyCommand to the user */
+"Replace…" = "Ersätt…";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Reset Waypoint" = "Återställ vägpunkt";
+
+/* Remote purchase detected alert: restore-button title */
+"Restore" = "Återskapa";
+
+/* Remote purchase detected alert: Title for full app */
+"Restore Full App?" = "Återställ fullständig app?";
+
+/* FullVersion Purchase Screen, restore purchase button
+   Restore purchase button on first launch welcome screen */
+"Restore Purchase" = "Återställ inköp";
+
+/* Remote purchase detected alert: Title for trial */
+"Restore Trial?" = "Återställ provperiod?";
+
+/* Restore Purchase, progress overlay title */
+"Restoring…" = "Återskapar…";
+
+/* After cancelling, a sheet is shown with options to delete/save a draft */
+"Save Draft" = "Spara utkast";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Search" = "Sök";
+
+/* Placeholder of the note text view when no nodes are selected */
+"Select a node to add notes" = "Välj en nod för att lägga till anteckningar";
+
+/* Shown as title for the theme open panel. */
+"Select a Theme to install" = "Välj ett tema att installera";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Show Action Inspector" = "Visa åtgärdsgranskare";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Show Image Inspector" = "Visa bildgranskare";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Show Inspector" = "Visa granskare";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Show Notes Inspector" = "Visa anteckningsgranskare";
+
+/* (Accessibility Hint) Button on the document view to show/hide the inspector */
+"Show or hide the inspector." = "Visa eller göm granskaren.";
+
+/* (Accessibility Hint) Button on the document view to show/hide the inspector */
+"Show or hide the notes inspector." = "Visa eller göm anteckningsgranskaren.";
+
+/* (Accessibility Hint) Button on the document view to open the outline view */
+"Show or hide the outline." = "Visa eller göm outline.";
+
+/* (Accessibility Hint) Button on the document view to show/hide the inspector */
+"Show or hide the search bar." = "Visa eller göm sökfältet.";
+
+/* (Accessibility Hint) Button on the document view to show/hide the inspector */
+"Show or hide the theme picker." = "Visa eller göm temaväljaren.";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Show Outline" = "Visa outline";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Show Style Inspector" = "Visa stilgranskare";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Show Theme Picker" = "Visa temaväljare";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Size To Fit Content" = "Passa till innehållet";
+
+/* Title of Button for skipping tutorial */
+"Skip Tutorial" = "Hoppa över övningsexempel";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Sort Alphabetically" = "Sortera undernoder";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Sort by Task State" = "Sortera efter uppgiftsstatus";
+
+/* Title Accessory View Trial Button */
+"Start Trial" = "Starta provperiod";
+
+/* Alert message when mindnode beta is activated */
+"Successfully Activated Beta" = "Betan har aktiverats";
+
+/* Call to action for the user to add a node with the node well in the tutorial */
+"Tap *＋* to add another thought" = "Lägg till en till tanke genom att trycka *+*";
+
+/* Explanation how to finish an action in the tutorial */
+"Tap the *Canvas* to finish" = "Avsluta genom att trycka på *arbetsytan*";
+
+/* Accessibility Label for text view to enter quickEntry outline */
+"Text Outline" = "Textoutline";
+
+/* Alert informativeText when mindnode beta is activated */
+"Thank you for helping us improve MindNode." = "Tack för att du hjälper oss att förbättra MindNode.";
+
+/* Error message when installing a theme fails */
+"The personal theme folder is missing or unreadable" = "Mappen med personliga teman är tom eller går inte att läsa";
+
+/* Error message when the quickEntry input can't be parsed */
+"The text input has an invalid format" = "Textinmatningen har ogiltigt format";
+
+/* Error message when installing a theme fails */
+"The theme file is damaged" = "Temafilen är skadad";
+
+/* Theme singular */
+"theme" = "tema";
+
+/* Shown as message text when custom theme removal fails */
+"Theme removal failed" = "Kunde inte ta bort tema";
+
+/* Theme plural */
+"themes" = "teman";
+
+/* Shown as info text when the Beta expires. */
+"This beta version has expired, please download a new beta release from 'https://mindnode.com/next/beta'!" = "Denna betaversion har förfallit. Hämta en ny betaversion från 'https://mindnode.com/next/beta'!";
+
+/* Explanation of a node in the tutorial */
+"This is a *Node*" = "Detta är en *nod*";
+
+/* Trial expiry alert message */
+"To continue using MindNode, unlock the full app or use Viewer Mode." = "Fortsätt att använda MindNode genom att låsa upp den fullständiga appen eller använda visningsläge.";
+
+/* Placeholder of the note text view when the note is still empty */
+"To edit notes, start the trial or purchase the full app" = "Påbörja testperioden eller köp den fullständiga appen om du vill redigera anteckningar";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Toggle Bold" = "Växla fetstil";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Toggle Italic" = "Växla kursiv";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Toggle size of Inspector" = "Växla storlek på granskare";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Toggle Strikethrough" = "Växla överstruken";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Toggle Underline" = "Växla understruken";
+
+/* Accessibility Hint for button to add notes */
+"Toggles the task state of the current line." = "Växlar åtgärdsstatus för aktuell rad.";
+
+/* Error when catalog of products could not be fetched when attempting a purchase, error description */
+"Trial could not be started" = "Kunde inte påbörja provperiod";
+
+/* Title Accessory View, trial expired */
+"Trial expired" = "Provperioden har upphört";
+
+/* Restore Purchase, trial restored success title */
+"Trial restored" = "Återställt provperiod";
+
+/* Accessibility Hint for button add notes */
+"Turns the rest of the line into the notes of the current line." = "Gör resten av raden till en anteckning om aktuell rad.";
+
+/* Error title for quickEntry error */
+"Unable to create Document" = "Kunde inte skapa dokument";
+
+/* Shown as error text when deleting a custom theme fails */
+"Unable to delete custom theme." = "Kunde inte radera anpassat tema.";
+
+/* Button on the document view to undo a change
+   Label that is shown to describe a keyCommand to the user */
+"Undo" = "Ångra";
+
+/* shorted label that is shown to describe a keyCommand to the user */
+"Unfold" = "Fäll ut";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Unfold Node" = "Fäll upp nod";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Unfold One Level" = "Fäll upp en nivå";
+
+/* Error message when installing a theme fails */
+"Unknown error" = "Okänt fel";
+
+/* AppModeScreen, full app button */
+"Unlock Full App" = "Lås upp fullständig app";
+
+/* Title of the Purchase screen on Mac */
+"Unlock MindNode" = "Lås upp MindNode";
+
+/* Trial expiry purchase options button */
+"Unlock Now" = "Lås upp nu";
+
+/* Quick Entry Onboarding, use quick entry button title */
+"Use Quick Entry" = "Använd snabbinmatning";
+
+/* Sample main node text in the tutorial */
+"Vacation 🏖" = "Semester 🏖";
+
+/* AppModeScreen, document-viewer-only button
+   Title Accessory View, document viewer only
+   Trial expiry alert viewer only mode button */
+"Viewer Mode" = "Visningsläge";
+
+/* Error when catalog of products could not be fetched when attempting a purchase, error description */
+"Viewer Mode could not be started" = "Kunde inte starta visningsläge";
+
+/* Alert message title when a payment needs to be confirmed by family member
+   Title Accessory View, Waiting for approval of deferred payment, footer */
+"Waiting for approval" = "Väntar på godkännande";
+
+/* AppModeScreen, title */
+"Welcome" = "Välkommen";
+
+/* Header in accessibility canvas description of node */
+"with %d child nodes" = "med %d barnnoder";
+
+/* Success text when finishing the tutorial - line 2 */
+"You're all set" = "Allt klart";
+
+/* Error when purchases are disallowed by the system */
+"Your account is currently unable to make purchases." = "Du kan för närvarande inte göra inköp med ditt konto.";
+
+/* Alert message when mindnode beta could not be verified and therefore is expired
+   Alert message when mindnode beta is expired */
+"Your beta activation expired!" = "Beta-aktiveringen har förfallit!";
+
+/* AppModeScreen, infotext if trial is expired */
+"Your trial has ended. Do you want to unlock MindNode’s full feature set?" = "Testperioden är slut. Vill du låsa upp MindNodes alla funktioner?";
+
+/* Info about purchase options on the Mac Purchase Screen if trial has expired */
+"Your trial has ended. Do you want to unlock MindNode’s full feature set? If you just want to access your documents, use Viewer Mode." = "Testperioden är slut. Vill du låsa upp MindNodes alla funktioner? Använd visningsläge om du bara vill komma åt dina dokument.";
+
+/* Trial expiry alert title */
+"Your trial has expired" = "Provperioden har upphört";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Zoom In" = "Zooma in";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Zoom Out" = "Zooma ut";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Zoom To Actual Size" = "Zooma till verklig storlek";
+
+/* Window Zoom Popup Button */
+"Zoom to Fit" = "Anpassa till fönstret";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Zoom To Fit" = "Zooma till att passa";
+
+/* Window Zoom Popup Button */
+"Zoom to Selection" = "Zooma till markering";
+
+/* Success text when finishing the tutorial - line 1 */
+"🎉" = "🎉";
+

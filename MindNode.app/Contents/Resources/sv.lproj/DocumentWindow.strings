@@ -1,0 +1,9 @@
+/* Title of menu item to show the Find and Replace bar */
+"Hide Find & Replace" = "Göm sök och ersätt";
+
+/* Title of menu item to hide the Find and Replace bar */
+"Show Find & Replace" = "Visa sök och ersätt";
+
+/* Title of MyMindNode error dialog */
+"Unable to Share to MyMindNode" = "Kunde inte dela till MyMindNode";
+

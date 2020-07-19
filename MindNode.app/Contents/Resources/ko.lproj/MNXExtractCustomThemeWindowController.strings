@@ -1,0 +1,12 @@
+
+/* Class = "NSButtonCell"; title = "Extract Theme"; ObjectID = "3t5-gq-rPr"; */
+"3t5-gq-rPr.title" = "테마 추출하기";
+
+/* Class = "NSButtonCell"; title = "Prevent duplicate branch colors"; ObjectID = "MpF-Rl-WOT"; */
+"MpF-Rl-WOT.title" = "가지 색상 중복 방지";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "aH5-LE-adg"; */
+"aH5-LE-adg.title" = "취소";
+
+/* Class = "NSTextFieldCell"; title = "Create a new theme by extracting the style of the current document. You’ll get the best results if you use a mind map with a single main node, six subnodes and one cross connection."; ObjectID = "b1N-qc-9Nq"; */
+"b1N-qc-9Nq.title" = "MindNode는 현재 사용 중인 도큐멘트를 기반으로 테마를 생성하는 기능을 갖추고 있습니다. 하나의 중심 마디와 6개의 하위 마디, 1개의 연결고리가 있는 마인드 맵을 사용했을 때 최상의 결과를 얻을 수 있습니다.";

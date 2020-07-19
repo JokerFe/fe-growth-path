@@ -1,0 +1,6 @@
+
+/* Class = "NSTextFieldCell"; title = "Create a Markdown document that can be viewed and edited with all  applications supporting the Markdown document format."; ObjectID = "CHe-GJ-6yj"; */
+"CHe-GJ-6yj.title" = "Markdown 도큐멘트는 Markdown 도큐멘트 포맷을 지원하는 응용 프로그램에서 열람하거나 편집할 수 있습니다.";
+
+/* Class = "NSButtonCell"; title = "Include Images"; ObjectID = "Ome-hq-JQn"; */
+"Ome-hq-JQn.title" = "이미지 포함";

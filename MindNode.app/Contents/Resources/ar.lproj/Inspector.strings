@@ -1,0 +1,18 @@
+/* Title of branch/connection style inspector */
+"Branch" = "القسم";
+
+/* Title of branch/connection style inspector */
+"Branch/Connection" = "القسم/الاتصال";
+
+/* Title of branch/connection style inspector */
+"Connection" = "الاتصال";
+
+/* Title of dashed border dash style */
+"Dashed" = "متقطع";
+
+/* Title of dotted border dash style */
+"Dotted" = "منقط";
+
+/* Title of solid border dash style */
+"Solid" = "سطر كامل";
+

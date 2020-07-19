@@ -1,0 +1,12 @@
+
+/* Class = "NSButtonCell"; title = "Extract Theme"; ObjectID = "3t5-gq-rPr"; */
+"3t5-gq-rPr.title" = "Extraire le thème";
+
+/* Class = "NSButtonCell"; title = "Prevent duplicate branch colors"; ObjectID = "MpF-Rl-WOT"; */
+"MpF-Rl-WOT.title" = "Empêcher les couleurs de branche en double";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "aH5-LE-adg"; */
+"aH5-LE-adg.title" = "Annuler";
+
+/* Class = "NSTextFieldCell"; title = "Create a new theme by extracting the style of the current document. You’ll get the best results if you use a mind map with a single main node, six subnodes and one cross connection."; ObjectID = "b1N-qc-9Nq"; */
+"b1N-qc-9Nq.title" = "Créez un thème en récupérant le style du document courant. Vous obtiendrez de meilleurs résultats avec une carte heuristique à un seul nœud, six sous-nœuds et un lien croisé.";

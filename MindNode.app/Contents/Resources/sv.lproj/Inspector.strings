@@ -1,0 +1,18 @@
+/* Title of branch/connection style inspector */
+"Branch" = "Gren";
+
+/* Title of branch/connection style inspector */
+"Branch/Connection" = "Gren/Anslutning";
+
+/* Title of branch/connection style inspector */
+"Connection" = "Anslutning";
+
+/* Title of dashed border dash style */
+"Dashed" = "Streckad";
+
+/* Title of dotted border dash style */
+"Dotted" = "Prickad";
+
+/* Title of solid border dash style */
+"Solid" = "Heldragen";
+

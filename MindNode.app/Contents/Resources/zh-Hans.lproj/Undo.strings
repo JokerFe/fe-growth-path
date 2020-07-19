@@ -1,0 +1,15 @@
+/* Undo String when deleting a generic object */
+"Add Object" = "添加对象";
+
+/* No comment provided by engineer. */
+"Cut" = "剪切";
+
+/* Undo String when deleting a generic object */
+"Delete Object" = "删除对象";
+
+/* No comment provided by engineer. */
+"Paste" = "粘贴";
+
+/* The undo action name when calling strikethrough. */
+"Strikethrough" = "删除线";
+

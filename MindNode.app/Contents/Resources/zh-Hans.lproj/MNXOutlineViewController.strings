@@ -1,0 +1,9 @@
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "STf-Qc-H7s"; */
+"STf-Qc-H7s.title" = "方框";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "kUg-df-xKX"; */
+"kUg-df-xKX.title" = "文本单元格";
+
+/* Class = "NSSearchFieldCell"; placeholderString = " Search Titles"; ObjectID = "pCi-XZ-tPG"; */
+"pCi-XZ-tPG.placeholderString" = "搜索标题";

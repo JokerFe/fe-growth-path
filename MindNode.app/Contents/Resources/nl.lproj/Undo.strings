@@ -1,0 +1,15 @@
+/* Undo String when deleting a generic object */
+"Add Object" = "Voeg object toe";
+
+/* No comment provided by engineer. */
+"Cut" = "Knip";
+
+/* Undo String when deleting a generic object */
+"Delete Object" = "Verwijder object";
+
+/* No comment provided by engineer. */
+"Paste" = "Plak";
+
+/* The undo action name when calling strikethrough. */
+"Strikethrough" = "Doorgehaald";
+

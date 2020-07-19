@@ -1,0 +1,18 @@
+/* Title of branch/connection style inspector */
+"Branch" = "ブランチ";
+
+/* Title of branch/connection style inspector */
+"Branch/Connection" = "ブランチ/接続";
+
+/* Title of branch/connection style inspector */
+"Connection" = "結合";
+
+/* Title of dashed border dash style */
+"Dashed" = "破線";
+
+/* Title of dotted border dash style */
+"Dotted" = "点線";
+
+/* Title of solid border dash style */
+"Solid" = "実線";
+

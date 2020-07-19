@@ -1,0 +1,12 @@
+/* NSError detail string for failed CRC32 checks during unzip. */
+"CRC32 check failed during unzip." = "فشل التحقق من CRC32 أثناء فك الضغط.";
+
+/* NSError detail string for failed CRC32 checks during unzip to file. */
+"CRC32 check failed while unzipping to file." = "فشل التحقق من CRC32 أثناء فك ضغط المف.";
+
+/* NSError detail string for failed unzip operations due to already existing destination files. */
+"Unzip failed because a file with the same name already exists at the destination URL. The file at the destination URL must be non-existent." = "فشل فك الضغط لوجود ملف له نفس الاسم في URL الوجهة. يجب ألا يكون الملف الموجود في URL الوجهة متواجدًا.";
+
+/* NSError detail string for unzip operations that lack a filename. */
+"Unzip failed because the destination URL points to a directory. The destination URL must specify a filename." = "فشل فك الضغط لكون URL الوجهة تشير إلى دليل. يجب أن تحدد URL الوجهة اسم ملف.";
+

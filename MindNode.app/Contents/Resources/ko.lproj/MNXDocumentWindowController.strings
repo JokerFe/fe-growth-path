@@ -1,0 +1,156 @@
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "1"; */
+"1.title" = "윈도우";
+
+/* Class = "NSToolbarItem"; label = "Task"; ObjectID = "0Fa-Ox-RyJ"; */
+"0Fa-Ox-RyJ.label" = "할일";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Task"; ObjectID = "0Fa-Ox-RyJ"; */
+"0Fa-Ox-RyJ.paletteLabel" = "할일";
+
+/* Class = "NSToolbarItem"; toolTip = "Add a task to the selected nodes"; ObjectID = "0Fa-Ox-RyJ"; */
+"0Fa-Ox-RyJ.toolTip" = "선택한 마디에 할일을 추가하세요";
+
+/* Class = "NSToolbarItem"; label = "Sticker"; ObjectID = "3nb-dp-FV9"; */
+"3nb-dp-FV9.label" = "스티커";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Sticker"; ObjectID = "3nb-dp-FV9"; */
+"3nb-dp-FV9.paletteLabel" = "스티커";
+
+/* Class = "NSToolbarItem"; toolTip = "Add a sticker to the selected nodes"; ObjectID = "3nb-dp-FV9"; */
+"3nb-dp-FV9.toolTip" = "선택한 마디에 스티커를 추가하세요";
+
+/* Class = "NSToolbarItem"; label = "Image"; ObjectID = "65Q-jb-XBo"; */
+"65Q-jb-XBo.label" = "이미지";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Image"; ObjectID = "65Q-jb-XBo"; */
+"65Q-jb-XBo.paletteLabel" = "이미지";
+
+/* Class = "NSToolbarItem"; toolTip = "Pick an image from your media library"; ObjectID = "65Q-jb-XBo"; */
+"65Q-jb-XBo.toolTip" = "미디어 보관함에서 이미지를 선택하세요";
+
+/* Class = "NSToolbarItem"; label = "Sort Alphabetically"; ObjectID = "7p3-bh-4Zw"; */
+"7p3-bh-4Zw.label" = "알파벳 순으로 정렬";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Sort Alphabetically"; ObjectID = "7p3-bh-4Zw"; */
+"7p3-bh-4Zw.paletteLabel" = "알파벳 순으로 정렬";
+
+/* Class = "NSToolbarItem"; toolTip = "Sort child nodes alphabetically"; ObjectID = "7p3-bh-4Zw"; */
+"7p3-bh-4Zw.toolTip" = "하위 마디를 알파벳순으로 정렬";
+
+/* Class = "NSMenuItem"; title = "25%"; ObjectID = "8Kl-0F-uvp"; */
+"8Kl-0F-uvp.title" = "25%";
+
+/* Class = "NSMenuItem"; title = "Show Find and Replace"; ObjectID = "9lk-us-ZK2"; */
+"9lk-us-ZK2.title" = "찾기 및 대치 보기";
+
+/* Class = "NSMenuItem"; title = "200%"; ObjectID = "C2n-Og-QpU"; */
+"C2n-Og-QpU.title" = "200%";
+
+/* Class = "NSToolbarItem"; label = "Print"; ObjectID = "Ckb-gd-rqe"; */
+"Ckb-gd-rqe.label" = "프린트";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Print"; ObjectID = "Ckb-gd-rqe"; */
+"Ckb-gd-rqe.paletteLabel" = "프린트";
+
+/* Class = "NSToolbarItem"; toolTip = "Print document"; ObjectID = "Ckb-gd-rqe"; */
+"Ckb-gd-rqe.toolTip" = "도큐멘트 프린트";
+
+/* Class = "NSMenuItem"; title = "Themes"; ObjectID = "FQ2-NO-8H4"; */
+"FQ2-NO-8H4.title" = "테마";
+
+/* Class = "NSMenuItem"; title = "400%"; ObjectID = "HAR-50-jMQ"; */
+"HAR-50-jMQ.title" = "400%";
+
+/* Class = "NSSegmentedCell"; IFg-3q-jMQ.ibShadowedToolTips[0] = "Show or hide the sidebar"; ObjectID = "IFg-3q-jMQ"; */
+"IFg-3q-jMQ.ibShadowedToolTips[0]" = "사이드바  보기 또는 가리기";
+
+/* Class = "NSSegmentedCell"; IFg-3q-jMQ.ibShadowedToolTips[1] = "Choose what to show in the leading sidebar"; ObjectID = "IFg-3q-jMQ"; */
+"IFg-3q-jMQ.ibShadowedToolTips[1]" = "리딩 사이드바에 표시할 항목을 선택하세요";
+
+/* Class = "NSMenuItem"; title = "125%"; ObjectID = "JUq-o9-ZmK"; */
+"JUq-o9-ZmK.title" = "125%";
+
+/* Class = "NSToolbarItem"; label = "Style  Notes"; ObjectID = "Je7-Xy-wYY"; */
+"Je7-Xy-wYY.label" = "속성 노트";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Style  Notes"; ObjectID = "Je7-Xy-wYY"; */
+"Je7-Xy-wYY.paletteLabel" = "속성 노트";
+
+/* Class = "NSSegmentedCell"; M9h-Yo-l51.ibShadowedToolTips[0] = "Show or hide the style inspector"; ObjectID = "M9h-Yo-l51"; */
+"M9h-Yo-l51.ibShadowedToolTips[0]" = "스타일 속성 열기 또는 가리기";
+
+/* Class = "NSSegmentedCell"; M9h-Yo-l51.ibShadowedToolTips[1] = "Show or hide the note inspector"; ObjectID = "M9h-Yo-l51"; */
+"M9h-Yo-l51.ibShadowedToolTips[1]" = "노트 속성 보기 또는 가리기";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "Mjk-US-h6A"; */
+"Mjk-US-h6A.title" = "기타보기";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Click to enlarge or reduce the view of the mind map"; ObjectID = "OI8-bd-7Vl"; */
+"OI8-bd-7Vl.ibShadowedToolTip" = "클릭하면 마인드 맵의 크기를 확대하거나 축소할 수 있습니다";
+
+/* Class = "NSMenuItem"; title = "75%"; ObjectID = "Q8u-Gh-cet"; */
+"Q8u-Gh-cet.title" = "75%";
+
+/* Class = "NSToolbarItem"; label = "Zoom"; ObjectID = "R1J-J7-Rk6"; */
+"R1J-J7-Rk6.label" = "확대/축소";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Zoom"; ObjectID = "R1J-J7-Rk6"; */
+"R1J-J7-Rk6.paletteLabel" = "확대/축소";
+
+/* Class = "NSToolbarItem"; label = "Connect"; ObjectID = "RCb-do-1bt"; */
+"RCb-do-1bt.label" = "연결";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Connect"; ObjectID = "RCb-do-1bt"; */
+"RCb-do-1bt.paletteLabel" = "연결";
+
+/* Class = "NSToolbarItem"; toolTip = "Connect two nodes"; ObjectID = "RCb-do-1bt"; */
+"RCb-do-1bt.toolTip" = "두 마디 연결하기";
+
+/* Class = "NSMenuItem"; title = "100%"; ObjectID = "dYt-DH-HLh"; */
+"dYt-DH-HLh.title" = "100%";
+
+/* Class = "NSMenuItem"; title = "50%"; ObjectID = "hy7-xb-U0x"; */
+"hy7-xb-U0x.title" = "50%";
+
+/* Class = "NSMenuItem"; title = "300%"; ObjectID = "jfO-X0-2PX"; */
+"jfO-X0-2PX.title" = "300%";
+
+/* Class = "NSToolbarItem"; label = "Detach Node"; ObjectID = "kXt-5y-cgn"; */
+"kXt-5y-cgn.label" = "마디 분리하기";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Detach Node"; ObjectID = "kXt-5y-cgn"; */
+"kXt-5y-cgn.paletteLabel" = "마디 분리하기";
+
+/* Class = "NSToolbarItem"; toolTip = "Detach node"; ObjectID = "kXt-5y-cgn"; */
+"kXt-5y-cgn.toolTip" = "마디 분리하기";
+
+/* Class = "NSToolbarItem"; label = "Share"; ObjectID = "mMh-W0-TEr"; */
+"mMh-W0-TEr.label" = "공유";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Share"; ObjectID = "mMh-W0-TEr"; */
+"mMh-W0-TEr.paletteLabel" = "공유";
+
+/* Class = "NSToolbarItem"; toolTip = "Share this document with others"; ObjectID = "mMh-W0-TEr"; */
+"mMh-W0-TEr.toolTip" = "이 도큐멘트를 다른 사람과 공유하세요";
+
+/* Class = "NSToolbarItem"; label = "Sidebar"; ObjectID = "oTM-Qr-muo"; */
+"oTM-Qr-muo.label" = "사이드바";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Sidebar"; ObjectID = "oTM-Qr-muo"; */
+"oTM-Qr-muo.paletteLabel" = "사이드바";
+
+/* Class = "NSMenuItem"; title = "Outline"; ObjectID = "qES-yZ-X7r"; */
+"qES-yZ-X7r.title" = "개요";
+
+/* Class = "NSMenuItem"; title = "150%"; ObjectID = "y3a-aI-iJH"; */
+"y3a-aI-iJH.title" = "150%";
+
+/* Class = "NSToolbarItem"; label = "Fold"; ObjectID = "zJ1-rN-Ssu"; */
+"zJ1-rN-Ssu.label" = "접기";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Fold"; ObjectID = "zJ1-rN-Ssu"; */
+"zJ1-rN-Ssu.paletteLabel" = "접기";
+
+/* Class = "NSToolbarItem"; toolTip = "Toggle folding of the current selection"; ObjectID = "zJ1-rN-Ssu"; */
+"zJ1-rN-Ssu.toolTip" = "현재 선택 항목 접기/펼침";

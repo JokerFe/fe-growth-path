@@ -1,0 +1,3 @@
+/* HUD label text when handoff fails */
+"Handoff Failed" = "Использование Handoff не удалось";
+

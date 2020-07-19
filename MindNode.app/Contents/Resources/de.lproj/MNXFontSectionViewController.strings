@@ -1,0 +1,45 @@
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "CFb-mX-eop"; */
+"CFb-mX-eop.title" = "Objekt 2";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedMultipleValuesPlaceholder = "..."; ObjectID = "Dg4-0D-LPr"; */
+"Dg4-0D-LPr.ibShadowedMultipleValuesPlaceholder" = " …";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "FiZ-Gz-IaD"; */
+"FiZ-Gz-IaD.title" = "Objekt 3";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "NZR-ps-dcL"; */
+"NZR-ps-dcL.title" = "Objekt 2";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "ToU-7s-3wb"; */
+"ToU-7s-3wb.title" = "Objekt 1";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "WaR-3A-no9"; */
+"WaR-3A-no9.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "FONT"; ObjectID = "cxJ-QI-BV3"; */
+"cxJ-QI-BV3.title" = "SCHRIFT";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = " "; ObjectID = "pFy-aD-Ktq"; */
+"pFy-aD-Ktq.ibShadowedIsNilPlaceholder" = " ";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedMultipleValuesPlaceholder = "Multiple"; ObjectID = "pFy-aD-Ktq"; */
+"pFy-aD-Ktq.ibShadowedMultipleValuesPlaceholder" = "Mehrere";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedNoSelectionPlaceholder = " "; ObjectID = "pFy-aD-Ktq"; */
+"pFy-aD-Ktq.ibShadowedNoSelectionPlaceholder" = " ";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "qdP-AU-e9K"; */
+"qdP-AU-e9K.title" = "Box";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = " "; ObjectID = "rCW-Np-UWD"; */
+"rCW-Np-UWD.ibShadowedIsNilPlaceholder" = " ";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedMultipleValuesPlaceholder = " Multiple"; ObjectID = "rCW-Np-UWD"; */
+"rCW-Np-UWD.ibShadowedMultipleValuesPlaceholder" = " Mehrere";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "u0k-mw-eMj"; */
+"u0k-mw-eMj.title" = "Objekt 3";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "veK-xR-oCT"; */
+"veK-xR-oCT.title" = "Objekt 1";

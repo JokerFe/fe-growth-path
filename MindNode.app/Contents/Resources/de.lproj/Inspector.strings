@@ -1,0 +1,18 @@
+/* Title of branch/connection style inspector */
+"Branch" = "Zweig";
+
+/* Title of branch/connection style inspector */
+"Branch/Connection" = "Zweig/Verbindung";
+
+/* Title of branch/connection style inspector */
+"Connection" = "Verbindung";
+
+/* Title of dashed border dash style */
+"Dashed" = "Gestrichelt";
+
+/* Title of dotted border dash style */
+"Dotted" = "Gepunktet";
+
+/* Title of solid border dash style */
+"Solid" = "Durchgehend";
+

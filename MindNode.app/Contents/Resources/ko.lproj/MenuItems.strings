@@ -1,0 +1,24 @@
+/* Menu item to fold node */
+"Fold Nodes" = "마디 접기";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Bottom Side" = "모든 마디를 아래로 이동";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Left Side" = "모든 마디를 왼쪽으로 이동";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Left/Top Side" = "모든 마디를 왼쪽/상단으로 이동";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Right Side" = "모든 마디를 오른쪽으로 이동";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Right/Bottom Side" = "모든 마디를 오른쪽/아래로 이동";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Top Side" = "모든 마디를 위로 이동";
+
+/* Menu item to fold node */
+"Unfold Nodes" = "마디 펼침";
+

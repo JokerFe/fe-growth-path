@@ -1,0 +1,6 @@
+/* The help string displayed by MNTUserGuideView. */
+"Double tap to edit" = "Нажмите дважды для правки";
+
+/* The help string displayed by MNTUserGuideView. */
+"Drag `+` to\ncreate new node" = "Потяните `+` \nдля создания нового узла";
+

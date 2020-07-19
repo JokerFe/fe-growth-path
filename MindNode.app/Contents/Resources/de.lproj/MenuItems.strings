@@ -1,0 +1,24 @@
+/* Menu item to fold node */
+"Fold Nodes" = "Knoten einfalten";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Bottom Side" = "Alle Knoten zur Unterseite verschieben";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Left Side" = "Alle Knoten zur linken Seite verschieben";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Left/Top Side" = "Alle Knoten nach links / zur Oberseite verschieben";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Right Side" = "Alle Knoten zur rechten Seite verschieben";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Right/Bottom Side" = "Alle Knoten nach rechts / zur Unterseite verschieben";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Top Side" = "Alle Knoten zur Oberseite verschieben";
+
+/* Menu item to fold node */
+"Unfold Nodes" = "Knoten ausfalten";
+

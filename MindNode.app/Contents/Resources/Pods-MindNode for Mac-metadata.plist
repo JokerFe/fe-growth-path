@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>specs</key>
+	<array>
+		<dict>
+			<key>authors</key>
+			<dict>
+				<key>Martin Schuerrer</key>
+				<string>martin@schuerrer.org</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>homepage</key>
+			<string>https://github.com/IdeasOnCanvas/Ashton</string>
+			<key>licenseText</key>
+			<string>Copyright 2012 Martin Schuerrer and other contributors
+martin@schuerrer.org
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+</string>
+			<key>licenseType</key>
+			<string>MIT</string>
+			<key>name</key>
+			<string>Ashton</string>
+			<key>socialMediaURL</key>
+			<string></string>
+			<key>summary</key>
+			<string>Converts NSAttributedStrings between AppKit, CoreText, UIKit and HTML.</string>
+			<key>version</key>
+			<string>1.0.3</string>
+		</dict>
+		<dict>
+			<key>authors</key>
+			<dict>
+				<key>Dave DeLong</key>
+				<string></string>
+			</dict>
+			<key>description</key>
+			<string>&lt;p&gt;A robust class for reading and writing delimited files in Cocoa.&lt;/p&gt;
+</string>
+			<key>homepage</key>
+			<string>https://github.com/davedelong/CHCSVParser</string>
+			<key>licenseText</key>
+			<string>CHCSVParser
+
+Copyright (c) 2014 Dave DeLong
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+</string>
+			<key>licenseType</key>
+			<string>MIT</string>
+			<key>name</key>
+			<string>CHCSVParser</string>
+			<key>socialMediaURL</key>
+			<string>http://twitter.com/davedelong</string>
+			<key>summary</key>
+			<string>A proper CSV parser for Objective-C</string>
+			<key>version</key>
+			<string>2.1.0</string>
+		</dict>
+		<dict>
+			<key>authors</key>
+			<dict>
+				<key>Microsoft</key>
+				<string>support@hockeyapp.net</string>
+			</dict>
+			<key>description</key>
+			<string>&lt;p&gt;HockeyApp is a service to distribute beta apps, collect crash reports as well as usage data and
+communicate with your app&amp;#39;s users.&lt;/p&gt;
+
+&lt;p&gt;It improves the testing process dramatically and can be used for both beta
+and App Store builds.&lt;/p&gt;
+</string>
+			<key>homepage</key>
+			<string>http://hockeyapp.net/</string>
+			<key>licenseText</key>
+			<string>## Licenses
+
+The Hockey SDK is provided under the following license:
+
+    The MIT License
+    Copyright (c) Microsoft Corporation.
+    All rights reserved.
+
+    Permission is hereby granted, free of charge, to any person
+    obtaining a copy of this software and associated documentation
+    files (the "Software"), to deal in the Software without
+    restriction, including without limitation the rights to use,
+    copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the
+    Software is furnished to do so, subject to the following
+    conditions:
+
+    The above copyright notice and this permission notice shall be
+    included in all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+    NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+    HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+    WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+    FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+    OTHER DEALINGS IN THE SOFTWARE.
+
+Except as noted below, PLCrashReporter 
+is provided under the following license:
+
+    Copyright (c) 2008 - 2015 Plausible Labs Cooperative, Inc.
+    Copyright (c) 2012 - 2015 HockeyApp, Bit Stadium GmbH.
+    All rights reserved.
+
+    Permission is hereby granted, free of charge, to any person
+    obtaining a copy of this software and associated documentation
+    files (the "Software"), to deal in the Software without
+    restriction, including without limitation the rights to use,
+    copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the
+    Software is furnished to do so, subject to the following
+    conditions:
+
+    The above copyright notice and this permission notice shall be
+    included in all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+    NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+    HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+    WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+    FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+    OTHER DEALINGS IN THE SOFTWARE.
+
+The protobuf-c library, as well as the PLCrashLogWriterEncoding.c
+file are licensed as follows:
+
+    Copyright 2008, Dave Benson.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with
+    the License. You may obtain a copy of the License
+    at http://www.apache.org/licenses/LICENSE-2.0 Unless
+    required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on
+    an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied. See the License for the
+    specific language governing permissions and limitations
+    under the License.
+    
+GZIP is licensed as follow:
+    
+    Created by Nick Lockwood on 03/06/2012.
+    Copyright (C) 2012 Charcoal Design
+    
+    Distributed under the permissive zlib License
+    Get the latest version from here:
+    
+    https://github.com/nicklockwood/GZIP
+    
+    This software is provided 'as-is', without any express or implied
+    warranty.  In no event will the authors be held liable for any damages
+    arising from the use of this software.
+    
+    Permission is granted to anyone to use this software for any purpose,
+    including commercial applications, and to alter it and redistribute it
+    freely, subject to the following restrictions:
+    
+    1. The origin of this software must not be misrepresented; you must not
+    claim that you wrote the original software. If you use this software
+    in a product, an acknowledgment in the product documentation would be
+    appreciated but is not required.
+    
+    2. Altered source versions must be plainly marked as such, and must not be
+    misrepresented as being the original software.
+    
+    3. This notice may not be removed or altered from any source distribution.</string>
+			<key>licenseType</key>
+			<string>MIT</string>
+			<key>name</key>
+			<string>HockeySDK-Mac</string>
+			<key>socialMediaURL</key>
+			<string></string>
+			<key>summary</key>
+			<string>Collect live crash reports, get feedback from your users, distribute your betas, and get usage data.</string>
+			<key>version</key>
+			<string>4.1.4</string>
+		</dict>
+		<dict>
+			<key>authors</key>
+			<dict>
+				<key>Matthias Tretter</key>
+				<string>m.yellow@gmx.at</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>homepage</key>
+			<string>https://github.com/myell0w</string>
+			<key>licenseText</key>
+			<string>Copyright 2014 @myellow
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</string>
+			<key>licenseType</key>
+			<string>MIT</string>
+			<key>name</key>
+			<string>MNCLogging</string>
+			<key>socialMediaURL</key>
+			<string></string>
+			<key>summary</key>
+			<string>Simple Objective-C logging</string>
+			<key>version</key>
+			<string>1.0.2</string>
+		</dict>
+		<dict>
+			<key>authors</key>
+			<dict>
+				<key>Erin Catto</key>
+				<string>http://www.box2d.org</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>homepage</key>
+			<string>https://github.com/erincatto/Box2D</string>
+			<key>licenseText</key>
+			<string></string>
+			<key>licenseType</key>
+			<string>zlib</string>
+			<key>name</key>
+			<string>box2d</string>
+			<key>socialMediaURL</key>
+			<string></string>
+			<key>summary</key>
+			<string>Box2D is an open source C++ engine for simulating rigid bodies in 2D.</string>
+			<key>version</key>
+			<string>2.3.0</string>
+		</dict>
+		<dict>
+			<key>authors</key>
+			<dict>
+				<key>John MacFarlane</key>
+				<string>email@address.com</string>
+			</dict>
+			<key>description</key>
+			<string>&lt;p&gt;&lt;code&gt;cmark&lt;/code&gt; is the C reference implementation of [CommonMark], a
+rationalized version of Markdown syntax with a [spec][http://spec.commonmark.org/].
+(For the JavaScript reference implementation, see
+[commonmark.js].)&lt;/p&gt;
+
+&lt;p&gt;It provides a shared library (&lt;code&gt;libcmark&lt;/code&gt;) with functions for parsing
+CommonMark documents to an abstract syntax tree (AST), manipulating
+the AST, and rendering the document to HTML, groff man, LaTeX,
+CommonMark, or an XML representation of the AST.  It also provides a
+command-line program (&lt;code&gt;cmark&lt;/code&gt;) for parsing and rendering CommonMark
+documents.&lt;/p&gt;
+</string>
+			<key>homepage</key>
+			<string>https://github.com/jgm/cmark</string>
+			<key>licenseText</key>
+			<string></string>
+			<key>licenseType</key>
+			<string>BSD2</string>
+			<key>name</key>
+			<string>cmark</string>
+			<key>socialMediaURL</key>
+			<string></string>
+			<key>summary</key>
+			<string>CommonMark parsing and rendering library and program in C</string>
+			<key>version</key>
+			<string>0.24.1</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,21 @@
+
+/* Class = "NSTextFieldCell"; title = "for the MindNode Newsletter."; ObjectID = "2nE-gE-70s"; */
+"2nE-gE-70s.title" = "for the MindNode Newsletter.";
+
+/* Class = "NSButtonCell"; title = "Sign up"; ObjectID = "3OQ-ry-xz9"; */
+"3OQ-ry-xz9.title" = "Sign up";
+
+/* Class = "NSWindow"; title = "Welcome"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "Welcome";
+
+/* Class = "NSTextFieldCell"; title = "Please enter a valid email address"; ObjectID = "W0D-W7-dYH"; */
+"W0D-W7-dYH.title" = "Please enter a valid email address";
+
+/* Class = "NSTextFieldCell"; placeholderString = "name@example.com"; ObjectID = "d7S-tl-I1C"; */
+"d7S-tl-I1C.placeholderString" = "name@example.com";
+
+/* Class = "NSButtonCell"; title = "Continue"; ObjectID = "dms-SI-eiW"; */
+"dms-SI-eiW.title" = "Continue";
+
+/* Class = "NSTextFieldCell"; title = "Keep me up to date with MindNode news, software updates, and the latest on products and services.\nWe’ll never share your email address with third parties and keep the number of emails to a minimum."; ObjectID = "v8j-o4-SJa"; */
+"v8j-o4-SJa.title" = "Keep me up to date with MindNode news, software updates, and the latest on products and services.\nWe’ll never share your email address with third parties and keep the number of emails to a minimum.";

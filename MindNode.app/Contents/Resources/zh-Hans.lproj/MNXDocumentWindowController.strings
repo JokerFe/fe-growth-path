@@ -1,0 +1,156 @@
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "1"; */
+"1.title" = "窗口";
+
+/* Class = "NSToolbarItem"; label = "Task"; ObjectID = "0Fa-Ox-RyJ"; */
+"0Fa-Ox-RyJ.label" = "任务";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Task"; ObjectID = "0Fa-Ox-RyJ"; */
+"0Fa-Ox-RyJ.paletteLabel" = "任务";
+
+/* Class = "NSToolbarItem"; toolTip = "Add a task to the selected nodes"; ObjectID = "0Fa-Ox-RyJ"; */
+"0Fa-Ox-RyJ.toolTip" = "为所选节点添加任务";
+
+/* Class = "NSToolbarItem"; label = "Sticker"; ObjectID = "3nb-dp-FV9"; */
+"3nb-dp-FV9.label" = "贴纸";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Sticker"; ObjectID = "3nb-dp-FV9"; */
+"3nb-dp-FV9.paletteLabel" = "贴纸";
+
+/* Class = "NSToolbarItem"; toolTip = "Add a sticker to the selected nodes"; ObjectID = "3nb-dp-FV9"; */
+"3nb-dp-FV9.toolTip" = "为所选节点添加贴纸";
+
+/* Class = "NSToolbarItem"; label = "Image"; ObjectID = "65Q-jb-XBo"; */
+"65Q-jb-XBo.label" = "图像";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Image"; ObjectID = "65Q-jb-XBo"; */
+"65Q-jb-XBo.paletteLabel" = "图像";
+
+/* Class = "NSToolbarItem"; toolTip = "Pick an image from your media library"; ObjectID = "65Q-jb-XBo"; */
+"65Q-jb-XBo.toolTip" = "从媒体库中选取一张图像";
+
+/* Class = "NSToolbarItem"; label = "Sort Alphabetically"; ObjectID = "7p3-bh-4Zw"; */
+"7p3-bh-4Zw.label" = "对子节点排序";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Sort Alphabetically"; ObjectID = "7p3-bh-4Zw"; */
+"7p3-bh-4Zw.paletteLabel" = "对子节点排序";
+
+/* Class = "NSToolbarItem"; toolTip = "Sort child nodes alphabetically"; ObjectID = "7p3-bh-4Zw"; */
+"7p3-bh-4Zw.toolTip" = "按字母顺序对子节点排序";
+
+/* Class = "NSMenuItem"; title = "25%"; ObjectID = "8Kl-0F-uvp"; */
+"8Kl-0F-uvp.title" = "25%";
+
+/* Class = "NSMenuItem"; title = "Show Find and Replace"; ObjectID = "9lk-us-ZK2"; */
+"9lk-us-ZK2.title" = "显示查找和替换";
+
+/* Class = "NSMenuItem"; title = "200%"; ObjectID = "C2n-Og-QpU"; */
+"C2n-Og-QpU.title" = "200%";
+
+/* Class = "NSToolbarItem"; label = "Print"; ObjectID = "Ckb-gd-rqe"; */
+"Ckb-gd-rqe.label" = "打印";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Print"; ObjectID = "Ckb-gd-rqe"; */
+"Ckb-gd-rqe.paletteLabel" = "打印";
+
+/* Class = "NSToolbarItem"; toolTip = "Print document"; ObjectID = "Ckb-gd-rqe"; */
+"Ckb-gd-rqe.toolTip" = "打印文稿";
+
+/* Class = "NSMenuItem"; title = "Themes"; ObjectID = "FQ2-NO-8H4"; */
+"FQ2-NO-8H4.title" = "主题";
+
+/* Class = "NSMenuItem"; title = "400%"; ObjectID = "HAR-50-jMQ"; */
+"HAR-50-jMQ.title" = "400%";
+
+/* Class = "NSSegmentedCell"; IFg-3q-jMQ.ibShadowedToolTips[0] = "Show or hide the sidebar"; ObjectID = "IFg-3q-jMQ"; */
+"IFg-3q-jMQ.ibShadowedToolTips[0]" = "显示或隐藏引导侧边栏";
+
+/* Class = "NSSegmentedCell"; IFg-3q-jMQ.ibShadowedToolTips[1] = "Choose what to show in the leading sidebar"; ObjectID = "IFg-3q-jMQ"; */
+"IFg-3q-jMQ.ibShadowedToolTips[1]" = "选择在引导侧边栏中显示的内容";
+
+/* Class = "NSMenuItem"; title = "125%"; ObjectID = "JUq-o9-ZmK"; */
+"JUq-o9-ZmK.title" = "125%";
+
+/* Class = "NSToolbarItem"; label = "Style  Notes"; ObjectID = "Je7-Xy-wYY"; */
+"Je7-Xy-wYY.label" = "检查器注释";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Style  Notes"; ObjectID = "Je7-Xy-wYY"; */
+"Je7-Xy-wYY.paletteLabel" = "检查器注释";
+
+/* Class = "NSSegmentedCell"; M9h-Yo-l51.ibShadowedToolTips[0] = "Show or hide the style inspector"; ObjectID = "M9h-Yo-l51"; */
+"M9h-Yo-l51.ibShadowedToolTips[0]" = "显示或隐藏样式检查器";
+
+/* Class = "NSSegmentedCell"; M9h-Yo-l51.ibShadowedToolTips[1] = "Show or hide the note inspector"; ObjectID = "M9h-Yo-l51"; */
+"M9h-Yo-l51.ibShadowedToolTips[1]" = "显示或隐藏注释检查器";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "Mjk-US-h6A"; */
+"Mjk-US-h6A.title" = "OtherViews";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Click to enlarge or reduce the view of the mind map"; ObjectID = "OI8-bd-7Vl"; */
+"OI8-bd-7Vl.ibShadowedToolTip" = "点按以放大或缩小思维导图视图";
+
+/* Class = "NSMenuItem"; title = "75%"; ObjectID = "Q8u-Gh-cet"; */
+"Q8u-Gh-cet.title" = "75%";
+
+/* Class = "NSToolbarItem"; label = "Zoom"; ObjectID = "R1J-J7-Rk6"; */
+"R1J-J7-Rk6.label" = "缩放";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Zoom"; ObjectID = "R1J-J7-Rk6"; */
+"R1J-J7-Rk6.paletteLabel" = "缩放";
+
+/* Class = "NSToolbarItem"; label = "Connect"; ObjectID = "RCb-do-1bt"; */
+"RCb-do-1bt.label" = "连接";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Connect"; ObjectID = "RCb-do-1bt"; */
+"RCb-do-1bt.paletteLabel" = "连接";
+
+/* Class = "NSToolbarItem"; toolTip = "Connect two nodes"; ObjectID = "RCb-do-1bt"; */
+"RCb-do-1bt.toolTip" = "连接两个节点。";
+
+/* Class = "NSMenuItem"; title = "100%"; ObjectID = "dYt-DH-HLh"; */
+"dYt-DH-HLh.title" = "100%";
+
+/* Class = "NSMenuItem"; title = "50%"; ObjectID = "hy7-xb-U0x"; */
+"hy7-xb-U0x.title" = "50%";
+
+/* Class = "NSMenuItem"; title = "300%"; ObjectID = "jfO-X0-2PX"; */
+"jfO-X0-2PX.title" = "300%";
+
+/* Class = "NSToolbarItem"; label = "Detach Node"; ObjectID = "kXt-5y-cgn"; */
+"kXt-5y-cgn.label" = "分离节点";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Detach Node"; ObjectID = "kXt-5y-cgn"; */
+"kXt-5y-cgn.paletteLabel" = "分离节点";
+
+/* Class = "NSToolbarItem"; toolTip = "Detach node"; ObjectID = "kXt-5y-cgn"; */
+"kXt-5y-cgn.toolTip" = "分离节点";
+
+/* Class = "NSToolbarItem"; label = "Share"; ObjectID = "mMh-W0-TEr"; */
+"mMh-W0-TEr.label" = "共享";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Share"; ObjectID = "mMh-W0-TEr"; */
+"mMh-W0-TEr.paletteLabel" = "共享";
+
+/* Class = "NSToolbarItem"; toolTip = "Share this document with others"; ObjectID = "mMh-W0-TEr"; */
+"mMh-W0-TEr.toolTip" = "与其他人共享此文稿";
+
+/* Class = "NSToolbarItem"; label = "Sidebar"; ObjectID = "oTM-Qr-muo"; */
+"oTM-Qr-muo.label" = "侧边栏";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Sidebar"; ObjectID = "oTM-Qr-muo"; */
+"oTM-Qr-muo.paletteLabel" = "侧边栏";
+
+/* Class = "NSMenuItem"; title = "Outline"; ObjectID = "qES-yZ-X7r"; */
+"qES-yZ-X7r.title" = "大纲";
+
+/* Class = "NSMenuItem"; title = "150%"; ObjectID = "y3a-aI-iJH"; */
+"y3a-aI-iJH.title" = "150%";
+
+/* Class = "NSToolbarItem"; label = "Fold"; ObjectID = "zJ1-rN-Ssu"; */
+"zJ1-rN-Ssu.label" = "折叠";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Fold"; ObjectID = "zJ1-rN-Ssu"; */
+"zJ1-rN-Ssu.paletteLabel" = "折叠";
+
+/* Class = "NSToolbarItem"; toolTip = "Toggle folding of the current selection"; ObjectID = "zJ1-rN-Ssu"; */
+"zJ1-rN-Ssu.toolTip" = "切换折叠当前选择";

@@ -1,0 +1,48 @@
+﻿
+/* Class = "NSButtonCell"; title = "Include page number"; ObjectID = "73b-16-5Mk"; */
+"73b-16-5Mk.title" = "Include page number";
+
+/* Class = "NSButtonCell"; title = "Include Notes"; ObjectID = "7Q1-xI-tJv"; */
+"7Q1-xI-tJv.title" = "Include Notes";
+
+/* Class = "NSTabViewItem"; label = "Outline"; ObjectID = "8Fk-Vo-raW"; */
+"8Fk-Vo-raW.label" = "Outline";
+
+/* Class = "NSTextFieldCell"; title = "Print canvas background"; ObjectID = "GzX-6r-OJS"; */
+"GzX-6r-OJS.title" = "Print canvas background";
+
+/* Class = "NSButtonCell"; title = "Include date"; ObjectID = "Myu-g7-bLb"; */
+"Myu-g7-bLb.title" = "Include date";
+
+/* Class = "NSButtonCell"; title = "Full color"; ObjectID = "W3q-S7-Ife"; */
+"W3q-S7-Ife.title" = "Full color";
+
+/* Class = "NSTextFieldCell"; title = "Header & Footer"; ObjectID = "Zh8-J1-CCC"; */
+"Zh8-J1-CCC.title" = "Header & Footer";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "b4J-Zw-5Fh"; */
+"b4J-Zw-5Fh.title" = "Radio";
+
+/* Class = "NSButtonCell"; title = "Unfold all nodes"; ObjectID = "mai-V7-W8W"; */
+"mai-V7-W8W.title" = "Unfold all nodes";
+
+/* Class = "NSTextFieldCell"; title = "Scale:"; ObjectID = "rNA-s4-czN"; */
+"rNA-s4-czN.title" = "Scale:";
+
+/* Class = "NSButtonCell"; title = "Fit to Page"; ObjectID = "ros-Li-fnk"; */
+"ros-Li-fnk.title" = "Fit to Page";
+
+/* Class = "NSButtonCell"; title = "Include filename"; ObjectID = "taa-60-8w1"; */
+"taa-60-8w1.title" = "Include filename";
+
+/* Class = "NSButtonCell"; title = "Grayscale"; ObjectID = "uqi-tG-e5G"; */
+"uqi-tG-e5G.title" = "Grayscale";
+
+/* Class = "NSTabViewItem"; label = "Mind Map"; ObjectID = "v5y-bc-Eqz"; */
+"v5y-bc-Eqz.label" = "Mind Map";
+
+/* Class = "NSTextFieldCell"; title = "Color mode:"; ObjectID = "wmk-f6-1wm"; */
+"wmk-f6-1wm.title" = "Color mode:";
+
+/* Class = "NSButtonCell"; title = "Print every mind map on a separate page"; ObjectID = "zHS-Fb-dIS"; */
+"zHS-Fb-dIS.title" = "Print every mind map on a separate page";

@@ -1,0 +1,18 @@
+/* Title of branch/connection style inspector */
+"Branch" = "Ветвь";
+
+/* Title of branch/connection style inspector */
+"Branch/Connection" = "Ветвь/соединение";
+
+/* Title of branch/connection style inspector */
+"Connection" = "Соединение";
+
+/* Title of dashed border dash style */
+"Dashed" = "Штриховая";
+
+/* Title of dotted border dash style */
+"Dotted" = "Пунктирная";
+
+/* Title of solid border dash style */
+"Solid" = "Сплошная";
+

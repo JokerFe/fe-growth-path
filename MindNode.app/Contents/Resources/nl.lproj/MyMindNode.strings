@@ -1,0 +1,33 @@
+/* Cancel button for MyMindNode setup. */
+"Cancel" = "Annuleer";
+
+/* Copy Link custom sharing service */
+"Copy Link" = "Kopieer koppeling";
+
+/* Shown as message when a user tries to share a MyMindNode document without enabled iCloud */
+"iCloud not configured" = "iCloud niet geconfigureerd";
+
+/* Shown as label on the MyMindNode sharing service menu item. */
+"myMindNode" = "myMindNode";
+
+/* Shown in the MyMindNode pref pane when iCloud is not available. */
+"myMindNode requires iCloud" = "myMindNode vereist iCloud";
+
+/* Shown in the MyMindNode pref pane when network is not available. */
+"myMindNode requires network connection" = "myMindNode vereist een netwerkverbinding";
+
+/* Shown in Notification Center when the current MyMindNode upload finishes */
+"myMindNode Upload Completed" = "Upload naar myMindNode voltooid";
+
+/* Shown in the MyMindNode pref pane as the user account */
+"N/A" = "Niet beschikbaar";
+
+/* Text for button to open iCloud System Preferences (MyMindNode setup) */
+"Open iCloud System Preferences" = "Open Systeemvoorkeuren voor iCloud";
+
+/* Shown in Notification Center when the current MyMindNode upload finishes */
+"Successfully uploaded \"%@\" to myMindNode." = "\"%@\" met succes geüpload naar myMindNode.";
+
+/* Shown as informative text when a user tries to share a document via MyMindNode without configured iCloud */
+"You need to be signed into your iCloud account to use myMindNode." = "Je moet ingelogd zijn bij je iCloud-account om myMindNode te gebruiken.";
+

@@ -1,0 +1,24 @@
+/* No comment provided by engineer. */
+"Delete" = "Radera";
+
+/* No comment provided by engineer. */
+"Fold" = "Fäll ihop";
+
+/* Label in outline view when no nodes are available. */
+"No Nodes" = "Inga noder";
+
+/* Label in outline view when no open tasks are available. */
+"No open tasks" = "Inga öppna uppgifter";
+
+/* Label in outline view when no search results are available. */
+"No Search Results" = "Inga sökresultat";
+
+/* Placeholder label in outline when there's no title specified */
+"No Title" = "Ingen titel";
+
+/* Placeholder string for the search bar */
+"Search Titles" = "Sök titlar";
+
+/* No comment provided by engineer. */
+"Unfold" = "Fäll ut";
+

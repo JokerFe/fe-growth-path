@@ -1,0 +1,24 @@
+/* Accessibility hint for a cross connection with title of begin and end node */
+"Connecting node '%@' and node '%@'" = "'%1$@' 마디와 '%2$@' 마디 연결하기";
+
+/* Title of the cross connection knobs */
+"Connection Handle" = "핸들 손잡이";
+
+/* Accessibility label for cross connections */
+"Cross Connection" = "교차 연결";
+
+/* Hint on how to interact with resize knobs */
+"Double tap and hold, then drag to move." = "더블 클릭 후 길게 누른 다음 드래그하여 이동하세요.";
+
+/* Button on outliner view for folding subitems */
+"Fold node" = "마디 접기";
+
+/* Title of the resize knobs */
+"Resize Handle" = "핸들 크기 조정";
+
+/* Accessibility suffix for cross connection title */
+"Title = '%@'" = "제목 = '%@'";
+
+/* Button on outliner view for unfolding subitems */
+"Unfold node" = "마디 펼침";
+

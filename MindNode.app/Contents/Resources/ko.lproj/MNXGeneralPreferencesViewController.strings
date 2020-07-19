@@ -1,0 +1,24 @@
+
+/* Class = "NSTextFieldCell"; title = "Quick Entry:"; ObjectID = "Fop-wx-33D"; */
+"Fop-wx-33D.title" = "빠른 입력기:";
+
+/* Class = "NSTextFieldCell"; title = "Press Command ⌘ to prevent inheritance"; ObjectID = "NhD-mn-0pf"; */
+"NhD-mn-0pf.title" = "Command ⌘ 키를 눌러 속성 상속 방지";
+
+/* Class = "NSButtonCell"; title = "Launch at login"; ObjectID = "TuJ-fM-kHE"; */
+"TuJ-fM-kHE.title" = "로그인 시 실행";
+
+/* Class = "NSButtonCell"; title = "Shrink node width to fit content"; ObjectID = "ibf-AB-9pI"; */
+"ibf-AB-9pI.title" = "마디 폭을 줄여 콘텐츠에 맞추기";
+
+/* Class = "NSTextFieldCell"; title = "Default Node Behavior:"; ObjectID = "lYf-Di-vgL"; */
+"lYf-Di-vgL.title" = "기본 마디 특성:";
+
+/* Class = "NSButtonCell"; title = "Inherit style when reconnecting"; ObjectID = "mB2-0D-BXc"; */
+"mB2-0D-BXc.title" = "마디를 다시 연결할 때 스타일 상속 받기";
+
+/* Class = "NSButtonCell"; title = "Restore Defaults"; ObjectID = "n2M-xp-Oxk"; */
+"n2M-xp-Oxk.title" = "기본값 복원";
+
+/* Class = "NSButtonCell"; title = "Prevent node collisions in manual layout"; ObjectID = "qXZ-3K-kpe"; */
+"qXZ-3K-kpe.title" = "레이아웃 수동 정렬 시 마디 부딪침 방지";

@@ -1,0 +1,9 @@
+
+/* Class = "NSButtonCell"; title = "Ensure compatibility with MindNode 2"; ObjectID = "18t-kD-Hoi"; */
+"18t-kD-Hoi.title" = "Garantir compatibilidade com o MindNode 2";
+
+/* Class = "NSTextFieldCell"; title = "Create a single file MindNode document that is optimized for online storage providers."; ObjectID = "OFm-HL-ouJ"; */
+"OFm-HL-ouJ.title" = "Crie um arquivo do MindNode otimizado para provedores de armazenamento on-line.";
+
+/* Class = "NSTextFieldCell"; title = "MindNode 2 does not support all features of the current file format. Unsupported attributes are lost during export."; ObjectID = "g5K-wB-asv"; */
+"g5K-wB-asv.title" = "O MindNode 2 não é compatível com todos os recursos do formato de arquivo atual. Os atributos incompatíveis serão perdidos ao exportar.";

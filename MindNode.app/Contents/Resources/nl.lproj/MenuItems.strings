@@ -1,0 +1,24 @@
+/* Menu item to fold node */
+"Fold Nodes" = "Klap knopen in";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Bottom Side" = "Verplaats alle knopen naar onderkant";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Left Side" = "Verplaats alle knopen naar linkerkant";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Left/Top Side" = "Verplaats alle knopen naar linker-/bovenkant";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Right Side" = "Verplaats alle knopen naar rechterkant";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Right/Bottom Side" = "Verplaats alle knopen naar rechter-/onderkant";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Top Side" = "Verplaats alle knopen naar bovenkant";
+
+/* Menu item to fold node */
+"Unfold Nodes" = "Klap knopen uit";
+

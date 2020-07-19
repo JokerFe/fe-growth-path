@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+"NSPhotoLibraryUsageDescription" = "フォトライブラリから写真を選んで、アイデアに添付できます。";
+
+"NSRemindersUsageDescription" = "タスクをリマインダーに書き出し、完了状況を同期しておけます。";

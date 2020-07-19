@@ -1,0 +1,15 @@
+/* Undo String when deleting a generic object */
+"Add Object" = "Lägg till objekt";
+
+/* No comment provided by engineer. */
+"Cut" = "Klipp ut";
+
+/* Undo String when deleting a generic object */
+"Delete Object" = "Radera objekt";
+
+/* No comment provided by engineer. */
+"Paste" = "Klistra in";
+
+/* The undo action name when calling strikethrough. */
+"Strikethrough" = "Genomstruken";
+

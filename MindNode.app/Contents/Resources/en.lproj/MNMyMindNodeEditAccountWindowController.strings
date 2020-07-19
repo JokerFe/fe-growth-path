@@ -1,0 +1,15 @@
+﻿
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "0Sj-H8-Lbo"; */
+"0Sj-H8-Lbo.title" = "Cancel";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "Window";
+
+/* Class = "NSTextFieldCell"; title = "Email:"; ObjectID = "LFG-ay-EM0"; */
+"LFG-ay-EM0.title" = "Email:";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "NX2-5I-ULh"; */
+"NX2-5I-ULh.title" = "OK";
+
+/* Class = "NSTextFieldCell"; title = "Change account email"; ObjectID = "S1z-3a-Uzp"; */
+"S1z-3a-Uzp.title" = "Change account email";

@@ -1,0 +1,48 @@
+
+/* Class = "NSButtonCell"; title = "Include page number"; ObjectID = "73b-16-5Mk"; */
+"73b-16-5Mk.title" = "페이지 번호 포함";
+
+/* Class = "NSButtonCell"; title = "Include Notes"; ObjectID = "7Q1-xI-tJv"; */
+"7Q1-xI-tJv.title" = "노트 포함";
+
+/* Class = "NSTabViewItem"; label = "Outline"; ObjectID = "8Fk-Vo-raW"; */
+"8Fk-Vo-raW.label" = "개요";
+
+/* Class = "NSTextFieldCell"; title = "Print canvas background"; ObjectID = "GzX-6r-OJS"; */
+"GzX-6r-OJS.title" = "캔버스 배경 출력";
+
+/* Class = "NSButtonCell"; title = "Include date"; ObjectID = "Myu-g7-bLb"; */
+"Myu-g7-bLb.title" = "날짜 포함";
+
+/* Class = "NSButtonCell"; title = "Full color"; ObjectID = "W3q-S7-Ife"; */
+"W3q-S7-Ife.title" = "풀 컬러";
+
+/* Class = "NSTextFieldCell"; title = "Header & Footer"; ObjectID = "Zh8-J1-CCC"; */
+"Zh8-J1-CCC.title" = "머리말 및 꼬리말";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "b4J-Zw-5Fh"; */
+"b4J-Zw-5Fh.title" = "라디오";
+
+/* Class = "NSButtonCell"; title = "Unfold all nodes"; ObjectID = "mai-V7-W8W"; */
+"mai-V7-W8W.title" = "모든 마디 펼침";
+
+/* Class = "NSTextFieldCell"; title = "Scale:"; ObjectID = "rNA-s4-czN"; */
+"rNA-s4-czN.title" = "크기 조절:";
+
+/* Class = "NSButtonCell"; title = "Fit to Page"; ObjectID = "ros-Li-fnk"; */
+"ros-Li-fnk.title" = "페이지에 맞추기";
+
+/* Class = "NSButtonCell"; title = "Include filename"; ObjectID = "taa-60-8w1"; */
+"taa-60-8w1.title" = "파일명 포함";
+
+/* Class = "NSButtonCell"; title = "Grayscale"; ObjectID = "uqi-tG-e5G"; */
+"uqi-tG-e5G.title" = "흑백음영";
+
+/* Class = "NSTabViewItem"; label = "Mind Map"; ObjectID = "v5y-bc-Eqz"; */
+"v5y-bc-Eqz.label" = "마인드 맵";
+
+/* Class = "NSTextFieldCell"; title = "Color mode:"; ObjectID = "wmk-f6-1wm"; */
+"wmk-f6-1wm.title" = "색상 모드:";
+
+/* Class = "NSButtonCell"; title = "Print every mind map on a separate page"; ObjectID = "zHS-Fb-dIS"; */
+"zHS-Fb-dIS.title" = "개별 마인드 맵을 분리된 페이지로 출력";

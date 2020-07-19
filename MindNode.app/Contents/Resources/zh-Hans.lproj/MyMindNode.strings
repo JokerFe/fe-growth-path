@@ -1,0 +1,33 @@
+/* Cancel button for MyMindNode setup. */
+"Cancel" = "取消";
+
+/* Copy Link custom sharing service */
+"Copy Link" = "拷贝链接";
+
+/* Shown as message when a user tries to share a MyMindNode document without enabled iCloud */
+"iCloud not configured" = "未配置 iCloud";
+
+/* Shown as label on the MyMindNode sharing service menu item. */
+"myMindNode" = "myMindNode";
+
+/* Shown in the MyMindNode pref pane when iCloud is not available. */
+"myMindNode requires iCloud" = "myMindNode 需要 iCloud";
+
+/* Shown in the MyMindNode pref pane when network is not available. */
+"myMindNode requires network connection" = "myMindNode 需要联网";
+
+/* Shown in Notification Center when the current MyMindNode upload finishes */
+"myMindNode Upload Completed" = "myMindNode 上传已完成";
+
+/* Shown in the MyMindNode pref pane as the user account */
+"N/A" = "不适用";
+
+/* Text for button to open iCloud System Preferences (MyMindNode setup) */
+"Open iCloud System Preferences" = "打开 iCloud 系统偏好设置";
+
+/* Shown in Notification Center when the current MyMindNode upload finishes */
+"Successfully uploaded \"%@\" to myMindNode." = "成功将 \"%@\" 上传到 myMindNode。";
+
+/* Shown as informative text when a user tries to share a document via MyMindNode without configured iCloud */
+"You need to be signed into your iCloud account to use myMindNode." = "您需要登录 iCloud 帐户才能使用 myMindNode。";
+

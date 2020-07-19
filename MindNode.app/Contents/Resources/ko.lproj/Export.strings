@@ -1,0 +1,48 @@
+/* Cancel button for Tasks export privacy setup. */
+"Cancel" = "취소";
+
+/* Error dialog title when the document has no tasks */
+"Document has no tasks" = "도큐멘트에 첨부된 할일 없음";
+
+/* Shown as label on the OmniFocus sharing service menu item. */
+"Export to OmniFocus" = "OmniFocus로 보내기";
+
+/* Error dialog title when unable to export to Things */
+"Export to Things failed" = "Things로 보내기 실패";
+
+/* The Name of the inserted main node if there is more than one root nodes during FreeMind exporting */
+"Mind Map" = "마인드 맵";
+
+/* Error dialog during Things export when the document has no tasks */
+"MindNode can export your tasks to Things. Add a task to a node to get started." = "MindNode는 Apple의 미리 알림 앱과 할일을 공유할 수 있습니다. 할일을 추가해 공유를 시작하세요.";
+
+/* Error dialog message when the document has no tasks */
+"MindNode can share your tasks to Reminders. Add a task to a node to get started." = "MindNode는 미리 알림 앱과 할일을 공유할 수 있습니다. 할일을 추가해 공유를 시작하세요.";
+
+/* Shown as message when a user tries to export tasks to Reminders without access permissions. */
+"MindNode is not authorized to access Reminders." = "MindNode가 미리 알림에 접근할 수 있는 권한이 없습니다.";
+
+/* OS X Error message when the user didn't grant permission to Reminders.app */
+"MindNode needs access to Reminders in \"System Preferences\" under Security & Privacy > Privacy > Reminders." = "미리 알림에 대한 MindNode 접근 설정은 \"시스템 환경설정\"의 보안 및 개인 정보 보호 > 개인 정보 보호 > 미리 알림에서 구성할 수 있습니다.";
+
+/* Text for button to open Privacy System Preferences (Tasks export) */
+"Open Privacy Settings…" = "개인 정보 보호 설정 열기…";
+
+/* Error dialog title when unable to export to Things */
+"Please ensure you have the latest version of 'Things' installed on your Mac." = "Mac에 'Things' 최신 버전이 설치되어 있는지 확인하십시오.";
+
+/* Shown as label on the Reminders sharing service menu item. */
+"Reminders" = "미리 알림";
+
+/* Shown in Notification Center when exporting to reminders finishes */
+"Successfully exported to Reminders" = "미리 알림으로 보내기 완료";
+
+/* Shown as message when a user tries to export tasks to Reminders without access permissions. */
+"To allow MindNode to export to Reminders, change the Privacy settings in System Preferences." = "미리 알림으로 내보내려면 시스템 환경설정에서 개인 정보 보호 설정을 변경하십시오.";
+
+/* iOS Error message when the user didn't grant permission to Reminders.app */
+"You can allow MindNode access to Reminders in Settings app under Privacy > Reminders." = "설정 앱에서 개인 정보 보호 > 미리 알림을 통해 MindNode가 미리 알림에 접근하도록 설정할 수 있습니다.";
+
+/* Shown in Notification Center when exporting to reminders finishes */
+"Your tasks were added to the list \"%@\"." = "\"%@\" 목록에 할일을 추가했습니다.";
+

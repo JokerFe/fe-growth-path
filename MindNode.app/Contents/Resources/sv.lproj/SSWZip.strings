@@ -1,0 +1,12 @@
+/* NSError detail string for failed CRC32 checks during unzip. */
+"CRC32 check failed during unzip." = "CRC32-kontrollfel vid avkomprimering.";
+
+/* NSError detail string for failed CRC32 checks during unzip to file. */
+"CRC32 check failed while unzipping to file." = "CRC32-kontrollfel när filen avkomprimerades.";
+
+/* NSError detail string for failed unzip operations due to already existing destination files. */
+"Unzip failed because a file with the same name already exists at the destination URL. The file at the destination URL must be non-existent." = "Kunde inte packa upp eftersom det redan finns en fil med samma namn på mål-URL:en. Det får inte finnas en fil på mål-URL:en.";
+
+/* NSError detail string for unzip operations that lack a filename. */
+"Unzip failed because the destination URL points to a directory. The destination URL must specify a filename." = "Kunde inte avkomprimera eftersom mål-URL:en hänvisar till en katalog. Mål-URL:en måste ange ett filnamn.";
+

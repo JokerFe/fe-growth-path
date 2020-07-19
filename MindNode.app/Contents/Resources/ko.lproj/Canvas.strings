@@ -1,0 +1,6 @@
+/* The help string displayed by MNTUserGuideView. */
+"Double tap to edit" = "더블 클릭으로 편집하기";
+
+/* The help string displayed by MNTUserGuideView. */
+"Drag `+` to\ncreate new node" = "‘+’를 끌어 놓아\n새로운 마디 생성";
+

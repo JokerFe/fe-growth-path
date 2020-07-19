@@ -1,0 +1,24 @@
+
+/* Class = "NSTextFieldCell"; title = "Create new parent node:"; ObjectID = "DVO-Vp-h7u"; */
+"DVO-Vp-h7u.title" = "Skapa ny föräldranod:";
+
+/* Class = "NSTextFieldCell"; title = "Create new main node:"; ObjectID = "GhB-kZ-jgY"; */
+"GhB-kZ-jgY.title" = "Skapa ny huvudnod:";
+
+/* Class = "NSButtonCell"; title = "Restore Defaults"; ObjectID = "HcT-pT-Frf"; */
+"HcT-pT-Frf.title" = "Återställ förval";
+
+/* Class = "NSMenuItem"; title = "⇥ Tab Key"; ObjectID = "VdG-Sq-zSC"; */
+"VdG-Sq-zSC.title" = "⇥ tabbtangent";
+
+/* Class = "NSTextFieldCell"; title = "Create new child node:"; ObjectID = "Wql-9Z-Osa"; */
+"Wql-9Z-Osa.title" = "Skapa ny barnnod:";
+
+/* Class = "NSTextFieldCell"; title = "Create new sibling node:"; ObjectID = "XvP-IM-cBL"; */
+"XvP-IM-cBL.title" = "Skapa ny syskonnod:";
+
+/* Class = "NSTextFieldCell"; title = "Edit title:"; ObjectID = "evP-tu-h61"; */
+"evP-tu-h61.title" = "Redigera titel:";
+
+/* Class = "NSTextFieldCell"; title = "Create new sibling node above:"; ObjectID = "uui-y3-Nxl"; */
+"uui-y3-Nxl.title" = "Skapa en ny syskonnod ovan:";

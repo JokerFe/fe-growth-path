@@ -1,0 +1,24 @@
+/* No comment provided by engineer. */
+"Delete" = "Löschen";
+
+/* No comment provided by engineer. */
+"Fold" = "Falten";
+
+/* Label in outline view when no nodes are available. */
+"No Nodes" = "Keine Knoten";
+
+/* Label in outline view when no open tasks are available. */
+"No open tasks" = "Keine unerledigten Aufgaben";
+
+/* Label in outline view when no search results are available. */
+"No Search Results" = "Keine Suchergebnisse";
+
+/* Placeholder label in outline when there's no title specified */
+"No Title" = "Kein Titel";
+
+/* Placeholder string for the search bar */
+"Search Titles" = "Titel durchsuchen";
+
+/* No comment provided by engineer. */
+"Unfold" = "Ausfalten";
+

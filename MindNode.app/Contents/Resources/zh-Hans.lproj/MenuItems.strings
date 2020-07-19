@@ -1,0 +1,24 @@
+/* Menu item to fold node */
+"Fold Nodes" = "折叠节点";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Bottom Side" = "将所有节点移到底侧";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Left Side" = "将所有节点移到左侧";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Left/Top Side" = "将所有节点移到左侧/顶侧";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Right Side" = "将所有节点移到右侧";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Right/Bottom Side" = "将所有节点移到右侧/底侧";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Top Side" = "将所有节点移到顶侧";
+
+/* Menu item to fold node */
+"Unfold Nodes" = "展开节点";
+

@@ -1,0 +1,12 @@
+/* NSError detail string for failed CRC32 checks during unzip. */
+"CRC32 check failed during unzip." = "ZIPを展開中、CRC32検査に失敗しました。";
+
+/* NSError detail string for failed CRC32 checks during unzip to file. */
+"CRC32 check failed while unzipping to file." = "ファイルに ZIP を展開中、CRC32 検査に失敗しました。";
+
+/* NSError detail string for failed unzip operations due to already existing destination files. */
+"Unzip failed because a file with the same name already exists at the destination URL. The file at the destination URL must be non-existent." = "同名のファイルが宛先URLに既に存在するためZIPを展開できませんでした。宛先URLにファイルが存在することはできません。";
+
+/* NSError detail string for unzip operations that lack a filename. */
+"Unzip failed because the destination URL points to a directory. The destination URL must specify a filename." = "宛先URLがディレクトリを指定したため、ZIPを展開できませんでした。宛先URLはファイル名を指定する必要があります。";
+

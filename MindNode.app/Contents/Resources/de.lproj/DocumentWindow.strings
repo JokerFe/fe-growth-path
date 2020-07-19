@@ -1,0 +1,9 @@
+/* Title of menu item to show the Find and Replace bar */
+"Hide Find & Replace" = "Suchen & Ersetzen ausblenden";
+
+/* Title of menu item to hide the Find and Replace bar */
+"Show Find & Replace" = "Suchen & Ersetzen einblenden";
+
+/* Title of MyMindNode error dialog */
+"Unable to Share to MyMindNode" = "Bereitstellen auf MyMindNode nicht möglich";
+

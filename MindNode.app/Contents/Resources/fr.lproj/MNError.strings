@@ -1,0 +1,181 @@
+/*
+ MNError.strings
+ MindNode
+
+ Created by Markus Müller on 07.05.08.
+ Copyright 2008 IdeasOnCanvas GmbH. All rights reserved.
+
+ Warning regarding the en.lproj version of this file:
+ 1. This file is manually managed!
+ 2. This file is not part of a target. A script copies it manually into the product!
+ */
+
+
+/* MNUnknownError */
+"description0" = "Une erreur inconnue est survenue.";
+"failureReason0" = "MindNode n’a pas pu terminer l’opération car une erreur inconnue s’est produite.";
+
+/* MNUnknownFileReadError */
+"description1" = "Impossible de lire les données du document MindNode.";
+"failureReason1" = "Le fichier spécifié semble endommagé.";
+
+/* MNUnknownPasteboardReadError */
+"description2" = "Impossible de lire les données du presse-papiers de MindNode pour une raison inconnue.";
+"failureReason2" = "Une erreur inconnue est survenue.";
+
+/* MNWriteCouldntMakeTIFFError */
+"description3" = "Impossible de générer l’image TIFF car elle serait vide.";
+"failureReason3" = "L'image TIFF serait vide.";
+
+/* MNUnknownFileWriteError */
+"description4" = "MindNode n'a pas pu enregistrer le document.";
+"failureReason4" = "L'enregistrement du document actuel n'est pas autorisé.";
+
+/* MNUnknownPrintError */
+"description5" = "MindNode n'a pas pu imprimer le document.";
+"failureReason5" = "Échec de l'impression du document. Contactez l'assistance si le problème persiste.";
+
+/* MNNoNodesPrintError */
+"description6" = "MindNode ne peut pas imprimer un document vide.";
+"failureReason6" = "Ajouter des nœuds au document avant d'imprimer.";
+
+/* MNUnsuportedDocumentVersionError */
+"description7" = "MindNode n'a pas pu ouvrir le document spécifié.";
+"failureReason7" = "Le document a été créé avec une version plus récente de l'application. Merci d'utiliser l'outil de mise à jour intégré pour installer la dernière version.";
+
+/* MNUnsupportedMindNodeMacVersionError */
+"description8" = "MindNode n'a pas pu importer le document spécifié.";
+"failureReason8" = "Le document a été enregistré avec une ancienne version de MindNode pour Mac. Mettez à jour votre version de MindNode pour Mac vers une version plus récente, puis enregistrez à nouveau le document.";
+
+/* MNFileImportError */
+"description9" = "Impossible d'importer le document";
+"failureReason9" = "MindNode n’a pas pu importer le document. Si le problème persiste, contactez l’assistance en joignant le document à votre courrier.";
+
+/* MNUnableToMoveToiCloudError */
+"description10" = "Impossible de déplacer le document vers iCloud";
+"failureReason10" = "Vérifiez que votre compte iCloud dispose de suffisamment d'espace libre. Si le problème persiste, contactez l'assistance. Votre document sera enregistré, mais seuls les documents iCloud apparaîtront dans le sélecteur de document.";
+
+/* MNErrorCameraAccess */
+"description11" = "Accès refusé";
+"failureReason11" = "Pour pouvoir prendre des photos, MindNode doit pouvoir accéder à votre appareil photo. Pour l'y autoriser, rendez-vous dans Réglages > Confidentialité > Appareil photo.";
+
+/* MNErrorFileNameUnknownError */
+"description100" = "Impossible de renommer le document";
+"failureReason100" = "";
+
+/* MNErrorFileNameTooLong */
+"description101" = "Impossible de renommer le document";
+"failureReason101" = "Le nom du document est trop long.";
+
+/* MNErrorFileNameNotAllowedCharacters */
+"description102" = "Impossible de renommer le document";
+"failureReason102" = "Essayez d’utiliser un nom de fichier ne présentant aucun signe de ponctuation.";
+
+/* MNErrorFileNameAlreadyUsedError */
+"description103" = "Impossible de renommer le document";
+"failureReason103" = "Ce nom est déjà utilisé. Choisissez-en un autre.";
+
+/* MNErrorFolderNameUnknownError */
+"description110" = "Nom de dossier invalide";
+"failureReason110" = "";
+
+/* MNErrorFolderNameTooLong */
+"description111" = "";
+"failureReason111" = "Le nom du dossier est trop long.";
+
+/* MNErrorFolderNameNotAllowedCharacters */
+"description112" = "Impossible de renommer le document";
+"failureReason112" = "Essayez d’utiliser un nom de dossier ne présentant aucun signe de ponctuation.";
+
+/* MNErrorFolderNameAlreadyUsedError */
+"description113" = "Impossible de renommer le dossier";
+"failureReason113" = "Ce nom est déjà utilisé. Choisissez-en un autre.";
+
+/* MNErrorFolderUnableToCreateFolder */
+"description114" = "Impossible de créer le dossier";
+"failureReason114" = "Choisissez un autre nom de dossier.";
+
+/* MNErrorFolderContainsSameFileName */
+"description115" = "Impossible de déplacer le document";
+"failureReason115" = "Le dossier contient déjà un document portant ce nom.";
+
+/* MNErrorDocumentOpenError */
+"description201" = "Impossible d'ouvrir le document";
+"failureReason201" = "";
+
+/* MNErrorDocumentCloudDeletionError */
+"description202" = "Impossible de fermer le document supprimé";
+"failureReason202" = "Ce document a été supprimé d'iCloud Drive sur un autre appareil, mais sa fermeture sur cet appareil a échoué.";
+
+
+/* MNErrorExportUnknownError */
+"description400" = "Impossible d'exporter le document.";
+"failureReason400" = "";
+
+/* MNErrorExportToCameraRoll */
+"description401" = "Impossible d'enregistrer dans la pellicule.";
+"failureReason401" = "";
+
+/* MNErrorExportSendToApp */
+"description402" = "Impossible d'envoyer le document vers l'autre app.";
+"failureReason402" = "Aucune application installée n’accepte les documents avec ce format de fichier.";
+
+/* MNErrorExportZippedOverwrite */
+"description403" = "Impossible d’écraser le document actuel.";
+"failureReason403" = "Impossible de remplacer le document actuel par une version ZIP.";
+
+/* MNErrorExportToRemindersPermission */
+"description404" = "Impossible d'exporter le document dans Rappels : opération non autorisée.";
+"failureReason404" = "";
+
+/* MNErrorExportToRemindersUnknownError */
+"description405" = "Impossible d'exporter le document dans Rappels.";
+"failureReason405" = "Une erreur inconnue est survenue.";
+
+/* MNErrorCloudUnknownError */
+"description500" = "Une erreur iCloud inconnue s’est produite.";
+"failureReason500" = "";
+
+/* MNErrorCloudUnableToMoveAllDocumentsToCloud */
+"description501" = "Transferts en attente";
+"failureReason501" = "Certains documents sont en attente de transfert. Assurez-vous que tous les documents sont téléchargés et transférés avant de désactiver iCloud.";
+
+/* MNErrorCloudContainerUnavailable */
+"description502" = "iCloud indisponible";
+"failureReason502" = "iCloud n'est actuellement pas configuré sur votre appareil.";
+
+/* MNErrorMyMindNodeNotReachable */
+"description600" = "Impossible de se connecter à MyMindNode";
+"failureReason600" = "Veuillez réessayer ultérieurement.";
+
+/* MNErrorMyMindNodeEmailSavingError */
+"description601" = "Échec de l'enregistrement de la nouvelle adresse e-mail";
+"failureReason601" = "Veuillez réessayer ultérieurement.";
+
+/* MNErrorMyMindNodeRegistrationError */
+"description602" = "Échec de l'enregistrement";
+"failureReason602" = "";
+
+/* MNErrorMyMindNodeInvalidEmailAddress */
+"description603" = "Adresse e-mail non valide";
+"failureReason603" = "";
+
+/* MNErrorMyMindNodeDuplicateEmailAddress */
+"description604" = "Adresse e-mail déjà utilisée";
+"failureReason604" = "";
+
+/* MNErrorMyMindNodeDocumentUploadFailed */
+"description605" = "Échec du transfert";
+"failureReason605" = "Impossible de transférer le document. Veuillez réessayer ultérieurement.";
+
+/* MNErrorMyMindNodeDocumentDeletionFailed */
+"description606" = "Impossible de supprimer le document";
+"failureReason606" = "";
+
+/* MNErrorMyMindNodeNotRegistered */
+"description607" = "Non enregistré";
+"failureReason607" = "Veuillez enregistrer MyMindNode en transférant un document depuis le menu de partage MyMindNode";
+
+/* MNErrorMyMindNodeiCloudRequired */
+"description608" = "iCloud non disponible";
+"failureReason608" = "MyMindNode nécessite iCloud. Veuillez activer iCloud sur l'appareil.";

@@ -1,0 +1,156 @@
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "1"; */
+"1.title" = "Ventana";
+
+/* Class = "NSToolbarItem"; label = "Task"; ObjectID = "0Fa-Ox-RyJ"; */
+"0Fa-Ox-RyJ.label" = "Tarea";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Task"; ObjectID = "0Fa-Ox-RyJ"; */
+"0Fa-Ox-RyJ.paletteLabel" = "Tarea";
+
+/* Class = "NSToolbarItem"; toolTip = "Add a task to the selected nodes"; ObjectID = "0Fa-Ox-RyJ"; */
+"0Fa-Ox-RyJ.toolTip" = "Añadir una tarea a los nodos seleccionados";
+
+/* Class = "NSToolbarItem"; label = "Sticker"; ObjectID = "3nb-dp-FV9"; */
+"3nb-dp-FV9.label" = "Pegatina";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Sticker"; ObjectID = "3nb-dp-FV9"; */
+"3nb-dp-FV9.paletteLabel" = "Pegatina";
+
+/* Class = "NSToolbarItem"; toolTip = "Add a sticker to the selected nodes"; ObjectID = "3nb-dp-FV9"; */
+"3nb-dp-FV9.toolTip" = "Añadir una pegatina a los nodos seleccionados";
+
+/* Class = "NSToolbarItem"; label = "Image"; ObjectID = "65Q-jb-XBo"; */
+"65Q-jb-XBo.label" = "Imagen";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Image"; ObjectID = "65Q-jb-XBo"; */
+"65Q-jb-XBo.paletteLabel" = "Imagen";
+
+/* Class = "NSToolbarItem"; toolTip = "Pick an image from your media library"; ObjectID = "65Q-jb-XBo"; */
+"65Q-jb-XBo.toolTip" = "Seleccione una imagen de su biblioteca";
+
+/* Class = "NSToolbarItem"; label = "Sort Alphabetically"; ObjectID = "7p3-bh-4Zw"; */
+"7p3-bh-4Zw.label" = "Ordenar alfabéticamente";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Sort Alphabetically"; ObjectID = "7p3-bh-4Zw"; */
+"7p3-bh-4Zw.paletteLabel" = "Ordenar alfabéticamente";
+
+/* Class = "NSToolbarItem"; toolTip = "Sort child nodes alphabetically"; ObjectID = "7p3-bh-4Zw"; */
+"7p3-bh-4Zw.toolTip" = "Ordenar nodos hijos alfabéticamente";
+
+/* Class = "NSMenuItem"; title = "25%"; ObjectID = "8Kl-0F-uvp"; */
+"8Kl-0F-uvp.title" = "25%";
+
+/* Class = "NSMenuItem"; title = "Show Find and Replace"; ObjectID = "9lk-us-ZK2"; */
+"9lk-us-ZK2.title" = "Mostrar Buscar y reemplazar";
+
+/* Class = "NSMenuItem"; title = "200%"; ObjectID = "C2n-Og-QpU"; */
+"C2n-Og-QpU.title" = "200%";
+
+/* Class = "NSToolbarItem"; label = "Print"; ObjectID = "Ckb-gd-rqe"; */
+"Ckb-gd-rqe.label" = "Imprimir";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Print"; ObjectID = "Ckb-gd-rqe"; */
+"Ckb-gd-rqe.paletteLabel" = "Imprimir";
+
+/* Class = "NSToolbarItem"; toolTip = "Print document"; ObjectID = "Ckb-gd-rqe"; */
+"Ckb-gd-rqe.toolTip" = "Imprimir documento";
+
+/* Class = "NSMenuItem"; title = "Themes"; ObjectID = "FQ2-NO-8H4"; */
+"FQ2-NO-8H4.title" = "Diseños";
+
+/* Class = "NSMenuItem"; title = "400%"; ObjectID = "HAR-50-jMQ"; */
+"HAR-50-jMQ.title" = "400%";
+
+/* Class = "NSSegmentedCell"; IFg-3q-jMQ.ibShadowedToolTips[0] = "Show or hide the sidebar"; ObjectID = "IFg-3q-jMQ"; */
+"IFg-3q-jMQ.ibShadowedToolTips[0]" = "Mostrar u ocultar la barra lateral";
+
+/* Class = "NSSegmentedCell"; IFg-3q-jMQ.ibShadowedToolTips[1] = "Choose what to show in the leading sidebar"; ObjectID = "IFg-3q-jMQ"; */
+"IFg-3q-jMQ.ibShadowedToolTips[1]" = "Seleccione qué desea mostrar en la barra lateral";
+
+/* Class = "NSMenuItem"; title = "125%"; ObjectID = "JUq-o9-ZmK"; */
+"JUq-o9-ZmK.title" = "125%";
+
+/* Class = "NSToolbarItem"; label = "Style  Notes"; ObjectID = "Je7-Xy-wYY"; */
+"Je7-Xy-wYY.label" = "Estilo de notas";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Style  Notes"; ObjectID = "Je7-Xy-wYY"; */
+"Je7-Xy-wYY.paletteLabel" = "Estilo de notas";
+
+/* Class = "NSSegmentedCell"; M9h-Yo-l51.ibShadowedToolTips[0] = "Show or hide the style inspector"; ObjectID = "M9h-Yo-l51"; */
+"M9h-Yo-l51.ibShadowedToolTips[0]" = "Mostrar u ocultar el inspector de estilo";
+
+/* Class = "NSSegmentedCell"; M9h-Yo-l51.ibShadowedToolTips[1] = "Show or hide the note inspector"; ObjectID = "M9h-Yo-l51"; */
+"M9h-Yo-l51.ibShadowedToolTips[1]" = "Mostrar u ocultar el inspector de notas";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "Mjk-US-h6A"; */
+"Mjk-US-h6A.title" = "OtherViews";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Click to enlarge or reduce the view of the mind map"; ObjectID = "OI8-bd-7Vl"; */
+"OI8-bd-7Vl.ibShadowedToolTip" = "Pulse para aumentar o reducir la vista del mapa mental";
+
+/* Class = "NSMenuItem"; title = "75%"; ObjectID = "Q8u-Gh-cet"; */
+"Q8u-Gh-cet.title" = "75%";
+
+/* Class = "NSToolbarItem"; label = "Zoom"; ObjectID = "R1J-J7-Rk6"; */
+"R1J-J7-Rk6.label" = "Zoom";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Zoom"; ObjectID = "R1J-J7-Rk6"; */
+"R1J-J7-Rk6.paletteLabel" = "Zoom";
+
+/* Class = "NSToolbarItem"; label = "Connect"; ObjectID = "RCb-do-1bt"; */
+"RCb-do-1bt.label" = "Conectar";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Connect"; ObjectID = "RCb-do-1bt"; */
+"RCb-do-1bt.paletteLabel" = "Conectar";
+
+/* Class = "NSToolbarItem"; toolTip = "Connect two nodes"; ObjectID = "RCb-do-1bt"; */
+"RCb-do-1bt.toolTip" = "Conectar dos nodos";
+
+/* Class = "NSMenuItem"; title = "100%"; ObjectID = "dYt-DH-HLh"; */
+"dYt-DH-HLh.title" = "100%";
+
+/* Class = "NSMenuItem"; title = "50%"; ObjectID = "hy7-xb-U0x"; */
+"hy7-xb-U0x.title" = "50%";
+
+/* Class = "NSMenuItem"; title = "300%"; ObjectID = "jfO-X0-2PX"; */
+"jfO-X0-2PX.title" = "300%";
+
+/* Class = "NSToolbarItem"; label = "Detach Node"; ObjectID = "kXt-5y-cgn"; */
+"kXt-5y-cgn.label" = "Separar nodo";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Detach Node"; ObjectID = "kXt-5y-cgn"; */
+"kXt-5y-cgn.paletteLabel" = "Separar nodo";
+
+/* Class = "NSToolbarItem"; toolTip = "Detach node"; ObjectID = "kXt-5y-cgn"; */
+"kXt-5y-cgn.toolTip" = "Separar nodo";
+
+/* Class = "NSToolbarItem"; label = "Share"; ObjectID = "mMh-W0-TEr"; */
+"mMh-W0-TEr.label" = "Compartir";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Share"; ObjectID = "mMh-W0-TEr"; */
+"mMh-W0-TEr.paletteLabel" = "Compartir";
+
+/* Class = "NSToolbarItem"; toolTip = "Share this document with others"; ObjectID = "mMh-W0-TEr"; */
+"mMh-W0-TEr.toolTip" = "Compartir este documento con otras personas";
+
+/* Class = "NSToolbarItem"; label = "Sidebar"; ObjectID = "oTM-Qr-muo"; */
+"oTM-Qr-muo.label" = "Barra lateral";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Sidebar"; ObjectID = "oTM-Qr-muo"; */
+"oTM-Qr-muo.paletteLabel" = "Barra lateral";
+
+/* Class = "NSMenuItem"; title = "Outline"; ObjectID = "qES-yZ-X7r"; */
+"qES-yZ-X7r.title" = "Esquema";
+
+/* Class = "NSMenuItem"; title = "150%"; ObjectID = "y3a-aI-iJH"; */
+"y3a-aI-iJH.title" = "150%";
+
+/* Class = "NSToolbarItem"; label = "Fold"; ObjectID = "zJ1-rN-Ssu"; */
+"zJ1-rN-Ssu.label" = "Replegar";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Fold"; ObjectID = "zJ1-rN-Ssu"; */
+"zJ1-rN-Ssu.paletteLabel" = "Replegar";
+
+/* Class = "NSToolbarItem"; toolTip = "Toggle folding of the current selection"; ObjectID = "zJ1-rN-Ssu"; */
+"zJ1-rN-Ssu.toolTip" = "Plegar/desplegar la selección actual";

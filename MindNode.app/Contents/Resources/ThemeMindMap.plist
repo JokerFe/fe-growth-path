@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>color</key>
+        <string>{0.956, 0.966, 0.956, 1.000}</string>
+        <key>crossConnections</key>
+        <array>
+            <dict>
+                <key>layout</key>
+                <dict>
+                    <key>wayPoints</key>
+                    <array>
+                        <dict>
+                            <key>wayPointOffset</key>
+                            <string>{152.0, -42.3788}</string>
+                        </dict>
+                    </array>
+                </dict>
+                <key>endPoints</key>
+                <dict>
+                    <key>startNodeID</key>
+                    <string>5C7BBC47-F0E9-419E-B693-98D2E8E3ADD7</string>
+                    <key>endNodeID</key>
+                    <string>62040F36-21FF-4296-887A-5174ED88B1FF</string>
+                </dict>
+            </dict>
+        </array>
+        <key>mindMaps</key>
+        <array>
+            <dict>
+                <key>isDecreasingBranchThickness</key>
+                <true/>
+                <key>layoutStyle</key>
+                <string>2</string>
+                <key>mainNode</key>
+                <dict>
+                    <key>branchStyle</key>
+                    <dict>
+                        <key>lineType</key>
+                        <integer>0</integer>
+                        <key>strokeStyle</key>
+                        <dict>
+                            <key>color</key>
+                            <string>{0.965, 0.965, 0.965, 1.000}</string>
+                            <key>dash</key>
+                            <integer>0</integer>
+                            <key>width</key>
+                            <real>2</real>
+                        </dict>
+                    </dict>
+                    <key>contentAlignment</key>
+                    <integer>1</integer>
+                    <key>isDecreasingBranchThickness</key>
+                    <true/>
+                    <key>useAlternateDirection</key>
+                    <false/>
+                    <key>location</key>
+                    <string>{-2, 0}</string>
+                    <key>nodeID</key>
+                    <string>8C96B284-19B2-40E4-BA30-A39A700BCA92</string>
+                    <key>shapeStyle</key>
+                    <dict>
+                        <key>borderStrokeStyle</key>
+                        <dict>
+                            <key>color</key>
+                            <string>{0.965, 0.965, 0.965, 1.000}</string>
+                            <key>dash</key>
+                            <integer>0</integer>
+                            <key>width</key>
+                            <real>2</real>
+                        </dict>
+                        <key>fillColor</key>
+                        <string>{1.000, 1.000, 1.000, 1.000}</string>
+                        <key>shapeType</key>
+                        <integer>2</integer>
+                    </dict>
+                    <key>subnodes</key>
+                    <array>
+                        <dict>
+                            <key>branchStyle</key>
+                            <dict>
+                                <key>lineType</key>
+                                <integer>0</integer>
+                                <key>strokeStyle</key>
+                                <dict>
+                                    <key>color</key>
+                                    <string>{0.689, 0.215, 0.952, 1.000}</string>
+                                    <key>dash</key>
+                                    <integer>0</integer>
+                                    <key>width</key>
+                                    <real>6</real>
+                                </dict>
+                            </dict>
+                            <key>contentAlignment</key>
+                            <integer>1</integer>
+                            <key>isDecreasingBranchThickness</key>
+                            <true/>
+                            <key>useAlternateDirection</key>
+                            <false/>
+                            <key>location</key>
+                            <string>{190, -27.5}</string>
+                            <key>nodeID</key>
+                            <string>62040F36-21FF-4296-887A-5174ED88B1FF</string>
+                            <key>shapeStyle</key>
+                            <dict>
+                                <key>fillColor</key>
+                                <string>{1.000, 1.000, 1.000, 1.000}</string>
+                                <key>shapeType</key>
+                                <integer>0</integer>
+                            </dict>
+                            <key>subnodes</key>
+                            <array/>
+                            <key>title</key>
+                            <dict>
+                                <key>allowToShrinkWidth</key>
+                                <integer>1</integer>
+                                <key>htmlText</key>
+                                <string>&lt;p style=&apos;color: rgba(91, 91, 91, 1.000000); font: 18px &quot;Helvetica Neue&quot;; -cocoa-font-postscriptname: &quot;HelveticaNeue&quot;; &apos;&gt;Node&lt;/p&gt;</string>
+                                <key>maxWidth</key>
+                                <integer>300</integer>
+                                <key>text</key>
+                                <string>&lt;p style=&apos;color: rgba(91, 91, 91, 1.000000); font: 18px &quot;Helvetica Neue&quot;; -cocoa-font-postscriptname: &quot;HelveticaNeue&quot;; &apos;&gt;Node&lt;/p&gt;</string>
+                            </dict>
+                        </dict>
+                        <dict>
+                            <key>branchStyle</key>
+                            <dict>
+                                <key>lineType</key>
+                                <integer>0</integer>
+                                <key>strokeStyle</key>
+                                <dict>
+                                    <key>color</key>
+                                    <string>{0.144, 0.670, 1.000, 1.000}</string>
+                                    <key>dash</key>
+                                    <integer>0</integer>
+                                    <key>width</key>
+                                    <real>6</real>
+                                </dict>
+                            </dict>
+                            <key>contentAlignment</key>
+                            <integer>1</integer>
+                            <key>isDecreasingBranchThickness</key>
+                            <true/>
+                            <key>useAlternateDirection</key>
+                            <false/>
+                            <key>location</key>
+                            <string>{190, 10.5}</string>
+                            <key>nodeID</key>
+                            <string>61FD2D3A-930A-4038-A17A-512F0935C3A2</string>
+                            <key>shapeStyle</key>
+                            <dict>
+                                <key>fillColor</key>
+                                <string>{1.000, 1.000, 1.000, 1.000}</string>
+                                <key>shapeType</key>
+                                <integer>0</integer>
+                            </dict>
+                            <key>subnodes</key>
+                            <array/>
+                            <key>title</key>
+                            <dict>
+                                <key>allowToShrinkWidth</key>
+                                <integer>1</integer>
+                                <key>htmlText</key>
+                                <string>&lt;p style=&apos;color: rgba(91, 91, 91, 1.000000); font: 18px &quot;Helvetica Neue&quot;; -cocoa-font-postscriptname: &quot;HelveticaNeue&quot;; &apos;&gt;Node&lt;/p&gt;</string>
+                                <key>maxWidth</key>
+                                <integer>300</integer>
+                                <key>text</key>
+                                <string>&lt;p style=&apos;color: rgba(91, 91, 91, 1.000000); font: 18px &quot;Helvetica Neue&quot;; -cocoa-font-postscriptname: &quot;HelveticaNeue&quot;; &apos;&gt;Node&lt;/p&gt;</string>
+                            </dict>
+                        </dict>
+                        <dict>
+                            <key>branchStyle</key>
+                            <dict>
+                                <key>lineType</key>
+                                <integer>0</integer>
+                                <key>strokeStyle</key>
+                                <dict>
+                                    <key>color</key>
+                                    <string>{0.194, 0.734, 0.282, 1.000}</string>
+                                    <key>dash</key>
+                                    <integer>0</integer>
+                                    <key>width</key>
+                                    <real>6</real>
+                                </dict>
+                            </dict>
+                            <key>contentAlignment</key>
+                            <integer>1</integer>
+                            <key>isDecreasingBranchThickness</key>
+                            <true/>
+                            <key>useAlternateDirection</key>
+                            <false/>
+                            <key>location</key>
+                            <string>{190, 48.5}</string>
+                            <key>nodeID</key>
+                            <string>A3D7395F-DB8B-4693-BCA6-4CAC987596B9</string>
+                            <key>shapeStyle</key>
+                            <dict>
+                                <key>fillColor</key>
+                                <string>{1.000, 1.000, 1.000, 1.000}</string>
+                                <key>shapeType</key>
+                                <integer>0</integer>
+                            </dict>
+                            <key>subnodes</key>
+                            <array/>
+                            <key>title</key>
+                            <dict>
+                                <key>allowToShrinkWidth</key>
+                                <integer>1</integer>
+                                <key>htmlText</key>
+                                <string>&lt;p style=&apos;color: rgba(91, 91, 91, 1.000000); font: 18px &quot;Helvetica Neue&quot;; -cocoa-font-postscriptname: &quot;HelveticaNeue&quot;; &apos;&gt;Node&lt;/p&gt;</string>
+                                <key>maxWidth</key>
+                                <integer>300</integer>
+                                <key>text</key>
+                                <string>&lt;p style=&apos;color: rgba(91, 91, 91, 1.000000); font: 18px &quot;Helvetica Neue&quot;; -cocoa-font-postscriptname: &quot;HelveticaNeue&quot;; &apos;&gt;Node&lt;/p&gt;</string>
+                            </dict>
+                        </dict>
+                        <dict>
+                            <key>branchStyle</key>
+                            <dict>
+                                <key>lineType</key>
+                                <integer>0</integer>
+                                <key>strokeStyle</key>
+                                <dict>
+                                    <key>color</key>
+                                    <string>{1.000, 0.742, 0.041, 1.000}</string>
+                                    <key>dash</key>
+                                    <integer>0</integer>
+                                    <key>width</key>
+                                    <real>6</real>
+                                </dict>
+                            </dict>
+                            <key>contentAlignment</key>
+                            <integer>1</integer>
+                            <key>isDecreasingBranchThickness</key>
+                            <true/>
+                            <key>useAlternateDirection</key>
+                            <true/>
+                            <key>location</key>
+                            <string>{-114, 48.5}</string>
+                            <key>nodeID</key>
+                            <string>1FDBC005-F989-406F-993F-1654B9FA920F</string>
+                            <key>shapeStyle</key>
+                            <dict>
+                                <key>fillColor</key>
+                                <string>{1.000, 1.000, 1.000, 1.000}</string>
+                                <key>shapeType</key>
+                                <integer>0</integer>
+                            </dict>
+                            <key>subnodes</key>
+                            <array/>
+                            <key>title</key>
+                            <dict>
+                                <key>allowToShrinkWidth</key>
+                                <integer>1</integer>
+                                <key>htmlText</key>
+                                <string>&lt;p style=&apos;color: rgba(91, 91, 91, 1.000000); font: 18px &quot;Helvetica Neue&quot;; -cocoa-font-postscriptname: &quot;HelveticaNeue&quot;; &apos;&gt;Node&lt;/p&gt;</string>
+                                <key>maxWidth</key>
+                                <integer>300</integer>
+                                <key>text</key>
+                                <string>&lt;p style=&apos;color: rgba(91, 91, 91, 1.000000); font: 18px &quot;Helvetica Neue&quot;; -cocoa-font-postscriptname: &quot;HelveticaNeue&quot;; &apos;&gt;Node&lt;/p&gt;</string>
+                            </dict>
+                        </dict>
+                        <dict>
+                            <key>branchStyle</key>
+                            <dict>
+                                <key>lineType</key>
+                                <integer>0</integer>
+                                <key>strokeStyle</key>
+                                <dict>
+                                    <key>color</key>
+                                    <string>{0.136, 0.807, 0.880, 1.000}</string>
+                                    <key>dash</key>
+                                    <integer>0</integer>
+                                    <key>width</key>
+                                    <real>6</real>
+                                </dict>
+                            </dict>
+                            <key>contentAlignment</key>
+                            <integer>1</integer>
+                            <key>isDecreasingBranchThickness</key>
+                            <true/>
+                            <key>useAlternateDirection</key>
+                            <true/>
+                            <key>location</key>
+                            <string>{-114, 10.5}</string>
+                            <key>nodeID</key>
+                            <string>E5DAED9F-4EE8-4D61-85A6-0394BB18098D</string>
+                            <key>shapeStyle</key>
+                            <dict>
+                                <key>fillColor</key>
+                                <string>{1.000, 1.000, 1.000, 1.000}</string>
+                                <key>shapeType</key>
+                                <integer>0</integer>
+                            </dict>
+                            <key>subnodes</key>
+                            <array/>
+                            <key>title</key>
+                            <dict>
+                                <key>allowToShrinkWidth</key>
+                                <integer>1</integer>
+                                <key>htmlText</key>
+                                <string>&lt;p style=&apos;color: rgba(91, 91, 91, 1.000000); font: 18px &quot;Helvetica Neue&quot;; -cocoa-font-postscriptname: &quot;HelveticaNeue&quot;; &apos;&gt;Node&lt;/p&gt;</string>
+                                <key>maxWidth</key>
+                                <integer>300</integer>
+                                <key>text</key>
+                                <string>&lt;p style=&apos;color: rgba(91, 91, 91, 1.000000); font: 18px &quot;Helvetica Neue&quot;; -cocoa-font-postscriptname: &quot;HelveticaNeue&quot;; &apos;&gt;Node&lt;/p&gt;</string>
+                            </dict>
+                        </dict>
+                        <dict>
+                            <key>branchStyle</key>
+                            <dict>
+                                <key>lineType</key>
+                                <integer>0</integer>
+                                <key>strokeStyle</key>
+                                <dict>
+                                    <key>color</key>
+                                    <string>{0.822, 0.084, 0.348, 1.000}</string>
+                                    <key>dash</key>
+                                    <integer>0</integer>
+                                    <key>width</key>
+                                    <real>6</real>
+                                </dict>
+                            </dict>
+                            <key>contentAlignment</key>
+                            <integer>1</integer>
+                            <key>isDecreasingBranchThickness</key>
+                            <true/>
+                            <key>useAlternateDirection</key>
+                            <true/>
+                            <key>location</key>
+                            <string>{-114, -27.5}</string>
+                            <key>nodeID</key>
+                            <string>5C7BBC47-F0E9-419E-B693-98D2E8E3ADD7</string>
+                            <key>shapeStyle</key>
+                            <dict>
+                                <key>fillColor</key>
+                                <string>{1.000, 1.000, 1.000, 1.000}</string>
+                                <key>shapeType</key>
+                                <integer>0</integer>
+                            </dict>
+                            <key>subnodes</key>
+                            <array/>
+                            <key>title</key>
+                            <dict>
+                                <key>allowToShrinkWidth</key>
+                                <integer>1</integer>
+                                <key>htmlText</key>
+                                <string>&lt;p style=&apos;color: rgba(91, 91, 91, 1.000000); font: 18px &quot;Helvetica Neue&quot;; -cocoa-font-postscriptname: &quot;HelveticaNeue&quot;; &apos;&gt;Node&lt;/p&gt;</string>
+                                <key>maxWidth</key>
+                                <integer>300</integer>
+                                <key>text</key>
+                                <string>&lt;p style=&apos;color: rgba(91, 91, 91, 1.000000); font: 18px &quot;Helvetica Neue&quot;; -cocoa-font-postscriptname: &quot;HelveticaNeue&quot;; &apos;&gt;Node&lt;/p&gt;</string>
+                            </dict>
+                        </dict>
+                    </array>
+                    <key>title</key>
+                    <dict>
+                        <key>allowToShrinkWidth</key>
+                        <integer>0</integer>
+                        <key>htmlText</key>
+                        <string>&lt;p style=&apos;color: rgba(21, 122, 150, 1.000000); font: 21px &quot;Helvetica Neue&quot;; text-align: left; -cocoa-font-postscriptname: &quot;HelveticaNeue-Light&quot;; &apos;&gt;Mind Map&lt;/p&gt;</string>
+                        <key>maxWidth</key>
+                        <integer>108</integer>
+                        <key>text</key>
+                        <string>&lt;p style=&apos;color: rgba(21, 122, 150, 1.000000); font: 21px &quot;Helvetica Neue&quot;; text-align: left; -cocoa-font-postscriptname: &quot;HelveticaNeue-Light&quot;; &apos;&gt;Mind Map&lt;/p&gt;</string>
+                    </dict>
+                </dict>
+            </dict>
+        </array>
+    </dict>
+</plist>

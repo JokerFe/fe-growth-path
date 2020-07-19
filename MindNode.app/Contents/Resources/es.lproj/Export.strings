@@ -1,0 +1,48 @@
+/* Cancel button for Tasks export privacy setup. */
+"Cancel" = "Cancelar";
+
+/* Error dialog title when the document has no tasks */
+"Document has no tasks" = "El documento no contiene tareas";
+
+/* Shown as label on the OmniFocus sharing service menu item. */
+"Export to OmniFocus" = "Exportar a OmniFocus";
+
+/* Error dialog title when unable to export to Things */
+"Export to Things failed" = "Ha ocurrido un error al exportar a Things";
+
+/* The Name of the inserted main node if there is more than one root nodes during FreeMind exporting */
+"Mind Map" = "Mapa mental";
+
+/* Error dialog during Things export when the document has no tasks */
+"MindNode can export your tasks to Things. Add a task to a node to get started." = "MindNode puede exportar sus tareas a Things. Añada una tarea a un nodo para empezar.";
+
+/* Error dialog message when the document has no tasks */
+"MindNode can share your tasks to Reminders. Add a task to a node to get started." = "MindNode puede compartir sus tareas con la aplicación Recordatorios. Añada una tarea a un nodo para empezar.";
+
+/* Shown as message when a user tries to export tasks to Reminders without access permissions. */
+"MindNode is not authorized to access Reminders." = "MindNode no tiene autorización para acceder a Recordatorios.";
+
+/* OS X Error message when the user didn't grant permission to Reminders.app */
+"MindNode needs access to Reminders in \"System Preferences\" under Security & Privacy > Privacy > Reminders." = "MindNode necesita acceso a Recordatorios en «Preferencias del Sistema» dentro de Seguridad y privacidad > Privacidad > Recordatorios.";
+
+/* Text for button to open Privacy System Preferences (Tasks export) */
+"Open Privacy Settings…" = "Abrir ajustes de privacidad…";
+
+/* Error dialog title when unable to export to Things */
+"Please ensure you have the latest version of 'Things' installed on your Mac." = "Asegúrese de tener la última versión de Things instalada en el Mac.";
+
+/* Shown as label on the Reminders sharing service menu item. */
+"Reminders" = "Recordatorios";
+
+/* Shown in Notification Center when exporting to reminders finishes */
+"Successfully exported to Reminders" = "Exportado correctamente a Recordatorios";
+
+/* Shown as message when a user tries to export tasks to Reminders without access permissions. */
+"To allow MindNode to export to Reminders, change the Privacy settings in System Preferences." = "Para que MindNode pueda exportar a Recordatorios, cambie los ajustes de Privacidad en Preferencias del Sistema.";
+
+/* iOS Error message when the user didn't grant permission to Reminders.app */
+"You can allow MindNode access to Reminders in Settings app under Privacy > Reminders." = "Puede permitir a MindNode que acceda a Recordatorios en la aplicación Ajustes, dentro de Privacidad > Recordatorios.";
+
+/* Shown in Notification Center when exporting to reminders finishes */
+"Your tasks were added to the list \"%@\"." = "Sus tareas se han añadido a la lista «%@».";
+

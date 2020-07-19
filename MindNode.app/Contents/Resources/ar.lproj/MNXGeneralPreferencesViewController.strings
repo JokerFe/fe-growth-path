@@ -1,0 +1,24 @@
+
+/* Class = "NSTextFieldCell"; title = "Quick Entry:"; ObjectID = "Fop-wx-33D"; */
+"Fop-wx-33D.title" = "عند تسجيل الدخول:";
+
+/* Class = "NSTextFieldCell"; title = "Press Command ⌘ to prevent inheritance"; ObjectID = "NhD-mn-0pf"; */
+"NhD-mn-0pf.title" = "اضغط على Command ⌘ لمنع الوراثة";
+
+/* Class = "NSButtonCell"; title = "Launch at login"; ObjectID = "TuJ-fM-kHE"; */
+"TuJ-fM-kHE.title" = "Launch MindNode Brainstorming";
+
+/* Class = "NSButtonCell"; title = "Shrink node width to fit content"; ObjectID = "ibf-AB-9pI"; */
+"ibf-AB-9pI.title" = "تصغير عرض العقدة لملاءمة المحتوى";
+
+/* Class = "NSTextFieldCell"; title = "Default Node Behavior:"; ObjectID = "lYf-Di-vgL"; */
+"lYf-Di-vgL.title" = "سلوك العقدة الافتراضي:";
+
+/* Class = "NSButtonCell"; title = "Inherit style when reconnecting"; ObjectID = "mB2-0D-BXc"; */
+"mB2-0D-BXc.title" = "وراثة النمط عند إعادة التوصيل";
+
+/* Class = "NSButtonCell"; title = "Restore Defaults"; ObjectID = "n2M-xp-Oxk"; */
+"n2M-xp-Oxk.title" = "استعادة الإعدادات الافتراضية";
+
+/* Class = "NSButtonCell"; title = "Prevent node collisions in manual layout"; ObjectID = "qXZ-3K-kpe"; */
+"qXZ-3K-kpe.title" = "منع تصادم العقد في التخطيط اليدوي";

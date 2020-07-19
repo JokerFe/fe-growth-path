@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+"NSPhotoLibraryUsageDescription" = "从您的照片库中选取照片，并将其附加到您的想法中。";
+
+"NSRemindersUsageDescription" = "将您的任务导出至“提醒事项”并保持完成状态的同步。";

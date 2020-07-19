@@ -1,0 +1,24 @@
+
+/* Class = "NSTextFieldCell"; title = "Quick Entry:"; ObjectID = "Fop-wx-33D"; */
+"Fop-wx-33D.title" = "クイック入力：";
+
+/* Class = "NSTextFieldCell"; title = "Press Command ⌘ to prevent inheritance"; ObjectID = "NhD-mn-0pf"; */
+"NhD-mn-0pf.title" = "Command ⌘キーを押して継承を禁止";
+
+/* Class = "NSButtonCell"; title = "Launch at login"; ObjectID = "TuJ-fM-kHE"; */
+"TuJ-fM-kHE.title" = "ログイン時に起動";
+
+/* Class = "NSButtonCell"; title = "Shrink node width to fit content"; ObjectID = "ibf-AB-9pI"; */
+"ibf-AB-9pI.title" = "内容に合わせてノードの幅を縮める";
+
+/* Class = "NSTextFieldCell"; title = "Default Node Behavior:"; ObjectID = "lYf-Di-vgL"; */
+"lYf-Di-vgL.title" = "ノードのデフォルト特性：";
+
+/* Class = "NSButtonCell"; title = "Inherit style when reconnecting"; ObjectID = "mB2-0D-BXc"; */
+"mB2-0D-BXc.title" = "再接続の際にスタイルを継承";
+
+/* Class = "NSButtonCell"; title = "Restore Defaults"; ObjectID = "n2M-xp-Oxk"; */
+"n2M-xp-Oxk.title" = "デフォルトに戻す";
+
+/* Class = "NSButtonCell"; title = "Prevent node collisions in manual layout"; ObjectID = "qXZ-3K-kpe"; */
+"qXZ-3K-kpe.title" = "手動レイアウトでノードの衝突を回避";

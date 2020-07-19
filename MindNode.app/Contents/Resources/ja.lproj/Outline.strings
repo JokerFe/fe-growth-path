@@ -1,0 +1,24 @@
+/* No comment provided by engineer. */
+"Delete" = "削除";
+
+/* No comment provided by engineer. */
+"Fold" = "折りたたむ";
+
+/* Label in outline view when no nodes are available. */
+"No Nodes" = "ノードがありません";
+
+/* Label in outline view when no open tasks are available. */
+"No open tasks" = "開いているタスクがありません";
+
+/* Label in outline view when no search results are available. */
+"No Search Results" = "検索結果なし";
+
+/* Placeholder label in outline when there's no title specified */
+"No Title" = "タイトルなし";
+
+/* Placeholder string for the search bar */
+"Search Titles" = "タイトルを検索";
+
+/* No comment provided by engineer. */
+"Unfold" = "展開";
+

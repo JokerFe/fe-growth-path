@@ -1,0 +1,48 @@
+
+/* Class = "NSTextFieldCell"; title = "name@example.com"; ObjectID = "27l-Va-XfV"; */
+"27l-Va-XfV.title" = "name@example.com";
+
+/* Class = "NSTextFieldCell"; title = "myMindNode Account:"; ObjectID = "HPK-jt-iss"; */
+"HPK-jt-iss.title" = "myMindNode 계정:";
+
+/* Class = "NSTableColumn"; headerCell.title = "Date Created"; ObjectID = "NLv-aX-tSs"; */
+"NLv-aX-tSs.headerCell.title" = "생성일";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "QCb-z8-chG"; */
+"QCb-z8-chG.title" = "표 보기 셀";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "Ull-bB-RXt"; */
+"Ull-bB-RXt.title" = "표 보기 셀";
+
+/* Class = "NSButtonCell"; title = "Open in Browser"; ObjectID = "Ve3-t3-fUn"; */
+"Ve3-t3-fUn.title" = "브라우저에서 열기";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "Zg7-Wp-SgR"; */
+"Zg7-Wp-SgR.title" = "윈도우";
+
+/* Class = "NSMenuItem"; title = "Copy URL To Clipboard"; ObjectID = "bid-oS-aHJ"; */
+"bid-oS-aHJ.title" = "클립보드에 URL 복사";
+
+/* Class = "NSTextFieldCell"; title = "Loading ..."; ObjectID = "hPP-13-0pO"; */
+"hPP-13-0pO.title" = "로드 중 ...";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "hW0-8o-3M6"; */
+"hW0-8o-3M6.title" = "텍스트 셀";
+
+/* Class = "NSMenuItem"; title = "Open In Browser"; ObjectID = "iWX-Rv-TjP"; */
+"iWX-Rv-TjP.title" = "브라우저에서 열기";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "jhT-27-Jic"; */
+"jhT-27-Jic.title" = "삭제";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "oyD-ca-GdA"; */
+"oyD-ca-GdA.headerCell.title" = "이름";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "ttz-rl-TVA"; */
+"ttz-rl-TVA.title" = "텍스트 셀";
+
+/* Class = "NSButtonCell"; title = "Delete"; ObjectID = "wmR-he-c0D"; */
+"wmR-he-c0D.title" = "삭제";
+
+/* Class = "NSButtonCell"; title = "View Account Details ..."; ObjectID = "xWJ-T3-ezV"; */
+"xWJ-T3-ezV.title" = "계정 세부사항 보기...";

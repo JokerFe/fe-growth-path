@@ -1,0 +1,48 @@
+
+/* Class = "NSTextFieldCell"; title = "name@example.com"; ObjectID = "27l-Va-XfV"; */
+"27l-Va-XfV.title" = "naam@voorbeeld.com";
+
+/* Class = "NSTextFieldCell"; title = "myMindNode Account:"; ObjectID = "HPK-jt-iss"; */
+"HPK-jt-iss.title" = "myMindNode-account:";
+
+/* Class = "NSTableColumn"; headerCell.title = "Date Created"; ObjectID = "NLv-aX-tSs"; */
+"NLv-aX-tSs.headerCell.title" = "Aanmaakdatum";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "QCb-z8-chG"; */
+"QCb-z8-chG.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "Ull-bB-RXt"; */
+"Ull-bB-RXt.title" = "Table View Cell";
+
+/* Class = "NSButtonCell"; title = "Open in Browser"; ObjectID = "Ve3-t3-fUn"; */
+"Ve3-t3-fUn.title" = "Open In browser";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "Zg7-Wp-SgR"; */
+"Zg7-Wp-SgR.title" = "Venster";
+
+/* Class = "NSMenuItem"; title = "Copy URL To Clipboard"; ObjectID = "bid-oS-aHJ"; */
+"bid-oS-aHJ.title" = "Kopieer URL naar klembord";
+
+/* Class = "NSTextFieldCell"; title = "Loading ..."; ObjectID = "hPP-13-0pO"; */
+"hPP-13-0pO.title" = "Laden…";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "hW0-8o-3M6"; */
+"hW0-8o-3M6.title" = "Tekstcel";
+
+/* Class = "NSMenuItem"; title = "Open In Browser"; ObjectID = "iWX-Rv-TjP"; */
+"iWX-Rv-TjP.title" = "Open In browser";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "jhT-27-Jic"; */
+"jhT-27-Jic.title" = "Verwijder";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "oyD-ca-GdA"; */
+"oyD-ca-GdA.headerCell.title" = "Naam";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "ttz-rl-TVA"; */
+"ttz-rl-TVA.title" = "Tekstcel";
+
+/* Class = "NSButtonCell"; title = "Delete"; ObjectID = "wmR-he-c0D"; */
+"wmR-he-c0D.title" = "Verwijder";
+
+/* Class = "NSButtonCell"; title = "View Account Details ..."; ObjectID = "xWJ-T3-ezV"; */
+"xWJ-T3-ezV.title" = "Toon accountinfo…";

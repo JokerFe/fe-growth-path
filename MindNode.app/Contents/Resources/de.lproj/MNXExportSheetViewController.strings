@@ -1,0 +1,39 @@
+
+/* Class = "NSMenu"; title = "Share"; ObjectID = "1MA-u2-TmY"; */
+"1MA-u2-TmY.title" = "Bereitstellen";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "4qH-I0-9VL"; */
+"4qH-I0-9VL.title" = "Abbrechen";
+
+/* Class = "NSButtonCell"; title = "Markdown"; ObjectID = "936-dh-I5z"; */
+"936-dh-I5z.title" = "Markdown";
+
+/* Class = "NSButtonCell"; title = "Text"; ObjectID = "Iko-rx-Fke"; */
+"Iko-rx-Fke.title" = "Text";
+
+/* Class = "NSButtonCell"; title = "Freemind"; ObjectID = "LKH-7g-Mqn"; */
+"LKH-7g-Mqn.title" = "Freemind";
+
+/* Class = "NSButtonCell"; title = "Image"; ObjectID = "Q2B-Zy-Lnn"; */
+"Q2B-Zy-Lnn.title" = "Bild";
+
+/* Class = "NSButtonCell"; title = "Share…"; ObjectID = "SdP-w3-oL5"; */
+"SdP-w3-oL5.title" = "Bereitstellen …";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "gCF-GQ-CMC"; */
+"gCF-GQ-CMC.title" = "Box";
+
+/* Class = "NSButtonCell"; title = "Export…"; ObjectID = "odQ-PX-rtR"; */
+"odQ-PX-rtR.title" = "Exportieren …";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "osu-bF-DHO"; */
+"osu-bF-DHO.title" = "Box";
+
+/* Class = "NSButtonCell"; title = "PDF"; ObjectID = "wHz-Se-nHz"; */
+"wHz-Se-nHz.title" = "PDF";
+
+/* Class = "NSButtonCell"; title = "MindNode"; ObjectID = "y8j-pv-MNU"; */
+"y8j-pv-MNU.title" = "MindNode";
+
+/* Class = "NSButtonCell"; title = "OPML"; ObjectID = "zZR-2J-OTN"; */
+"zZR-2J-OTN.title" = "OPML";

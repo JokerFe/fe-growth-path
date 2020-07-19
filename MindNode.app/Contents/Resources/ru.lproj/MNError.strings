@@ -1,0 +1,181 @@
+/*
+ MNError.strings
+ MindNode
+
+ Created by Markus Müller on 07.05.08.
+ Copyright 2008 IdeasOnCanvas GmbH. All rights reserved.
+
+ Warning regarding the en.lproj version of this file:
+ 1. This file is manually managed!
+ 2. This file is not part of a target. A script copies it manually into the product!
+ */
+
+
+/* MNUnknownError */
+"description0" = "Произошла неизвестная ошибка.";
+"failureReason0" = "MindNode не может завершить операцию из-за неизвестной ошибки.";
+
+/* MNUnknownFileReadError */
+"description1" = "Не удается считать данные документа MindNode.";
+"failureReason1" = "Указанный файл может быть поврежден.";
+
+/* MNUnknownPasteboardReadError */
+"description2" = "По неизвестной причине не удается считать данные буфера обмена MindNode.";
+"failureReason2" = "Произошла неизвестная ошибка.";
+
+/* MNWriteCouldntMakeTIFFError */
+"description3" = "Не удалось создать изображение TIFF, так как оно было бы пустым.";
+"failureReason3" = "Изображение TIFF не может быть пустым.";
+
+/* MNUnknownFileWriteError */
+"description4" = "MindNode не может сохранить документ.";
+"failureReason4" = "Нельзя сохранить текущий документ.";
+
+/* MNUnknownPrintError */
+"description5" = "MindNode не может распечатать документ.";
+"failureReason5" = "Не удается распечатать текущий документ. Если проблема не исчезнет, свяжитесь с поддержкой.";
+
+/* MNNoNodesPrintError */
+"description6" = "MindNode не может распечатать пустой документ.";
+"failureReason6" = "Перед печатью добавьте в документ узлы.";
+
+/* MNUnsuportedDocumentVersionError */
+"description7" = "MindNode не может загрузить указанный документ.";
+"failureReason7" = "Этот документ был сохранен в более новой версии приложения. Используйте встроенную возможность обновления, чтобы установить актуальную версию.";
+
+/* MNUnsupportedMindNodeMacVersionError */
+"description8" = "MindNode не может импортировать указанный документ.";
+"failureReason8" = "Этот документ был сохранен в более старой версии MindNode для Mac. Обновите ваш MindNode для Mac до актуальной версии и сохраните документ еще раз.";
+
+/* MNFileImportError */
+"description9" = "Не удается импортировать документ";
+"failureReason9" = "MindNode не удалось импортировать документ. Если проблема не исчезнет, свяжитесь с поддержкой и приложите ваш документ.";
+
+/* MNUnableToMoveToiCloudError */
+"description10" = "Не удается переместить документ в iCloud";
+"failureReason10" = "Убедитесь, что у вас достаточно свободного места в iCloud. Если это не поможет, свяжитесь с поддержкой. Ваш документ будет сохранен, но при выборе документов будут отображаться только файлы iCloud.";
+
+/* MNErrorCameraAccess */
+"description11" = "Доступ запрещен";
+"failureReason11" = "Для создания снимков необходим доступ к Камере.  Вы можете открыть MindNode доступ в приложении «Настройки» (раздел «Конфиденциальность» > «Камера»).";
+
+/* MNErrorFileNameUnknownError */
+"description100" = "Не удается переименовать документ";
+"failureReason100" = "";
+
+/* MNErrorFileNameTooLong */
+"description101" = "Не удается переименовать документ";
+"failureReason101" = "Слишком длинное имя документа.";
+
+/* MNErrorFileNameNotAllowedCharacters */
+"description102" = "Не удается переименовать документ";
+"failureReason102" = "Попробуйте убрать из имени файла знаки препинания.";
+
+/* MNErrorFileNameAlreadyUsedError */
+"description103" = "Не удается переименовать документ";
+"failureReason103" = "Это имя уже используется, выберите другое.";
+
+/* MNErrorFolderNameUnknownError */
+"description110" = "Неверное имя папки";
+"failureReason110" = "";
+
+/* MNErrorFolderNameTooLong */
+"description111" = "";
+"failureReason111" = "Слишком длинное имя папки.";
+
+/* MNErrorFolderNameNotAllowedCharacters */
+"description112" = "Не удается переименовать документ";
+"failureReason112" = "Попробуйте убрать из имени знаки препинания.";
+
+/* MNErrorFolderNameAlreadyUsedError */
+"description113" = "Не удается переименовать папку";
+"failureReason113" = "Это имя уже используется, выберите другое.";
+
+/* MNErrorFolderUnableToCreateFolder */
+"description114" = "Не удается создать папку";
+"failureReason114" = "Выберите другое имя папки.";
+
+/* MNErrorFolderContainsSameFileName */
+"description115" = "Не удается переместить документ";
+"failureReason115" = "В папке уже содержится документ с таким именем.";
+
+/* MNErrorDocumentOpenError */
+"description201" = "Не удается открыть документ";
+"failureReason201" = "";
+
+/* MNErrorDocumentCloudDeletionError */
+"description202" = "Не удается закрыть удаленный документ";
+"failureReason202" = "Документ был удален из iCloud Drive с другого устройства; при попытке закрыть его на этом устройстве произошел сбой.";
+
+
+/* MNErrorExportUnknownError */
+"description400" = "Не удается экспортировать документ.";
+"failureReason400" = "";
+
+/* MNErrorExportToCameraRoll */
+"description401" = "Не удается сохранить в Фотопленку.";
+"failureReason401" = "";
+
+/* MNErrorExportSendToApp */
+"description402" = "Не удается отправить документ в другое приложение.";
+"failureReason402" = "Установленные приложения не открывают такой тип файлов.";
+
+/* MNErrorExportZippedOverwrite */
+"description403" = "Не удается перезаписать текущий документ.";
+"failureReason403" = "Текущий документ нельзя заменить заархивированной версией.";
+
+/* MNErrorExportToRemindersPermission */
+"description404" = "Не удается экспортировать документ в Напоминания: нет разрешения.";
+"failureReason404" = "";
+
+/* MNErrorExportToRemindersUnknownError */
+"description405" = "Не удается экспортировать документ в Напоминания.";
+"failureReason405" = "Произошла неизвестная ошибка.";
+
+/* MNErrorCloudUnknownError */
+"description500" = "Произошла неизвестная ошибка iCloud.";
+"failureReason500" = "";
+
+/* MNErrorCloudUnableToMoveAllDocumentsToCloud */
+"description501" = "Не завершено перемещение";
+"failureReason501" = "Несколько документов ожидают перемещения. Убедитесь, что все файлы загружены и выгружены, прежде чем отключать iCloud.";
+
+/* MNErrorCloudContainerUnavailable */
+"description502" = "iCloud недоступен";
+"failureReason502" = "На вашем устройстве не настроен iCloud.";
+
+/* MNErrorMyMindNodeNotReachable */
+"description600" = "Не удается подключиться к MyMindNode";
+"failureReason600" = "Повторите попытку позже.";
+
+/* MNErrorMyMindNodeEmailSavingError */
+"description601" = "Сохранить новый эл. адрес не удалось";
+"failureReason601" = "Повторите попытку позже.";
+
+/* MNErrorMyMindNodeRegistrationError */
+"description602" = "Сбой при регистрации";
+"failureReason602" = "";
+
+/* MNErrorMyMindNodeInvalidEmailAddress */
+"description603" = "Недействительный эл. адрес";
+"failureReason603" = "";
+
+/* MNErrorMyMindNodeDuplicateEmailAddress */
+"description604" = "Такой эл. адрес уже используется";
+"failureReason604" = "";
+
+/* MNErrorMyMindNodeDocumentUploadFailed */
+"description605" = "Ошибка выгрузки";
+"failureReason605" = "Невозможно выгрузить документ. Повторите попытку позже.";
+
+/* MNErrorMyMindNodeDocumentDeletionFailed */
+"description606" = "Не удается удалить документ";
+"failureReason606" = "";
+
+/* MNErrorMyMindNodeNotRegistered */
+"description607" = "Не зарегистрирован";
+"failureReason607" = "Зарегистрируйте MyMindNode, выгрузив документ из меню общего доступа MyMindNode";
+
+/* MNErrorMyMindNodeiCloudRequired */
+"description608" = "Нет доступа к iCloud";
+"failureReason608" = "Для работы службы MyMindNode требуется iCloud. Включите iCloud на устройстве.";

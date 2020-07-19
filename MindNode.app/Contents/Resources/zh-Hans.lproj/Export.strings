@@ -1,0 +1,48 @@
+/* Cancel button for Tasks export privacy setup. */
+"Cancel" = "取消";
+
+/* Error dialog title when the document has no tasks */
+"Document has no tasks" = "文稿中没有任务";
+
+/* Shown as label on the OmniFocus sharing service menu item. */
+"Export to OmniFocus" = "导出到 OmniFocus";
+
+/* Error dialog title when unable to export to Things */
+"Export to Things failed" = "导出到 Things 失败";
+
+/* The Name of the inserted main node if there is more than one root nodes during FreeMind exporting */
+"Mind Map" = "思维导图";
+
+/* Error dialog during Things export when the document has no tasks */
+"MindNode can export your tasks to Things. Add a task to a node to get started." = "MindNode 可以将您的任务导出到 Things。将任务添加到节点以开始。";
+
+/* Error dialog message when the document has no tasks */
+"MindNode can share your tasks to Reminders. Add a task to a node to get started." = "MindNode 可以将您的任务共享到“提醒事项”。将任务添加到节点即可开始。";
+
+/* Shown as message when a user tries to export tasks to Reminders without access permissions. */
+"MindNode is not authorized to access Reminders." = "未授权 MindNode 访问“提醒事项”。";
+
+/* OS X Error message when the user didn't grant permission to Reminders.app */
+"MindNode needs access to Reminders in \"System Preferences\" under Security & Privacy > Privacy > Reminders." = "MindNode 需要访问“系统偏好设置”中的“提醒事项”，操作步骤为“安全和隐私” > “隐私” > “提醒事项”。";
+
+/* Text for button to open Privacy System Preferences (Tasks export) */
+"Open Privacy Settings…" = "打开“隐私设置”...";
+
+/* Error dialog title when unable to export to Things */
+"Please ensure you have the latest version of 'Things' installed on your Mac." = "请确保您的 Mac 上安装了最新版本的 Things。";
+
+/* Shown as label on the Reminders sharing service menu item. */
+"Reminders" = "提醒事项";
+
+/* Shown in Notification Center when exporting to reminders finishes */
+"Successfully exported to Reminders" = "已成功导出到“提醒事项”";
+
+/* Shown as message when a user tries to export tasks to Reminders without access permissions. */
+"To allow MindNode to export to Reminders, change the Privacy settings in System Preferences." = "要允许 MindNode 导出到“提醒事项”，请更改“系统偏好设置”中的“隐私”设置。";
+
+/* iOS Error message when the user didn't grant permission to Reminders.app */
+"You can allow MindNode access to Reminders in Settings app under Privacy > Reminders." = "您可以通过“设置”应用中的“隐私” > “提醒事项”，允许 MindNode 访问“提醒事项”。";
+
+/* Shown in Notification Center when exporting to reminders finishes */
+"Your tasks were added to the list \"%@\"." = "您的任务已添加至“%@”列表。";
+

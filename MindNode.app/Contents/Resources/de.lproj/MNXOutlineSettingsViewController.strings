@@ -1,0 +1,9 @@
+
+/* Class = "NSButtonCell"; title = "Show only open tasks"; ObjectID = "4ea-1W-28o"; */
+"4ea-1W-28o.title" = "Nur unerledigte Aufgaben anzeigen";
+
+/* Class = "NSTextFieldCell"; title = "Outline Settings"; ObjectID = "SwH-LU-cgo"; */
+"SwH-LU-cgo.title" = "Outline-Einstellungen";
+
+/* Class = "NSButtonCell"; title = "Show notes"; ObjectID = "ef4-eV-3pp"; */
+"ef4-eV-3pp.title" = "Notizen einblenden";

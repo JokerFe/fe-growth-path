@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+"NSPhotoLibraryUsageDescription" = "التقط الصور من مكتبة الصور لإرفاقها بأفكارك.";
+
+"NSRemindersUsageDescription" = "قم بتصدير المهام إلى التذكيرات، لمزامنة حالة الإتمام بشكل متواصل.";

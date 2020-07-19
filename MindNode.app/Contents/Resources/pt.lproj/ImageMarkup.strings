@@ -1,0 +1,12 @@
+/* Cancel button for image editing markup extension setup. */
+"Cancel" = "Cancelar";
+
+/* Text for button to open System Preferences (Image Editing) */
+"Open System Preferences…" = "Abrir as Preferências do Sistema…";
+
+/* Shown as title when a user tries to edit an image but the Markup extension is disabled. */
+"The Markup Extension is not enabled." = "A extensão de Marcação não está ativada.";
+
+/* Shown as informative text when a user tries to edit an image but the Markup extension is disabled. */
+"To allow MindNode to edit images, enable the Markup Extension in the Extensions settings in System Preferences." = "Para permitir que o MindNode edite imagens, ative a extensão de marcação no painel Marcação das Preferências do Sistema.";
+

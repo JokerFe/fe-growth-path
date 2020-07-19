@@ -1,0 +1,48 @@
+
+/* Class = "NSTextFieldCell"; title = "name@example.com"; ObjectID = "27l-Va-XfV"; */
+"27l-Va-XfV.title" = "name@example.com";
+
+/* Class = "NSTextFieldCell"; title = "myMindNode Account:"; ObjectID = "HPK-jt-iss"; */
+"HPK-jt-iss.title" = "myMindNodeアカウント：";
+
+/* Class = "NSTableColumn"; headerCell.title = "Date Created"; ObjectID = "NLv-aX-tSs"; */
+"NLv-aX-tSs.headerCell.title" = "作成日";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "QCb-z8-chG"; */
+"QCb-z8-chG.title" = "表ビューセル";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "Ull-bB-RXt"; */
+"Ull-bB-RXt.title" = "表ビューセル";
+
+/* Class = "NSButtonCell"; title = "Open in Browser"; ObjectID = "Ve3-t3-fUn"; */
+"Ve3-t3-fUn.title" = "ブラウザで開く";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "Zg7-Wp-SgR"; */
+"Zg7-Wp-SgR.title" = "ウインドウ";
+
+/* Class = "NSMenuItem"; title = "Copy URL To Clipboard"; ObjectID = "bid-oS-aHJ"; */
+"bid-oS-aHJ.title" = "URL をクリップボードにコピー";
+
+/* Class = "NSTextFieldCell"; title = "Loading ..."; ObjectID = "hPP-13-0pO"; */
+"hPP-13-0pO.title" = "読み込み中…";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "hW0-8o-3M6"; */
+"hW0-8o-3M6.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "Open In Browser"; ObjectID = "iWX-Rv-TjP"; */
+"iWX-Rv-TjP.title" = "ブラウザで開く";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "jhT-27-Jic"; */
+"jhT-27-Jic.title" = "削除";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "oyD-ca-GdA"; */
+"oyD-ca-GdA.headerCell.title" = "名前順";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "ttz-rl-TVA"; */
+"ttz-rl-TVA.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Delete"; ObjectID = "wmR-he-c0D"; */
+"wmR-he-c0D.title" = "削除";
+
+/* Class = "NSButtonCell"; title = "View Account Details ..."; ObjectID = "xWJ-T3-ezV"; */
+"xWJ-T3-ezV.title" = "アカウントの詳細を表示…";

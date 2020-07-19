@@ -1,0 +1,181 @@
+/*
+ MNError.strings
+ MindNode
+
+ Created by Markus Müller on 07.05.08.
+ Copyright 2008 IdeasOnCanvas GmbH. All rights reserved.
+
+ Warning regarding the en.lproj version of this file:
+ 1. This file is manually managed!
+ 2. This file is not part of a target. A script copies it manually into the product!
+ */
+
+
+/* MNUnknownError */
+"description0" = "حدث خطأ غير معروف.";
+"failureReason0" = "لم يتمكن MindNode من إكمال العملية لحدوث خطأ غير معلوم.";
+
+/* MNUnknownFileReadError */
+"description1" = "تعذرت قراءة بيانات مستند MindNode.";
+"failureReason1" = "يبدو أن الملف المعطي تالفاً.";
+
+/* MNUnknownPasteboardReadError */
+"description2" = "تعذر قراءة بيانات لوحة لصق MindNode لسبب غير معلوم.";
+"failureReason2" = "حدث خطأ غير معروف.";
+
+/* MNWriteCouldntMakeTIFFError */
+"description3" = "تعذر عمل صورة TIFF لأنها ستكون فارغة.";
+"failureReason3" = "سوف تكون صورة TIFF فارغة.";
+
+/* MNUnknownFileWriteError */
+"description4" = "تعذر على MindNode حفظ المستند.";
+"failureReason4" = "غير مسموح بحفظ المستند الحالي.";
+
+/* MNUnknownPrintError */
+"description5" = "تعذر على MindNode طباعة المستند.";
+"failureReason5" = "فشلت طباعة المستند الحالي. الرجاء الاتصال بالدعم إذا استمرت هذه المشكلة.";
+
+/* MNNoNodesPrintError */
+"description6" = "يتعذر على MindNode طباعة مستند فارغ.";
+"failureReason6" = "إضافة عُقد إلى المستند قبل الطباعة.";
+
+/* MNUnsuportedDocumentVersionError */
+"description7" = "تعذر على MindNode تحميل المستند المُعطى.";
+"failureReason7" = "تم حفظ المستند بإصدار أحدث من التطبيق. الرجاء استخدام مُحدث البرامج الُمدمج لتثبيت الإصدار الحالي.";
+
+/* MNUnsupportedMindNodeMacVersionError */
+"description8" = "تعذر على MindNode استيراد المستند المُعطى.";
+"failureReason8" = "تم حفظ المستند باستخدام إصدار أقدم من MindNode للـ Mac. الرجاء تحديث إصدار MindNode للـ Mac الخاص بك إلى إصدار أحدث، ثم قم بإعادة الحفظ.";
+
+/* MNFileImportError */
+"description9" = "تعذر استيراد المستند";
+"failureReason9" = "لم يتمكن MindNode من استيراد المستند. في حالة استمرار هذه المشكلة، قم بالاتصال بالدعم مع تضمين المستند.";
+
+/* MNUnableToMoveToiCloudError */
+"description10" = "تعذر نقل المستند إلى iCloud";
+"failureReason10" = "الرجاء التأكد من توفر مساحة خالية كافية لك على iCloud. إذا لم يساعد ذلك، الرجاء الاتصال بالدعم. سوف يتم حفظ مستندك، ولكن لن تظهر في منتقى المستندات إلا مستندات iCloud.";
+
+/* MNErrorCameraAccess */
+"description11" = "تم رفض الوصول";
+"failureReason11" = "يتطلب الوصول إلى الكاميرا لالتقاط الصور. يمكنك السماح لـ MindNode بالوصول إلى الكاميرا من الإعدادات > الخصوصية > الكاميرا.";
+
+/* MNErrorFileNameUnknownError */
+"description100" = "تعذر إعادة تسمية المستند";
+"failureReason100" = "";
+
+/* MNErrorFileNameTooLong */
+"description101" = "تعذر إعادة تسمية المستند";
+"failureReason101" = "اسم المستند طويل جداً.";
+
+/* MNErrorFileNameNotAllowedCharacters */
+"description102" = "تعذر إعادة تسمية المستند";
+"failureReason102" = "حاول استخدام اسم ملف بدون أي علامات ترقيم.";
+
+/* MNErrorFileNameAlreadyUsedError */
+"description103" = "تعذر إعادة تسمية المستند";
+"failureReason103" = "هذا الاسم قيد الاستخدام. الرجاء اختيار اسم مختلف.";
+
+/* MNErrorFolderNameUnknownError */
+"description110" = "اسم ملف غير صالح";
+"failureReason110" = "";
+
+/* MNErrorFolderNameTooLong */
+"description111" = "";
+"failureReason111" = "اسم المجلد طويل جداً.";
+
+/* MNErrorFolderNameNotAllowedCharacters */
+"description112" = "تعذر إعادة تسمية المستند";
+"failureReason112" = "حاول استخدام اسم مجلد بدون أي علامات ترقيم.";
+
+/* MNErrorFolderNameAlreadyUsedError */
+"description113" = "تعذر إعادة تسمية المجلد";
+"failureReason113" = "هذا الاسم قيد الاستخدام. الرجاء اختيار اسم مختلف.";
+
+/* MNErrorFolderUnableToCreateFolder */
+"description114" = "تعذر إنشاء المجلد";
+"failureReason114" = "الرجاء اختيار اسم مجلد مختلف.";
+
+/* MNErrorFolderContainsSameFileName */
+"description115" = "تعذر نقل المستند";
+"failureReason115" = "يحتوي المجلد بالفعل على مستند يحمل نفس الاسم.";
+
+/* MNErrorDocumentOpenError */
+"description201" = "تعذر فتح المستند";
+"failureReason201" = "";
+
+/* MNErrorDocumentCloudDeletionError */
+"description202" = "تعذر إغلاق المستند المحذوف";
+"failureReason202" = "تم مسح هذا المستند من على محرك آيكلاود درايف على أحد الأجهزة الأخرى، ولكن فشل إغلاقه على هذا الجهاز.";
+
+
+/* MNErrorExportUnknownError */
+"description400" = "تعذر تصدير المستند.";
+"failureReason400" = "";
+
+/* MNErrorExportToCameraRoll */
+"description401" = "تعذر الحفظ في ألبوم الكاميرا.";
+"failureReason401" = "";
+
+/* MNErrorExportSendToApp */
+"description402" = "تعذر إرسال المستند إلى تطبيق آخر.";
+"failureReason402" = "لا يوجد تطبيق مثبت يقبل مستندات من نوع الملفات هذا.";
+
+/* MNErrorExportZippedOverwrite */
+"description403" = "تعذرت الكتابة في المستند الحالي.";
+"failureReason403" = "لا يمكن استبدال المستند الحالي بنسخة مضغوطة.";
+
+/* MNErrorExportToRemindersPermission */
+"description404" = "تعذر تصدير المستند إلى التذكيرات: غير مسموح.";
+"failureReason404" = "";
+
+/* MNErrorExportToRemindersUnknownError */
+"description405" = "تعذر تصدير المستند إلى التذكيرات.";
+"failureReason405" = "حدث خطأ غير معروف.";
+
+/* MNErrorCloudUnknownError */
+"description500" = "حدث خطأ غير معلوم في iCloud";
+"failureReason500" = "";
+
+/* MNErrorCloudUnableToMoveAllDocumentsToCloud */
+"description501" = "عمليات النقل معلقة ";
+"failureReason501" = "بعض الملفات لا تزال رهن النقل. يرجى التأكد من تنزيل كافة الملفات وتحميلها قبل تعطيل iCloud.";
+
+/* MNErrorCloudContainerUnavailable */
+"description502" = "iCloud غير متوفر";
+"failureReason502" = "حالياً لم يتم إعداد iCloud على جهازك.";
+
+/* MNErrorMyMindNodeNotReachable */
+"description600" = "تعذر الاتصال بـ MyMindNode";
+"failureReason600" = "يرجى إعادة المحاولة فيما بعد.";
+
+/* MNErrorMyMindNodeEmailSavingError */
+"description601" = "فشل حفظ عنوان البريد الإلكتروني الجديد";
+"failureReason601" = "يرجى إعادة المحاولة فيما بعد.";
+
+/* MNErrorMyMindNodeRegistrationError */
+"description602" = "فشل التسجيل";
+"failureReason602" = "";
+
+/* MNErrorMyMindNodeInvalidEmailAddress */
+"description603" = "عنوان البريد الإلكتروني غير صالح";
+"failureReason603" = "";
+
+/* MNErrorMyMindNodeDuplicateEmailAddress */
+"description604" = "عنوان البريد الإلكتروني مستخدم بالفعل";
+"failureReason604" = "";
+
+/* MNErrorMyMindNodeDocumentUploadFailed */
+"description605" = "فشل الرفع";
+"failureReason605" = "تعذر تحميل المستند. يرجى إعادة المحاولة فيما بعد.";
+
+/* MNErrorMyMindNodeDocumentDeletionFailed */
+"description606" = "تعذر حذف المستند";
+"failureReason606" = "";
+
+/* MNErrorMyMindNodeNotRegistered */
+"description607" = "غير مسجل";
+"failureReason607" = "الرجاء تسجيل MyMindNode عن طريق تحميل مستند من قائمة مشاركة MyMindNode";
+
+/* MNErrorMyMindNodeiCloudRequired */
+"description608" = "iCloud غير متوفر";
+"failureReason608" = "يتطلب MyMindNode استخدام iCloud. الرجاء تمكين iCloud على الجهاز.";

@@ -1,0 +1,18 @@
+/* Title of branch/connection style inspector */
+"Branch" = "가지";
+
+/* Title of branch/connection style inspector */
+"Branch/Connection" = "가지/연결";
+
+/* Title of branch/connection style inspector */
+"Connection" = "연결";
+
+/* Title of dashed border dash style */
+"Dashed" = "파선";
+
+/* Title of dotted border dash style */
+"Dotted" = "점선";
+
+/* Title of solid border dash style */
+"Solid" = "실선";
+

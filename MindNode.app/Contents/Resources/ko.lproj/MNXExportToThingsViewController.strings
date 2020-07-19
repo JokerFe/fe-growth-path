@@ -1,0 +1,12 @@
+
+/* Class = "NSButtonCell"; title = "Export…"; ObjectID = "C9u-Pd-gW9"; */
+"C9u-Pd-gW9.title" = "보내기…";
+
+/* Class = "NSTextFieldCell"; title = "When you export your document to Things, a new project with the name of your document will be created. All tasks will be added as a flat list to this project."; ObjectID = "Jsc-Kz-VcC"; */
+"Jsc-Kz-VcC.title" = "Things로 도큐멘트를 보내면, 해당 도큐멘트의 이름으로 새로운 프로젝트가 생성됩니다. 모든 할일은 평평한 목차 형식으로 추가됩니다.";
+
+/* Class = "NSTextFieldCell"; title = "Export to Things"; ObjectID = "jHB-aS-swL"; */
+"jHB-aS-swL.title" = "Things로 보내기";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "vLI-Yr-YsH"; */
+"vLI-Yr-YsH.title" = "취소";

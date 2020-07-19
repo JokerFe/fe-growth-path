@@ -1,0 +1,15 @@
+
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "BaZ-d9-aGb"; */
+"BaZ-d9-aGb.title" = "Закрыть";
+
+/* Class = "NSWindow"; title = "Welcome to myMindNode"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "Добро пожаловать в myMindNode!";
+
+/* Class = "NSButtonCell"; title = "Next..."; ObjectID = "Fi1-Lg-HUF"; */
+"Fi1-Lg-HUF.title" = "Далее...";
+
+/* Class = "NSTextFieldCell"; title = "Email Address:"; ObjectID = "crL-u5-tu7"; */
+"crL-u5-tu7.title" = "Эл. адрес:";
+
+/* Class = "NSTextFieldCell"; title = "Error Message appears here"; ObjectID = "yTO-Kg-Pnd"; */
+"yTO-Kg-Pnd.title" = "Место для сообщения об ошибке";

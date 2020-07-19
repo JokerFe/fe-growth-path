@@ -1,0 +1,15 @@
+/* Undo String when deleting a generic object */
+"Add Object" = "オブジェクトを追加";
+
+/* No comment provided by engineer. */
+"Cut" = "カット";
+
+/* Undo String when deleting a generic object */
+"Delete Object" = "オブジェクトを削除";
+
+/* No comment provided by engineer. */
+"Paste" = "ペースト";
+
+/* The undo action name when calling strikethrough. */
+"Strikethrough" = "取り消し線";
+

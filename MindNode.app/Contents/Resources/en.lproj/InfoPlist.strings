@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+"NSPhotoLibraryUsageDescription" = "Pick photos from your photo library to attach them to your ideas.";
+
+"NSRemindersUsageDescription" = "Export your tasks to Reminders and keep the completion status in sync.";

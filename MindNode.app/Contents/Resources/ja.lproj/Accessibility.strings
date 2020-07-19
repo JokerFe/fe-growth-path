@@ -1,0 +1,24 @@
+/* Accessibility hint for a cross connection with title of begin and end node */
+"Connecting node '%@' and node '%@'" = "ノード“%1$@”とノード“%2$@”を接続中です";
+
+/* Title of the cross connection knobs */
+"Connection Handle" = "接続用ハンドル";
+
+/* Accessibility label for cross connections */
+"Cross Connection" = "クロス接続";
+
+/* Hint on how to interact with resize knobs */
+"Double tap and hold, then drag to move." = "移動するにはダブルタップした後押したままにして、ドラッグしてください。";
+
+/* Button on outliner view for folding subitems */
+"Fold node" = "ノードを折りたたむ";
+
+/* Title of the resize knobs */
+"Resize Handle" = "ハンドルのサイズを変更";
+
+/* Accessibility suffix for cross connection title */
+"Title = '%@'" = "タイトルが“%@”";
+
+/* Button on outliner view for unfolding subitems */
+"Unfold node" = "ノードを展開";
+

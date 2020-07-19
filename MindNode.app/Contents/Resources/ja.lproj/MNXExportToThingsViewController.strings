@@ -1,0 +1,12 @@
+
+/* Class = "NSButtonCell"; title = "Export…"; ObjectID = "C9u-Pd-gW9"; */
+"C9u-Pd-gW9.title" = "書き出す…";
+
+/* Class = "NSTextFieldCell"; title = "When you export your document to Things, a new project with the name of your document will be created. All tasks will be added as a flat list to this project."; ObjectID = "Jsc-Kz-VcC"; */
+"Jsc-Kz-VcC.title" = "Things に書類を書き出すと、書類名と同名の新規プロジェクトが作成されます。すべてのタスクはフラットリストとしてこのプロジェクトに追加されます。";
+
+/* Class = "NSTextFieldCell"; title = "Export to Things"; ObjectID = "jHB-aS-swL"; */
+"jHB-aS-swL.title" = "Things に書き出す";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "vLI-Yr-YsH"; */
+"vLI-Yr-YsH.title" = "キャンセル";

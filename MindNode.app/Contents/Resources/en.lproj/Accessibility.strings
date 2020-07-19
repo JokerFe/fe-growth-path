@@ -1,0 +1,24 @@
+﻿/* Accessibility hint for a cross connection with title of begin and end node */
+"Connecting node '%@' and node '%@'" = "Connecting node '%1$@' and node '%2$@'";
+
+/* Title of the cross connection knobs */
+"Connection Handle" = "Connection Handle";
+
+/* Accessibility label for cross connections */
+"Cross Connection" = "Cross Connection";
+
+/* Hint on how to interact with resize knobs */
+"Double tap and hold, then drag to move." = "Double tap and hold, then drag to move.";
+
+/* Button on outliner view for folding subitems */
+"Fold node" = "Fold node";
+
+/* Title of the resize knobs */
+"Resize Handle" = "Resize Handle";
+
+/* Accessibility suffix for cross connection title */
+"Title = '%@'" = "Title = '%@'";
+
+/* Button on outliner view for unfolding subitems */
+"Unfold node" = "Unfold node";
+

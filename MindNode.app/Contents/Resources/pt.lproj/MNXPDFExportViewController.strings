@@ -1,0 +1,12 @@
+
+/* Class = "NSTextFieldCell"; title = "Create a PDF document that can be viewed and edited with a PDF application or viewed in a web browser."; ObjectID = "4"; */
+"4.title" = "Crie um arquivo PDF que pode ser visualizado e editado com aplicativos PDF ou visualizados em navegadores.";
+
+/* Class = "NSTextFieldCell"; title = "Export as:"; ObjectID = "fNQ-LB-SN9"; */
+"fNQ-LB-SN9.title" = "Exportar como:";
+
+/* Class = "NSMenuItem"; title = "Outline"; ObjectID = "uGv-tS-H0G"; */
+"uGv-tS-H0G.title" = "Plano";
+
+/* Class = "NSMenuItem"; title = "Mind Map"; ObjectID = "ulX-mT-uni"; */
+"ulX-mT-uni.title" = "Mapa Mental";

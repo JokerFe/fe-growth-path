@@ -1,0 +1,12 @@
+
+/* Class = "NSTextFieldCell"; title = "Share to Reminders"; ObjectID = "0cj-O3-8NP"; */
+"0cj-O3-8NP.title" = "미리 알림으로 공유하기";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "3QX-I4-h33"; */
+"3QX-I4-h33.title" = "취소";
+
+/* Class = "NSTextFieldCell"; title = "Export your tasks as a flat list to Reminders. MindNode syncs the completion status with Reminders, so you can complete a task in either app and the status will be updated in the other app. All other content is not synced and requires a new export."; ObjectID = "Q8i-XX-0sC"; */
+"Q8i-XX-0sC.title" = "미리 알림으로 할일을 평평한 목록으로 보냅니다. MindNode는 미리 알림과 완료 상태를 동기화하고 업데이트하므로 사용자는 아무 앱에서 할일 목록을 작성할 수 있습니다. 그 밖에 다른 콘텐츠는 동기화되지 않으며 보내기 작업을 다시 해야합니다.";
+
+/* Class = "NSButtonCell"; title = "Export…"; ObjectID = "Sv1-Ql-QSa"; */
+"Sv1-Ql-QSa.title" = "보내기…";

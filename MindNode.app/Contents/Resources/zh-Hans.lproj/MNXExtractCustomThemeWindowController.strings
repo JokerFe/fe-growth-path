@@ -1,0 +1,12 @@
+
+/* Class = "NSButtonCell"; title = "Extract Theme"; ObjectID = "3t5-gq-rPr"; */
+"3t5-gq-rPr.title" = "存储个人主题";
+
+/* Class = "NSButtonCell"; title = "Prevent duplicate branch colors"; ObjectID = "MpF-Rl-WOT"; */
+"MpF-Rl-WOT.title" = "防止重复分支颜色";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "aH5-LE-adg"; */
+"aH5-LE-adg.title" = "取消";
+
+/* Class = "NSTextFieldCell"; title = "Create a new theme by extracting the style of the current document. You’ll get the best results if you use a mind map with a single main node, six subnodes and one cross connection."; ObjectID = "b1N-qc-9Nq"; */
+"b1N-qc-9Nq.title" = "MindNode 支持创建个人主题，提取的主题基于您当前的文稿。如果使用有一个主节点、六个子节点和一个交叉连接的思维导图，那么将得到最佳结果。提取主题将会覆盖您当前的个人主题。";

@@ -1,0 +1,20 @@
+/* Button Title */
+"Always Upgrade" = "항상 업그레이드";
+
+/* Button Title */
+"Don't Upgrade" = "업그레이드 안 함";
+
+/* Default name of new documents.
+   Placeholder string for a new node
+   Title of the first main node created for new documents */
+"Mind Map" = "마인드 맵";
+
+/* Informative Text */
+"This document was saved with an older version of MindNode. Would you like to upgrade this document to the new file format? Upgrading the document ensures that all new features are saved to the file." = "MindNode 이전 버전에서 작성한 도큐멘트입니다. 새로운 파일 포맷으로 도큐멘트를 업그레이드 하시겠습니까? 도큐멘트를 업그레이드 하면 새로 추가된 모든 기능이 파일에 저장됩니다.";
+
+/* Button Title */
+"Upgrade Document" = "도큐멘트 업그레이드";
+
+/* Title Text */
+"Upgrade Document?" = "도큐멘트를 업그레이드할까요?";
+

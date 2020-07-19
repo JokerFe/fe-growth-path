@@ -1,0 +1,72 @@
+/* No comment provided by engineer. */
+"Copy" = "복사";
+
+/* No comment provided by engineer. */
+"Create Connection" = "연결고리 만들기";
+
+/* No comment provided by engineer. */
+"Cut" = "잘라내기";
+
+/* No comment provided by engineer. */
+"Delete" = "삭제";
+
+/* No comment provided by engineer. */
+"Detach" = "분리";
+
+/* No comment provided by engineer. */
+"Edit Image" = "이미지 편집";
+
+/* No comment provided by engineer. */
+"Edit Title" = "제목 편집";
+
+/* No comment provided by engineer. */
+"Fold Nodes" = "마디 접기";
+
+/* No comment provided by engineer. */
+"Insert New Parent" = "새 상위 마디";
+
+/* No comment provided by engineer. */
+"Look Up" = "찾아보기";
+
+/* No comment provided by engineer. */
+"New Child" = "새 하위 마디";
+
+/* No comment provided by engineer. */
+"New Main Node" = "새로운 중심 마디";
+
+/* No comment provided by engineer. */
+"New Sibling" = "새 형제 마디";
+
+/* No comment provided by engineer. */
+"Paste" = "붙여넣기";
+
+/* No comment provided by engineer. */
+"Paste and Preserve Style" = "붙여넣고 형식 일치시킴";
+
+/* No comment provided by engineer. */
+"Quick Look" = "Quick Look";
+
+/* No comment provided by engineer. */
+"Search With Google" = "Google로 검색";
+
+/* No comment provided by engineer. */
+"Select All" = "모두 선택";
+
+/* No comment provided by engineer. */
+"Select All Child Nodes" = "모든 하위 마디 선택";
+
+/* No comment provided by engineer. */
+"Select All Sibling Nodes" = "모든 형제 마디 선택";
+
+/* No comment provided by engineer. */
+"Select Mind Map" = "마인드 맵 선택";
+
+/* No comment provided by engineer. */
+"Show Notes Popover" = "노트 보기";
+
+/* No comment provided by engineer. */
+"Zoom In" = "확대";
+
+/* No comment provided by engineer. */
+"Zoom Out" = "축소";
+

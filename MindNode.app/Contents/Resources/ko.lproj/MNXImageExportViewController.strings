@@ -1,0 +1,6 @@
+
+/* Class = "NSButtonCell"; title = "Transparent Background"; ObjectID = "10"; */
+"10.title" = "투명한 배경";
+
+/* Class = "NSTextFieldCell"; title = "Create an image file that can be viewed and edited with Preview.app or any other application supporting the PNG image format."; ObjectID = "05V-Nz-AmN"; */
+"05V-Nz-AmN.title" = "미리보기.app 또는 PNG 이미지 포맷을 지원하는 응용 프로그램에서 열어볼 수 있는 이미지를 생성합니다.";

@@ -1,0 +1,15 @@
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "0Sj-H8-Lbo"; */
+"0Sj-H8-Lbo.title" = "إلغاء";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "نافذة";
+
+/* Class = "NSTextFieldCell"; title = "Email:"; ObjectID = "LFG-ay-EM0"; */
+"LFG-ay-EM0.title" = "البريد الإلكتروني:";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "NX2-5I-ULh"; */
+"NX2-5I-ULh.title" = "موافق";
+
+/* Class = "NSTextFieldCell"; title = "Change account email"; ObjectID = "S1z-3a-Uzp"; */
+"S1z-3a-Uzp.title" = "تغيير البريد الإلكتروني للحساب";

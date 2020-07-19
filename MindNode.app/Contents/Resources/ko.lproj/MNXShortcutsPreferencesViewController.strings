@@ -1,0 +1,24 @@
+
+/* Class = "NSTextFieldCell"; title = "Create new parent node:"; ObjectID = "DVO-Vp-h7u"; */
+"DVO-Vp-h7u.title" = "새로운 상위 마디:";
+
+/* Class = "NSTextFieldCell"; title = "Create new main node:"; ObjectID = "GhB-kZ-jgY"; */
+"GhB-kZ-jgY.title" = "새로운 중심 마디 생성:";
+
+/* Class = "NSButtonCell"; title = "Restore Defaults"; ObjectID = "HcT-pT-Frf"; */
+"HcT-pT-Frf.title" = "기본값 복원";
+
+/* Class = "NSMenuItem"; title = "⇥ Tab Key"; ObjectID = "VdG-Sq-zSC"; */
+"VdG-Sq-zSC.title" = "⇥ Tab 키";
+
+/* Class = "NSTextFieldCell"; title = "Create new child node:"; ObjectID = "Wql-9Z-Osa"; */
+"Wql-9Z-Osa.title" = "새로운 하위 마디:";
+
+/* Class = "NSTextFieldCell"; title = "Create new sibling node:"; ObjectID = "XvP-IM-cBL"; */
+"XvP-IM-cBL.title" = "새로운 형제 마디:";
+
+/* Class = "NSTextFieldCell"; title = "Edit title:"; ObjectID = "evP-tu-h61"; */
+"evP-tu-h61.title" = "제목 편집:";
+
+/* Class = "NSTextFieldCell"; title = "Create new sibling node above:"; ObjectID = "uui-y3-Nxl"; */
+"uui-y3-Nxl.title" = "상단에 새로운 형재 마디 생성:";

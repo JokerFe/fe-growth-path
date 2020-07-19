@@ -1,0 +1,72 @@
+/* No comment provided by engineer. */
+"Copy" = "拷贝";
+
+/* No comment provided by engineer. */
+"Create Connection" = "创建连接";
+
+/* No comment provided by engineer. */
+"Cut" = "剪切";
+
+/* No comment provided by engineer. */
+"Delete" = "删除";
+
+/* No comment provided by engineer. */
+"Detach" = "分离";
+
+/* No comment provided by engineer. */
+"Edit Image" = "编辑图像";
+
+/* No comment provided by engineer. */
+"Edit Title" = "编辑标题";
+
+/* No comment provided by engineer. */
+"Fold Nodes" = "折叠节点";
+
+/* No comment provided by engineer. */
+"Insert New Parent" = "插入新上级";
+
+/* No comment provided by engineer. */
+"Look Up" = "查找";
+
+/* No comment provided by engineer. */
+"New Child" = "新建子类";
+
+/* No comment provided by engineer. */
+"New Main Node" = "新建主节点";
+
+/* No comment provided by engineer. */
+"New Sibling" = "新建附属";
+
+/* No comment provided by engineer. */
+"Paste" = "粘贴";
+
+/* No comment provided by engineer. */
+"Paste and Preserve Style" = "粘贴并保留格式";
+
+/* No comment provided by engineer. */
+"Quick Look" = "快速查看";
+
+/* No comment provided by engineer. */
+"Search With Google" = "通过 Google 搜索";
+
+/* No comment provided by engineer. */
+"Select All" = "全选";
+
+/* No comment provided by engineer. */
+"Select All Child Nodes" = "选择所有子节点";
+
+/* No comment provided by engineer. */
+"Select All Sibling Nodes" = "选择全部附属节点";
+
+/* No comment provided by engineer. */
+"Select Mind Map" = "选择思维导图";
+
+/* No comment provided by engineer. */
+"Show Notes Popover" = "显示注释弹出框";
+
+/* No comment provided by engineer. */
+"Zoom In" = "放大";
+
+/* No comment provided by engineer. */
+"Zoom Out" = "缩小";
+

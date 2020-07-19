@@ -1,0 +1,20 @@
+/* Button Title */
+"Always Upgrade" = "Toujours mettre à jour";
+
+/* Button Title */
+"Don't Upgrade" = "Ne pas mettre à niveau";
+
+/* Default name of new documents.
+   Placeholder string for a new node
+   Title of the first main node created for new documents */
+"Mind Map" = "Carte heuristique";
+
+/* Informative Text */
+"This document was saved with an older version of MindNode. Would you like to upgrade this document to the new file format? Upgrading the document ensures that all new features are saved to the file." = "Ce document a été enregistré avec une ancienne version de MindNode. Voulez-vous le mettre à niveau vers le nouveau format de fichier ? La mise à niveau assure l’enregistrement des nouvelles fonctionnalités dans le fichier.";
+
+/* Button Title */
+"Upgrade Document" = "Mettre à niveau";
+
+/* Title Text */
+"Upgrade Document?" = "Mettre à niveau le document ?";
+

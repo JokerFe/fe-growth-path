@@ -1,0 +1,24 @@
+/* No comment provided by engineer. */
+"Delete" = "Apagar";
+
+/* No comment provided by engineer. */
+"Fold" = "Contrair";
+
+/* Label in outline view when no nodes are available. */
+"No Nodes" = "Nenhum Nó";
+
+/* Label in outline view when no open tasks are available. */
+"No open tasks" = "Nenhuma tarefa aberta";
+
+/* Label in outline view when no search results are available. */
+"No Search Results" = "Nenhum Resultado";
+
+/* Placeholder label in outline when there's no title specified */
+"No Title" = "Sem Título";
+
+/* Placeholder string for the search bar */
+"Search Titles" = "Buscar Títulos";
+
+/* No comment provided by engineer. */
+"Unfold" = "Expandir";
+

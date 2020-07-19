@@ -1,0 +1,45 @@
+/* The Mac command key label */
+"Command" = "Command";
+
+/* Toolbar item name for the General preference pane */
+"General" = "일반";
+
+/* Toolbar item name for the MyMindNode preference pane */
+"myMindNode" = "myMindNode";
+
+/* Menu Item Title in the Shortcut Preferences */
+"None" = "없음";
+
+/* The Mac option key label */
+"Option" = "Option";
+
+/* Common title for Preferences window */
+"Preferences" = "환경설정";
+
+/* The Mac return key label */
+"Return Key" = "Return 키";
+
+/* The Mac shift key label */
+"Shift" = "Shift";
+
+/* Toolbar item name for the Shortcuts preference pane */
+"Shortcuts" = "단축키";
+
+/* The Mac tab key label */
+"Tab Key" = "Tab 키";
+
+/* The Mac tab key symbol */
+"⇥" = "⇥";
+
+/* The Mac shift key symbol */
+"⇧" = "⇧";
+
+/* The Mac command key symbol */
+"⌘" = "⌘";
+
+/* The Mac option key symbol */
+"⌥" = "⌥";
+
+/* The Mac return key symbol */
+"⏎" = "⏎";
+

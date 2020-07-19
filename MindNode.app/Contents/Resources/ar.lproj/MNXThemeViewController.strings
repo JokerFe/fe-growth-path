@@ -1,0 +1,42 @@
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "1gs-pt-A3J"; */
+"1gs-pt-A3J.title" = "مربع";
+
+/* Class = "NSMenuItem"; title = "Open Theme..."; ObjectID = "Ke0-dN-jLB"; */
+"Ke0-dN-jLB.title" = "فتح سمة...";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "Xkj-p3-nx0"; */
+"Xkj-p3-nx0.title" = "مربع";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "ady-bZ-U2s"; */
+"ady-bZ-U2s.title" = "العنصر ١";
+
+/* Class = "NSMenuItem"; title = "Show in Finder"; ObjectID = "d3V-9s-whg"; */
+"d3V-9s-whg.title" = "إظهار في الباحث";
+
+/* Class = "NSMenuItem"; title = "Share"; ObjectID = "dd5-8z-P2f"; */
+"dd5-8z-P2f.title" = "مشاركة";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "hVG-00-87b"; */
+"hVG-00-87b.title" = "العنصر ٢";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "haX-5S-syn"; */
+"haX-5S-syn.title" = "حذف";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "i7M-jy-CQF"; */
+"i7M-jy-CQF.title" = "العنصر ٣";
+
+/* Class = "NSMenuItem"; title = "Apply"; ObjectID = "kUX-lV-0Q6"; */
+"kUX-lV-0Q6.title" = "تطبيق";
+
+/* Class = "NSMenuItem"; title = "Rename"; ObjectID = "kqD-SV-57x"; */
+"kqD-SV-57x.title" = "إعادة تسمية";
+
+/* Class = "NSTextFieldCell"; title = "Canvas Color"; ObjectID = "wUd-Fg-iLc"; */
+"wUd-Fg-iLc.title" = "لون اللوحة القماشية";
+
+/* Class = "NSButtonCell"; title = "Add Theme..."; ObjectID = "x8h-ot-u7A"; */
+"x8h-ot-u7A.title" = "إضافة سمة...";
+
+/* Class = "NSMenuItem"; title = "Extract Theme..."; ObjectID = "xXh-o0-lVK"; */
+"xXh-o0-lVK.title" = "استخراج سمة...";

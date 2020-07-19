@@ -1,0 +1,42 @@
+﻿
+/* Class = "NSBox"; title = "Box"; ObjectID = "1gs-pt-A3J"; */
+"1gs-pt-A3J.title" = "Box";
+
+/* Class = "NSMenuItem"; title = "Open Theme..."; ObjectID = "Ke0-dN-jLB"; */
+"Ke0-dN-jLB.title" = "Open Theme...";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "Xkj-p3-nx0"; */
+"Xkj-p3-nx0.title" = "Box";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "ady-bZ-U2s"; */
+"ady-bZ-U2s.title" = "Item 1";
+
+/* Class = "NSMenuItem"; title = "Show in Finder"; ObjectID = "d3V-9s-whg"; */
+"d3V-9s-whg.title" = "Show in Finder";
+
+/* Class = "NSMenuItem"; title = "Share"; ObjectID = "dd5-8z-P2f"; */
+"dd5-8z-P2f.title" = "Share";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "hVG-00-87b"; */
+"hVG-00-87b.title" = "Item 2";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "haX-5S-syn"; */
+"haX-5S-syn.title" = "Delete";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "i7M-jy-CQF"; */
+"i7M-jy-CQF.title" = "Item 3";
+
+/* Class = "NSMenuItem"; title = "Apply"; ObjectID = "kUX-lV-0Q6"; */
+"kUX-lV-0Q6.title" = "Apply";
+
+/* Class = "NSMenuItem"; title = "Rename"; ObjectID = "kqD-SV-57x"; */
+"kqD-SV-57x.title" = "Rename";
+
+/* Class = "NSTextFieldCell"; title = "Canvas Color"; ObjectID = "wUd-Fg-iLc"; */
+"wUd-Fg-iLc.title" = "Canvas Color";
+
+/* Class = "NSButtonCell"; title = "Add Theme..."; ObjectID = "x8h-ot-u7A"; */
+"x8h-ot-u7A.title" = "Add Theme...";
+
+/* Class = "NSMenuItem"; title = "Extract Theme..."; ObjectID = "xXh-o0-lVK"; */
+"xXh-o0-lVK.title" = "Extract Theme...";

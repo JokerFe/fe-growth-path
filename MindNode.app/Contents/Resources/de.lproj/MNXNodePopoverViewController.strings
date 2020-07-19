@@ -1,0 +1,15 @@
+
+/* Class = "NSTextFieldCell"; title = "No Attachment"; ObjectID = "8Ry-yI-J7l"; */
+"8Ry-yI-J7l.title" = "Kein Anhang";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "CXT-zh-U3Z"; */
+"CXT-zh-U3Z.title" = "Box";
+
+/* Class = "NSButtonCell"; title = "Link…"; ObjectID = "czA-SB-D3c"; */
+"czA-SB-D3c.title" = "Link …";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "hat-ac-Gii"; */
+"hat-ac-Gii.title" = "Etikett";
+
+/* Class = "NSTextFieldCell"; title = "File path"; ObjectID = "tSY-Ct-2s3"; */
+"tSY-Ct-2s3.title" = "Dateipfad";

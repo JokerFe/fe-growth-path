@@ -1,0 +1,42 @@
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "1gs-pt-A3J"; */
+"1gs-pt-A3J.title" = "상자";
+
+/* Class = "NSMenuItem"; title = "Open Theme..."; ObjectID = "Ke0-dN-jLB"; */
+"Ke0-dN-jLB.title" = "테마 열기...";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "Xkj-p3-nx0"; */
+"Xkj-p3-nx0.title" = "상자";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "ady-bZ-U2s"; */
+"ady-bZ-U2s.title" = "항목 1";
+
+/* Class = "NSMenuItem"; title = "Show in Finder"; ObjectID = "d3V-9s-whg"; */
+"d3V-9s-whg.title" = "Finder에서 보기";
+
+/* Class = "NSMenuItem"; title = "Share"; ObjectID = "dd5-8z-P2f"; */
+"dd5-8z-P2f.title" = "공유";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "hVG-00-87b"; */
+"hVG-00-87b.title" = "항목 2";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "haX-5S-syn"; */
+"haX-5S-syn.title" = "삭제";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "i7M-jy-CQF"; */
+"i7M-jy-CQF.title" = "항목 3";
+
+/* Class = "NSMenuItem"; title = "Apply"; ObjectID = "kUX-lV-0Q6"; */
+"kUX-lV-0Q6.title" = "적용";
+
+/* Class = "NSMenuItem"; title = "Rename"; ObjectID = "kqD-SV-57x"; */
+"kqD-SV-57x.title" = "이름 변경";
+
+/* Class = "NSTextFieldCell"; title = "Canvas Color"; ObjectID = "wUd-Fg-iLc"; */
+"wUd-Fg-iLc.title" = "캔버스 색상";
+
+/* Class = "NSButtonCell"; title = "Add Theme..."; ObjectID = "x8h-ot-u7A"; */
+"x8h-ot-u7A.title" = "테마 추가...";
+
+/* Class = "NSMenuItem"; title = "Extract Theme..."; ObjectID = "xXh-o0-lVK"; */
+"xXh-o0-lVK.title" = "테마 추출하기...";

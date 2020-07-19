@@ -1,0 +1,12 @@
+/* NSError detail string for failed CRC32 checks during unzip. */
+"CRC32 check failed during unzip." = "CRC32-controle mislukt tijdens uitpakken.";
+
+/* NSError detail string for failed CRC32 checks during unzip to file. */
+"CRC32 check failed while unzipping to file." = "CRC32-controle mislukt tijdens uitpakken naar bestand.";
+
+/* NSError detail string for failed unzip operations due to already existing destination files. */
+"Unzip failed because a file with the same name already exists at the destination URL. The file at the destination URL must be non-existent." = "Het uitpakken is mislukt omdat er al een bestand met dezelfde naam bestaat op de doel-URL. Het bestand mag niet bestaan op de doel-URL.";
+
+/* NSError detail string for unzip operations that lack a filename. */
+"Unzip failed because the destination URL points to a directory. The destination URL must specify a filename." = "Het uitpakken is mislukt omdat de doel-URL verwijst naar een map. De doel-URL moet een bestandsnaam opgeven.";
+

@@ -1,0 +1,18 @@
+/* Title of branch/connection style inspector */
+"Branch" = "分支";
+
+/* Title of branch/connection style inspector */
+"Branch/Connection" = "分支/连接";
+
+/* Title of branch/connection style inspector */
+"Connection" = "连接";
+
+/* Title of dashed border dash style */
+"Dashed" = "点划线";
+
+/* Title of dotted border dash style */
+"Dotted" = "虚线";
+
+/* Title of solid border dash style */
+"Solid" = "实线";
+

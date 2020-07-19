@@ -1,0 +1,24 @@
+
+/* Class = "NSTextFieldCell"; title = "Quick Entry:"; ObjectID = "Fop-wx-33D"; */
+"Fop-wx-33D.title" = "Быстрый ввод:";
+
+/* Class = "NSTextFieldCell"; title = "Press Command ⌘ to prevent inheritance"; ObjectID = "NhD-mn-0pf"; */
+"NhD-mn-0pf.title" = "Нажмите Command ⌘, чтобы предотвратить наследование";
+
+/* Class = "NSButtonCell"; title = "Launch at login"; ObjectID = "TuJ-fM-kHE"; */
+"TuJ-fM-kHE.title" = "Запускать при входе";
+
+/* Class = "NSButtonCell"; title = "Shrink node width to fit content"; ObjectID = "ibf-AB-9pI"; */
+"ibf-AB-9pI.title" = "Уменьшать узел под размер контента";
+
+/* Class = "NSTextFieldCell"; title = "Default Node Behavior:"; ObjectID = "lYf-Di-vgL"; */
+"lYf-Di-vgL.title" = "Поведение по умолчанию:";
+
+/* Class = "NSButtonCell"; title = "Inherit style when reconnecting"; ObjectID = "mB2-0D-BXc"; */
+"mB2-0D-BXc.title" = "Наследовать стиль при соединении";
+
+/* Class = "NSButtonCell"; title = "Restore Defaults"; ObjectID = "n2M-xp-Oxk"; */
+"n2M-xp-Oxk.title" = "Настройки по умолчанию";
+
+/* Class = "NSButtonCell"; title = "Prevent node collisions in manual layout"; ObjectID = "qXZ-3K-kpe"; */
+"qXZ-3K-kpe.title" = "Не допускать столкновения узлов в ручном макете";

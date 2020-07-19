@@ -1,0 +1,15 @@
+/* Undo String when deleting a generic object */
+"Add Object" = "대상체 추가";
+
+/* No comment provided by engineer. */
+"Cut" = "잘라내기";
+
+/* Undo String when deleting a generic object */
+"Delete Object" = "개체 삭제";
+
+/* No comment provided by engineer. */
+"Paste" = "붙여넣기";
+
+/* The undo action name when calling strikethrough. */
+"Strikethrough" = "취소선";
+

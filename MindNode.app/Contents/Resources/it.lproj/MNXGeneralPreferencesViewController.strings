@@ -1,0 +1,24 @@
+
+/* Class = "NSTextFieldCell"; title = "Quick Entry:"; ObjectID = "Fop-wx-33D"; */
+"Fop-wx-33D.title" = "Inserimento rapido:";
+
+/* Class = "NSTextFieldCell"; title = "Press Command ⌘ to prevent inheritance"; ObjectID = "NhD-mn-0pf"; */
+"NhD-mn-0pf.title" = "Tocca Commando ⌘ per impedire l'ereditarietà";
+
+/* Class = "NSButtonCell"; title = "Launch at login"; ObjectID = "TuJ-fM-kHE"; */
+"TuJ-fM-kHE.title" = "Apri al login";
+
+/* Class = "NSButtonCell"; title = "Shrink node width to fit content"; ObjectID = "ibf-AB-9pI"; */
+"ibf-AB-9pI.title" = "Adatta larghezza nodo al contenuto";
+
+/* Class = "NSTextFieldCell"; title = "Default Node Behavior:"; ObjectID = "lYf-Di-vgL"; */
+"lYf-Di-vgL.title" = "Comportamento nodo:";
+
+/* Class = "NSButtonCell"; title = "Inherit style when reconnecting"; ObjectID = "mB2-0D-BXc"; */
+"mB2-0D-BXc.title" = "Applica stile al ricollegamento";
+
+/* Class = "NSButtonCell"; title = "Restore Defaults"; ObjectID = "n2M-xp-Oxk"; */
+"n2M-xp-Oxk.title" = "Ripristina default";
+
+/* Class = "NSButtonCell"; title = "Prevent node collisions in manual layout"; ObjectID = "qXZ-3K-kpe"; */
+"qXZ-3K-kpe.title" = "Impedisci conflitti di nodi nel layout manuale";

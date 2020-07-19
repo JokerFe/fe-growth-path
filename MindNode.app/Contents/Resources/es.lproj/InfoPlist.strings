@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+"NSPhotoLibraryUsageDescription" = "Escoja fotos de su fototeca para adjuntarlas a sus ideas.";
+
+"NSRemindersUsageDescription" = "Exporte sus tareas a Recordatorios y mantenga sincronizado su estado de finalización.";

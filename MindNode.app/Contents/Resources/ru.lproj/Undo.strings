@@ -1,0 +1,15 @@
+/* Undo String when deleting a generic object */
+"Add Object" = "Добавить объект";
+
+/* No comment provided by engineer. */
+"Cut" = "Вырезать";
+
+/* Undo String when deleting a generic object */
+"Delete Object" = "Удалить объект";
+
+/* No comment provided by engineer. */
+"Paste" = "Вставить";
+
+/* The undo action name when calling strikethrough. */
+"Strikethrough" = "Зачеркнутый";
+

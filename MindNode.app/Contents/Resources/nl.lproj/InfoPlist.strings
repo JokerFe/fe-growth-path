@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+"NSPhotoLibraryUsageDescription" = "Kies foto’s uit je fotobibliotheek om ze aan je ideeën toe te voegen.";
+
+"NSRemindersUsageDescription" = "Exporteer je taken naar Herinneringen en synchroniseer de voltooiingsstatus.";

@@ -1,0 +1,48 @@
+/* Cancel button for Tasks export privacy setup. */
+"Cancel" = "キャンセル";
+
+/* Error dialog title when the document has no tasks */
+"Document has no tasks" = "書類にタスクがありません";
+
+/* Shown as label on the OmniFocus sharing service menu item. */
+"Export to OmniFocus" = "OmniFocus に書き出す";
+
+/* Error dialog title when unable to export to Things */
+"Export to Things failed" = "Things に書き出せませんでした";
+
+/* The Name of the inserted main node if there is more than one root nodes during FreeMind exporting */
+"Mind Map" = "マインドマップ";
+
+/* Error dialog during Things export when the document has no tasks */
+"MindNode can export your tasks to Things. Add a task to a node to get started." = "MindNode はタスクを Things に書き出すことができます。タスクをノードに追加して開始してください。";
+
+/* Error dialog message when the document has no tasks */
+"MindNode can share your tasks to Reminders. Add a task to a node to get started." = "MindNodeはタスクをリマインダーに共有できます。タスクをノードに追加して開始してください。";
+
+/* Shown as message when a user tries to export tasks to Reminders without access permissions. */
+"MindNode is not authorized to access Reminders." = "MindNode はリマインダーへのアクセスが認証されていません。";
+
+/* OS X Error message when the user didn't grant permission to Reminders.app */
+"MindNode needs access to Reminders in \"System Preferences\" under Security & Privacy > Privacy > Reminders." = "システム環境設定の“セキュリティとプライバシー”>“プライバシー”>“リマインダー”と進み、MindNode がリマインダーにアクセスできるよう許可を与えてください。";
+
+/* Text for button to open Privacy System Preferences (Tasks export) */
+"Open Privacy Settings…" = "プライバシー設定を開く…";
+
+/* Error dialog title when unable to export to Things */
+"Please ensure you have the latest version of 'Things' installed on your Mac." = "Mac に Things の最新バージョンがインストールされていることを確認してください。";
+
+/* Shown as label on the Reminders sharing service menu item. */
+"Reminders" = "リマインダー";
+
+/* Shown in Notification Center when exporting to reminders finishes */
+"Successfully exported to Reminders" = "リマインダーへの書き出しを完了しました";
+
+/* Shown as message when a user tries to export tasks to Reminders without access permissions. */
+"To allow MindNode to export to Reminders, change the Privacy settings in System Preferences." = "MindNodeがリマインダーに書き出せるよう許可するには、システム環境設定の“プライバシー”設定から変更してください。";
+
+/* iOS Error message when the user didn't grant permission to Reminders.app */
+"You can allow MindNode access to Reminders in Settings app under Privacy > Reminders." = "MindNode にリマインダーへのアクセスを許可するには、設定 App から“プライバシー”>“リマインダー”と進んでください。";
+
+/* Shown in Notification Center when exporting to reminders finishes */
+"Your tasks were added to the list \"%@\"." = "タスクはリスト“%@”に追加されました。";
+

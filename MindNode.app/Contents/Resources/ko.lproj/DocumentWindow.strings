@@ -1,0 +1,9 @@
+/* Title of menu item to show the Find and Replace bar */
+"Hide Find & Replace" = "찾기 및 대치 가리기";
+
+/* Title of menu item to hide the Find and Replace bar */
+"Show Find & Replace" = "찾기 및 대치 보기";
+
+/* Title of MyMindNode error dialog */
+"Unable to Share to MyMindNode" = "MyMindNode로 공유할 수 없음";
+

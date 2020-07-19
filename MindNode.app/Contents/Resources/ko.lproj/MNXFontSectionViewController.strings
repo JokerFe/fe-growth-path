@@ -1,0 +1,45 @@
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "CFb-mX-eop"; */
+"CFb-mX-eop.title" = "항목 2";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedMultipleValuesPlaceholder = "..."; ObjectID = "Dg4-0D-LPr"; */
+"Dg4-0D-LPr.ibShadowedMultipleValuesPlaceholder" = "...";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "FiZ-Gz-IaD"; */
+"FiZ-Gz-IaD.title" = "항목 3";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "NZR-ps-dcL"; */
+"NZR-ps-dcL.title" = "항목 2";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "ToU-7s-3wb"; */
+"ToU-7s-3wb.title" = "항목 1";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "WaR-3A-no9"; */
+"WaR-3A-no9.title" = "상자";
+
+/* Class = "NSTextFieldCell"; title = "FONT"; ObjectID = "cxJ-QI-BV3"; */
+"cxJ-QI-BV3.title" = "서체";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = " "; ObjectID = "pFy-aD-Ktq"; */
+"pFy-aD-Ktq.ibShadowedIsNilPlaceholder" = " ";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedMultipleValuesPlaceholder = "Multiple"; ObjectID = "pFy-aD-Ktq"; */
+"pFy-aD-Ktq.ibShadowedMultipleValuesPlaceholder" = "다중";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedNoSelectionPlaceholder = " "; ObjectID = "pFy-aD-Ktq"; */
+"pFy-aD-Ktq.ibShadowedNoSelectionPlaceholder" = " ";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "qdP-AU-e9K"; */
+"qdP-AU-e9K.title" = "상자";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = " "; ObjectID = "rCW-Np-UWD"; */
+"rCW-Np-UWD.ibShadowedIsNilPlaceholder" = " ";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedMultipleValuesPlaceholder = " Multiple"; ObjectID = "rCW-Np-UWD"; */
+"rCW-Np-UWD.ibShadowedMultipleValuesPlaceholder" = " 다중";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "u0k-mw-eMj"; */
+"u0k-mw-eMj.title" = "항목 3";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "veK-xR-oCT"; */
+"veK-xR-oCT.title" = "항목 1";

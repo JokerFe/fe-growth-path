@@ -1,0 +1,181 @@
+/*
+ MNError.strings
+ MindNode
+
+ Created by Markus Müller on 07.05.08.
+ Copyright 2008 IdeasOnCanvas GmbH. All rights reserved.
+
+ Warning regarding the en.lproj version of this file:
+ 1. This file is manually managed!
+ 2. This file is not part of a target. A script copies it manually into the product!
+ */
+
+
+/* MNUnknownError */
+"description0" = "An unknown error occurred.";
+"failureReason0" = "MindNode could not complete the operation because an unknown error occurred.";
+
+/* MNUnknownFileReadError */
+"description1" = "MindNode document data could not be read.";
+"failureReason1" = "The provided file appears to be corrupted.";
+
+/* MNUnknownPasteboardReadError */
+"description2" = "MindNode pasteboard data could not be read for an unknown reason.";
+"failureReason2" = "An unknown error occurred.";
+
+/* MNWriteCouldntMakeTIFFError */
+"description3" = "A TIFF image could not be made because it would be empty.";
+"failureReason3" = "The TIFF image would be empty.";
+
+/* MNUnknownFileWriteError */
+"description4" = "MindNode could not save the document.";
+"failureReason4" = "Saving the current document is not allowed.";
+
+/* MNUnknownPrintError */
+"description5" = "MindNode could not print the document.";
+"failureReason5" = "Printing the current document failed. Please contact support if this problem persists.";
+
+/* MNNoNodesPrintError */
+"description6" = "MindNode can't print an empty document.";
+"failureReason6" = "Add nodes to the document before printing.";
+
+/* MNUnsuportedDocumentVersionError */
+"description7" = "MindNode couldn't load the provided document.";
+"failureReason7" = "The document was saved with a newer version of the application. Please use the integrated software updater to install a current version.";
+
+/* MNUnsupportedMindNodeMacVersionError */
+"description8" = "MindNode couldn't import the provided document.";
+"failureReason8" = "The document was saved with an older version of MindNode for Mac. Please update your version of MindNode for Mac to a newer version and resave your document.";
+
+/* MNFileImportError */
+"description9" = "Unable to import document";
+"failureReason9" = "MindNode was unable to import the document. If this problem persists please contact support and include your document.";
+
+/* MNUnableToMoveToiCloudError */
+"description10" = "Unable to move document to iCloud";
+"failureReason10" = "Please verify that you have enough free space on iCloud. If this doesn't help, please contact support. Your document will be saved, but only iCloud documents will appear in document picker.";
+
+/* MNErrorCameraAccess */
+"description11" = "Access Denied";
+"failureReason11" = "Access to Camera is required for taking photos. You can allow MindNode to access your camera in Settings > Privacy > Camera.";
+
+/* MNErrorFileNameUnknownError */
+"description100" = "Unable to rename document";
+"failureReason100" = "";
+
+/* MNErrorFileNameTooLong */
+"description101" = "Unable to rename document";
+"failureReason101" = "The document name is too long.";
+
+/* MNErrorFileNameNotAllowedCharacters */
+"description102" = "Unable to rename document";
+"failureReason102" = "Try using a file name without any punctuation marks.";
+
+/* MNErrorFileNameAlreadyUsedError */
+"description103" = "Unable to rename document";
+"failureReason103" = "This name is already in use. Please choose a different name.";
+
+/* MNErrorFolderNameUnknownError */
+"description110" = "Invalid folder name";
+"failureReason110" = "";
+
+/* MNErrorFolderNameTooLong */
+"description111" = "";
+"failureReason111" = "The folder name is too long.";
+
+/* MNErrorFolderNameNotAllowedCharacters */
+"description112" = "Unable to rename document";
+"failureReason112" = "Try using a folder name without any punctuation marks.";
+
+/* MNErrorFolderNameAlreadyUsedError */
+"description113" = "Unable to rename folder";
+"failureReason113" = "This name is already in use. Please choose a different name.";
+
+/* MNErrorFolderUnableToCreateFolder */
+"description114" = "Unable to create folder";
+"failureReason114" = "Please choose a different folder name.";
+
+/* MNErrorFolderContainsSameFileName */
+"description115" = "Unable to move document";
+"failureReason115" = "The folder already contains a document with the same name.";
+
+/* MNErrorDocumentOpenError */
+"description201" = "Unable to open document";
+"failureReason201" = "";
+
+/* MNErrorDocumentCloudDeletionError */
+"description202" = "Unable to close deleted document";
+"failureReason202" = "The document was removed from iCloud Drive on an other device, but closing it on this device failed.";
+
+
+/* MNErrorExportUnknownError */
+"description400" = "Unable to export document.";
+"failureReason400" = "";
+
+/* MNErrorExportToCameraRoll */
+"description401" = "Unable to save to Camera Roll.";
+"failureReason401" = "";
+
+/* MNErrorExportSendToApp */
+"description402" = "Unable to send document to other app.";
+"failureReason402" = "No installed application accepts documents of this file type.";
+
+/* MNErrorExportZippedOverwrite */
+"description403" = "Unable to overwrite current document.";
+"failureReason403" = "The current document cannot be replaced with a zipped version.";
+
+/* MNErrorExportToRemindersPermission */
+"description404" = "Unable to export document to Reminders: not permitted.";
+"failureReason404" = "";
+
+/* MNErrorExportToRemindersUnknownError */
+"description405" = "Unable to export document to Reminders.";
+"failureReason405" = "An unknown error occurred.";
+
+/* MNErrorCloudUnknownError */
+"description500" = "An unknown iCloud Error occurred.";
+"failureReason500" = "";
+
+/* MNErrorCloudUnableToMoveAllDocumentsToCloud */
+"description501" = "Pending Transfers";
+"failureReason501" = "Some documents are pending transfer. Please make sure all documents are downloaded and uploaded before deactivating iCloud.";
+
+/* MNErrorCloudContainerUnavailable */
+"description502" = "iCloud Unavailable";
+"failureReason502" = "iCloud is currently not configured on your device.";
+
+/* MNErrorMyMindNodeNotReachable */
+"description600" = "Unable to connect to MyMindNode";
+"failureReason600" = "Please try again later.";
+
+/* MNErrorMyMindNodeEmailSavingError */
+"description601" = "Saving new email address failed";
+"failureReason601" = "Please try again later.";
+
+/* MNErrorMyMindNodeRegistrationError */
+"description602" = "Registration failed";
+"failureReason602" = "";
+
+/* MNErrorMyMindNodeInvalidEmailAddress */
+"description603" = "Invalid email address";
+"failureReason603" = "";
+
+/* MNErrorMyMindNodeDuplicateEmailAddress */
+"description604" = "Email address already in use";
+"failureReason604" = "";
+
+/* MNErrorMyMindNodeDocumentUploadFailed */
+"description605" = "Upload Failed";
+"failureReason605" = "Couldn't upload document. Please try again later.";
+
+/* MNErrorMyMindNodeDocumentDeletionFailed */
+"description606" = "Couldn't delete document";
+"failureReason606" = "";
+
+/* MNErrorMyMindNodeNotRegistered */
+"description607" = "Not Registered";
+"failureReason607" = "Please register MyMindNode by uploading a document from the MyMindNode share menu";
+
+/* MNErrorMyMindNodeiCloudRequired */
+"description608" = "iCloud Not Available";
+"failureReason608" = "MyMindNode requires iCloud. Please enable iCloud on the device.";

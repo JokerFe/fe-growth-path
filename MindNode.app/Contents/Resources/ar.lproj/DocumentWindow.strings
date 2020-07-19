@@ -1,0 +1,9 @@
+/* Title of menu item to show the Find and Replace bar */
+"Hide Find & Replace" = "إخفاء البحث والاستبدال";
+
+/* Title of menu item to hide the Find and Replace bar */
+"Show Find & Replace" = "إظهار البحث والاستبدال";
+
+/* Title of MyMindNode error dialog */
+"Unable to Share to MyMindNode" = "تعذرت المشاركة على MyMindNode";
+

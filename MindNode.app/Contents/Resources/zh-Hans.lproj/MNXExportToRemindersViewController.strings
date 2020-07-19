@@ -1,0 +1,12 @@
+
+/* Class = "NSTextFieldCell"; title = "Share to Reminders"; ObjectID = "0cj-O3-8NP"; */
+"0cj-O3-8NP.title" = "共享到“提醒事项”";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "3QX-I4-h33"; */
+"3QX-I4-h33.title" = "取消";
+
+/* Class = "NSTextFieldCell"; title = "Export your tasks as a flat list to Reminders. MindNode syncs the completion status with Reminders, so you can complete a task in either app and the status will be updated in the other app. All other content is not synced and requires a new export."; ObjectID = "Q8i-XX-0sC"; */
+"Q8i-XX-0sC.title" = "将您的任务以简单列表的形式导出到“提醒事项”。MindNode 同“提醒事项”同步完成状态，因而您可以在任一应用中完成任务，然后任务完成状态会在其他应用中相应更新。所有其他内容不会同步，需要另外导出。";
+
+/* Class = "NSButtonCell"; title = "Export…"; ObjectID = "Sv1-Ql-QSa"; */
+"Sv1-Ql-QSa.title" = "导出…";

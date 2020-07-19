@@ -1,0 +1,33 @@
+/* Cancel button for MyMindNode setup. */
+"Cancel" = "Cancelar";
+
+/* Copy Link custom sharing service */
+"Copy Link" = "Copiar Link";
+
+/* Shown as message when a user tries to share a MyMindNode document without enabled iCloud */
+"iCloud not configured" = "O iCloud não está configurado";
+
+/* Shown as label on the MyMindNode sharing service menu item. */
+"myMindNode" = "myMindNode";
+
+/* Shown in the MyMindNode pref pane when iCloud is not available. */
+"myMindNode requires iCloud" = "O myMindNode requer o iCloud";
+
+/* Shown in the MyMindNode pref pane when network is not available. */
+"myMindNode requires network connection" = "O myMindNode requer uma conexão de rede";
+
+/* Shown in Notification Center when the current MyMindNode upload finishes */
+"myMindNode Upload Completed" = "Envio ao myMindNode Concluído";
+
+/* Shown in the MyMindNode pref pane as the user account */
+"N/A" = "N/D";
+
+/* Text for button to open iCloud System Preferences (MyMindNode setup) */
+"Open iCloud System Preferences" = "Abrir as Preferências iCloud";
+
+/* Shown in Notification Center when the current MyMindNode upload finishes */
+"Successfully uploaded \"%@\" to myMindNode." = "O envio de “%@” ao myMindNode foi bem-sucedido.";
+
+/* Shown as informative text when a user tries to share a document via MyMindNode without configured iCloud */
+"You need to be signed into your iCloud account to use myMindNode." = "Você precisar ter uma sessão iniciada na sua conta do iCloud para usar o myMindNode.";
+

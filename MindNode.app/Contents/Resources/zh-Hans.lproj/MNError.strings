@@ -1,0 +1,181 @@
+/*
+ MNError.strings
+ MindNode
+
+ Created by Markus Müller on 07.05.08.
+ Copyright 2008 IdeasOnCanvas GmbH. All rights reserved.
+
+ Warning regarding the en.lproj version of this file:
+ 1. This file is manually managed!
+ 2. This file is not part of a target. A script copies it manually into the product!
+ */
+
+
+/* MNUnknownError */
+"description0" = "发生未知错误。";
+"failureReason0" = "由于发生未知错误，MindNode 无法完成此操作。";
+
+/* MNUnknownFileReadError */
+"description1" = "MindNode 文稿数据无法被读取。";
+"failureReason1" = "提供的文件似乎是损坏的。";
+
+/* MNUnknownPasteboardReadError */
+"description2" = "由于未知原因，无法读取 MindNode 粘帖板数据。";
+"failureReason2" = "发生未知错误。";
+
+/* MNWriteCouldntMakeTIFFError */
+"description3" = "无法生成 TIFF 图像，因为它将是空的。";
+"failureReason3" = "TIFF 图像将是空的。";
+
+/* MNUnknownFileWriteError */
+"description4" = "MindNode 无法存储文稿。";
+"failureReason4" = "不允许存储当前文稿。";
+
+/* MNUnknownPrintError */
+"description5" = "MindNode 无法打印文稿。";
+"failureReason5" = "打印当前文稿失败。如果问题继续请联系技术支持。";
+
+/* MNNoNodesPrintError */
+"description6" = "MindNode 无法打印任何空的文稿。";
+"failureReason6" = "在打印前请添加节点到文稿。";
+
+/* MNUnsuportedDocumentVersionError */
+"description7" = "MindNode 无法加载提供的文稿。";
+"failureReason7" = "此文稿是由新版本的应用程序存储的。请使用内置的软件更新工具安装最新版本。";
+
+/* MNUnsupportedMindNodeMacVersionError */
+"description8" = "MindNode 无法导入提供的文稿。";
+"failureReason8" = "此文稿由旧版本的 MindNode for Mac 存储。请将您的 MindNode for Mac 更新到最新版本，然后重新存储您文稿。";
+
+/* MNFileImportError */
+"description9" = "无法导入文稿";
+"failureReason9" = "MindNode 无法导入文稿。如果此问题一直出现，请联系技术支持，并提供您的文稿。";
+
+/* MNUnableToMoveToiCloudError */
+"description10" = "无法将文稿移到 iCloud";
+"failureReason10" = "请确认 iCloud 上有足够多可用空间。如果这没有用，请联系技术支持。您的文稿将被存储，但是仅 iCloud 文稿会出现在文稿选取器中。";
+
+/* MNErrorCameraAccess */
+"description11" = "访问被拒绝";
+"failureReason11" = "拍摄照片需要访问相机。您可以在设置 > 隐私 > 相机中允许 MindNode 访问您的相机。";
+
+/* MNErrorFileNameUnknownError */
+"description100" = "无法重命名文稿";
+"failureReason100" = "";
+
+/* MNErrorFileNameTooLong */
+"description101" = "无法重命名文稿";
+"failureReason101" = "文稿名称太长。";
+
+/* MNErrorFileNameNotAllowedCharacters */
+"description102" = "无法重命名文稿";
+"failureReason102" = "尝试使用一个没有标点符号的文件名。";
+
+/* MNErrorFileNameAlreadyUsedError */
+"description103" = "无法重命名文稿";
+"failureReason103" = "此名称已被使用。请选择一个不同的名称。";
+
+/* MNErrorFolderNameUnknownError */
+"description110" = "文件夹名称无效";
+"failureReason110" = "";
+
+/* MNErrorFolderNameTooLong */
+"description111" = "";
+"failureReason111" = "文件夹名称太长。";
+
+/* MNErrorFolderNameNotAllowedCharacters */
+"description112" = "无法重命名文稿";
+"failureReason112" = "尝试使用一个没有标点符号的文件夹名称。";
+
+/* MNErrorFolderNameAlreadyUsedError */
+"description113" = "无法重命名文件夹";
+"failureReason113" = "此名称已被使用。请选择一个不同的名称。";
+
+/* MNErrorFolderUnableToCreateFolder */
+"description114" = "无法创建文件夹";
+"failureReason114" = "请选择一个不同的文件夹名称。";
+
+/* MNErrorFolderContainsSameFileName */
+"description115" = "无法移动文稿";
+"failureReason115" = "文件夹中已含有相同名称的文稿。";
+
+/* MNErrorDocumentOpenError */
+"description201" = "无法打开文稿";
+"failureReason201" = "";
+
+/* MNErrorDocumentCloudDeletionError */
+"description202" = "无法关闭删除的文稿";
+"failureReason202" = "虽然在另一台设备上从 iCloud Drive 中移除了此文稿，但无法在此设备上将其关闭。";
+
+
+/* MNErrorExportUnknownError */
+"description400" = "无法导出文稿。";
+"failureReason400" = "";
+
+/* MNErrorExportToCameraRoll */
+"description401" = "无法存储到相机胶卷。";
+"failureReason401" = "";
+
+/* MNErrorExportSendToApp */
+"description402" = "无法将文稿发送到其他应用程序。";
+"failureReason402" = "安装的应用程序均不支持这种文件类型的文稿。";
+
+/* MNErrorExportZippedOverwrite */
+"description403" = "无法覆盖当前文稿。";
+"failureReason403" = "当前文稿不能替换为压缩版本。";
+
+/* MNErrorExportToRemindersPermission */
+"description404" = "无法将文稿导出到“提醒事项”：未授权。";
+"failureReason404" = "";
+
+/* MNErrorExportToRemindersUnknownError */
+"description405" = "无法将文稿导出到“提醒事项”。";
+"failureReason405" = "发生未知错误。";
+
+/* MNErrorCloudUnknownError */
+"description500" = "发生未知 iCloud 错误。";
+"failureReason500" = "";
+
+/* MNErrorCloudUnableToMoveAllDocumentsToCloud */
+"description501" = "等待传输";
+"failureReason501" = "一些文稿正在等待传输。请确保下载或上传完所有文稿，然后停用 iCloud。";
+
+/* MNErrorCloudContainerUnavailable */
+"description502" = "iCloud 不可用";
+"failureReason502" = "目前，您的设备上未配置 iCloud。";
+
+/* MNErrorMyMindNodeNotReachable */
+"description600" = "无法连接至 MyMindNode";
+"failureReason600" = "请稍后再试。";
+
+/* MNErrorMyMindNodeEmailSavingError */
+"description601" = "存储新电子邮件地址失败";
+"failureReason601" = "请稍后再试。";
+
+/* MNErrorMyMindNodeRegistrationError */
+"description602" = "注册失败";
+"failureReason602" = "";
+
+/* MNErrorMyMindNodeInvalidEmailAddress */
+"description603" = "电子邮件地址无效";
+"failureReason603" = "";
+
+/* MNErrorMyMindNodeDuplicateEmailAddress */
+"description604" = "电子邮件地址已经在用";
+"failureReason604" = "";
+
+/* MNErrorMyMindNodeDocumentUploadFailed */
+"description605" = "上传失败";
+"failureReason605" = "无法上传文稿。请稍后再试。";
+
+/* MNErrorMyMindNodeDocumentDeletionFailed */
+"description606" = "无法删除文稿";
+"failureReason606" = "";
+
+/* MNErrorMyMindNodeNotRegistered */
+"description607" = "未注册";
+"failureReason607" = "请通过 MyMindNode 共享菜单上传文稿来注册 MyMindNode";
+
+/* MNErrorMyMindNodeiCloudRequired */
+"description608" = "iCloud 不可用";
+"failureReason608" = "MyMindNode 需要使用 iCloud。请在设备上启用 iCloud。";

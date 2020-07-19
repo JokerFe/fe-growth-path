@@ -1,0 +1,9 @@
+/* Title of menu item to show the Find and Replace bar */
+"Hide Find & Replace" = "“検索と置換”を隠す";
+
+/* Title of menu item to hide the Find and Replace bar */
+"Show Find & Replace" = "“検索と置換”を表示";
+
+/* Title of MyMindNode error dialog */
+"Unable to Share to MyMindNode" = "MyMindNode に共有できませんでした";
+

@@ -1,0 +1,3 @@
+/* Adds a 'point' description to a number. %@ will be replaced with the number value. e.g. '3.2 pt'. */
+"%@ pt" = "%@ pt";
+

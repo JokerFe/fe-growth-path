@@ -1,0 +1,24 @@
+/* Accessibility hint for a cross connection with title of begin and end node */
+"Connecting node '%@' and node '%@'" = "Kopplar ihop noderna '%1$@' och '%2$@'";
+
+/* Title of the cross connection knobs */
+"Connection Handle" = "Anslutningshandtag";
+
+/* Accessibility label for cross connections */
+"Cross Connection" = "Korsanslutning";
+
+/* Hint on how to interact with resize knobs */
+"Double tap and hold, then drag to move." = "Flytta genom att trycka snabbt två gånger och dra.";
+
+/* Button on outliner view for folding subitems */
+"Fold node" = "Fäll ihop nod";
+
+/* Title of the resize knobs */
+"Resize Handle" = "Ändra storlek på handtag";
+
+/* Accessibility suffix for cross connection title */
+"Title = '%@'" = "Titel = '%@'";
+
+/* Button on outliner view for unfolding subitems */
+"Unfold node" = "Fäll upp nod";
+

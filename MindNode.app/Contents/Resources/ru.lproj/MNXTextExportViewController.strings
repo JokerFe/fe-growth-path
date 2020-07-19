@@ -1,0 +1,18 @@
+
+/* Class = "NSTextFieldCell"; title = "Create a text outline that can be viewed and edited with a text editor."; ObjectID = "31"; */
+"31.title" = "Создать текстовую структуру, которую можно просматривать и редактировать в текстовом редакторе.";
+
+/* Class = "NSMenuItem"; title = "RTF"; ObjectID = "0Kf-RI-JGL"; */
+"0Kf-RI-JGL.title" = "RTF";
+
+/* Class = "NSMenuItem"; title = "Plain Text"; ObjectID = "HPY-Fa-tfe"; */
+"HPY-Fa-tfe.title" = "Простой текст";
+
+/* Class = "NSMenuItem"; title = "TaskPaper"; ObjectID = "Hs8-Bq-L4r"; */
+"Hs8-Bq-L4r.title" = "TaskPaper";
+
+/* Class = "NSMenuItem"; title = "CSV"; ObjectID = "Mws-xR-gDN"; */
+"Mws-xR-gDN.title" = "CSV";
+
+/* Class = "NSMenuItem"; title = "Microsoft Word"; ObjectID = "uKu-zo-fh3"; */
+"uKu-zo-fh3.title" = "Microsoft Word";

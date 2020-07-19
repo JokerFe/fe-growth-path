@@ -1,0 +1,33 @@
+
+/* Class = "NSMenuItem"; title = "Rectangle"; ObjectID = "CDT-Wu-6rr"; */
+"CDT-Wu-6rr.title" = "矩形";
+
+/* Class = "NSMenuItem"; title = "Cloud"; ObjectID = "FPG-4d-yZ2"; */
+"FPG-4d-yZ2.title" = "云形";
+
+/* Class = "NSMenuItem"; title = "Line"; ObjectID = "KrC-kG-tQH"; */
+"KrC-kG-tQH.title" = "直线";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "LCu-YI-0W0"; */
+"LCu-YI-0W0.title" = "方框";
+
+/* Class = "NSButtonCell"; title = "Manual Width"; ObjectID = "MxR-Hb-oXs"; */
+"MxR-Hb-oXs.title" = "手动宽度";
+
+/* Class = "NSTextFieldCell"; title = "SHAPE"; ObjectID = "OmX-7Q-04E"; */
+"OmX-7Q-04E.title" = "形状";
+
+/* Class = "NSMenuItem"; title = "Rounded"; ObjectID = "d7A-Y5-uq9"; */
+"d7A-Y5-uq9.title" = "圆角";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "nGv-sp-oz7"; */
+"nGv-sp-oz7.title" = "方框";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "r3K-BJ-0jR"; */
+"r3K-BJ-0jR.title" = "方框";
+
+/* Class = "NSMenuItem"; title = "Pill"; ObjectID = "vxv-F7-83Y"; */
+"vxv-F7-83Y.title" = "药丸";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedMultipleValuesPlaceholder = "..."; ObjectID = "zEZ-GO-X4t"; */
+"zEZ-GO-X4t.ibShadowedMultipleValuesPlaceholder" = "…";

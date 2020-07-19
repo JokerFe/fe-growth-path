@@ -1,0 +1,15 @@
+
+/* Class = "NSTextFieldCell"; title = "No Attachment"; ObjectID = "8Ry-yI-J7l"; */
+"8Ry-yI-J7l.title" = "첨부파일 없음";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "CXT-zh-U3Z"; */
+"CXT-zh-U3Z.title" = "상자";
+
+/* Class = "NSButtonCell"; title = "Link…"; ObjectID = "czA-SB-D3c"; */
+"czA-SB-D3c.title" = "링크…";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "hat-ac-Gii"; */
+"hat-ac-Gii.title" = "꼬리표";
+
+/* Class = "NSTextFieldCell"; title = "File path"; ObjectID = "tSY-Ct-2s3"; */
+"tSY-Ct-2s3.title" = "파일 경로";

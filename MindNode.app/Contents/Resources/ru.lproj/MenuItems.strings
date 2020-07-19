@@ -1,0 +1,24 @@
+/* Menu item to fold node */
+"Fold Nodes" = "Сложить узлы";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Bottom Side" = "Переместить все узлы на нижнюю сторону";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Left Side" = "Переместить все узлы на левую сторону";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Left/Top Side" = "Переместить все узлы на левую/верхнюю сторону";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Right Side" = "Переместить все узлы на правую сторону";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Right/Bottom Side" = "Переместить все узлы на правую/нижнюю сторону";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Top Side" = "Переместить все узлы на верхнюю сторону";
+
+/* Menu item to fold node */
+"Unfold Nodes" = "Разложить узлы";
+

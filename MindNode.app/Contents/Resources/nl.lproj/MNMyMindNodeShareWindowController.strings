@@ -1,0 +1,21 @@
+
+/* Class = "NSWindow"; title = "Share on myMindNode"; ObjectID = "1"; */
+"1.title" = "Deel via myMindNode";
+
+/* Class = "NSButtonCell"; title = "Open in Browser"; ObjectID = "2na-hd-SIP"; */
+"2na-hd-SIP.title" = "Open In browser";
+
+/* Class = "NSButtonCell"; title = "Replace"; ObjectID = "R52-Op-1IS"; */
+"R52-Op-1IS.title" = "Vervang";
+
+/* Class = "NSButtonCell"; title = "Share Link…"; ObjectID = "Vwu-I1-X0M"; */
+"Vwu-I1-X0M.title" = "Deel koppeling…";
+
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "b83-SR-x7g"; */
+"b83-SR-x7g.title" = "Sluit";
+
+/* Class = "NSButtonCell"; title = "Upload"; ObjectID = "isA-XI-n1F"; */
+"isA-XI-n1F.title" = "Upload";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "nPf-IY-xbW"; */
+"nPf-IY-xbW.title" = "Annuleer";

@@ -1,0 +1,6 @@
+/* The help string displayed by MNTUserGuideView. */
+"Double tap to edit" = "Toucher deux fois pour modifier";
+
+/* The help string displayed by MNTUserGuideView. */
+"Drag `+` to\ncreate new node" = "Faites glisser le +\npour créer un nœud ";
+

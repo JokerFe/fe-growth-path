@@ -1,0 +1,24 @@
+/* Menu item to fold node */
+"Fold Nodes" = "طي العقد";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Bottom Side" = "نقل جميع العقد إلى الجانب السفلي";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Left Side" = "نقل جميع العقد إلى الجانب الأيسر";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Left/Top Side" = "نقل جميع العقد إلى الجانب العلوي الأيسر";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Right Side" = "نقل جميع العقد إلى الجانب الأيمن";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Right/Bottom Side" = "نقل جميع العقد إلى الجانب السفلي الأيمن";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Top Side" = "نقل جميع العقد إلى الجانب العلوي";
+
+/* Menu item to fold node */
+"Unfold Nodes" = "فتح العقد";
+

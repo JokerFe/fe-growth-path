@@ -1,0 +1,24 @@
+
+/* Class = "NSTextFieldCell"; title = "Create new parent node:"; ObjectID = "DVO-Vp-h7u"; */
+"DVO-Vp-h7u.title" = "Neuen Elternknoten erstellen:";
+
+/* Class = "NSTextFieldCell"; title = "Create new main node:"; ObjectID = "GhB-kZ-jgY"; */
+"GhB-kZ-jgY.title" = "Hauptknoten erstellen:";
+
+/* Class = "NSButtonCell"; title = "Restore Defaults"; ObjectID = "HcT-pT-Frf"; */
+"HcT-pT-Frf.title" = "Standard";
+
+/* Class = "NSMenuItem"; title = "⇥ Tab Key"; ObjectID = "VdG-Sq-zSC"; */
+"VdG-Sq-zSC.title" = "⇥ Tab-Taste";
+
+/* Class = "NSTextFieldCell"; title = "Create new child node:"; ObjectID = "Wql-9Z-Osa"; */
+"Wql-9Z-Osa.title" = "Kindknoten:";
+
+/* Class = "NSTextFieldCell"; title = "Create new sibling node:"; ObjectID = "XvP-IM-cBL"; */
+"XvP-IM-cBL.title" = "Geschwisterknoten:";
+
+/* Class = "NSTextFieldCell"; title = "Edit title:"; ObjectID = "evP-tu-h61"; */
+"evP-tu-h61.title" = "Titel bearbeiten:";
+
+/* Class = "NSTextFieldCell"; title = "Create new sibling node above:"; ObjectID = "uui-y3-Nxl"; */
+"uui-y3-Nxl.title" = "Neuen Geschwisterknoten oberhalb erstellen";

@@ -1,0 +1,12 @@
+
+/* Class = "NSTextFieldCell"; title = "Share to Reminders"; ObjectID = "0cj-O3-8NP"; */
+"0cj-O3-8NP.title" = "Partager avec Rappels";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "3QX-I4-h33"; */
+"3QX-I4-h33.title" = "Annuler";
+
+/* Class = "NSTextFieldCell"; title = "Export your tasks as a flat list to Reminders. MindNode syncs the completion status with Reminders, so you can complete a task in either app and the status will be updated in the other app. All other content is not synced and requires a new export."; ObjectID = "Q8i-XX-0sC"; */
+"Q8i-XX-0sC.title" = "Exportez vos tâches vers Rappels sous forme de liste en texte brut. MindNode synchronise l'état d'avancement avec Rappels. Ainsi, vous pouvez terminer une tâche dans l'une ou l'autre des apps, l'état sera mis à jour dans l'autre app. Les autres contenus ne sont pas synchronisés et nécessitent une nouvelle exportation.";
+
+/* Class = "NSButtonCell"; title = "Export…"; ObjectID = "Sv1-Ql-QSa"; */
+"Sv1-Ql-QSa.title" = "Exporter…";

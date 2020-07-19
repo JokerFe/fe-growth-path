@@ -1,0 +1,12 @@
+/* NSError detail string for failed CRC32 checks during unzip. */
+"CRC32 check failed during unzip." = "解压时 CRC32 检查失败。";
+
+/* NSError detail string for failed CRC32 checks during unzip to file. */
+"CRC32 check failed while unzipping to file." = "解压至文件时 CRC32 检查失败。";
+
+/* NSError detail string for failed unzip operations due to already existing destination files. */
+"Unzip failed because a file with the same name already exists at the destination URL. The file at the destination URL must be non-existent." = "解压失败，因为目标 URL 已经存在具有相同名称的文件。目标 URL 的文件必须不存在。";
+
+/* NSError detail string for unzip operations that lack a filename. */
+"Unzip failed because the destination URL points to a directory. The destination URL must specify a filename." = "解压失败，因为目标 URL 指向目录。目标 URL 必须指定一个文件名。";
+

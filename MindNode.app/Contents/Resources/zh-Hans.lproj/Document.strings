@@ -1,0 +1,20 @@
+/* Button Title */
+"Always Upgrade" = "总是升级";
+
+/* Button Title */
+"Don't Upgrade" = "不升级";
+
+/* Default name of new documents.
+   Placeholder string for a new node
+   Title of the first main node created for new documents */
+"Mind Map" = "思维导图";
+
+/* Informative Text */
+"This document was saved with an older version of MindNode. Would you like to upgrade this document to the new file format? Upgrading the document ensures that all new features are saved to the file." = "此文稿由旧版本的 MindNode 存储。您是否要将此文稿升级为新文件格式？升级文稿可以确保文件中存储有全部新功能。";
+
+/* Button Title */
+"Upgrade Document" = "升级文稿";
+
+/* Title Text */
+"Upgrade Document?" = "升级文稿？";
+

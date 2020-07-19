@@ -1,0 +1,24 @@
+/* Menu item to fold node */
+"Fold Nodes" = "Plier les nœuds";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Bottom Side" = "Déplacer tous les nœuds vers le côté bas";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Left Side" = "Déplacer tous les nœuds vers le côté gauche";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Left/Top Side" = "Déplacer tous les nœuds vers le côté gauche/haut";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Right Side" = "Déplacer tous les nœuds vers le côté droit";
+
+/* Menu item to move all nodes to regular side */
+"Move All Nodes to Right/Bottom Side" = "Déplacer tous les nœuds vers le côté droit/bas";
+
+/* Menu item to move all nodes to alternate side */
+"Move All Nodes to Top Side" = "Déplacer tous les nœuds vers le côté haut";
+
+/* Menu item to fold node */
+"Unfold Nodes" = "Déplier les nœuds";
+

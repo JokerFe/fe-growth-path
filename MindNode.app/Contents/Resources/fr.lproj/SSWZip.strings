@@ -1,0 +1,12 @@
+/* NSError detail string for failed CRC32 checks during unzip. */
+"CRC32 check failed during unzip." = "La vérification de CRC-32 a échoué lors de la décompression.";
+
+/* NSError detail string for failed CRC32 checks during unzip to file. */
+"CRC32 check failed while unzipping to file." = "La vérification de CRC-32 a échoué lors de la décompression vers le fichier.";
+
+/* NSError detail string for failed unzip operations due to already existing destination files. */
+"Unzip failed because a file with the same name already exists at the destination URL. The file at the destination URL must be non-existent." = "La décompression a échoué, car un autre fichier porte déjà ce nom à l’URL de destination. Aucun fichier ne doit exister à l’URL de destination.";
+
+/* NSError detail string for unzip operations that lack a filename. */
+"Unzip failed because the destination URL points to a directory. The destination URL must specify a filename." = "La décompression a échoué car l’URL de destination pointe vers un dossier. L’URL de destination doit spécifier un nom de fichier.";
+

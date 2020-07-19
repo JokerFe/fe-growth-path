@@ -1,0 +1,731 @@
+/* Header in accessibility canvas description */
+"%d mind maps." = "%d개의 마인드 맵.";
+
+/* Title Accessory View, trial X Days Remaining */
+"%ld days remaining" = "%ld일 남음";
+
+/* Call to action for user to begin text editing in the tutorial */
+"*Double Click* to add yours" = "*더블 클릭*으로 여러분의 생각을 추가하세요";
+
+/* Call to action for user to begin text editing in the tutorial */
+"*Double Tap* to add yours" = "*더블 클릭*으로 여러분의 생각을 추가하세요";
+
+/* Error message when installing a theme fails */
+"A theme with the same ID is already installed" = "같은 ID를 가진 테마가 이미 설치됨";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Add Boundaries" = "경계선 추가";
+
+/* Adding a boundary to a set of nodes
+   Label that is shown to describe a keyCommand to the user */
+"Add Boundary" = "경계선 제거";
+
+/* Alert View title when adding a link to a node
+   Label that is shown to describe a keyCommand to the user */
+"Add Link" = "링크 추가";
+
+/* Accessibility Label for button to indent left */
+"Add Notes" = "노트 추가";
+
+/* Accessibility Label for button to toggle task state
+   Attaching/Adding a task to a node
+   Label that is shown to describe a keyCommand to the user */
+"Add Task" = "할일 추가";
+
+/* Alert message details when a payment needs to be confirmed by family member */
+"App features will be unlocked as soon as your transaction is approved." = "구매가 승인되는 즉시 앱의 모든 기능이 활성화됩니다.";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Balance Mind Map" = "마인드 맵 균형 잡기";
+
+/* Accessiblity label for discounted purchase price */
+"Buy now for %@ instead of %@" = "지금 %2$@에서 할인된 %1$@에 구매하세요";
+
+/* FullVersion Purchase Screen, price as parameter */
+"Buy Now\t%@" = "지금 구매하기\t%@";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Cancel" = "취소";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Canvas Color" = "캔버스 색상";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Center Main Node" = "중심 마디 중앙 정렬";
+
+/* FullVersion Purchase Screen, check for discount button */
+"Check for Discount" = "할인 혜택 알아보기";
+
+/* Call to action for the user to add a node with the node well in the tutorial */
+"Click *＋* to add another thought" = "*+*를 클릭하여 다른 생각을 기록하세요";
+
+/* Placeholder of the note text view when the note is still empty */
+"Click here to add notes" = "클릭하여 노트 추가";
+
+/* Explanation how to finish an action in the tutorial */
+"Click the *Canvas* to finish" = "*캔버스*를 클릭하여 종료하세요";
+
+/* (Accessibilty Label) Button on document view to get back to document manager
+   Label that is shown to describe a keyCommand to the user */
+"Close Document" = "도큐멘트 닫기";
+
+/* (Accessibilty Hint) Button on document view to get back to document manager */
+"Closes document and goes back to document manager." = "도큐멘트를 닫고 도큐멘트 선택기로 돌아갑니다.";
+
+/* Completing all child tasks
+   Label that is shown to describe a keyCommand to the user */
+"Complete All Child Tasks" = "모든 하위 할일 완료";
+
+/* Completing a task
+   Label that is shown to describe a keyCommand to the user */
+"Complete Task" = "할일 완료";
+
+/* Completing and Reopening all child tasks */
+"Complete/Reopen All Child Tasks" = "모든 하위 할일 완료/재개";
+
+/* Complete and reopen tasks of nodes */
+"Complete/Reopen Task" = "할일 완료/재개";
+
+/* Label that is shown to describe a keyCommand to the user
+   shorted label that is shown to describe a keyCommand to the user */
+"Connect" = "연결";
+
+/* Error when catalog of products could not be fetched when attempting a purchase, failure reason
+   Error when transaction fails with unknown reason
+   Restore Purchase, unknown error when attempting to refresh receipt (restore purchase) */
+"Connecting to App Store failed" = "App Store 연결 실패";
+
+/* Continue button on first launch welcome screen
+   Title of Button for finishing tutorial */
+"Continue" = "계속";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Copy" = "복사";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Copy Single Node" = "단일 마디 복사";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Copy Style" = "스타일 복사";
+
+/* Accessibility hint for the button used to create a new mindmap */
+"Create a new child node." = "새로운 하위 마디 생성.";
+
+/* Accessibility hint for the button used to create a new mindmap */
+"Create a new main node." = "새로운 중심 마디 생성.";
+
+/* Accessibility hint for the button used to create a new mindmap */
+"Create a new parent node." = "새로운 상위 마디 생성.";
+
+/* Accessibility hint for the button used to create a new mindmap */
+"Create a new sibling node above." = "위쪽에 새로운 형제 마디 생성.";
+
+/* Accessibility hint for the button used to create a new mindmap */
+"Create a new sibling node below." = "아래쪽에 새로운 형제 마디 생성.";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Create Connection" = "연결 생성";
+
+/* Button to create document from quick entry */
+"Create Mind Map" = "마인드 맵 생성";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Create New Child" = "새로운 하위 마디 생성";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Create New Main Node" = "새로운 중심 마디 생성";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Create New Parent" = "새로운 상위 마디 생성";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Create New Sibling" = "새로운 형제 마디 생성";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Create New Sibling Above" = "위쪽에 새로운 형제 마디 생성";
+
+/* Accessibility Hint for button to create document from draft */
+"Creates a document from the entered outline." = "입력한 개요를 바탕으로 문서 생성";
+
+/* Purchasing Check For Discount Failed Alert - message  */
+"Customers of MindNode 2 for Mac are eligible for a discount. Please make sure you have MindNode 2.5.7 (or later) installed on your Mac." = "Mac용 MindNode 구매자는 할인 혜택을 받을 수 있습니다. 기기에 MindNode 2.5.7 버전(또는 이후 버전)이 설치되어 있는지 확인하시기 바랍니다.";
+
+/* Purchasing Check For Discount Failed Alert - message  */
+"Customers of MindNode for iOS are eligible for a discount. Please make sure you have MindNode 4.5.7 (or later) installed on your device." = "iOS용 MindNode 구매자는 할인 혜택을 받을 수 있습니다. 기기에 MindNode 4.5.7 버전(또는 이후 버전)이 설치되어 있는지 확인하시기 바랍니다.";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Cut" = "잘라내기";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Cycle Main Node Backward" = "이전 중심 마디로 건너뛰기";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Cycle Main Node Forward" = "다음 중심 마디로 건너뛰기";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Decrease Font Size" = "서체 크기 작게";
+
+/* Accessibility Label for button to indent left */
+"Decrease indentation" = "들여쓰기 단계 감소";
+
+/* Accessibility Hint for button to indent left */
+"Decreases the indentation level of the current line." = "현재 줄의 들여쓰기 단계를 감소시킵니다.";
+
+/* Theme Picker Header Label */
+"Default" = "기본";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Delete" = "삭제";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Delete Attachment" = "첨부파일 삭제";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Delete Connection" = "연결 삭제";
+
+/* After cancelling, a sheet is shown with options to delete/save a draft */
+"Delete Draft" = "초안 삭제";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Delete Node" = "마디 삭제";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Delete Single Node" = "단일 마디 삭제";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Detach" = "분리하기";
+
+/* AppModeScreen, infotext */
+"Do you want to start the free 2-week trial of MindNode’s full feature set?" = "2주간의 MindNode 무료 평가판 사용을 시작하시겠습니까?";
+
+/* Info about purchase options on the Mac Purchase Screen */
+"Do you want to start the free 2-week trial of MindNode’s full feature set? Or, buy the full app. If you just want to access your documents, use Viewer Mode." = "2주간의 MindNode 무료 평가판 사용을 시작하시겠습니까? 또는 정식판을 구매하시겠습니까? 단순히 문서 열람만 원하신다면 뷰어 모드로 계속 사용하실 수 있습니다.";
+
+/* FullVersion Purchase Screen, infotext */
+"Do you want to unlock MindNode’s full feature set?" = "MindNode를 구매하여 모든 기능을 활성화하시겠습니까?";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Duplicate" = "복제";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Duplicate Single Node" = "단일 마디 복제";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Edit Note" = "노트 편집";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Edit Title" = "제목 편집";
+
+/* shorted label that is shown to describe a keyCommand to the user */
+"Edit…" = "편집…";
+
+/* Accessibility Label for text view to enter quickEntry outline */
+"Enter a text outline and turn it into a MindNode document." = "텍스트 개요를 입력하고 MindNode 도큐멘트로 전환할 수 있도록 합니다.";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Enter Full Screen" = "전체 화면 시작";
+
+/* Shown as message text when the Beta expires */
+"Expired Beta Release" = "만료된 베타 릴리스";
+
+/* Button on the document view to open the export sheet
+   Label that is shown to describe a keyCommand to the user */
+"Export" = "보내기";
+
+/* Shown as label on the Things sharing service menu item. */
+"Export to Things" = "Things로 보내기";
+
+/* Shown as label on the Things sharing service menu item. */
+"Export to Things 3" = "Things 3로 보내기";
+
+/* Shown as label on the Things sharing service menu item. */
+"Export to Things Beta" = "Things 3 베타로 보내기";
+
+/* Alert message when beta activation failed */
+"Failed to Activate Beta" = "베타 버전을 활성화할 수 없습니다";
+
+/* Shown when importing custom themes fails */
+"Failed to import the following \(failureThemeString):\n\(failureDescriptions)" = "Failed to import the following \\(failureThemeString):\n\\(failureDescriptions)";
+
+/* (Accessibility Hint) Finish tutorial button */
+"Finishes the Tutorial." = "튜토리얼 마치기.";
+
+/* shorted label that is shown to describe a keyCommand to the user */
+"Fold" = "접기";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Fold Node" = "마디 접기";
+
+/* AppModeScreen, trial button */
+"Free Trial (2 weeks)" = "시험 사용 기간 (2주)";
+
+/* Restore Purchases, full app restored success title */
+"Full app restored" = "정식판 복원됨";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Hide Inspector" = "속성 가리기";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Hide Notes Inspector" = "노트 속성 가리기";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Hide Outline" = "개요 가리기";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Hide Style Inspector" = "스타일 속성 가리기";
+
+/* Shown after sucessfully importing custom themes */
+"Imported the following \(successThemeString):\n\(successDescriptions)" = "Imported the following \\(successThemeString):\n\\(successDescriptions)";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Increase Font Size" = "서체 크기 크게\n";
+
+/* Accessibility Label for button to indent right */
+"Increase indentation" = "들여쓰기 단계 증가";
+
+/* Accessibility Hint for button to indent right */
+"Increases the indentation level of the current line." = "현재 줄의 들여쓰기 단계를 증가시킵니다.";
+
+/* (Accessibility Label) Button on the document view to show/hide the inspector */
+"Inspector" = "속성";
+
+/* Error message when there's an invalid quickEntry input */
+"Invalid text input" = "올바르지 않은 텍스트 입력";
+
+/* Explanation of a node in the tutorial */
+"It holds a *Thought*" = "여기에 *아이디어*를 담습니다";
+
+/* Remote purchase detected alert: Description of remote trial started detected alert */
+"It seems like a trial was started previously." = "이미 이전에 평가판 사용을 완료했습니다.";
+
+/* Remote purchase detected alert: Description of remote purchase detected alert */
+"It seems like the full app was activated previously." = "이미 이전에 정식판을 활성화한 적이 있습니다.";
+
+/* Placeholder for quickEntry feature */
+"It starts with a thought" = "마인드 맵은 생각으로 시작합니다";
+
+/* Shown when removing MindNode as login item fails. */
+"Launch on login can't be disabled" = "로그인 시 실행을 비활성화할 수 없음";
+
+/* Shown when adding MindNode as login item fails. */
+"Launch on login can't be enabled" = "로그인 시 실행을 비활성화할 수 없음";
+
+/* AppModeScreen, learn more button */
+"Learn More" = "자세히 알아보기";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Leave Full Screen" = "전체 화면 종료";
+
+/* Shown when adding MindNode as login item fails. */
+"MindNode cannot be added to the list of login items." = "MindNode를 로그인 항목에 추가할 수 없습니다.";
+
+/* Shown when removing MindNode as login item fails. */
+"MindNode cannot be removed from the list of login items." = "MindNode를 로그인 항목에서 제거할 수 없습니다.";
+
+/* Title for the custom Theme installation alert */
+"MindNode Themes" = "MindNode 테마";
+
+/* Alert informativeText when mindnode beta is expired */
+"MindNode will continue to work in basic mode." = "MindNode가 기본 모드로 계속 이용할 수 있습니다.";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Move Above Sibling Node" = "형제 마디 위로 이동";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Move Below Sibling Node" = "형제 마디 아래로 이동";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Move Node Down" = "마디를 아래로 이동하기";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Move Node Left" = "마디를 왼쪽으로 이동하기";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Move Node Right" = "마디를 오른쪽으로 이동하기";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Move Node Up" = "마디를 위로 이동하기";
+
+/* Placeholder for PopUp buttons when multiple objects with mixed content values are selected.
+   Placeholder of the note text view when multiple nodes are selected */
+"Multiple" = "다중";
+
+/* Accessibility label for the button used to create a new mindmap */
+"New Child" = "새 하위 마디";
+
+/* Accessibility label for the button used to create a new mindmap */
+"New Main Node" = "새로운 중심 마디";
+
+/* Accessibility label for the button used to create a new mindmap */
+"New Parent" = "새로운 상위 마디";
+
+/* Accessibility label for the button used to create a new mindmap */
+"New Sibling" = "새 형제 마디";
+
+/* Accessibility label for the button used to create a new mindmap */
+"New Sibling Above" = "새로운 형제 마디";
+
+/* Quick Entry Onboarding, skip button text */
+"No Thanks" = "괜찮습니다";
+
+/* Remote purchase detected alert: ignore-button title */
+"Not Now" = "나중에";
+
+/* Alert message ok button, when a payment needs to be confirmed by family member */
+"OK" = "네";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Open Link" = "링크 열기";
+
+/* Open website button title for the Beta expiration sheet. */
+"Open Website" = "웹 사이트 열기";
+
+/* (Accessibility Label) Button on the document view to open the outline view */
+"Outline" = "개요";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Pan Canvas Down" = "캔버스 아래로 이동";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Pan Canvas Left" = "캔버스 왼쪽으로 이동";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Pan Canvas Right" = "캔버스 오른쪽으로 이동";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Pan Canvas Up" = "캔버스 위로 이동";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Paste" = "붙이기";
+
+/* Button to paste outline from quick entry */
+"Paste Mind Map" = "마인드 맵 붙여넣기";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Paste Style" = "스타일 붙이기";
+
+/* Explanation how to finish an action in the tutorial */
+"Perform the *Escape Gesture* to finish" = "*탈출 제스처*를 수행하여 종료합니다";
+
+/* Theme Picker Header Label */
+"Personal" = "사용자 설정";
+
+/* Alert informativeText when mindnode beta could not be verified and therefore is expired */
+"Please connect to a working Wifi and relaunch MindNode." = "WiFi에 연결한 뒤 MindNode를 다시 실행하시기 바랍니다.";
+
+/* Alert informativeText when beta activation failed */
+"Please ensure you are connected to WiFi and the activation code is valid." = "WiFi가 작동하고 활성화 코드가 올바른지 확인하시기 바랍니다.";
+
+/* Activity Indicator title when preparing purchase on Mac purchase screen by loading catalog
+   Purchasing: preparing products HUD before purchasing */
+"Preparing…" = "준비 중...";
+
+/* Purchasing Check For Discount Failed Alert - title */
+"Previous version not found" = "이전 버전을 찾을 수 없음";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Print" = "프린트";
+
+/* FullVersion Purchase Screen, title
+   Title Accessory View Purchase Button */
+"Purchase" = "구매";
+
+/* Error when catalog of products could not be fetched when attempting a purchase, error description */
+"Purchase could not be initiated" = "구매를 시작할 수 없음";
+
+/* FullVersion Purchase Screen, Buy full app, price unknown */
+"Purchase Full App" = "정식판 구매";
+
+/* Quick Entry Onboarding, title */
+"Quick Entry" = "빠른 입력기";
+
+/* Quick Entry Onboarding, explanation text */
+"Quick Entry is a great way to collect your thoughts. Do you want to add it to your menu bar?" = "빠른 입력기는 생각을 기록하고 수집하는 아주 유용한 방법입니다. 메뉴 막대에 추가하시겠습니까?";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Quick Look" = "Quick Look";
+
+/* Quit button title for the Beta expiration sheet. */
+"Quit MindNode" = "MindNode 종료";
+
+/* Button on the document view to redo a change
+   Label that is shown to describe a keyCommand to the user */
+"Redo" = "실행 복귀";
+
+/* Label that is shown to describe a keyCommand to the user
+   Removing a boundary from a set of nodes */
+"Remove Boundary" = "경계선 제거";
+
+/* Label that is shown to describe a keyCommand to the user
+   Removing an attached task from a node */
+"Remove Task" = "할일 제거";
+
+/* Label that is shown to describe a keyCommand to the user
+   Reopening all child tasks */
+"Reopen All Child Tasks" = "모든 하위 할일 다시 열기";
+
+/* Label that is shown to describe a keyCommand to the user
+   Reopening a task */
+"Reopen Task" = "열린 할일로 전환하기";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Reorganize Nodes" = "마디 재정돈";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Replace Image" = "이미지 교체";
+
+/* Shorted label that is shown to describe a keyCommand to the user */
+"Replace…" = "대치…";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Reset Waypoint" = "웨이포인트 초기화";
+
+/* Remote purchase detected alert: restore-button title */
+"Restore" = "복원";
+
+/* Remote purchase detected alert: Title for full app */
+"Restore Full App?" = "정식판으로 복원할까요?";
+
+/* FullVersion Purchase Screen, restore purchase button
+   Restore purchase button on first launch welcome screen */
+"Restore Purchase" = "구입 항목 복원";
+
+/* Remote purchase detected alert: Title for trial */
+"Restore Trial?" = "시험판으로 복원할까요?";
+
+/* Restore Purchase, progress overlay title */
+"Restoring…" = "복원 중…";
+
+/* After cancelling, a sheet is shown with options to delete/save a draft */
+"Save Draft" = "초안 저장";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Search" = "검색";
+
+/* Placeholder of the note text view when no nodes are selected */
+"Select a node to add notes" = "노트를 추가할 마디 선택";
+
+/* Shown as title for the theme open panel. */
+"Select a Theme to install" = "설치할 테마 선택";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Show Action Inspector" = "동작 속성 보기";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Show Image Inspector" = "이미지 속성 보기";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Show Inspector" = "속성 보기";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Show Notes Inspector" = "노트 속성 보기";
+
+/* (Accessibility Hint) Button on the document view to show/hide the inspector */
+"Show or hide the inspector." = "속성 보기 또는 가리기";
+
+/* (Accessibility Hint) Button on the document view to show/hide the inspector */
+"Show or hide the notes inspector." = "노트 속성 보기 또는 가리기.";
+
+/* (Accessibility Hint) Button on the document view to open the outline view */
+"Show or hide the outline." = "개요 보기 또는 가리기.";
+
+/* (Accessibility Hint) Button on the document view to show/hide the inspector */
+"Show or hide the search bar." = "검색 막대 보기 또는 가리기.";
+
+/* (Accessibility Hint) Button on the document view to show/hide the inspector */
+"Show or hide the theme picker." = "테마 선택기 보기 또는 가리기.";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Show Outline" = "개요 보기";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Show Style Inspector" = "스타일 속성 보기";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Show Theme Picker" = "테마 선택기 보기";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Size To Fit Content" = "콘텐츠에 맞게 크기 조정";
+
+/* Title of Button for skipping tutorial */
+"Skip Tutorial" = "튜토리얼 건너뛰기";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Sort Alphabetically" = "하위 마디 정렬";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Sort by Task State" = "할일 상태 순으로 정렬";
+
+/* Title Accessory View Trial Button */
+"Start Trial" = "평가판 시작";
+
+/* Alert message when mindnode beta is activated */
+"Successfully Activated Beta" = "베타 버전이 활성화되었습니다";
+
+/* Call to action for the user to add a node with the node well in the tutorial */
+"Tap *＋* to add another thought" = "*+*를 클릭하여 다른 생각을 기록하세요";
+
+/* Explanation how to finish an action in the tutorial */
+"Tap the *Canvas* to finish" = "*캔버스*를 클릭하여 종료하세요";
+
+/* Accessibility Label for text view to enter quickEntry outline */
+"Text Outline" = "텍스트 개요";
+
+/* Alert informativeText when mindnode beta is activated */
+"Thank you for helping us improve MindNode." = "MindNode를 개선하는 데 도움을 주셔서 감사합니다.";
+
+/* Error message when installing a theme fails */
+"The personal theme folder is missing or unreadable" = "개인 테마 폴더가 손상되었거나 읽을 수 없음";
+
+/* Error message when the quickEntry input can't be parsed */
+"The text input has an invalid format" = "입력한 텍스트의 형식이 올바르지 않습니다";
+
+/* Error message when installing a theme fails */
+"The theme file is damaged" = "테마 파일이 손상되었습니다";
+
+/* Theme singular */
+"theme" = "테마";
+
+/* Shown as message text when custom theme removal fails */
+"Theme removal failed" = "테마 제거 실패";
+
+/* Theme plural */
+"themes" = "테마";
+
+/* Shown as info text when the Beta expires. */
+"This beta version has expired, please download a new beta release from 'https://mindnode.com/next/beta'!" = "베타 버전 사용이 만료되었습니다. 'https://mindnode.com/next/beta'에서 새로운 베타 버전을 내려받으세요!";
+
+/* Explanation of a node in the tutorial */
+"This is a *Node*" = "이것은 *마디*입니다";
+
+/* Trial expiry alert message */
+"To continue using MindNode, unlock the full app or use Viewer Mode." = "MindNode를 계속 이용하려면, 정식판을 구매하거나 뷰어로 사용하시기 바랍니다.";
+
+/* Placeholder of the note text view when the note is still empty */
+"To edit notes, start the trial or purchase the full app" = "노트를 편집하려면, 시험판을 시작하거나 MindNode 정식판을 구매하세요";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Toggle Bold" = "볼드체";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Toggle Italic" = "이탤릭체";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Toggle size of Inspector" = "속성 크기 보기/가리기";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Toggle Strikethrough" = "취소선 보기/가리기";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Toggle Underline" = "밑줄체 보기/가리기";
+
+/* Accessibility Hint for button to add notes */
+"Toggles the task state of the current line." = "현재 줄의 할일 상태를 변경합니다.";
+
+/* Error when catalog of products could not be fetched when attempting a purchase, error description */
+"Trial could not be started" = "평가판을 활성화할 수 없음";
+
+/* Title Accessory View, trial expired */
+"Trial expired" = "평가판 만료";
+
+/* Restore Purchase, trial restored success title */
+"Trial restored" = "시험팍 복원됨";
+
+/* Accessibility Hint for button add notes */
+"Turns the rest of the line into the notes of the current line." = "나머지 줄을 현재 줄의 노트로 바꿉니다.";
+
+/* Error title for quickEntry error */
+"Unable to create Document" = "도큐멘트를 생성할 수 없음";
+
+/* Shown as error text when deleting a custom theme fails */
+"Unable to delete custom theme." = "사용자지정 테마를 제거할 수 없습니다.";
+
+/* Button on the document view to undo a change
+   Label that is shown to describe a keyCommand to the user */
+"Undo" = "실행 취소";
+
+/* shorted label that is shown to describe a keyCommand to the user */
+"Unfold" = "펼침";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Unfold Node" = "마디 펼침";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Unfold One Level" = "한 단계 펼침";
+
+/* Error message when installing a theme fails */
+"Unknown error" = "원인을 알 수 없는 오류";
+
+/* AppModeScreen, full app button */
+"Unlock Full App" = "정식판 잠금해제";
+
+/* Title of the Purchase screen on Mac */
+"Unlock MindNode" = "MindNode 잠금해제";
+
+/* Trial expiry purchase options button */
+"Unlock Now" = "지금 잠금해제";
+
+/* Quick Entry Onboarding, use quick entry button title */
+"Use Quick Entry" = "빠른 입력기 활용하기";
+
+/* Sample main node text in the tutorial */
+"Vacation 🏖" = "휴가 🏖";
+
+/* AppModeScreen, document-viewer-only button
+   Title Accessory View, document viewer only
+   Trial expiry alert viewer only mode button */
+"Viewer Mode" = "뷰어 모드";
+
+/* Error when catalog of products could not be fetched when attempting a purchase, error description */
+"Viewer Mode could not be started" = "뷰어 모드를 시작할 수 없음";
+
+/* Alert message title when a payment needs to be confirmed by family member
+   Title Accessory View, Waiting for approval of deferred payment, footer */
+"Waiting for approval" = "승인 대기 중";
+
+/* AppModeScreen, title */
+"Welcome" = "시작하기";
+
+/* Header in accessibility canvas description of node */
+"with %d child nodes" = "%d 하위 마디 포함";
+
+/* Success text when finishing the tutorial - line 2 */
+"You're all set" = "모든 준비가 완료됐습니다";
+
+/* Error when purchases are disallowed by the system */
+"Your account is currently unable to make purchases." = "현재 사용 중인 계정으로는 구매가 붉능합니다.";
+
+/* Alert message when mindnode beta could not be verified and therefore is expired
+   Alert message when mindnode beta is expired */
+"Your beta activation expired!" = "베타 기간이 만료되었습니다!";
+
+/* AppModeScreen, infotext if trial is expired */
+"Your trial has ended. Do you want to unlock MindNode’s full feature set?" = "시험 기간이 만료되었습니다. MindNode를 구매하여 모든 기능을 활성화하시겠습니까?";
+
+/* Info about purchase options on the Mac Purchase Screen if trial has expired */
+"Your trial has ended. Do you want to unlock MindNode’s full feature set? If you just want to access your documents, use Viewer Mode." = "평가판 사용 기간이 만료되었습니다. 2주간의 MindNode 무료 평가판 사용을 시작하시겠습니까? 또는 정식판을 구매하시겠습니까? 단순히 문서 열람만 원하신다면 뷰어 모드로 계속 사용하실 수 있습니다.";
+
+/* Trial expiry alert title */
+"Your trial has expired" = "평가판 사용 기간 만료";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Zoom In" = "확대";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Zoom Out" = "축소";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Zoom To Actual Size" = "실제 크기로 확대/축소";
+
+/* Window Zoom Popup Button */
+"Zoom to Fit" = "확대/축소하여 맞추기";
+
+/* Label that is shown to describe a keyCommand to the user */
+"Zoom To Fit" = "확대/축소하여 맞추기";
+
+/* Window Zoom Popup Button */
+"Zoom to Selection" = "선택 영역에 맞게 확대/축소";
+
+/* Success text when finishing the tutorial - line 1 */
+"🎉" = "🎉";
+

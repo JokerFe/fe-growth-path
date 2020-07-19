@@ -1,0 +1,48 @@
+
+/* Class = "NSButtonCell"; title = "Include page number"; ObjectID = "73b-16-5Mk"; */
+"73b-16-5Mk.title" = "Включить номер страницы";
+
+/* Class = "NSButtonCell"; title = "Include Notes"; ObjectID = "7Q1-xI-tJv"; */
+"7Q1-xI-tJv.title" = "Включить заметки";
+
+/* Class = "NSTabViewItem"; label = "Outline"; ObjectID = "8Fk-Vo-raW"; */
+"8Fk-Vo-raW.label" = "Структура";
+
+/* Class = "NSTextFieldCell"; title = "Print canvas background"; ObjectID = "GzX-6r-OJS"; */
+"GzX-6r-OJS.title" = "Напечатать фон холста";
+
+/* Class = "NSButtonCell"; title = "Include date"; ObjectID = "Myu-g7-bLb"; */
+"Myu-g7-bLb.title" = "Включить дату";
+
+/* Class = "NSButtonCell"; title = "Full color"; ObjectID = "W3q-S7-Ife"; */
+"W3q-S7-Ife.title" = "Полноцветный";
+
+/* Class = "NSTextFieldCell"; title = "Header & Footer"; ObjectID = "Zh8-J1-CCC"; */
+"Zh8-J1-CCC.title" = "Колонтитулы";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "b4J-Zw-5Fh"; */
+"b4J-Zw-5Fh.title" = "Radio";
+
+/* Class = "NSButtonCell"; title = "Unfold all nodes"; ObjectID = "mai-V7-W8W"; */
+"mai-V7-W8W.title" = "Разложить все узлы";
+
+/* Class = "NSTextFieldCell"; title = "Scale:"; ObjectID = "rNA-s4-czN"; */
+"rNA-s4-czN.title" = "Масштаб:";
+
+/* Class = "NSButtonCell"; title = "Fit to Page"; ObjectID = "ros-Li-fnk"; */
+"ros-Li-fnk.title" = "Подогнать под страницу";
+
+/* Class = "NSButtonCell"; title = "Include filename"; ObjectID = "taa-60-8w1"; */
+"taa-60-8w1.title" = "Включить имя файла";
+
+/* Class = "NSButtonCell"; title = "Grayscale"; ObjectID = "uqi-tG-e5G"; */
+"uqi-tG-e5G.title" = "Оттенки серого";
+
+/* Class = "NSTabViewItem"; label = "Mind Map"; ObjectID = "v5y-bc-Eqz"; */
+"v5y-bc-Eqz.label" = "Интеллект-карта";
+
+/* Class = "NSTextFieldCell"; title = "Color mode:"; ObjectID = "wmk-f6-1wm"; */
+"wmk-f6-1wm.title" = "Цветовой режим:";
+
+/* Class = "NSButtonCell"; title = "Print every mind map on a separate page"; ObjectID = "zHS-Fb-dIS"; */
+"zHS-Fb-dIS.title" = "Печатать каждую интеллект-карту на отдельной странице";
