@@ -1,4 +1,4 @@
-# Vue3.x新特性-Compitition-Api
+# Compitition-Api
 
 ## 简介
 
