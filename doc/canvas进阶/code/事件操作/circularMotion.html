@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <script src="./tools.js"></script>
+        <script src="./ball.js"></script>
+        <script>
+            function $$(id) {
+                return document.getElementById(id);
+            }
+            window.onload = function () {
+                // 正圆
+                var cnv = $$('canvas');
+                var cxt = cnv.getContext('2d');
+                //实例化一个小球，球心坐标为（100,25），半径、颜色都取默认值
+                var ball = new Ball(100, 25);
+                var centerX = cnv.width / 2;
+                var centerY = cnv.height / 2;
+                var radius = 50;
+                var angle = 0;
+
+                // 椭圆
+                var cnv2 = $$('canvas2');
+                var cxt2 = cnv2.getContext('2d');
+                var ball2 = new Ball(100, 25);
+                var centerX2 = cnv2.width / 2;
+                var centerY2 = cnv2.height / 2;
+                var radiusX2 = 60;
+                var radiusY2 = 40;
+                var angle2 = 0;
+
+                (function frame() {
+                    window.requestAnimationFrame(frame);
+                    // 正圆
+                    cxt.clearRect(0, 0, cnv.width, cnv.height);
+                    //绘制圆形
+                    cxt.beginPath();
+                    cxt.arc(centerX, centerY, 50, 0, (360 * Math.PI) / 180, false);
+                    cxt.closePath();
+                    cxt.stroke();
+                    //计算小球坐标
+                    ball.x = centerX + Math.cos(angle) * radius;
+                    ball.y = centerY + Math.sin(angle) * radius;
+                    ball.fill(cxt);
+                    //角度递增
+                    angle += 0.05;
+
+                    // 椭圆
+                    cxt2.clearRect(0, 0, cnv2.width, cnv2.height);
+                    //计算小球坐标
+                    ball2.x = centerX2 + Math.cos(angle2) * radiusX2;
+                    ball2.y = centerY2+ Math.sin(angle2) * radiusY2;
+                    ball2.fill(cxt2);
+                    //角度递增
+                    angle2 += 0.05;
+                })();
+            };
+        </script>
+        <!-- <script>
+            window.onload = function () {
+                var cnv2 = $$('canvas2');
+                var cxt2 = cnv2.getContext('2d');
+                var ball2 = new Ball(100, 25);
+                var centerX2 = cnv2.width / 2;
+                var centerY2 = cnv2.height / 2;
+                var radiusX2 = 60;
+                var radiusY2 = 40;
+                var angle2 = 0;
+                (function frame2() {
+                    window.requestAnimationFrame(frame2);
+                    cxt2.clearRect(0, 0, cnv2.width, cnv2.height);
+                    //计算小球坐标
+                    ball2.x = centerX2 + Math.cos(angle2) * radiusX2;
+                    ball2.y = centerY2+ Math.sin(angle2) * radiusY2;
+                    ball2.fill(cxt2);
+                    //角度递增
+                    angle2 += 0.05;
+                })();
+            }; -->
+        </script>
+    </head>
+    <body>
+        <canvas id="canvas" width="400" height="300" style="border: 1px solid silver"></canvas>
+        <canvas id="canvas2" width="400" height="300" style="border: 1px solid silver"></canvas>
+    </body>
+</html>

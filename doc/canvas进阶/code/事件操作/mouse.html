@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <script src="./tools.js"></script>
+        <script>
+            function $$(id) {
+                return document.getElementById(id);
+            }
+            window.onload = function () {
+                var cnv = $$('canvas');
+                var cxt = cnv.getContext('2d');
+                var txt = $$('txt');
+                var mouse = tools.getMouse(cnv);
+                cnv.addEventListener(
+                    'mousemove',
+                    function () {
+                        txt.innerHTML = '鼠标指针坐标：（' + mouse.x + ',' + mouse.y + '）';
+                    },
+                    false
+                );
+            };
+        </script>
+    </head>
+    <body>
+        <canvas id="canvas" width="600" height="500" style="border: 1px solid silver"></canvas>
+        <p id="txt"></p>
+    </body>
+</html>

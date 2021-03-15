@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <script src="./tools.js"></script>
+        <script>
+            function $$(id) {
+                return document.getElementById(id);
+            }
+            window.onload = function () {
+                var cnv = $$('canvas');
+                var cxt = cnv.getContext('2d');
+                //初始化变量，也就是初始化圆的X轴坐标为0
+                var x = 20; // 圆心 x
+                var y = 200;  // 圆心 y
+                var r = 20; // 半径
+                var xadd = true;
+                var yadd = true;
+                //动画循环
+                (function frame() {
+                    window.requestAnimationFrame(frame);
+                    //每次动画循环都先清空画布，再重绘新的图形
+                    cxt.clearRect(0, 0, cnv.width, cnv.height); 
+                    //绘制圆
+                    cxt.beginPath();
+                    cxt.arc(x, y, r, 0, (360 * Math.PI) / 180, true);
+                    cxt.closePath();
+                    cxt.fillStyle = '#6699FF';
+                    cxt.fill(); //变量递增
+                    
+                    if(x >= cxt.canvas.width - r){
+                        xadd = false;
+                    }else if (x <= r) {
+                        xadd = true
+                    }
+                    if(y >= cxt.canvas.height - r){
+                        yadd = false;
+                    }else if (y <= r) {
+                        yadd = true;
+                    }
+                    if (xadd) {
+                        x += 3;
+                    }else {
+                        x -= 3;
+                    }
+                    if (yadd) {
+                        y += 2;
+                    }else {
+                        y -= 2;
+                    }
+                })();
+            };
+        </script>
+    </head>
+    <body>
+        <canvas id="canvas" width="800" height="500" style="border: 1px solid silver"></canvas>
+    </body>
+</html>
