@@ -1,5 +1,3 @@
-
-
 # WebAssembly
 
 > WebAssembly 或者 wasm 是一个可移植、体积小、加载快并且兼容 Web 的全新格式
@@ -36,6 +34,22 @@ WebAssembly在web中被设计成无版本、特性可测试、向后兼容的。
 
 表示一个已经被浏览器编译为可执行机器码的WebAssembly二进制代码。一个模块是无状态的，并且像一个二进制对象`Blob`一样能够被缓存带IndexDB中或者在windows和works之间进行共享（通过postMessage()函数）。一个模块能够像一个ES2015的模块一样声明导入和导出。
 
+#### 内存
+
+ArrayBuffer，大小可变。本质上是连续的字节数组，WebAssembly的低级内存存取指令可以对它进行读写操作。
+
+#### 表格
+
+带类型数组，大小可变。表格中的项存储了不能作为原始字节存储在内存里的对象的引用，为了安全和可移植性的原因。
+
+#### 实例
+
+一个模块及其在运行时使用的所有状态，包括内存、表格和一系列导入值。一个示例就像一个已经被加载到一个拥有一组特定的全局变量的ES2015模块。
+
+JavaScriptAPI为开发者提供了创建模块、内存、表格和实例的能力。给定一个WebAssembly实例，JavaScript代码能够调用普通JavaScript函数暴露出来的代码。通过把JavaScript函数导入到WebAssembly实例中，任意的JavaScript函数都能被WebAssembly代码同步调用。
+
+因为JavaScript能够完全控制WebAssembly代码如何下载、编译运行，所以JavaScript开发可以把WebAssembly当成一个高效地生成高性能函数的JavaScript特性。
+
 ##  底层的机制和原理
 
 wasm的代码执行过程比js的执行过程短
@@ -45,6 +59,60 @@ JS  代码 ☞ V8引擎中，Parse语法解析 ☞ Complier编译成可执行的
 wasm将解析和编译的一部分工作进行前置到开发阶段，js的是解析和编译是在运行时进行的，这也是拖慢了js执行的一个原因。然后js的GC会造成js的执行卡顿，而wasm是没有GC的，它是随时回收的，不会影响js的执行。
 
 
+
+
+
+## 高性能计算
+
+在网页开发阶段，JavaScript最初是单线程的设计，如果是多线程的话Dom的处理会很混乱，一段JavaScript是修改Dom样式，一段JavaScript是删除Dom，这就会很尴尬。所以JavaScript一直是以单线程为主，但是现在由于业务量以及出现一些复杂的计算会非常耗时，这就导致Dom的渲染会出现卡顿的问题，用户体验非常差。
+
+```js
+while(true){
+  document.body.innerHTML += Math.random() + '<br>'
+}
+```
+
+
+
+```js
+Concurrent.Thread.js
+
+Concurrent.Thread.create(function() {
+  while(true){
+    document.body.innerHTML += Math.random() + '<br>'
+  }
+});
+
+https://www.cnblogs.com/woodk/articles/5199536.html
+```
+
+
+
+```js
+const worker = new Worker('task.js')
+worker.onmessage = event => document.body.innerHTML += event.data + '<br>'
+   
+# task.js
+while(true){
+  postMessage(Math.random())
+}
+```
+
+https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Atomics
+
+```
+Atomics
+```
+
+https://github.com/gpujs/gpu.js
+
+```js
+gpu.js
+```
+
+
+
+https://wasdk.github.io/WasmFiddle/
 
 https://developer.mozilla.org/zh-CN/docs/WebAssembly/Concepts
 
