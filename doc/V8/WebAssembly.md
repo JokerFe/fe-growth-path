@@ -28,6 +28,14 @@ WebAssembly是一门低阶语言，设计了一个非常规整的文本格式用
 
 WebAssembly在web中被设计成无版本、特性可测试、向后兼容的。WebAssembly可以被JavaScript调用，进行JavaScript的上下文，也可以想Web API一样调用浏览器的功能。当然，WebAssembly不仅可以运行在浏览器上，也可以运行在非web环境下。
 
+## WebAssembly关键概念
+
+为了理解WebAssembly如何在浏览器中运行，需要了接几个概念。
+
+#### 模块
+
+表示一个已经被浏览器编译为可执行机器码的WebAssembly二进制代码。一个模块是无状态的，并且像一个二进制对象`Blob`一样能够被缓存带IndexDB中或者在windows和works之间进行共享（通过postMessage()函数）。一个模块能够像一个ES2015的模块一样声明导入和导出。
+
 ##  底层的机制和原理
 
 wasm的代码执行过程比js的执行过程短
@@ -38,7 +46,7 @@ wasm将解析和编译的一部分工作进行前置到开发阶段，js的是�
 
 
 
-
+https://developer.mozilla.org/zh-CN/docs/WebAssembly/Concepts
 
 [官方中文网站](https://www.wasm.com.cn/)
 
