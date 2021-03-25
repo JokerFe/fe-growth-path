@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>多线程</title>
+    </head>
+    <body>
+        <!-- 第一种 -->
+        <!-- <script src="./Concurrent.Thread.js"></script>
+        <script>
+            Concurrent.Thread.create(function () {
+                while (true) {
+                    document.body.innerHTML += Math.random() + '<br>';
+                }
+            });
+        </script> -->
+
+        <!-- 第二种 -->
+        <!-- <script>
+            const worker = new Worker("task.js");
+            worker.onmessage = e => document.body.innerHTML += e.data + '<br>'
+        </script> -->
+
+        <!-- 第三种 -->
+        <script>
+            const worker = new Worker('task2.js');
+            const sharedArrayBuffer = new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT * 1000000);
+            const sharedArray = new Int32Array(sharedArrayBuffer);
+            for (let i = 0; i < 10; i++) {
+                Atomics.store(sharedArray, i, i + 1);
+            }
+            worker.postMessage(sharedArray);
+            const itemValue = Atomics.load(sharedArray, 2);
+            const result = 'joker' + itemValue;
+            Atomics.store(sharedArray, result);
+            const queuePos = 1;
+            Atomics.notify(sharedArray, 2, queuePos);
+        </script>
+    </body>
+</html>

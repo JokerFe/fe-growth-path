@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js调用C语言</title>
+</head>
+<body>
+    <script>
+        // 第一种加载方式 
+        function loadWebAssembly(path, imports={}) {
+            return fetch(path)
+            .then(res=>res.arrayBuffer())
+            .then(buffer => WebAssembly.compile(buffer))
+            .then(module=>{
+                // 创建WebAssembly实例 imports 开辟空间 创建变量映射等
+                return new WebAssembly.Instance(module, imports)
+            })
+
+        }
+        // 这是第二种加载方式
+        function loadWebAssembly2(path, imports={}) {
+            return fetch(path)
+            .then(res=>res.arrayBuffer())
+            .then(WebAssembly.instantiate)
+            .then(module=>module.instance)
+        }
+        loadWebAssembly('./math.wasm').then(instance => {
+            console.log(instance);
+            const add = instance.exports.add
+            const squ = instance.exports.square
+            console.log(add(3,31));
+            console.log(squ(3));
+        })
+    </script>
+</body>
+</html>
