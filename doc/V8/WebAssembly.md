@@ -50,6 +50,16 @@ JavaScriptAPI为开发者提供了创建模块、内存、表格和实例的能�
 
 因为JavaScript能够完全控制WebAssembly代码如何下载、编译运行，所以JavaScript开发可以把WebAssembly当成一个高效地生成高性能函数的JavaScript特性。
 
+## 缺点
+
+WebAssembly 标准虽然已经定稿并且得到主流浏览器的实现，但目前还存在以下问题：
+
+- 浏览器兼容性不好，只有最新版本的浏览器支持，并且不同的浏览器对 JS WebAssembly 互调的 API 支持不一致；
+- 生态工具不完善不成熟，目前还不能找到一门体验流畅的编写 WebAssembly 的语言，都还处于起步阶段；
+- 学习资料太少，还需要更多的人去探索去踩坑。
+
+总之现在的 WebAssembly 还不算成熟，如果你的团队没有不可容忍的性能问题，那现在使用 WebAssembly 到产品中还不是时候， 因为这可能会影响到团队的开发效率，或者遇到无法轻易解决的坑而阻塞开发。
+
 ##  底层的机制和原理
 
 ![](/Users/guohaohao3/Documents/Joker/Git/fe-growth-path/doc/V8/wasm/WebAssembly1.png)
@@ -61,20 +71,6 @@ JavaScriptAPI为开发者提供了创建模块、内存、表格和实例的能�
 解释器生成AST、编译器生成字节码、机器码，进行优化，然后执行后进行GC垃圾回收。  
 
 wasm将解析和编译的一部分工作进行前置到开发阶段，js的是解析和编译是在运行时进行的，这也是拖慢了js执行的一个原因。然后js的GC会造成js的执行卡顿，而wasm在浏览器中执行时是没有GC阶段的，它的内部代码是支持手动操作内存的语言，所以可以在它的模块中内置垃圾回收器。
-
-## WebAssembly的工具
-
-#### AssemblyScript
-
-支持直接将Typescript编译成WebAssembly。这对于前端来说入门的门槛很低。
-
-#### Emscripten
-
-可以说是WebAssembly的灵魂工具。将其他的高级语言，编译成WebAssembly。
-
-#### WABT
-
-将WebAssembly在字节码和文本格式相互转换的一个工具，方便开发者去理解这个wasm到底在做什么事。不过反编译出来的代码不太理想。
 
 ## [JavaScript API](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly)
 
@@ -140,6 +136,20 @@ V8这个范畴和wasm创建的实例里边这相当于两个进程，它们两�
 ##### `WebAssembly.RuntimeError`
 
 构造函数创建一个新的WebAssembly RuntimeError对象---一个每当WebAssembly陷入指定陷阱时将抛出的类型。
+
+## WebAssembly的工具
+
+#### AssemblyScript
+
+支持直接将Typescript编译成WebAssembly。这对于前端来说入门的门槛很低。
+
+#### Emscripten
+
+可以说是WebAssembly的灵魂工具。将其他的高级语言，编译成WebAssembly。
+
+#### WABT
+
+将WebAssembly在字节码和文本格式相互转换的一个工具，方便开发者去理解这个wasm到底在做什么事。不过反编译出来的代码不太理想。
 
 ## 使用C语言编写wasm
 
@@ -228,12 +238,6 @@ V8这个范畴和wasm创建的实例里边这相当于两个进程，它们两�
    ```
 
    该命令会生成三个文件，html、js和wasm。注意这里需要注意同源策略问题，可以用http-server或live-server来启动。
-
-   
-
-
-
-
 
 ## 高性能计算
 
