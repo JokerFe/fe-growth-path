@@ -50,16 +50,6 @@ JavaScriptAPI为开发者提供了创建模块、内存、表格和实例的能�
 
 因为JavaScript能够完全控制WebAssembly代码如何下载、编译运行，所以JavaScript开发可以把WebAssembly当成一个高效地生成高性能函数的JavaScript特性。
 
-## 缺点
-
-WebAssembly 标准虽然已经定稿并且得到主流浏览器的实现，但目前还存在以下问题：
-
-- 浏览器兼容性不好，只有最新版本的浏览器支持，并且不同的浏览器对 JS WebAssembly 互调的 API 支持不一致；
-- 生态工具不完善不成熟，目前还不能找到一门体验流畅的编写 WebAssembly 的语言，都还处于起步阶段；
-- 学习资料太少，还需要更多的人去探索去踩坑。
-
-总之现在的 WebAssembly 还不算成熟，如果你的团队没有不可容忍的性能问题，那现在使用 WebAssembly 到产品中还不是时候， 因为这可能会影响到团队的开发效率，或者遇到无法轻易解决的坑而阻塞开发。
-
 ##  底层的机制和原理
 
 ![](/Users/guohaohao3/Documents/Joker/Git/fe-growth-path/doc/V8/wasm/WebAssembly1.png)
@@ -366,10 +356,19 @@ loadWebAssembly('./math.wasm').then(instance => {
 
 ## 其他使用场景
 
-1. 压缩算法 Draco
 2. 游戏业务场景
 3. 3D渲染场景
 4. 业务里复杂的技术
+
+## 总结
+
+WebAssembly 标准虽然已经定稿并且得到主流浏览器的实现，但目前还存在以下问题：
+
+- 浏览器兼容性不好，只有最新版本的浏览器支持，并且不同的浏览器对 JS WebAssembly 互调的 API 支持不一致；
+- 生态工具不完善不成熟，目前还不能找到一门体验流畅的编写 WebAssembly 的语言，都还处于起步阶段；
+- 学习资料太少，很多使用过程的坑还需要去踩。
+
+总之现在的 WebAssembly 还不算成熟，如果你的团队没有不可容忍的性能问题，那现在使用 WebAssembly 到产品中还不是时候， 因为这可能会影响到团队的开发效率，或者遇到无法轻易解决的坑而阻塞开发。
 
 ### 参考文档
 
