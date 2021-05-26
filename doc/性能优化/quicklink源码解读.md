@@ -249,7 +249,7 @@ export function priority(url) {
 // 判断是否支持prefetch
 function hasPrefetch(link) {
   link = document.createElement('link');
-  return link.relList && link.relList.supports && 		link.relList.supports('prefetch');
+  return link.relList && link.relList.supports &&	link.relList.supports('prefetch');
 }
 
 export const supported = hasPrefetch() ? viaDOM : viaXHR;

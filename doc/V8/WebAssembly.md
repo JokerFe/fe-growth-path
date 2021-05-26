@@ -145,8 +145,8 @@ V8这个范畴和wasm创建的实例里边这相当于两个进程，它们两�
 
 ### 两种方式
 
-1. [Emscripten](https://emscripten.org/docs/getting_started/downloads.html) ，相对比较复杂，需要配置
-2. [WasmFiddle](https://wasdk.github.io/WasmFiddle/)，在线版
+1.[Emscripten](https://emscripten.org/docs/getting_started/downloads.html) ，相对比较复杂，需要配置
+2.[WasmFiddle](https://wasdk.github.io/WasmFiddle/)，在线版
 
 #### Emscripten
 
@@ -356,9 +356,11 @@ loadWebAssembly('./math.wasm').then(instance => {
 
 ## 其他使用场景
 
-2. 游戏业务场景
-3. 3D渲染场景
-4. 业务里复杂的技术
+1. 游戏业务场景
+
+2. 3D渲染场景
+
+3. 业务里复杂的技术
 
 ## 总结
 
