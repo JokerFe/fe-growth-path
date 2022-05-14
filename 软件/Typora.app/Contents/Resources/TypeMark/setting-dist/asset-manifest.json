@@ -1,0 +1,40 @@
+{
+  "files": {
+    "static/js/0.d883061a.chunk.js": "./static/js/0.d883061a.chunk.js",
+    "static/js/0.d883061a.chunk.js.map": "./static/js/0.d883061a.chunk.js.map",
+    "static/css/1.cd2a2ca3.chunk.css": "./static/css/1.cd2a2ca3.chunk.css",
+    "static/js/1.5b54a83c.chunk.js": "./static/js/1.5b54a83c.chunk.js",
+    "static/js/1.5b54a83c.chunk.js.map": "./static/js/1.5b54a83c.chunk.js.map",
+    "index.b05201a7.js": "./static/js/index.b05201a7.27751b2f.chunk.js",
+    "index.b05201a7.js.map": "./static/js/index.b05201a7.27751b2f.chunk.js.map",
+    "localSettingIndex.a2c75cbd.css": "./static/css/localSettingIndex.a2c75cbd.5e5284a4.chunk.css",
+    "localSettingIndex.a2c75cbd.js": "./static/js/localSettingIndex.a2c75cbd.615b03e2.chunk.js",
+    "localSettingIndex.a2c75cbd.js.map": "./static/js/localSettingIndex.a2c75cbd.615b03e2.chunk.js.map",
+    "main.js": "./static/js/main.8ff9ff9a.chunk.js",
+    "main.js.map": "./static/js/main.8ff9ff9a.chunk.js.map",
+    "runtime-index.b05201a7.js": "./static/js/runtime-index.b05201a7.e4ad2b45.js",
+    "runtime-index.b05201a7.js.map": "./static/js/runtime-index.b05201a7.e4ad2b45.js.map",
+    "runtime-localSettingIndex.a2c75cbd.js": "./static/js/runtime-localSettingIndex.a2c75cbd.c1fe6a49.js",
+    "runtime-localSettingIndex.a2c75cbd.js.map": "./static/js/runtime-localSettingIndex.a2c75cbd.c1fe6a49.js.map",
+    "runtime-main.js": "./static/js/runtime-main.f7c007dd.js",
+    "runtime-main.js.map": "./static/js/runtime-main.f7c007dd.js.map",
+    "static/js/8.1b541c15.chunk.js": "./static/js/8.1b541c15.chunk.js",
+    "static/js/8.1b541c15.chunk.js.map": "./static/js/8.1b541c15.chunk.js.map",
+    "index.html": "./index.html",
+    "local-setting.html": "./local-setting.html",
+    "precache-manifest.15a7c5f51820f9dbaca345200ac1bc50.js": "./precache-manifest.15a7c5f51820f9dbaca345200ac1bc50.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/1.cd2a2ca3.chunk.css.map": "./static/css/1.cd2a2ca3.chunk.css.map",
+    "static/css/localSettingIndex.a2c75cbd.5e5284a4.chunk.css.map": "./static/css/localSettingIndex.a2c75cbd.5e5284a4.chunk.css.map",
+    "static/js/0.d883061a.chunk.js.LICENSE.txt": "./static/js/0.d883061a.chunk.js.LICENSE.txt",
+    "static/js/8.1b541c15.chunk.js.LICENSE.txt": "./static/js/8.1b541c15.chunk.js.LICENSE.txt",
+    "static/media/photon.css": "./static/media/photon-entypo.bf614256.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7c007dd.js",
+    "static/js/0.d883061a.chunk.js",
+    "static/css/1.cd2a2ca3.chunk.css",
+    "static/js/1.5b54a83c.chunk.js",
+    "static/js/main.8ff9ff9a.chunk.js"
+  ]
+}

@@ -1,0 +1,9 @@
+:root {
+  --node-fill: #ECECFF;
+  --node-border: #CCCCFF;
+  --cluster-fill: #ffffde;
+  --cluster-border: #aaaa33;
+  --note-fill: #fff5ad;
+  --note-border: #aaaa33;
+  --mermaid-color: var(--text-color); 
+}
