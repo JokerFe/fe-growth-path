@@ -52,7 +52,7 @@ JavaScriptAPI为开发者提供了创建模块、内存、表格和实例的能�
 
 ##  底层的机制和原理
 
-![](/Users/guohaohao3/Documents/Joker/Git/fe-growth-path/doc/V8/wasm/WebAssembly1.png)
+![](./wasm/WebAssembly1.png)
 
 从上图的浏览器中执行流程可以看出来，WebAssembly的代码执行过程比js的执行过程短。
 

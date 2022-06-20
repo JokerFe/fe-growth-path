@@ -1,11 +1,13 @@
 # Webpack 里面的插件是怎么实现的
 
+[toc]
+
 ## webpack 插件分析
 
 >  插件目的在于解决 loader 无法实现的其他事。
 > 通过插件我们可以扩展 webpack，在合适的时机通过 Webpack 提供的 API 改变输出结果，使 webpack 可以执行更广泛的任务，拥有更强的构建能力。
 
-#### 1.1 webpack 插件机制关键的知识点
+#### webpack 插件机制关键的知识点
 
 * 一个简单插件的构成
 
@@ -84,8 +86,8 @@ module.exports = {
 2. 进入 entryOption 阶段：webpack 开始读取配置的 Entries，递归遍历所有的入口文件
 3. run/watch：如果运行在 watch 模式则执行 watch 方法，否则执行 run 方法
 4. compilation：创建 Compilation 对象回调 compilation 相关钩子，依次进入每一个入口文件(entry)，使用 loader 对文件进行编译。通过 compilation 我可以可以读取到 module 的 resource（资
-  源路径）、loaders（使用的 loader) 等信息。再将编译好的文件内容使用 acorn 解析生成 AST 静态语法树。然后递归、重复的执行这个过程，所有模块和和依赖分析完成后，执行 compilation 的
-  seal 方法对每个 chunk 进行整理、优化、封装**webpack_require**来模拟模块化操作。
+    源路径）、loaders（使用的 loader) 等信息。再将编译好的文件内容使用 acorn 解析生成 AST 静态语法树。然后递归、重复的执行这个过程，所有模块和和依赖分析完成后，执行 compilation 的
+    seal 方法对每个 chunk 进行整理、优化、封装**webpack_require**来模拟模块化操作。
 5. emit：所有文件的编译及转化都己经完成，包含了最终输出的资源，我们可以在传入事件回调的 compilation.assets 上拿到所需数据，其中包括即将输出的资源、代码块 Chunk 等等信息。
 
 ```js

@@ -1,6 +1,6 @@
    1.手写算法
 
-#### [数组形式的整数加法](https://leetcode-cn.com/problems/add-to-array-form-of-integer/)
+#### [989.数组形式的整数加法](https://leetcode-cn.com/problems/add-to-array-form-of-integer/)
 
 ```js
 整数的 数组形式  num 是按照从左到右的顺序表示其数字的数组。
@@ -38,7 +38,26 @@ num 不包含任何前导零，除了零本身
 #### 答案
 
 ```js
-
+var addToArrayForm = function(num, k) {
+    let result = []
+    let len = num.length;
+    for(let i = len - 1; i >= 0; i--) {
+        let sum =  num[i] + k % 10;
+        k = Math.floor(k/10)
+        if (sum >= 10) {
+            k ++;
+            sum -= 10
+        }
+        result.push(sum)
+    } 
+    console.log(k)
+    while(k > 0) {
+        result.push(k % 10)
+        k = Math.floor(k/10)
+    }
+    result.reverse();
+    return result
+};
 ```
 
 

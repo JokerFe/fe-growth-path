@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- <script src="./js1.js"></script> -->
+    <script src="./js1.js"></script> 
+</head>
+
+<body>
+
+    <script>
+        // 第一题
+
+        // 等号后边的定义的函数名是只读的 外部不能访问
+        // var f = function yideng(a){
+        //     yideng = a;  
+        //     console.log(typeof yideng);
+        //     return 23;
+        // }
+        // f("京城一灯");
+        // console.log(typeof yideng);
+        // //  => function undefined
+
+        // Object.prototype.name = "yideng";
+        // var s = '11';
+        // function a(){}
+        // console.log(s.name);
+        // console.log(a.name);
+        // // => yideng a 
+
+        // function yideng(){}
+        // yideng.__proto__.__proto__.constructor.constructor.constructor;
+        // yideng.prototype.constructor.constructor.__proto__;
+
+
+        // // console.log({}+[]);
+        // // []+{};
+        // // 题目：Object和object有什么区别
+        // // [] + {}
+        // // "[object Object]"
+        // // https://stackoverflow.com/questions/4750225/what-does-object-object-mean
+        // // /小的object表示引用类型。右边的表示不同的对象类型
+
+
+
+        // var yideng = [0];
+        // if(yideng){
+        //     console.log(yideng == true);
+        // }else{
+        //     console.log("yideng");
+        // }
+
+
+
+        // const pro = new Promise((resolve,reject)=>{
+        //     const innerpro = new Promise((resolve,reject)=>{
+        //         setTimeout(()=>{
+        //             resolve(1);
+        //         })
+        //         console.log(2);
+        //         resolve(3);
+        //     })
+        //     innerpro.then(res=>console.log(res));
+        //     resolve(4);
+        //     console.log("yideng");
+        // })
+        // pro.then(res=>console.log(res));
+        // console.log("end");
+
+
+
+        // function fn(){
+        //     console.log(this.length);
+        // }
+        // var yideng = {
+        //     length:5,
+        //     method:function(){         
+        //          fn();
+        //         arguments[0]();
+        //     }
+        // }
+        // yideng.method(fn,1);
+
+
+
+        // function yideng(a,b,c){
+        //     console.log(this.length);
+        //     console.log(this.callee.length);
+        // }
+        // function fn(d){
+        //     arguments[0](1,2,3,4,5);
+        // }
+        // fn(yideng,1,2,3)
+
+        // 第一个输出结果:因为this当前指向的是arguments
+        // arguments是一个伪数组具备length属性。arguments又是保存函数的实参。
+        // fn调用的时候传入4个实参。所以arguments长度为4。这个时候arguments[0] 等同于 arguments.yideng调用这个函数。
+        // 所以this指向的是arguments这个伪数组也是(对象)(大家不明白可以在群里讨论)
+        // 第二个输出结果：callee是arguments的一个属性,主要返回当前arguments直属的函数体。
+        // 所以this.callees是返回fn 。每一个函数有一个length属性主要用来返回函数的形参的所以就是1。
+
+
+        // let a = 0;
+        // let yideng = async()=>{
+        //     debugger;
+        //     a = a +await 10;
+        //     console.log(a);
+        // }
+        // yideng();
+        // debugger;
+        // console.log(a++);
+        // 先走外边打印  0   yideng里的函数已记录a的值为0  而不会被外边的修改而影响，闭包的原因
+
+        // var a;
+        // function yideng(){
+        //     console.log(this);
+        // }
+        // var q = yideng.bind(this);
+        // new q();
+        //  指向yideng   
+
+        // var o = {
+        //     foo: function () {
+        //         console.log(this);
+        //     },
+        //     bar() {
+        //         console.log(this);
+        //     }
+        // };
+        // var f = o.foo.bind({});
+        // new f();
+        // var p = o.bar.bind({});
+        // new p();
+        //  => 京程  报错    
+        //  原因  第二个函数bar 是es6的声明方式，已经绑定this的指向，不允许修改所以会报错
+
+
+
+        // Object.prototype.a = 'a';
+        // Function.prototype.a = 'a1';
+        // function Person() { };
+        // var yd = new Person();
+        // console.log(Person.a);
+        // console.log(yd.a);
+
+        function yd(a){
+            this.a = a;
+        }
+        yd.prototype.a = 1;
+        (new yd()).a;
+        // => undefined
+    </script>
+
+</body>
+
+</html>

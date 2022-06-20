@@ -1,0 +1,96 @@
+加载速度、首页白屏原因、怎么解决
+
+路由懒加载 内部原理？？？
+
+SPA -->单页
+加载过程
+
+=== html
+<静态资源>
+
+ <div id='app'>
+
+    </div>       FP=>html页面加载下来
+
+    ===静态资源、css、js   如果你的页面所有js全部都-->main.js  vue.js
+        ===解析js==>生成HTML
+            <div id='app'>    FCP==>css js资源加载下来
+                <div class='head'></div>
+                <div class='body'></div>
+            </div>
+            ===ajax  0.5s
+                ===       FMP==>ajax数据请求回来
+                    <div id='app'>
+                        <div class='head'>一灯</div>
+                        <div class='body'>学堂</div>
+                    </div>
+
+1.路由动态加载，提取公共库
+
+<div class='firstPage'>.....</div>==>首页  vue.js
+<div class='nextPage'>.....</div>==>第二路由组件==> js   vue.js
+
+vue
+
+plugin-syntax-dynamic-import==>路由动态加载
+
+Vue.component('async-component', (resolve) => {
+import('./AsyncComponent.js')
+.then((AsyncComponent) => {
+ resolve(AsyncComponent.default);
+});
+});
+
+optimization.splitChunks
+
+2. ssr 预渲染 同构
+   ssr ==>服务端渲染（php，jsp）
+   同构渲染==>一套代码多端使用(vue react nuxt) nuxt
+   vue -->json--> vue-server-renderer -->html
+   预渲染 ==>预先渲染 webpack Vue 打包出来的项目-->无头浏览器-->获取到预渲染的页面的 html 内容-->index.html
+   -->CDN -->index.html
+   <div id='head pre'>---<div>
+   <div id='body pre'>---</div>
+   <script>
+   ...
+   ajax
+   document.querySelector('#head').html('...');
+
+</script>
+
+ssr
+-->请求-->node(vue 项目)-->html-->客户端
+
+3.loading-->骨架屏-->预渲染
+
+4.webpack entry
+index1.html vue.js vue-router.js
+
+5.资源请求时间片的处理
+
+6.CDN
+
+7.quickLink -->在浏览器空闲的时候去解析预加载我可能要跳转的页面
+prefetch preload preconnect
+
+preload /prefetch
+
+<link rel="preload"  >   ==>
+
+prefetch
+
+    link prefetch
+    <link rel='prefetch' href='/pic.png'/>
+    DNS
+    <link rel='dns-prefetch' href=='www.baidu.com'>
+    移动端优化
+    prerendering
+    <link rel='prerender' href=='www.baidu.com'>
+
+preconnect
+DNS TLS 协商 TCP 握手
+web work
+
+pwa
+
+?? 你做大项目选型的时候，用哪个？为甚不用 vue，对于 vue 比较大的项目的情况下，容易出现内存泄漏的原因是什么？

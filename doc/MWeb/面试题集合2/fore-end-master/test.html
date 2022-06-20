@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./test.js"></script>
+</head>
+<body>
+    <div onclick="jieliu()">xiaoheiqewe</div>
+</body>
+<script>
+var diaoyong = throttle(test,2000);
+var jieliu = debounce(test,2000);
+let methodName = "getTitle";
+var setTimeout1 = setTimeout(function () {
+  console.log('---1---')
+}, 0) 
+
+var setTimeout2 = setTimeout(function () {
+  Promise.resolve().then(() =>{
+    console.log('---2---')
+  })
+  console.log('---3---')
+}, 0)   // 3 2 
+
+new Promise(function (resolve) {
+  console.time("Promise")
+  for (var i = 0; i < 1000000; i++) {
+    i === (1000000 - 1) && resolve()
+  }
+  console.timeEnd("Promise")
+
+}).then(function () {
+  console.log('---4---')
+});
+
+console.log('---5---')
+</script>
+</html>

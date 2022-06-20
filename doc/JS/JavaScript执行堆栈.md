@@ -113,3 +113,4 @@ foo:ExecutionContext={
 #### 总结
 
 闭包的原理是Scope，this的原理是动态绑定，作用域链的原理是`Scope:[AO,barExecutionContext.AO,globalContext.VO]`。变量提升发生在AO的准备阶段，异步队列的原理是ECS。
+
