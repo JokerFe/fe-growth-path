@@ -76,3 +76,16 @@ Webpack Compiler 将对应文件打包成bundle.js(包含注入的HMR Server)，
 * 然后会调用HotModuleReplacement.runtime.js的hotAddUpdateChunk方法动态更新模块代码
 
 * 然后调用hotApply方法进行热更新
+
+## 四、开发环境热更新的优化方式
+
+#### 其实就是优化开发环境打包时间
+
+在此之前，我们需要有一个量化的指标证明我们做的是有意义的。`speed-measure-webpack-plugin`可以测量各个插件和loader的使用时间，量化指标。
+
+1. 关闭文件名 hash 功能
+2. 关闭压缩功能
+3. 如果必须使用 source-map，选择 eval 或 eval-cheap-source-map 速度更快
+4. 使用多线程：如` thread-loader`。另外对于有类型检查的语言（如TypeScript)，将类型检查与代码编译分到不同线程执行（如`fork-ts-checker-webpack-plugin`)，虽然关闭检查可能更快，但是不建议这么做
+5. 开启缓存：如` cache-loader`、 `ard-source-webpack-plugin `等
+
