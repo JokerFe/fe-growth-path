@@ -1,4 +1,6 @@
-# 2Vue2v VS Vue3
+diff算法的优化；hoistStatic 静态提升；cacheHandlers 事件侦听器缓存；ssr渲染；更好的Ts支持；Compostion API: 组合API/注入API；更先进的组件；自定义渲染API；按需编译，体积比vue2.x更小；支持多根节点组件等。
+
+# Vue2v VS Vue3
 
 #### 通过`Object.defineProperty`来实现响应式有何**缺点**？
 

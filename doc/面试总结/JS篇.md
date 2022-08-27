@@ -1,39 +1,320 @@
-#### 1. 原型链
+[toc]
 
-#### 2. 作用域
+## ES5
 
-作用域分为静态作用域和动态作用域。静态作用域是在定义的时候就确定变量的值。动态作用域是在执行的时候才确定变量的值。js采用的是静态作用域，js作用域也可以叫做词法作用域。是在词法分析阶段处理代码是保证词法作用域不变。js的作用域分为函数作用域和块级作用域。**函数作用域**表示当前函数内的变量和参数能在当前函数内使用和复用，包括它内部嵌套的作用域。**块级作用域**是对最小授权原则进行扩展的工具，将代码从在函数中隐藏信息扩展为块中隐藏。ES5没有标准的块级作用域的概念，它实现的方式有eval、with、try...catch的catch分句、闭包。ES6 通过let和const来实现的。
+### [js执行堆栈](https://www.yuque.com/guohh/yo6wpa/odprhy)
 
-**作用域链**的是因为作用域的嵌套产生的。它是当前作用域环境与上层环境的一些列变量对象组成的。它保证了当前执行上下文对有权访问的变量的有序访问。在访问变量时首先会在当前作用域内查找，没有就回去上层作用域环境查找...知道找到全局作用域环境。这个由多个执行上下文环境的变量对象构成的链表叫做作用域链。
+🍊**可执行上下文栈**：js 在执行脚本的时候首先会创建一个全局可执行上下文globalContext，每执行一个函数就会创建这个函数的可执行上下文executionContext。为了管理这些可执行上下文，js引擎维护了执行上下文栈Execution Context Stack来管理这些可执行上下文。就是js同步执行队列。当函数调用完成后，就会把当前函数的执行上下文销毁，回到上一个执行上下文...这个过程反复执行，直到执行栈中的胆码执行完毕，go永远存在于ecs的栈低，直至该脚本执行完毕。
 
-它的原理与执行上下文有关，原型链就是**[Scope]** ，包含当前执行上下文的AO与父级执行上下文的AO及全局执行上下文的VO。
+🍊**AOVOGO**： **变量对象VO**与可执行上下文相关的特殊对象，用来存储上下文中的**函数声明、形参**和**变量**。在函数上下文中，变量对象会被激活为**活动对象AO**，分为创建阶段和执行阶段。它包含VO内的并且包含**scopeChain**、一系列父执行上线文**VO**、**Scope：[AO,barExecutionContext.AO,globalContext.VO]**、**this**(运行时确认)。
 
-#### 3. 闭包
+🍊 **作用域链的原理**就是Scope:[AO,barExecutionContext.AO,globalContext.VO]。**闭包的原理**就是Scope，当bar环境已经被销毁，但是foo的作用域链中还保存着bar中的变量，这就形成了闭包。**this的原理**就是动态绑定，永远指向ECS的栈顶。**变量提升**发生在AO的准备阶段。**异步队列的原理**就是ECS。
 
-从理论上说：那些访问自由变量的函数就是闭包，自由变量是既不是函数的参数也不是函数内部声明的变量。
+### [作用域](https://www.yuque.com/guohh/yo6wpa/zfpha4) 与[闭包](https://www.yuque.com/guohh/yo6wpa/qgb4o6)
 
-实际上：即使创建它的执行上下文环境已经销毁，它依然存在。
+🍊**编译原理**：词法分析、语法分析和代码生成。
 
-闭包是在函数执行的时候才会被确定的。它的形成与作用域链的访问顺序有关，只有在内部函数内访问上层作用域环境的变量才会形成闭包。**好处**：立即执行函数、类库封装、隔离作用域、避免全局变量的污染、实现类和继承。**缺点**：内存泄露、this指向、引用的外部变量修改时在内部不生效。**那些是闭包**：回调函数、定时器、事件触发监听函数。**闭包的优化：**回调函数避免使用自由变量、定时器事件监听及时清除。**造成内存泄漏的原因**：闭包、全局变量、dom删除它的监听事件未清除、计时器或回调函数。
+🍊**作用域**分为静态作用域和动态作用域。静态作用域是在定义的时候确定了变量的值，而动态作用域是在执行的时候确定变量的值。js采用的就是静态作用域，js的作用域又叫做词法作用域，是与词法分析器处理代码时会保持词法作用域不变。js作用域又分为函数作用域和块级作用域。函数作用域就是在函数的全部变量可以在整个函数的范围内使用及复用，包括它内部的嵌套作用域。块级作用域 ，ES5实现块级作用域的方式有：eval、with、try/catch的catch分句、闭包。ES6的就是let和const。
 
-#### 4. 浏览器的事件循环机制和Nodejs的事件循环机制
+🍊**作用域链**：作用域链的产生是因为作用域发生嵌套。它是当前作用域环境和上层环境的一系列变量对象组成的，它保证了当前执行环境对符合访问权限的变量和函数的有序访问。当查找变量的时候，首先会在当前作用域内查找，如果没有，则去上层作用域环境查找，直到找到全局上下文及全局变量。这个由多个执行上下文的变量对象构成的链表叫做作用域链。
 
-* **浏览器**：
+🍊**闭包：**MDN的概念是：那些能访问自由变量的函数就是闭包。自由变量是既不是函数的参数也不是函数内部声明的变量。**实际上**即使创建它的上下文已经被销毁，它依然存在，并引用自由变量。闭包是在函数被调用的时候才会被确定创建的，闭包的形成与作用域链的访问顺序有直接的关系，只有内部函数访问上层作用域链中的变量对象才会形成闭包。**闭包的好处：**立即执行函数、类库封装、隔离作用域、避免变量污染、实现类和继承。**闭包的缺点：**内存泄露、this指向、引用的外部变量修改时不会在闭包内生效、for循环形成闭包。**哪些是闭包：**所有的回调函数、定时器、事件触发、监听。 **闭包的优化**：回调函数避免使用自由变量、及时将定时器置为null、及时清除监听的事件。**造成内存泄露的原因：**全局变量、闭包、dom删除或者清空时绑定的事件未清除。
 
-  * **五大线程**：JS引擎线程、事件触发线程、GUI渲染线程、定时处理线程、HTTP异步请求线程。
-  * **事件循环**：事件循环机制和 异步事件队列是由事件触发线程维护的。JS引擎会维护一个同步执行栈，同步代码会依次压入栈中，执行结束后出栈。如果遇到异步事件，就会交给对应的线程来执行，执行完后将其回调函数交给事件触发线程，加入到异步事件队列。等同步执行栈空闲时，事件触发线程就会从异步事件队列取出最先加入的回调函数执行，提取规则遵循先入先出。
-  * **微任务宏任务**：
-    * 微任务：promise 、mutationObserver、process.nextTick 
-    * 宏任务：主代码块、setTimeout、setInterval、ajax、ui render、setImmediate
+🍊 **将闭包和作用域链的原理引到js执行上下文。**
 
-* [**nodeJS**](https://juejin.im/post/5dd24ecce51d453fb903ff37)：
+### 原型链
 
-  * node运行过程，application、v8引擎层、nodejs API、libuv层。nodejs的事件循环是由libuv来实现的，它实现了事件循环和文件操作，是nodejs实现异步的核心。
+![](https://cdn.nlark.com/yuque/0/2019/png/225909/1574826330223-ec376534-f1ac-4318-8b07-ef08d6d870aa.png?x-oss-process=image/watermark,type_d3F5LW1pY3JvaGVp,size_10,text_Sm9rdWw=,color_FFFFFF,shadow_50,t_80,g_se,x_10,y_10)
 
-  * **timers**: 一个timer指定一个下限时间而不是一个准确时间
+1. **实例的隐式原型等于构造函数的显式原型**，f1.**proto**==Foo.prototype
+2. 函数类型有prototype，对象有**proto**
+3. 所有的构造函数也属于函数，所以Foo/Object.**proto**==Function.protoype
+4. 函数的构造函数也属于函数，所以Function.**proto**== Function.protoype
+5. Object.prototype.**proto** == null
+
+#### new和继承
+
+### 🍊[继承](https://www.yuque.com/guohh/yo6wpa/clqwov)
+
+##### 原型链
+
+实现原理
+
+1. 借用构造函数
+2. 组合继承
+3. 原型式继承
+4. 寄生式继承
+5. 寄生组合式继承
+
+### 🍊[new](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/new)
+
+1. 创建一个空的简单JavaScript对象（即`**{}**`）；
+2. 链接该对象（即设置该对象的构造函数）到另一个对象 ；
+3. 将步骤1新创建的对象作为`**this**`的上下文 ；
+4. 如果该函数没有返回对象，则返回`**this**`。
+
+```javascript
+function objectFactory() {
+    var obj = new Object(),
+    Constructor = [].shift.call(arguments);
+    obj.__proto__ = Constructor.prototype;
+    var ret = Constructor.apply(obj, arguments);
+    return typeof ret === 'object' ? ret : obj;
+};
+```
+
+### [类型判断](https://www.yuque.com/guohh/yo6wpa/dxdagg)
+
+用 typeof 来判断变量类型的时候，我们需要注意，最好是用 typeof （**除了Function之外的所有构造函数的类型都是'object'。**）来判断基本数据类型（包括symbol），避免对 null 的判断。不过需要注意当用typeof来判断null类型时的问题，如果想要判断一个对象的具体类型可以考虑使用instanceof（**instanceOf的主要实现原理就是只要右边变量的prototype在左边变量的原型链上即可**），但是很多时候它的判断有写不准确。所以当我们在要准确的判断对象实例的类型时，可以使用`Object.prototype.toString.call()`进行判断。因为`Object.prototype.toString.call()`是引擎内部的方式。
+
+### [this指向](https://www.yuque.com/guohh/yo6wpa/ywp22q)
+
+1. 全局环境、普通函数（非严格模式）this都指向window
+
+2. 普通函数（严格模式）指向undefined
+3. 函数作为对象方法及原型链指向的都是上一级对象
+4. 构造函数指向构造的实例
+5. DOM事件中指向触发事件的元素
+6. 箭头函数指向它父级的环境
+
+### [异步事件队列](https://www.yuque.com/guohh/yo6wpa/tmazrg)
+
+🍊**五大线程:**GUI渲染线程、js引擎线程、事件触发线程、定时处理线程、异步http请求线程
+
+🍊**事件循环：**事件循环机制和异步队列的维护是由事件触发线程控制的。它维护一个异步事件队列。JS引擎会维护一个同步执行栈，同步代码会依次加入执行栈中进行，执行结束后出站。如果遇到异步，就会交给对应的线程来完成异步任务，等异步任务执行完成，然后由事件触发线程将异步对应的回到函数加入到异步事件队列中。等同步执行栈中的任务执行完毕，事件触发线程就会从异步事件中取出最先加入的异步回调函数进行执行，提取规则遵循先入先出的规则，异步事件队列类似队列的数据结构。
+
+🍊**微任务宏任务**
+
+**macrotask:**
+
+- 主代码块
+
+- setTimeout
+
+- setInterval
+
+- I/O（ajax）
+
+- UI rendering
+
+- setImmediate(nodejs)
+
+- 可以看到，事件队列中的每一个事件都是一个 macrotask，现在称之为宏任务队列
+
+**microtask:**
+
+- Promise
+
+- Object.observe(已经废弃)
+
+- MutationObserver
+
+- process.nextTick(nodejs)
+
+**执行顺序**
+
+1. 执行一个宏任务（栈中没有就从事件队列中获取，可以理解为一个script标签）
+2. 执行过程中如果遇到微任务，就将它添加到微任务的任务队列中
+3. 宏任务执行完毕后，立即执行当前微任务队列中的所有微任务（依次执行）
+4. 当前微任务执行完毕，开始检查渲染，然后GUI线程接管渲染
+5. 渲染完毕后，JS线程继续接管，开始下一个宏任务（从事件队列中获取）
+
+![微任务宏任务](https://cdn.nlark.com/yuque/0/2019/png/225909/1576857708932-a255d383-b096-4be9-82f2-2d06ebb8a1de.png)
+
+### [数据存储](https://www.yuque.com/guohh/yo6wpa/ykuyfv)
+
+#### 数组API
+
+构造函数。静态方法Array.isArray()。实例方法valueOf()，toString()、push()、pop()、shift()，unshift()、join()、concat()、reverse()、slice()、splice()、sort()、`map()、forEach()、filter()、some()，every()、reduce()、reduceRight()`、 indexOf()、lastIndexOf()链式使用
+
+#### 对象API
+
+##### **Object.create()**
+
+创建一个新对象，使用现有的对象来提供新创建的对象的__proto__。
+
+##### Object.defineProperties()
+
+直接在一个对象上定义新的属性或修改现有属性，并返回该对象。`Object.defineProperties(obj, props)`
+
+- `configurable`
+
+  `true` 当且仅当该属性描述符的类型可以被改变并且该属性可以从对应对象中删除。 **默认为 `false`**
+
+- `enumerable`
+
+  `true` 当且仅当在枚举相应对象上的属性时该属性显现。 **默认为 `false`**
+
+- `value`
+
+  与属性关联的值。可以是任何有效的JavaScript值（数字，对象，函数等）。 **默认为 [`undefined`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/undefined).**
+
+- `writable`
+
+  `true`当且仅当与该属性相关联的值可以用[assignment operator](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Assignment_Operators)改变时。 **默认为 `false`**
+
+- `get`
+
+  作为该属性的 getter 函数，如果没有 getter 则为[`undefined`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/undefined)。函数返回值将被用作属性的值。 **默认为 [`undefined`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/undefined)**
+
+- `set`
+
+  作为属性的 setter 函数，如果没有 setter 则为[`undefined`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/undefined)。函数将仅接受参数赋值给该属性的新值。
+  **默认为 [`undefined`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/undefined)**
+
+##### Object.defineProperty()
+
+直接在一个对象上定义一个新属性，或者修改一个对象的现有属性， 并返回这个对象。`Object.defineProperty(obj, prop, descriptor)`
+
+* obj 要在其上定义属性的对象。
+
+* prop 要定义或修改的属性的名称。
+* descriptor 将被定义或修改的属性描述符
+
+##  事件代理
+
+- 事件代理就是在祖先级DOM元素绑定一个事件，当触发子孙级DOM元素的时间时，利用事件流的原理来触发绑定祖先级DOM的时间。
+- **事件流**：分为3个阶段 捕获阶段(从根元素一步一步寻找目标dom)、目标阶段(找到目标dom)、冒泡阶段(当目标dom触发事件后，会一步一步的向它的祖先dom冒泡)。
+- 可用addEventListener(eventName,handles,boolean)和removeEventListener()方法处理指定和删除事件处理程序的操作，两个方法都可接受三个参数，要处理的事件名、事件处理程序的函数、boolean，布尔值为true，表示在捕获阶段调用事件处理程序。false时表示在事件冒泡阶段调用事件处理程序，一般建议在冒泡阶段使用。
+- jq实现事件代理的方式：直接click、bind()、delegate()、live()、on()
+
+## null和undefined区别
+
+本质
+
+- null
+  - 表示没有对象，此处不应该有值
+  - 典型用法
+    - \1. 作为函数的参数，表示函数的参数不是对象
+    - \2. 作为对象原型链的终点
+- undefined
+  - 表示缺少值，此处应该有一个值，但是没有定义
+- 典型用法
+  - 变量呗声明了，但是没有赋值是，就等于undefined
+  - 调用函数是，应该提供的参数没有提供，该参数等于undefined
+  - 对象没有赋值的属性，该属性的值为undefined
+  - 函数没有返回值是，默认返回undefined
+
+其他对比
+
+- typeof null ☞ object
+- typeof undefined ☞ undefined
+- Object.prototype.toString.call(null)   => "[object Null]"
+- Object.prototype.toString.call(undefined) => "[object Undefined]"
+- Number(null) ☞ 0
+- Number(undefined) ☞ NaN
+- null == undefined
+- null !== undefined
+- 都为false
+
+## call apply bind
+
+- call、apply和bind都是Function.prototype上的方法
+- call和apply都是修改function的this指向的，都是立即执行该函数
+- call的第一个参数是绑定的this指向，其他的参数依次传入
+- apply的第一个参数是绑定this的指向，其他参数以数组的形式传递
+- bind是只修改this的指向，不立即执行函数，参数形式和call一样
+
+## for in 和 for of的区别
+
+- for in
+
+  - 会遍历自身的属性，还会遍历原型上的属性
+
+- for of
+
+  - 需要有迭代器方法的数据类型
+
+  - Iterator，一种接口，目的是为不同的数据结构提供统一的数据访问机制
+
+  - Symbol.iterator属性
+
+  - ```js
+    var iterableObj = {
+        items:[100,200,300],
+        [Symbol.iterator]:function(){
+        var self=this;
+        var i = 0;
+        return {
+            next: function() {
+                var done = (i >= self.items.length);
+                var value = !done ? self.items[i++] : undefined;
+                return {
+                    done: done,
+                    value: value
+                };
+            }
+        };
+        }
+    }
+    ```
 
 
 
-#### 5. this指向
 
-#### 6. 
+
+
+
+
+
+# ES5+
+
+## 箭头函数
+
+- 箭头函数语法比普通函数更加简洁
+- 箭头函数没有自己的this，它的this是继承它所在的执行上下文环境
+- 箭头函数的this无法修改，不能通过call、apply、bind进行修改。强行使用时会忽略第一个参数
+- 箭头函数没有显式原型 为undefined
+- 箭头函数不能作为构造函数执行，因为它没有prototype
+- 和new一起使用会抛出错误 not a constructor
+- 箭头函数没有arguments
+- 箭头函数不能作为generator函数，不能使用yield关键字
+
+## 模块化
+
+目的
+
+- 【可维护性】：根据定义，每个模块都是独立的。良好设计的模块会尽量与外部的代码撇清关系，以便于独立对其进行改进和维护。维护一个独立的模块比起一团凌乱的代码来说要轻松很多
+- 【可复用性】：现实来讲，在日常工作中我们经常会复制自己之前写过的代码到新项目中, 有了模块, 想复用的时候直接引用进来就行。
+- 【命名空间】：在JavaScript中，最高级别的函数外定义的变量都是全局变量（这意味着所有人都可以访问到它们）。也正因如此，当一些无关的代码碰巧使用到同名变量的时候，我们就会遇到“命名空间污染”的问题。
+
+commonJS和ES6 modules
+
+- commonJS
+  - 服务层
+  - 运行时加载
+  - 输出的是整个文件
+  - 值的引入是直接导入的
+  - this指向当前模块
+- ES6
+  - 浏览器端
+  - 编译时加载/ 延迟加载
+  - 导出某个接口，可按需加载
+  - 异步加载
+  - 值是引用的，执行时获取值
+  - this指向undefined
+- AMD vs. CommonJS
+  - AMD是依赖提前加载,CMD是依赖延时加载
+  - commonjs是同步加载的。主要是在nodejs 也就是服务端应用的模块化机制，通过module.export 导出声明，通过require('')加载。每个文件都是一个模块。他有自己的作用域，文件内的变量，属性函数等不能被外界访问。node会将模块缓存，第二次加载会直接在缓存中获取。
+  - AMD是异步加载的。主要应用在浏览器环境下。requireJS是遵循AMD规范的模块化工具。他是通过define()定义声明，通过require('',function(){})加载。
+  - ES6的模块化加载时通过export default 导出 用import导入 可通过 {} 对导出的内容进行解构
+  - ES6的模块的运行机制与common不一样，js引擎对脚本静态分析的时候，遇到模块加载指令后会生成一个只读引用，等到脚本真正执行的时候才会通过引用去模块中获取值，在引用到执行的过程中 模块中的值发生了变化，导入的这里也会跟着变，ES6模块是动态引用，并不会缓存值，模块里的比那辆绑定所在的模块。
+
+## require的查找机制
+
+不带路径
+
+- require("mymodule") 或者 require("http")
+- 先原生模块
+- 再去node_modules中查找
+  - 先当成文件搜索
+    - 依次添加 js json node后缀名查找。
+    - 如果没有则跳转到上级目录的node_module中查找, 依次循环, 直到到达根目录.
+  - 在当成目录搜索
+    - 依次在目录中查找package.json index.js index.json index.node文件,
+    - 如果没有则跳转到上级目录的node_module中查找, 依次循环, 直到到达根目录.
+
+带路径
+
+- 如 require("/x") require("./x") require("../x") 
+- 根据这些路径生成绝对路径, 然后在绝对路径中依次把x当成文件 目录进行查找.
