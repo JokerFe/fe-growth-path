@@ -36,15 +36,238 @@
 
 ### 🍊[继承](https://www.yuque.com/guohh/yo6wpa/clqwov)
 
-##### 原型链
+### 原型链
 
 实现原理
 
-1. 借用构造函数
-2. 组合继承
-3. 原型式继承
-4. 寄生式继承
-5. 寄生组合式继承
+构造函数、原型和实力之间的关系：每个构造函数都有一个原型对象，原型对象都包含一个指向构造函数的指针，而实例都包含一个原型对象的指针。继承的本质就是复制，即重写原型对象，代之以一个新类型的实例。
+
+存在的问题
+
+1. 当原型链中包含引用类型值得原型时，该引用类型值会被所有实例共享
+2. 在创建子类型时，不能向超类型的构造函数中传递参数
+
+代码
+
+```js
+function SuperType() {
+    this.property = true;
+}
+
+SuperType.prototype.getSuperValue = function() {
+    return this.property;
+}
+
+function SubType() {
+    this.subproperty = false;
+}
+
+// 这里是关键，创建SuperType的实例，并将该实例赋值给SubType.prototype
+SubType.prototype = new SuperType(); 
+
+SubType.prototype.getSubValue = function() {
+    return this.subproperty;
+}
+
+var instance = new SubType();
+console.log(instance.getSuperValue()); // true
+```
+
+### 借用构造函数
+
+实现原理
+
+1. 使用父类的构造函数来增强子类实例，等同于父类的实例给子类（不通过原型）
+2. 核心代码是SuperType.call(this)，创建子类实例时调用SuperType构造函数，于是SubType的每个实例都会将SuperType中的属性复制一份。
+
+存在的问题
+
+1. 只能集成父类的属性和方法，不能继承原型属性和方法
+2. 无法实现复用，每个子类都有父类实例函数的副本，影响性能
+
+代码
+
+```js
+function  SuperType(){
+    this.color=["red","green","blue"];
+}
+function  SubType(){
+    //继承自SuperType
+    SuperType.call(this);
+}
+var instance1 = new SubType();
+instance1.color.push("black");
+alert(instance1.color);//"red,green,blue,black"
+
+var instance2 = new SubType();
+alert(instance2.color);//"red,green,blue"
+```
+
+### 组合继承
+
+实现原理
+
+组合上述两种方法就是组合继承，用原型链实现对原型属性和方法的继承，用构造函数技术来实现实例属性的继承
+
+代码
+
+```js
+function SuperType(name){
+  this.name = name;
+  this.colors = ["red", "blue", "green"];
+}
+SuperType.prototype.sayName = function(){
+  alert(this.name);
+};
+
+function SubType(name, age){
+  // 继承属性
+  // 第二次调用SuperType()
+  SuperType.call(this, name);
+  this.age = age;
+}
+
+// 继承方法
+// 构建原型链
+// 第一次调用SuperType()
+SubType.prototype = new SuperType(); 
+// 重写SubType.prototype的constructor属性，指向自己的构造函数SubType
+SubType.prototype.constructor = SubType; 
+SubType.prototype.sayAge = function(){
+    alert(this.age);
+};
+
+var instance1 = new SubType("Nicholas", 29);
+instance1.colors.push("black");
+alert(instance1.colors); //"red,blue,green,black"
+instance1.sayName(); //"Nicholas";
+instance1.sayAge(); //29
+
+var instance2 = new SubType("Greg", 27);
+alert(instance2.colors); //"red,blue,green"
+instance2.sayName(); //"Greg";
+instance2.sayAge(); //27
+```
+
+### 原型式继承
+
+实现原理
+
+1. 利用一个空对象作为中介，将某个对象直接赋值给空对象构造函数的原型
+2. object()对传入其中的对象执行一次浅复制，将构造函数F的原型直接指向传入的对象
+
+存在的问题
+
+1. 原型链继承多个实例的引用类型属性指向相同，存在篡改的可能
+2. 无法传递参数
+
+代码
+
+```js
+function object(obj){
+  function F(){}
+  F.prototype = obj;
+  return new F();
+}
+// 上面这段代码可以用Object.create()代替
+
+var person = {
+  name: "Nicholas",
+  friends: ["Shelby", "Court", "Van"]
+};
+
+var anotherPerson = object(person);
+anotherPerson.name = "Greg";
+anotherPerson.friends.push("Rob");
+
+var yetAnotherPerson = object(person);
+yetAnotherPerson.name = "Linda";
+yetAnotherPerson.friends.push("Barbie");
+
+alert(person.friends);   //"Shelby,Court,Van,Rob,Barbie"
+```
+
+### 寄生式继承
+
+实现原理
+
+1. 在原型式继承的基础上，增强对象，返回构造函数
+2. 函数的主要作用时为构造函数新增属性和方法，以此增强函数
+
+存在的问题
+
+- 原型链继承多个实例的引用类型属性指向相同，存在篡改的可能
+- 无法传递参数
+
+代码
+
+```js
+function createAnother(original){
+  var clone = object(original); // 通过调用 object() 函数创建一个新对象
+  clone.sayHi = function(){  // 以某种方式来增强对象
+    alert("hi");
+  };
+  return clone; // 返回这个对象
+}
+
+var person = {
+  name: "Nicholas",
+  friends: ["Shelby", "Court", "Van"]
+};
+var anotherPerson = createAnother(person);
+anotherPerson.sayHi(); //"hi"
+```
+
+### 寄生组合式继承
+
+> 这是最成熟的方法，也是现在库的实现方法
+
+实现原理
+
+1. 结合借用构造函数传递参数和寄生模式实现继承
+2. 这个例子的高效率体现在它只调用一次SuperType构造函数，并且因此避免了在SubType.prototype上创建不必要的多余属性。榆次同时，原型链还能保持不变；因此还能够正常使用instanceof和isPrototypeOf()
+
+代码
+
+```js
+function inheritPrototype(subType, superType){
+  // 创建对象，创建父类原型的一个副本
+  var prototype = Object.create(superType.prototype);
+  // 增强对象，弥补因重写原型而失去的默认的constructor 属性
+  prototype.constructor = subType;
+  // 指定对象，将新创建的对象赋值给子类的原型
+  subType.prototype = prototype;
+}
+
+// 父类初始化实例属性和原型属性
+function SuperType(name){
+  this.name = name;
+  this.colors = ["red", "blue", "green"];
+}
+SuperType.prototype.sayName = function(){
+  alert(this.name);
+};
+
+// 借用构造函数传递增强子类实例属性（支持传参和避免篡改）
+function SubType(name, age){
+  SuperType.call(this, name);
+  this.age = age;
+}
+
+// 将父类原型指向子类
+inheritPrototype(SubType, SuperType);
+
+// 新增子类原型属性
+SubType.prototype.sayAge = function(){
+  alert(this.age);
+}
+
+var instance1 = new SubType("xyc", 23);
+var instance2 = new SubType("lxy", 23);
+
+instance1.colors.push("2"); // ["red", "blue", "green", "2"]
+instance1.colors.push("3"); // ["red", "blue", "green", "3"]
+```
 
 ### 🍊[new](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/new)
 
@@ -65,7 +288,10 @@ function objectFactory() {
 
 ### [类型判断](https://www.yuque.com/guohh/yo6wpa/dxdagg)
 
-用 typeof 来判断变量类型的时候，我们需要注意，最好是用 typeof （**除了Function之外的所有构造函数的类型都是'object'。**）来判断基本数据类型（包括symbol），避免对 null 的判断。不过需要注意当用typeof来判断null类型时的问题，如果想要判断一个对象的具体类型可以考虑使用instanceof（**instanceOf的主要实现原理就是只要右边变量的prototype在左边变量的原型链上即可**），但是很多时候它的判断有写不准确。所以当我们在要准确的判断对象实例的类型时，可以使用`Object.prototype.toString.call()`进行判断。因为`Object.prototype.toString.call()`是引擎内部的方式。
+- 用 typeof 来判断变量类型的时候，我们需要注意，最好是用 typeof （除了Function之外的所有构造函数的类型都是'object'。）来判断基本数据类型（包括symbol），避免对 null 的判断。
+- 需要注意当用typeof来判断null类型时的问题，如果想要判断一个对象的具体类型可以考虑使用
+- instanceof（instanceOf的主要实现原理就是只要右边变量的prototype在左边变量的原型链上即可），但是很多时候它的判断有写不准确。
+- 当我们在要准确的判断对象实例的类型时，可以使用Object.prototype.toString.call()进行判断。因为Object.prototype.toString.call()是引擎内部的方式。
 
 ### [this指向](https://www.yuque.com/guohh/yo6wpa/ywp22q)
 
