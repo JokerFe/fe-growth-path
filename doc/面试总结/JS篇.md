@@ -2,7 +2,7 @@
 
 ## ES5
 
-### [js执行堆栈](https://www.yuque.com/guohh/yo6wpa/odprhy)
+### js执行堆栈
 
 🍊**可执行上下文栈**：js 在执行脚本的时候首先会创建一个全局可执行上下文globalContext，每执行一个函数就会创建这个函数的可执行上下文executionContext。为了管理这些可执行上下文，js引擎维护了执行上下文栈Execution Context Stack来管理这些可执行上下文。就是js同步执行队列。当函数调用完成后，就会把当前函数的执行上下文销毁，回到上一个执行上下文...这个过程反复执行，直到执行栈中的胆码执行完毕，go永远存在于ecs的栈低，直至该脚本执行完毕。
 
@@ -10,11 +10,9 @@
 
 🍊 **作用域链的原理**就是Scope:[AO,barExecutionContext.AO,globalContext.VO]。**闭包的原理**就是Scope，当bar环境已经被销毁，但是foo的作用域链中还保存着bar中的变量，这就形成了闭包。**this的原理**就是动态绑定，永远指向ECS的栈顶。**变量提升**发生在AO的准备阶段。**异步队列的原理**就是ECS。
 
-### [作用域](https://www.yuque.com/guohh/yo6wpa/zfpha4) 与[闭包](https://www.yuque.com/guohh/yo6wpa/qgb4o6)
+### 作用域与闭包
 
-🍊**编译原理**：词法分析、语法分析和代码生成。
-
-🍊**作用域**分为静态作用域和动态作用域。静态作用域是在定义的时候确定了变量的值，而动态作用域是在执行的时候确定变量的值。js采用的就是静态作用域，js的作用域又叫做词法作用域，是与词法分析器处理代码时会保持词法作用域不变。js作用域又分为函数作用域和块级作用域。函数作用域就是在函数的全部变量可以在整个函数的范围内使用及复用，包括它内部的嵌套作用域。块级作用域 ，ES5实现块级作用域的方式有：eval、with、try/catch的catch分句、闭包。ES6的就是let和const。
+🍊**作用域**是【**变量的可访问性和可见性**】。它的主要作用就是安全性，【**它保证了变量只能在特定的区域内才能被访问，有了作用域我们就可以避免在程序其它位置意外对某个变量做出修改**】。`作用域在词法化阶段（编译阶段）确定`。js作用域又分为全局作用域、函数作用域和块级作用域。函数作用域就是在函数的全部变量可以在整个函数的范围内使用及复用，包括它内部的嵌套作用域。块级作用域，一对花括号就是一个块作用域 ，ES5实现块级作用域的方式有：eval、with、try/catch的catch分句、闭包。ES6的就是let和const。
 
 🍊**作用域链**：作用域链的产生是因为作用域发生嵌套。它是当前作用域环境和上层环境的一系列变量对象组成的，它保证了当前执行环境对符合访问权限的变量和函数的有序访问。当查找变量的时候，首先会在当前作用域内查找，如果没有，则去上层作用域环境查找，直到找到全局上下文及全局变量。这个由多个执行上下文的变量对象构成的链表叫做作用域链。
 
@@ -24,19 +22,26 @@
 
 ### 原型链
 
+1. 每个函数都有一个属性prototype，prototype的属性是一个对象，浏览器会给其开辟一个堆内存；原型对象上存储的属性和方法，就是给当前类实例所调用的共有属性和方法
+2. 类的prototype原型对象中，默认存在一个内置的属性 constructor，属性值就是当前类本身，所以我们把类称作【构造函数】
+3. 每个对象也都有一个`__proto__`，属性是当前实例对象所属类的prototype原型
+4. 万物皆对象，Object是所有对象的基类，js的所有值的`__proto__`向上查找，都会指向`Object.prototype`.而`Object.prototype.__proto__`指向了null
+
 ![](https://cdn.nlark.com/yuque/0/2019/png/225909/1574826330223-ec376534-f1ac-4318-8b07-ef08d6d870aa.png?x-oss-process=image/watermark,type_d3F5LW1pY3JvaGVp,size_10,text_Sm9rdWw=,color_FFFFFF,shadow_50,t_80,g_se,x_10,y_10)
 
 1. **实例的隐式原型等于构造函数的显式原型**，f1.**proto**==Foo.prototype
 2. 函数类型有prototype，对象有**proto**
 3. 所有的构造函数也属于函数，所以Foo/Object.**proto**==Function.protoype
 4. 函数的构造函数也属于函数，所以Function.**proto**== Function.protoype
-5. Object.prototype.**proto** == null
+5. `Object.prototype.**proto** == null`
+
+
 
 #### new和继承
 
-### 🍊[继承](https://www.yuque.com/guohh/yo6wpa/clqwov)
+### 继承
 
-### 原型链
+🍊原型链
 
 实现原理
 
@@ -73,7 +78,7 @@ var instance = new SubType();
 console.log(instance.getSuperValue()); // true
 ```
 
-### 借用构造函数
+🍊 借用构造函数
 
 实现原理
 
@@ -103,7 +108,7 @@ var instance2 = new SubType();
 alert(instance2.color);//"red,green,blue"
 ```
 
-### 组合继承
+🍊 组合继承
 
 实现原理
 
@@ -149,7 +154,7 @@ instance2.sayName(); //"Greg";
 instance2.sayAge(); //27
 ```
 
-### 原型式继承
+🍊 原型式继承
 
 实现原理
 
@@ -187,7 +192,7 @@ yetAnotherPerson.friends.push("Barbie");
 alert(person.friends);   //"Shelby,Court,Van,Rob,Barbie"
 ```
 
-### 寄生式继承
+🍊 寄生式继承
 
 实现原理
 
@@ -218,7 +223,7 @@ var anotherPerson = createAnother(person);
 anotherPerson.sayHi(); //"hi"
 ```
 
-### 寄生组合式继承
+🍊 寄生组合式继承
 
 > 这是最成熟的方法，也是现在库的实现方法
 
@@ -269,7 +274,7 @@ instance1.colors.push("2"); // ["red", "blue", "green", "2"]
 instance1.colors.push("3"); // ["red", "blue", "green", "3"]
 ```
 
-### 🍊[new](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/new)
+### new
 
 1. 创建一个空的简单JavaScript对象（即`**{}**`）；
 2. 链接该对象（即设置该对象的构造函数）到另一个对象 ；
@@ -286,14 +291,14 @@ function objectFactory() {
 };
 ```
 
-### [类型判断](https://www.yuque.com/guohh/yo6wpa/dxdagg)
+### 类型判断
 
 - 用 typeof 来判断变量类型的时候，我们需要注意，最好是用 typeof （除了Function之外的所有构造函数的类型都是'object'。）来判断基本数据类型（包括symbol），避免对 null 的判断。
 - 需要注意当用typeof来判断null类型时的问题，如果想要判断一个对象的具体类型可以考虑使用
 - instanceof（instanceOf的主要实现原理就是只要右边变量的prototype在左边变量的原型链上即可），但是很多时候它的判断有写不准确。
 - 当我们在要准确的判断对象实例的类型时，可以使用Object.prototype.toString.call()进行判断。因为Object.prototype.toString.call()是引擎内部的方式。
 
-### [this指向](https://www.yuque.com/guohh/yo6wpa/ywp22q)
+### this指向
 
 1. 全局环境、普通函数（非严格模式）this都指向window
 

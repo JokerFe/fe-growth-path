@@ -144,7 +144,7 @@ webpack的优化主要分为两块：**打包速度和打包后的包体积**。
 6. babel按需加载 使用@babel/pollfiles
 ```
 
-### 构建速度优化
+🍊 构建速度优化
 
 1. 使用高版本的Webpack
 
@@ -169,14 +169,14 @@ webpack的优化主要分为两块：**打包速度和打包后的包体积**。
 
 5. DLL，使用DllPlugin进行分包，使用DllReferencePlugin（索引链接）对mainfest.json引用，让一些基本不会改动的代码先打包成静态资源，避免反复编译浪费时间
 
-### 使用webpack4优化的原因
+🍊 使用webpack4优化的原因
 
 1. V8带来的优化(for of替代forEach、Map和Set替代Object、 includes替代indexOf)
 2. 默认使用更快的md4 hash算法
 3. webpacks AST可以直接从loader传递给AST，减少解析时间
 4. 使用字符串方法替代正则表达式
 
-##### ① noParse
+① noParse
 
 *  不去解析某个库内部的依赖关系
 *  比如jquery 这个库是独立的，则不去解析这个库内部依赖的其他的东西
@@ -191,7 +191,7 @@ module.exports = {
 }
 ```
 
-##### ② IgnorePlugin
+② IgnorePlugin
 
 * 忽略掉某些内容 不去解析依赖库内部引用的某些内容
 * 从moment中引用./locol 则忽略掉
@@ -201,19 +201,19 @@ module.exports = {
 module.exports  = plugins: [ new Webpack.lgnorePlugin(/./local/， /moment/), ]}
 ```
 
-##### ③ dillPlugin
+③ dillPlugin
 
 * 不会多次打包，优化打包时间
 * 先把依赖的不变的库打包
 * 生成 manifest.json文件
 * 然后在webpack.config中引入`webpack.DiPlugin Webpack.DllReferencePlugin`
 
-##### ④ happypack -> thread-loader
+④ happypack -> thread-loader
 
 * 大项目的时候开启多线程打包
 * 影响前端发布速度的有两个方面，一个是构建，一个就是压缩，把这两个东西优化起来，可以减少很多发布的时间。
 
-##### ⑤ thread -loader 
+⑤ thread -loader 
 
 thread-loader 会将您的 loader 放置在一个 worker 池里面运行，以达到多线程构建。把这个 loader 放置在其他 loader 之前（如下图 example 的位置），放置在这个 loader 之后的 loader 就会在一个单独的 worker 池 (worker pool)中运行。
 
@@ -237,7 +237,7 @@ module.exports = {
 
 每个 worker 都是一个单独的有 600ms 限制的 node.js 进程。同时跨进程的数据交换也会被限制。请在高开销的loader中使用，否则效果不佳
 
-##### ⑥ 压缩加速——开启多线程压缩
+⑥ 压缩加速——开启多线程压缩
 
 不推荐使用 webpack-paralle-uglify-plugin，项目基本处于没人维护的阶段，issue 没人处理，pr没人合并。
 Webpack 4.0以前：uglifyis-webpack-plugin, parallel 参数
@@ -265,9 +265,7 @@ module.exports = {
 };
 ```
 
-
-
-### **优化 webpack 的打包体积**
+🍊  **优化 webpack 的打包体积**
 
 - 压缩代码
   - webpack-paralle-uglify-plugin
@@ -294,7 +292,7 @@ module.exports = {
   - 建议采用 polyfil-service 只给用户返回需要的polyfl，社区维护。(部分国内奇葩浏览器UA可能无法识别，但可以降级返回所需全部polyil)
   - `@babel-preset-env` 中通过`useBuitins:'usage'`参数来动态加载polyfll。
 
-### speed-measure-webpack-plugin 
+speed-measure-webpack-plugin 
 
 简称 SMP，分析出 Webpack 打包过程中 Loader 和 Plugin 的耗时，有助于找到构建过程中的性能瓶颈。
 
@@ -305,7 +303,7 @@ module.exports = {
 当前端项目到达一定的规模后，我们一般会采用按模块方式组织代码，这样可以方便代码的组织及维护。但会存在一个问题， 比如我们有一个utils工具类，在另一个模块中导入它。这会在打包的时候将utils中不必要的代码也打包，从而使得打包体积变大，这时候就需要用到Tree shaking技术了。
 Tree shaking 是一种通过清除多余代码方式来优化项目打包体积的技术，专业术语叫`Dead code elimination`
 
-### 原理
+🍊 原理
 
 利用 ES6 模块的特点：
 
@@ -354,7 +352,7 @@ if(condition) {
 
 ES6的import语法完美可以使用tree shaking, 因为可以在代码不运行的情况下就能分析出不需要的代码。
 
-### 如何使用
+🍊 如何使用
 
 从webpack 2开始支持实现了 Tree shaking特性，webpack 2正式版本内置支持ES2015模块（也叫做harmony模块）和未引用模块检测能力。新的webpack 4 正式版本，扩展了这个检测能力，通过packagejson的 sideEffects属性作为标记，向compiler 提供提示，表明项目中的哪些文件是“pure(纯的 ES2015 模块）”，由此可以安全地删除文件中未使用的部分。
 如果使用的是webpack4,只需要将mode设置为production即可开启tree shaking
@@ -374,7 +372,7 @@ output: {
 options: { presets: [ [ 'es2015', { modules: false } ] ] }
 ```
 
-### 关于side effects（副作用）
+🍊 关于side effects（副作用）
 
 side effects是指那些当import的时候会执行一些动作，但是不一定会有任何export。比如ployfill,ployflls不对外暴露方法给主程序使用。
 tree shaking 不能自动的识别哪些代码属于side effects，因此手动指定这些代码显得非常重要，如果不指定可能会出现一些意想不到的问题。
@@ -399,14 +397,14 @@ tree shaking 不能自动的识别哪些代码属于side effects，因此手动�
 }
 ```
 
-### 总结
+ 🍊 总结
 
 tree shaking 不支持动态导入（如CommonJS的require()语法），只支持纯静态的导入（ES6的import/export)
 webpack中可以在项目package.json文件中，添加一个 "sideEffects"属性，手动制定有副作用的脚本
 
 ## Webpack的几种hash策略
 
-### hash
+🍊 hash
 
 每个文件都具有相同的哈希值，因为它的hash是根据我们使用的所有源文件生成的。
 
@@ -414,19 +412,19 @@ webpack中可以在项目package.json文件中，添加一个 "sideEffects"属�
 
 如果仅编辑一个文件，则hash值就会发生变化，并且所有生成捆绑的名称中都会包含此新的hash。
 
-### chunkhash
+🍊 chunkhash
 
 chunkhash是根据不同的入口进行依赖文件解析的，构建对应的chunk，生成对应的hash值.
 
 从使用上来说：我们可以把一些公共库和程序入口文件分开来，单独打包构建，接着可以采用chunkhash方式来生成hash值，那么只要我们不改动公共库的代码，就可以保证其hash值不受影响，同时也能起到缓存的作用。
 
-### contenthash
+🍊 contenthash
 
 每个生成的文件名称都有一个唯一的hash值，改hash值是根据该文件的内容计算得出
 
 当构建的文件发生变化时，就会生成新的hash值，且该问价你的改变并不会影响和它同一个模块下的其他文件。
 
-### 总结
+🍊 总结
 
 当我们使用了hash时，并不是每次都会生成新的hash，需要具体看哪种hash策略：
 
@@ -466,7 +464,7 @@ webpack 是一个前端模块化方案，更侧重模块打包，我们可以把
 1. app.js： 页面逻辑入口
 2. index.html 页面的 html 模板
 
-### 如何将每个页面看做是一个独立的单页应用进行打包呢？
+🍊 如何将每个页面看做是一个独立的单页应用进行打包呢？
 
 这时可以通过配置 webpack 的 entry，多页应用只需配置多个 entry 即可。
 
@@ -543,20 +541,20 @@ webpack的模块模式是基于CommonJS模式的，输入的是被输出值的�
 
 ## Webpack 热更新的原理
 
-### 原理
+🍊 原理
 
-#### 1. 启动阶段
+1. 启动阶段
 
 Webpack Compiler 将对应文件打包成bundle.js(包含注入的HMR Server)，发送给Bundler Server
 浏览器即可以访问服务器的方式获取bundlejs
 
-#### 2. 更新阶段（即文件发生了变化）
+2. 更新阶段（即文件发生了变化）
 
 1. Webpack Compiler 重新编译，发送给HMR Server
 2. HMR Server 可以知道有哪些资源、哪些模块发生了变化，通知HRM Runtime
 3. HRM Runtime更新代码
 
-### 流程
+🍊 流程
 
 * 使用webpack-dev-server去启动本地服务，内部实现主要使用了webpack、 express、 websocket。
 * 使用express启动本地服务，当浏览器访问资源时对此做响应。
@@ -569,7 +567,7 @@ Webpack Compiler 将对应文件打包成bundle.js(包含注入的HMR Server)，
   * 不一致则通过ajax和isonp向服务端获取最新资源
 * 使用内存文件系统去替换有修改的内容实现局部刷新
 
-#### 1.server端
+🍊 1.server端
 
 * 启动webpack-dev-server服务器
 * 创建webpack实例
@@ -585,7 +583,7 @@ Webpack Compiler 将对应文件打包成bundle.js(包含注入的HMR Server)，
 * 使用sockjs在浏览器端和服务端之间建立一个 websocket 长连接
 * 创建socket服务器
 
-#### 2.client端
+🍊 2.client端
 
 * webpack-dev-server/client端会监听到此hash消息
 
@@ -609,9 +607,9 @@ Webpack Compiler 将对应文件打包成bundle.js(包含注入的HMR Server)，
 
 * 然后调用hotApply方法进行热更新
 
-### 开发环境热更新的优化方式
+🍊 开发环境热更新的优化方式
 
-#### 其实就是优化开发环境打包时间
+其实就是优化开发环境打包时间
 
 在此之前，我们需要有一个量化的指标证明我们做的是有意义的。`speed-measure-webpack-plugin`可以测量各个插件和loader的使用时间，量化指标。
 
