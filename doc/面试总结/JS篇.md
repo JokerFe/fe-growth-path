@@ -549,3 +549,48 @@ commonJS和ES6 modules
 
 - 如 require("/x") require("./x") require("../x") 
 - 根据这些路径生成绝对路径, 然后在绝对路径中依次把x当成文件 目录进行查找.
+
+# 其他
+
+## 判断数组的方式
+
+- 通过Object.prototype.toString.call()做判断
+
+```javascript
+Object.prototype.toString.call(obj).slice(8,-1) === 'Array';
+```
+
+- 通过原型链做判断
+
+```javascript
+obj.__proto__ === Array.prototype;
+```
+
+- 通过ES6的Array.isArray()做判断
+
+```javascript
+Array.isArrray(obj);
+```
+
+- 通过instanceof做判断
+
+```javascript
+obj instanceof Array
+```
+
+- 通过Array.prototype.isPrototypeOf
+
+```javascript
+Array.prototype.isPrototypeOf(obj)
+```
+
+## for...in和for...of的区别
+
+for…of 是ES6新增的遍历方式，允许遍历一个含有iterator接口的数据结构（数组、对象等）并且返回各项的值，和ES3中的for…in的区别如下
+
+- for…of 遍历获取的是对象的键值，for…in 获取的是对象的键名；
+- for… in 会遍历对象的整个原型链，性能非常差不推荐使用，而 for … of 只遍历当前对象不会遍历原型链；
+- 对于数组的遍历，for…in 会返回数组中所有可枚举的属性(包括原型链上可枚举的属性)，for…of 只返回数组的下标对应的属性值；
+
+**总结：** for...in 循环主要是为了遍历对象而生，不适用于遍历数组；for...of 循环可以用来遍历数组、类数组对象，字符串、Set、Map 以及 Generator 对象。
+
